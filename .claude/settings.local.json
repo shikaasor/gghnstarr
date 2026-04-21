@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(node C:/Users/HP_PC/.claude/get-shit-done/bin/gsd-tools.cjs roadmap get-phase 03)",
+      "Bash(cat /c/Users/HP_PC/Documents/gghn/starr/.planning/phases/03-policy-briefs-library-and-detail-pages/*-VERIFICATION.md)",
+      "Bash(grep:*)"
+    ]
+  }
+}

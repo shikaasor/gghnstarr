@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "week-01-amr-governance-frameworks",
+    "title": "Strengthening National AMR Governance Frameworks in West Africa",
+    "weekNumber": 1,
+    "publicationDate": "2026-03-10",
+    "authorId": "olawale-a",
+    "keyTakeaway": "Countries with legislated AMR national action plans show 34% lower broad-spectrum antibiotic consumption compared to countries with only voluntary guidelines.",
+    "executiveSummary": "This policy brief examines governance structures for antimicrobial resistance (AMR) management across 15 West African nations. Drawing on NIPAD platform surveillance data and WHO AFRO country assessments, we find a significant correlation between legally mandated national AMR action plans and reduced broad-spectrum antibiotic consumption. Countries with legislation in place (including Ghana, Senegal, and Côte d'Ivoire) demonstrate substantially lower consumption indices than neighboring countries relying on voluntary frameworks. Our predictive models project that without governance strengthening, the region faces a 40% increase in AMR-attributable mortality by 2035. We recommend immediate legislative action to formalize AMR oversight committees with dedicated budget lines, mandatory hospital antibiotic stewardship programs, and cross-border surveillance data-sharing agreements under the Africa CDC continental AMR framework.",
+    "keyMessages": [
+      "Legislated AMR national action plans reduce broad-spectrum antibiotic consumption by an average of 34% compared to voluntary guidelines",
+      "Only 4 of 15 surveyed West African countries have legally binding AMR governance frameworks as of 2026",
+      "NIPAD platform data shows AMR-attributable mortality is increasing at 8% annually in countries without structured governance",
+      "Cross-border data sharing under Africa CDC frameworks reduces surveillance blind spots that drive AMR spread",
+      "Dedicated AMR budget lines (minimum 0.5% of health ministry budgets) correlate with effective stewardship program implementation"
+    ],
+    "pdfUrl": "/briefs/week-01-amr-governance-frameworks.pdf",
+    "infographicPdfUrl": "/infographics/week-01-amr-governance-frameworks-infographic.pdf",
+    "thumbnailUrl": "/images/thumbnails/week-01-amr-governance-frameworks.jpg",
+    "themes": ["Governance", "Stewardship"]
+  },
+  {
+    "slug": "week-02-laboratory-systems-capacity",
+    "title": "Accelerating AMR Laboratory Surveillance Capacity in East Africa",
+    "weekNumber": 2,
+    "publicationDate": "2026-03-17",
+    "authorId": "samson-a",
+    "keyTakeaway": "Whole-genome sequencing surveillance in regional hub laboratories can achieve continental AMR pathogen coverage at one-quarter the cost of building national capacity in every country.",
+    "executiveSummary": "Effective AMR surveillance requires culture-based and genomic laboratory capacity that most African countries currently lack. This brief presents a hub-and-spoke model for East Africa, where three regional reference laboratories (Kenya, Ethiopia, Tanzania) equipped with whole-genome sequencing infrastructure serve as analytical hubs for nine surrounding countries. STARR modeling using GlobalPPS data demonstrates that this architecture achieves 87% pathogen coverage at 24% of the capital cost of independent national build-outs. The Fleming Fund has demonstrated proof-of-concept in the Western Pacific; we provide a costed adaptation roadmap for East Africa. Policy-makers are urged to endorse the Africa CDC Regional Integrated Surveillance and Laboratory Network (RISLNET) expansion proposal at the June 2026 Inter-Ministerial Conference.",
+    "keyMessages": [
+      "A hub-and-spoke regional laboratory model achieves 87% AMR pathogen coverage at 24% of the cost of independent national capacity",
+      "Three strategically positioned reference laboratories in Kenya, Ethiopia, and Tanzania can serve all nine East African Community member states",
+      "Whole-genome sequencing turnaround of under 72 hours is achievable with current platform costs and existing trained personnel",
+      "RISLNET expansion requires political endorsement at ministerial level to unlock Fleming Fund co-financing commitments",
+      "Specimen transport cold-chain protocols are the critical operational bottleneck; standard SOPs are available from Africa CDC and ready for adoption"
+    ],
+    "pdfUrl": "/briefs/week-02-laboratory-systems-capacity.pdf",
+    "infographicPdfUrl": "/infographics/week-02-laboratory-systems-capacity-infographic.pdf",
+    "thumbnailUrl": "/images/thumbnails/week-02-laboratory-systems-capacity.jpg",
+    "themes": ["Laboratory Systems", "One Health"]
+  },
+  {
+    "slug": "week-03-predictive-analytics-amr-burden",
+    "title": "Predictive Modeling of AMR Burden Under Antibiotic Policy Scenarios",
+    "weekNumber": 3,
+    "publicationDate": "2026-03-24",
+    "authorId": "olawale-a",
+    "keyTakeaway": "STARR SEIR-Bayesian models project that a 20% reduction in unnecessary outpatient antibiotic prescriptions could prevent 1.2 million AMR deaths across Africa by 2035.",
+    "executiveSummary": "The GGHN STARR initiative deploys a coupled SEIR-Bayesian transmission model calibrated against WHONET and GlobalPPS surveillance data to project AMR burden trajectories under alternative antibiotic policy scenarios. This brief presents scenario analyses for three intervention packages (enhanced diagnostic stewardship, community prescribing guidelines, and hospital formulary restrictions) modeled across 22 African countries. Results indicate that combined interventions yield non-linear synergistic effects: simultaneous implementation of all three packages is projected to prevent 40% more deaths than the sum of individual interventions. The NIPAD platform visualizations underpinning these projections are available to national health ministries upon request. We call on ministers to commission country-level scenario analyses to inform national AMR investment plans ahead of the June 2026 conference.",
+    "keyMessages": [
+      "A 20% reduction in unnecessary outpatient antibiotic prescriptions is projected to prevent 1.2 million AMR deaths by 2035 across the continent",
+      "Combined diagnostic stewardship, community guidelines, and hospital formulary restrictions show 40% greater impact than sum of individual interventions",
+      "SEIR-Bayesian models are now calibrated for 22 African countries using WHONET and GlobalPPS surveillance data as of Q1 2026",
+      "Country-specific scenario analyses are available to health ministries via the NIPAD platform; contact GGHN STARR to request access",
+      "Investment in AMR interventions shows a 12:1 return ratio when modeled against averted hospitalizations and productivity losses"
+    ],
+    "pdfUrl": "/briefs/week-03-predictive-analytics-amr-burden.pdf",
+    "infographicPdfUrl": "/infographics/week-03-predictive-analytics-amr-burden-infographic.pdf",
+    "thumbnailUrl": "/images/thumbnails/week-03-predictive-analytics-amr-burden.jpg",
+    "themes": ["Predictive Analytics", "Stewardship", "One Health"],
+    "featured": true
+  }
+]

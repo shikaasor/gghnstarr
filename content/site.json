@@ -1,0 +1,36 @@
+{
+  "siteTitle": "GGHN STARR",
+  "tagline": "Evidence. Advocacy. Action.",
+  "conferenceDate": "June 28, 2026",
+  "conferenceLocation": "Abuja, Nigeria",
+  "partners": [
+    {
+      "name": "GGHN (Georgetown Global Health Nigeria)",
+      "logoUrl": "/images/partners/gghn.png",
+      "url": "https://gghnigeria.org"
+    },
+    {
+      "name": "Fleming Fund",
+      "logoUrl": "/images/partners/fleming-fund.webp",
+      "url": "https://www.flemingfund.org"
+    },
+    {
+      "name": "Africa CDC",
+      "logoUrl": "/images/partners/AfricaCDC_Logo.webp",
+      "url": "https://africacdc.org"
+    },
+    {
+      "name": "WHO AFRO",
+      "logoUrl": "/images/partners/WHO_Africa_logo.svg.png",
+      "url": "https://www.afro.who.int"
+    }
+  ],
+  "contactEmail": "starr@gghnigeria.org",
+  "linkedinUrl": "https://linkedin.com/company/gghn-nigeria",
+  "footerTagline": "GGHN STARR Africa AMR Modeling Initiative",
+  "stats": [
+    { "value": "700,000", "label": "deaths per year attributed to AMR globally" },
+    { "value": "4.95M", "label": "deaths associated with AMR in 2019" },
+    { "value": "10M", "label": "projected AMR deaths annually by 2050" }
+  ]
+}

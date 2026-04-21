@@ -1,0 +1,29 @@
+[
+  {
+    "id": "olawale-a",
+    "name": "Dr. Olawale A.",
+    "title": "One Health Laboratory Advisor",
+    "organization": "Georgetown University Fleming Fund AMR Project, Rwanda",
+    "photoUrl": "/images/experts/olawale-a.jpg",
+    "specialties": ["Genomic Surveillance", "Laboratory Systems", "AMR Surveillance Intelligence", "Fleming Fund Rwanda"],
+    "bio": "Dr. Olawale A. holds qualifications in Medical Laboratory Science, Medical Microbiology, Field Epidemiology, and a PhD in Molecular Genomics and Medical Virology. He leads AMR surveillance and laboratory systems strengthening as One Health Laboratory Advisor for the Georgetown University Fleming Fund AMR Project in Rwanda, working alongside ASLM, SeqAfrica, and AMROH. His AMR-focused research has been published in peer-reviewed journals and presented at international scientific conferences."
+  },
+  {
+    "id": "samson-a",
+    "name": "Dr. Samson A.",
+    "title": "Mathematical & Predictive Modeling Lead",
+    "organization": "GGHN STARR Initiative",
+    "photoUrl": "/images/experts/samson-a.jpg",
+    "specialties": ["Mathematical Modeling", "Predictive Analytics", "NIPAD Platform", "GlobalPPS Surveillance"],
+    "bio": "Dr. Samson A. applies advanced mathematical and machine learning modeling frameworks (including SEIR compartmental models, Bayesian hierarchical forecasting, Random Forest algorithms, and agent-based simulations) to infectious disease epidemiology and AMR. He developed the Nigeria Immunization Predictive Analytics Dashboard (NIPAD), an R/Shiny platform that embeds predictive analytics in national health systems for district-level risk mapping and scenario planning. His GlobalPPS implementation experience across Nigerian and Rwandan health facilities anchors STARR's AMR consumption surveillance."
+  },
+  {
+    "id": "piringar-mercy-niyang",
+    "name": "Piringar Mercy Niyang",
+    "title": "Technical Lead, One Health Governance",
+    "organization": "GGHN STARR Initiative",
+    "photoUrl": "/images/experts/piringar-mercy-niyang.jpg",
+    "specialties": ["One Health Governance", "GLASS Reporting", "Africa CDC Frameworks", "AMR Surveillance Systems"],
+    "bio": "Piringar Mercy Niyang brings expertise across microbiology, public health, project leadership, and field implementation in multiple African health systems. As Technical Lead for the Fleming Fund Rwanda Country Grant (2024-2026), she oversees AMR surveillance, One Health governance, and system integration across human, animal, and environmental sectors, working with Rwanda's Ministry of Health and Ministry of Agriculture. Her career includes directing the US CDC SERS Project's multistate AMR reporting system (covering 12 Nigerian states and two rounds of GLASS reporting) and designing integrated AMR surveillance systems in Botswana."
+  }
+]

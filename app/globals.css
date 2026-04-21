@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* GGHN STARR Brand Tokens — Navy/Teal Design Spec */
+/* Colors derived from GGHN STARR Design Spec: Deep Navy + Medical Teal */
+@theme {
+  /* Primary palette */
+  --color-navy-950: #0F172A;      /* Deep Navy — primary dark background */
+  --color-navy-900: #1E293B;      /* Navy — card backgrounds, secondary dark */
+  --color-navy-800: #2D3F55;      /* Navy lighter — borders, dividers */
+  --color-teal-600: #0D9488;      /* Medical Teal — CTAs, accent, links */
+  --color-teal-500: #14B8A6;      /* Teal lighter — hover states */
+  --color-teal-400: #2DD4BF;      /* Teal light — highlights, dark mode accent */
+
+  /* Neutral palette */
+  --color-slate-50: #F8FAFC;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #E2E8F0;
+  --color-slate-400: #94A3B8;
+  --color-slate-600: #475569;
+  --color-slate-900: #0F172A;
+
+  /* Fonts: Inter (body) + Playfair Display (headings) via next/font/google */
+  /* next/font injects the real values on <html>; these are build-time fallbacks */
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+}
+
+/* Class-based dark mode — toggle .dark on <html> with JavaScript */
+/* Tailwind v4 requires @custom-variant; the v3 darkMode: 'class' config has no effect */
+@custom-variant dark (&:where(.dark, .dark *));
