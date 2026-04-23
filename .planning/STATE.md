@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-03-23)
 ## Current Position
 
 Phase: 5 of 5 (SEO, Performance & Launch Readiness)
-Plan: 1 of 3 in current phase
-Status: In Progress — Plan 05-01 complete
-Last activity: 2026-04-23 -- Plan 05-01 complete (Google Fonts removed, OG metadata added)
+Plan: 2 of 3 in current phase
+Status: In Progress — Plan 05-02 complete
+Last activity: 2026-04-23 -- Plan 05-02 complete (sitemap.xml, robots.txt, print CSS)
 
 Progress: [██████████] 100%
 
@@ -43,6 +43,7 @@ Progress: [██████████] 100%
 | Phase 04 P02 | 1 min | 2 tasks | 4 files |
 | Phase 04-supporting-pages P03 | 1 | 1 tasks | 2 files |
 | Phase 05 P01 | 2 min | 2 tasks | 2 files |
+| Phase 05 P02 | 3 min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -93,6 +94,9 @@ Recent decisions affecting current work:
 - [Phase 05-01]: Removed hardcoded ' | GGHN STARR' from brief generateMetadata title — root layout template handles suffix to avoid duplication
 - [Phase 05-01]: brief.thumbnailUrl (641x360px) used directly as OG image — exceeds WhatsApp 300px minimum for large preview display
 - [Phase 05-01]: System font stacks in globals.css @theme block — no next/font/google needed; removes per-page font network request for African users
+- [Phase 05-02]: Next.js built-in sitemap.ts/robots.ts over next-sitemap package — zero dependency, native output:export support
+- [Phase 05-02]: export const dynamic = 'force-static' required on sitemap and robots routes for output:export in Next.js 16
+- [Phase 05-02]: getAllBriefs() reused from app/lib/content.ts for sitemap brief slug enumeration
 
 ### Pending Todos
 
@@ -114,5 +118,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-04-23
-Stopped at: Completed 05-01-PLAN.md — Google Fonts removed, OG/Twitter metadata added to brief detail pages
+Stopped at: Completed 05-02-PLAN.md — sitemap.xml, robots.txt, and @media print CSS added
 Resume file: None

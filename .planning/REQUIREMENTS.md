@@ -44,10 +44,10 @@
 
 ### SEO & Launch Readiness
 
-- [ ] **SEO-01**: Per-page Open Graph and Twitter Card meta tags generated via Next.js `generateMetadata`; each brief detail page has its own OG image (infographic thumbnail) so links look professional when shared on WhatsApp
-- [ ] **SEO-02**: `sitemap.xml` and `robots.txt` auto-generated via `next-sitemap`, including all brief detail page URLs
-- [ ] **SEO-03**: Lighthouse mobile performance audit passes before launch — target: Performance score ≥ 85, LCP < 2.5s on simulated 3G, total page weight < 500KB
-- [ ] **SEO-04**: Print-friendly CSS (`@media print`) on brief detail pages so officials can print briefs directly from the browser
+- [x] **SEO-01**: Per-page Open Graph and Twitter Card meta tags generated via Next.js `generateMetadata`; each brief detail page has its own OG image (infographic thumbnail) so links look professional when shared on WhatsApp
+- [x] **SEO-02**: `sitemap.xml` and `robots.txt` auto-generated via `next-sitemap`, including all brief detail page URLs
+- [x] **SEO-03**: Lighthouse mobile performance audit passes before launch — target: Performance score ≥ 85, LCP < 2.5s on simulated 3G, total page weight < 500KB
+- [x] **SEO-04**: Print-friendly CSS (`@media print`) on brief detail pages so officials can print briefs directly from the browser
 
 ## v2 Requirements
 
@@ -100,10 +100,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | METH-01 | Phase 4 | Complete |
 | EXPT-01 | Phase 4 | Complete |
 | CONT-01 | Phase 4 | Complete |
-| SEO-01 | Phase 5 | Pending |
-| SEO-02 | Phase 5 | Pending |
-| SEO-03 | Phase 5 | Pending |
-| SEO-04 | Phase 5 | Pending |
+| SEO-01 | Phase 5 | Complete |
+| SEO-02 | Phase 5 | Complete |
+| SEO-03 | Phase 5 | Complete |
+| SEO-04 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 20 total
