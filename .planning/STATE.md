@@ -91,7 +91,15 @@ Recent decisions affecting current work:
 
 ### Pending Todos
 
-None yet.
+8 todos captured 2026-04-23 from gap analysis session:
+- Add audience-segmented CTAs to homepage (HIGH)
+- Add analytics integration (HIGH)
+- Build news section (HIGH)
+- Build Take Action page (HIGH)
+- Build awareness hub and education library (MEDIUM)
+- Build practical tools suite (MEDIUM)
+- Build interactive AMR data map (MEDIUM)
+- Accessibility and social share audit (MEDIUM)
 
 ### Blockers/Concerns
 
