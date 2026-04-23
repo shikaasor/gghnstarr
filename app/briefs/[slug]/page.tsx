@@ -16,7 +16,7 @@ export function generateStaticParams() {
   // ]
 }
 
-// Per-page metadata — Phase 5 will add OG image; keep title + description for now
+// Per-page metadata with OG/Twitter for rich WhatsApp previews
 export async function generateMetadata({
   params,
 }: {
@@ -26,8 +26,31 @@ export async function generateMetadata({
   const brief = getBriefBySlug(slug);
   if (!brief) return {};
   return {
-    title: `${brief.title} | GGHN STARR`,
+    title: brief.title,   // Root layout template adds ' | GGHN STARR' automatically
     description: brief.keyTakeaway,
+    alternates: {
+      canonical: `/briefs/${brief.slug}`,
+    },
+    openGraph: {
+      title: brief.title,
+      description: brief.keyTakeaway,
+      type: 'article',
+      publishedTime: brief.publicationDate,
+      images: [
+        {
+          url: brief.thumbnailUrl,  // e.g. '/images/thumbnails/week-01-amr-governance-frameworks.jpg'
+          width: 641,
+          height: 360,
+          alt: brief.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: brief.title,
+      description: brief.keyTakeaway,
+      images: [brief.thumbnailUrl],
+    },
   };
 }
 
@@ -71,7 +94,7 @@ export default async function BriefDetailPage({
             <p className="text-slate-600 text-sm mb-6">By {author.name}</p>
           )}
           {/* Download buttons — hero area only, not repeated below — locked decision */}
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 no-print">
             <a
               href={brief.pdfUrl}
               target="_blank"
@@ -149,7 +172,7 @@ export default async function BriefDetailPage({
       </div>
 
       {/* Prev/Next navigation — locked decision (discretion: placement and styling) */}
-      <nav className="mt-16 pt-8 border-t border-slate-200 flex justify-between gap-4">
+      <nav className="mt-16 pt-8 border-t border-slate-200 flex justify-between gap-4 no-print">
         <div>
           {prevBrief && (
             <Link
