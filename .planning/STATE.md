@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-03-23)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs -- fast, on mobile, without friction.
-**Current focus:** Phase 4: Supporting Pages
+**Current focus:** Phase 5: SEO, Performance & Launch Readiness
 
 ## Current Position
 
-Phase: 4 of 5 (Supporting Pages)
-Plan: 3 of 3 in current phase
-Status: Checkpoint — awaiting human verification of Phase 4 pages
-Last activity: 2026-04-21 -- Plan 04-03 task 1 complete, checkpoint pending
+Phase: 5 of 5 (SEO, Performance & Launch Readiness)
+Plan: 1 of 3 in current phase
+Status: In Progress — Plan 05-01 complete
+Last activity: 2026-04-23 -- Plan 05-01 complete (Google Fonts removed, OG metadata added)
 
-Progress: [█████████░] 95%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 
@@ -42,6 +42,7 @@ Progress: [█████████░] 95%
 | Phase 04 P01 | 2 min | 2 tasks | 2 files |
 | Phase 04 P02 | 1 min | 2 tasks | 4 files |
 | Phase 04-supporting-pages P03 | 1 | 1 tasks | 2 files |
+| Phase 05 P01 | 2 min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -88,6 +89,10 @@ Recent decisions affecting current work:
 - [Phase 04-02]: Expert photos use Next.js Image with fill inside relative aspect-square wrapper — consistent with next/image locked decision
 - [Phase 04-supporting-pages]: ContactForm uses direct Formspree AJAX via fetch POST with FormData — no SDK dependency
 - [Phase 04-supporting-pages]: noscript fallback placed inside form element — visible only when JS disabled
+- [Phase 05-01]: metadataBase uses NEXT_PUBLIC_SITE_URL env var with gghnstarr.vercel.app fallback — user must set in Vercel dashboard for OG images to resolve
+- [Phase 05-01]: Removed hardcoded ' | GGHN STARR' from brief generateMetadata title — root layout template handles suffix to avoid duplication
+- [Phase 05-01]: brief.thumbnailUrl (641x360px) used directly as OG image — exceeds WhatsApp 300px minimum for large preview display
+- [Phase 05-01]: System font stacks in globals.css @theme block — no next/font/google needed; removes per-page font network request for African users
 
 ### Pending Todos
 
@@ -108,6 +113,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-04-21
-Stopped at: Checkpoint in 04-03-PLAN.md — Phase 4 visual verification across /methodology, /experts, /contact
+Last session: 2026-04-23
+Stopped at: Completed 05-01-PLAN.md — Google Fonts removed, OG/Twitter metadata added to brief detail pages
 Resume file: None

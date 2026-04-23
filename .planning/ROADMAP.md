@@ -116,4 +116,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | 2. Homepage & Design System | 4/4 | Complete | 2026-03-30 |
 | 3. Policy Briefs Library & Detail Pages | 3/3 | Complete | 2026-04-01 |
 | 4. Supporting Pages | 3/3 | Complete   | 2026-04-21 |
-| 5. SEO, Performance & Launch Readiness | 0/3 | Not started | - |
+| 5. SEO, Performance & Launch Readiness | 1/3 | In Progress|  |
