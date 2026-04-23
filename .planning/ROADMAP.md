@@ -100,8 +100,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md — Remove Google Fonts violation, add metadataBase + OG/Twitter meta tags to brief detail pages
+- [ ] 05-02-PLAN.md — Create app/sitemap.ts + app/robots.ts + @media print CSS in globals.css
+- [ ] 05-03-PLAN.md — next build verification + Lighthouse/WhatsApp/print human checkpoint
 
 ## Progress
 
@@ -115,4 +116,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | 2. Homepage & Design System | 4/4 | Complete | 2026-03-30 |
 | 3. Policy Briefs Library & Detail Pages | 3/3 | Complete | 2026-04-01 |
 | 4. Supporting Pages | 3/3 | Complete   | 2026-04-21 |
-| 5. SEO, Performance & Launch Readiness | 0/2 | Not started | - |
+| 5. SEO, Performance & Launch Readiness | 0/3 | Not started | - |
