@@ -28,3 +28,88 @@
 /* Class-based dark mode — toggle .dark on <html> with JavaScript */
 /* Tailwind v4 requires @custom-variant; the v3 darkMode: 'class' config has no effect */
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* ==========================================================================
+   Print Styles — Brief Detail Pages
+   Target: Elements on /briefs/[slug] pages for clean printed output
+   ========================================================================== */
+
+@media print {
+  /* A4 page setup with readable margins */
+  @page {
+    margin: 2cm;
+    size: A4 portrait;
+  }
+
+  /* Reset backgrounds and shadows for print */
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.6;
+    font-family: Georgia, serif;
+  }
+
+  /* Hide site chrome: header, footer, navigation */
+  header,
+  footer,
+  nav {
+    display: none !important;
+  }
+
+  /* Hide elements marked with .no-print utility class
+     Applied in 05-01 to: download buttons div, prev/next nav */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Hide all download/action buttons */
+  button {
+    display: none !important;
+  }
+
+  /* Preserve heading-to-content flow across page breaks */
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Keep content sections intact — no mid-section page breaks */
+  section,
+  li,
+  p,
+  blockquote {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Constrain thumbnail image for print layout */
+  img {
+    max-width: 180px !important;
+    height: auto !important;
+    page-break-inside: avoid;
+  }
+
+  /* Show absolute link URLs inline (useful for references) */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    color: #444 !important;
+  }
+
+  /* But suppress URL display for internal and anchor links */
+  a[href^="/"]::after,
+  a[href^="#"]::after {
+    content: "";
+  }
+}
