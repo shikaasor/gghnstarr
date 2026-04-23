@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GGHN STARR — Platform Status Briefing</title>
+<style>
+  :root {
+    --navy: #0a1628;
+    --navy-mid: #132040;
+    --teal: #0d9488;
+    --teal-light: #14b8a6;
+    --slate: #64748b;
+    --white: #ffffff;
+    --off-white: #f8fafc;
+    --green: #16a34a;
+    --amber: #d97706;
+    --red: #dc2626;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 16px;
+  }
+
+  .deck { width: 100%; max-width: 960px; }
+
+  /* NAV */
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    color: #94a3b8;
+    font-size: 13px;
+    user-select: none;
+  }
+  .nav button {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: #cbd5e1;
+    padding: 6px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background .15s;
+  }
+  .nav button:hover { background: #334155; }
+  .nav button:disabled { opacity: .3; cursor: default; }
+
+  /* SLIDE */
+  .slide {
+    display: none;
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 24px 64px rgba(0,0,0,.5);
+    min-height: 540px;
+  }
+  .slide.active { display: flex; flex-direction: column; }
+
+  /* ── SLIDE TYPES ── */
+
+  /* Title slide */
+  .slide-title {
+    background: var(--navy);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 64px 48px;
+    position: relative;
+  }
+  .slide-title::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 70% 30%, rgba(13,148,136,.18) 0%, transparent 60%);
+  }
+  .slide-title .tag {
+    display: inline-block;
+    background: rgba(13,148,136,.2);
+    color: var(--teal-light);
+    border: 1px solid rgba(13,148,136,.4);
+    border-radius: 20px;
+    padding: 4px 16px;
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .slide-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.15;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .slide-title h1 span { color: var(--teal-light); }
+  .slide-title p {
+    color: #94a3b8;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .slide-title .meta {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    position: relative;
+  }
+  .slide-title .meta-item { color: #cbd5e1; font-size: 13px; }
+  .slide-title .meta-item strong { color: var(--teal-light); display: block; font-size: 18px; font-weight: 700; }
+
+  /* Standard slide header */
+  .slide-header {
+    background: var(--navy);
+    padding: 28px 40px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .slide-header .icon {
+    width: 36px; height: 36px;
+    background: rgba(13,148,136,.2);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .slide-header h2 { color: var(--white); font-size: 22px; font-weight: 700; }
+  .slide-header .sub { color: #64748b; font-size: 13px; margin-top: 2px; }
+
+  /* Slide body */
+  .slide-body { padding: 32px 40px; flex: 1; }
+
+  /* Progress bar */
+  .progress {
+    height: 3px;
+    background: #e2e8f0;
+    position: relative;
+  }
+  .progress-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: var(--teal);
+    transition: width .3s ease;
+  }
+
+  /* ── COMPONENTS ── */
+
+  /* Stat row */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  .stat-box {
+    background: var(--off-white);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid var(--teal);
+  }
+  .stat-box .num { font-size: 36px; font-weight: 800; color: var(--navy); }
+  .stat-box .label { font-size: 12px; color: var(--slate); margin-top: 4px; }
+
+  /* Two-column grid */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+  /* Feature list */
+  .feature-list { display: flex; flex-direction: column; gap: 10px; }
+  .feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--off-white);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 14px;
+    color: #1e293b;
+    line-height: 1.4;
+  }
+  .feature-item .dot {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .dot-green { background: #dcfce7; color: var(--green); }
+  .dot-partial { background: #fef9c3; color: var(--amber); }
+
+  /* Gap table */
+  .gap-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .gap-table th {
+    background: var(--navy);
+    color: #94a3b8;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 14px;
+    font-size: 11px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .gap-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+    vertical-align: top;
+  }
+  .gap-table tr:last-child td { border-bottom: none; }
+  .gap-table tr:nth-child(even) td { background: #f8fafc; }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .badge-done { background: #dcfce7; color: #15803d; }
+  .badge-partial { background: #fef9c3; color: #92400e; }
+  .badge-missing { background: #fee2e2; color: #991b1b; }
+
+  /* Priority cards */
+  .priority-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .priority-card {
+    border-radius: 10px;
+    padding: 18px;
+    border-left: 4px solid;
+  }
+  .priority-card.high { border-color: var(--red); background: #fff5f5; }
+  .priority-card.medium { border-color: var(--amber); background: #fffbeb; }
+  .priority-card h4 { font-size: 14px; font-weight: 700; color: #1e293b; margin-bottom: 6px; }
+  .priority-card ul { list-style: none; }
+  .priority-card ul li {
+    font-size: 12px;
+    color: #475569;
+    padding: 2px 0;
+    padding-left: 12px;
+    position: relative;
+  }
+  .priority-card ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--slate);
+  }
+  .priority-card .plabel {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .high .plabel { background: #fee2e2; color: var(--red); }
+  .medium .plabel { background: #fef9c3; color: var(--amber); }
+
+  /* Closing slide */
+  .slide-close {
+    background: var(--navy);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 64px 48px;
+    position: relative;
+  }
+  .slide-close::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 30% 70%, rgba(13,148,136,.15) 0%, transparent 60%);
+  }
+  .slide-close h2 { color: var(--white); font-size: 32px; font-weight: 700; position: relative; margin-bottom: 12px; }
+  .slide-close p { color: #94a3b8; font-size: 15px; position: relative; max-width: 520px; margin: 0 auto 32px; }
+  .slide-close .pill-row { display: flex; gap: 12px; justify-content: center; position: relative; }
+  .pill {
+    background: rgba(13,148,136,.15);
+    border: 1px solid rgba(13,148,136,.3);
+    color: var(--teal-light);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  /* Section label */
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 14px;
+  }
+
+  /* Progress ring (slide 2) */
+  .ring-row {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 28px;
+  }
+  .ring-item { text-align: center; }
+  .ring-item svg { display: block; margin: 0 auto 8px; }
+  .ring-item .rlabel { font-size: 12px; color: var(--slate); }
+  .ring-item .rpct { font-size: 20px; font-weight: 800; color: var(--navy); }
+
+  /* Keyboard hint */
+  .hint { text-align: center; color: #4b5563; font-size: 12px; margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<div class="deck">
+  <div class="nav">
+    <button id="prev" onclick="go(-1)" disabled>← Prev</button>
+    <span id="counter">1 / 6</span>
+    <button id="next" onclick="go(1)">Next →</button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       SLIDE 1 — Title
+  ════════════════════════════════════════════════ -->
+  <div class="slide slide-title active" id="s0">
+    <div class="tag">Platform Status Briefing</div>
+    <h1>GGHN <span>STARR</span><br>AMR Platform</h1>
+    <p>Current State Analysis &amp; Pending Development Roadmap</p>
+    <div class="meta">
+      <div class="meta-item"><strong>~35%</strong>Built to Date</div>
+      <div class="meta-item"><strong>6</strong>Pages Live</div>
+      <div class="meta-item"><strong>9</strong>Features Pending</div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       SLIDE 2 — Overview Scorecard
+  ════════════════════════════════════════════════ -->
+  <div class="slide" id="s1">
+    <div class="slide-header">
+      <div class="icon">📊</div>
+      <div>
+        <h2>Platform Overview</h2>
+        <div class="sub">High-level completion scorecard</div>
+      </div>
+    </div>
+    <div class="progress"><div class="progress-fill" style="width:17%"></div></div>
+    <div class="slide-body">
+      <div class="stats-row">
+        <div class="stat-box">
+          <div class="num" style="color:var(--green)">6</div>
+          <div class="label">Pages / Routes Live</div>
+        </div>
+        <div class="stat-box">
+          <div class="num" style="color:var(--amber)">3</div>
+          <div class="label">Features Partially Built</div>
+        </div>
+        <div class="stat-box">
+          <div class="num" style="color:var(--red)">9</div>
+          <div class="label">Features Not Yet Built</div>
+        </div>
+      </div>
+
+      <p class="section-label">Overall completion by pillar</p>
+      <div class="two-col">
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="dot dot-green">✓</div>
+            <div><strong>Landing Page</strong> — Shell built; CTAs not audience-segmented</div>
+          </div>
+          <div class="feature-item">
+            <div class="dot dot-green">✓</div>
+            <div><strong>Policy Briefs Library</strong> — Filterable, 3 briefs live with PDF downloads</div>
+          </div>
+          <div class="feature-item">
+            <div class="dot dot-green">✓</div>
+            <div><strong>Newsletter Signup</strong> — Wired to Google Apps Script</div>
+          </div>
+          <div class="feature-item">
+            <div class="dot dot-green">✓</div>
+            <div><strong>Mobile Responsive</strong> — Hamburger nav, fluid layout</div>
+          </div>
+        </div>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="dot dot-partial" style="background:#fef9c3;color:var(--amber)">~</div>
+            <div><strong>Awareness Hub</strong> — Exists as briefs section; not branded or structured as one</div>
+          </div>
+          <div class="feature-item">
+            <div class="dot dot-partial" style="background:#fef9c3;color:var(--amber)">~</div>
+            <div><strong>Education Library</strong> — No audience segmentation (public / HCW / policy)</div>
+          </div>
+          <div class="feature-item">
+            <div class="dot dot-partial" style="background:#fef9c3;color:var(--amber)">~</div>
+            <div><strong>Social Media</strong> — LinkedIn link in footer; no share buttons on content</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       SLIDE 3 — What's Built (detail)
+  ════════════════════════════════════════════════ -->
+  <div class="slide" id="s2">
+    <div class="slide-header">
+      <div class="icon">✅</div>
+      <div>
+        <h2>What Has Been Built</h2>
+        <div class="sub">Live pages and functional components</div>
+      </div>
+    </div>
+    <div class="progress"><div class="progress-fill" style="width:33%"></div></div>
+    <div class="slide-body">
+      <div class="two-col">
+        <div>
+          <p class="section-label">Pages (6 routes)</p>
+          <div class="feature-list">
+            <div class="feature-item"><div class="dot dot-green">✓</div><div><strong>/ Home</strong> — Hero, stats carousel, 3 pillars, featured brief, partners strip, newsletter</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div><strong>/briefs</strong> — Filterable brief grid (by month &amp; theme)</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div><strong>/briefs/[slug]</strong> — Detail page: summary, key messages, author, prev/next nav</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div><strong>/experts</strong> — Expert profile gallery (3 profiles)</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div><strong>/methodology</strong> — Tabbed explainer (SEIR, NIPAD, GlobalPPS)</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div><strong>/contact</strong> — Formspree-integrated form with inquiry types</div></div>
+          </div>
+        </div>
+        <div>
+          <p class="section-label">Infrastructure &amp; Integrations</p>
+          <div class="feature-list">
+            <div class="feature-item"><div class="dot dot-green">✓</div><div>Static export (CDN-deployable)</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div>Tailwind v4 + navy/teal design system</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div>Formspree contact form</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div>Google Apps Script newsletter endpoint</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div>Conference countdown badge (June 28, 2026)</div></div>
+            <div class="feature-item"><div class="dot dot-green">✓</div><div>JSON-driven content (briefs, experts, site config)</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       SLIDE 4 — What's Missing
+  ════════════════════════════════════════════════ -->
+  <div class="slide" id="s3">
+    <div class="slide-header">
+      <div class="icon">🔴</div>
+      <div>
+        <h2>What Is Pending</h2>
+        <div class="sub">Features not yet started or only partially addressed</div>
+      </div>
+    </div>
+    <div class="progress"><div class="progress-fill" style="width:50%"></div></div>
+    <div class="slide-body" style="padding-top:24px">
+      <table class="gap-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Status</th>
+            <th>What's Missing</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Audience-segmented CTAs</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>Separate paths/blocks for Public, Healthcare Workers, Policymakers</td>
+          </tr>
+          <tr>
+            <td><strong>Awareness Hub</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>Dedicated page with infographic gallery and short explainers</td>
+          </tr>
+          <tr>
+            <td><strong>Education Library</strong></td>
+            <td><span class="badge badge-partial">Partial</span></td>
+            <td>Audience filters + audience-tagged materials</td>
+          </tr>
+          <tr>
+            <td><strong>Stewardship Checklists</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>Interactive or downloadable checklist tool</td>
+          </tr>
+          <tr>
+            <td><strong>Self-Assessment Quizzes</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>Quiz flow with scoring and result feedback</td>
+          </tr>
+          <tr>
+            <td><strong>Facility Reporting Templates</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>Downloadable or guided form templates</td>
+          </tr>
+          <tr>
+            <td><strong>News Section</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>News listing + article detail pages</td>
+          </tr>
+          <tr>
+            <td><strong>Interactive AMR Data Map</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>Mapping library + AMR dataset integration</td>
+          </tr>
+          <tr>
+            <td><strong>"Take Action" Page</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>Pledges, prescribing commitments, advocacy toolkit</td>
+          </tr>
+          <tr>
+            <td><strong>Social Share Buttons</strong></td>
+            <td><span class="badge badge-partial">Partial</span></td>
+            <td>LinkedIn footer link exists; no share buttons on content pages</td>
+          </tr>
+          <tr>
+            <td><strong>Analytics</strong></td>
+            <td><span class="badge badge-missing">Missing</span></td>
+            <td>No GA4, Plausible, or equivalent wired in</td>
+          </tr>
+          <tr>
+            <td><strong>Accessibility (a11y)</strong></td>
+            <td><span class="badge badge-partial">Partial</span></td>
+            <td>Responsive layout exists; no ARIA audit, skip-links, or screen reader testing</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       SLIDE 5 — Priority Roadmap
+  ════════════════════════════════════════════════ -->
+  <div class="slide" id="s4">
+    <div class="slide-header">
+      <div class="icon">🗺️</div>
+      <div>
+        <h2>Suggested Build Priority</h2>
+        <div class="sub">Recommended sequencing based on platform goals</div>
+      </div>
+    </div>
+    <div class="progress"><div class="progress-fill" style="width:67%"></div></div>
+    <div class="slide-body">
+      <div class="priority-grid">
+        <div class="priority-card high">
+          <div class="plabel">High Priority</div>
+          <h4>Audience-Segmented CTAs</h4>
+          <ul>
+            <li>Rework hero with 3 audience paths</li>
+            <li>Dedicated landing sections per audience</li>
+            <li>Tag all content by audience type</li>
+          </ul>
+        </div>
+        <div class="priority-card high">
+          <div class="plabel">High Priority</div>
+          <h4>Analytics Integration</h4>
+          <ul>
+            <li>Add GA4 or Plausible to root layout</li>
+            <li>Event tracking on downloads &amp; CTAs</li>
+            <li>Newsletter conversion tracking</li>
+          </ul>
+        </div>
+        <div class="priority-card high">
+          <div class="plabel">High Priority</div>
+          <h4>News Section</h4>
+          <ul>
+            <li>News listing page (/news)</li>
+            <li>Article detail pages</li>
+            <li>Social share buttons on articles</li>
+          </ul>
+        </div>
+        <div class="priority-card high">
+          <div class="plabel">High Priority</div>
+          <h4>"Take Action" Page</h4>
+          <ul>
+            <li>Pledge / commitment form</li>
+            <li>Prescribing commitment tool</li>
+            <li>Downloadable advocacy toolkit</li>
+          </ul>
+        </div>
+        <div class="priority-card medium">
+          <div class="plabel">Medium Priority</div>
+          <h4>Awareness Hub &amp; Education Library</h4>
+          <ul>
+            <li>Infographic gallery page</li>
+            <li>Short explainer articles</li>
+            <li>Audience filter on resources</li>
+          </ul>
+        </div>
+        <div class="priority-card medium">
+          <div class="plabel">Medium Priority</div>
+          <h4>Practical Tools Suite</h4>
+          <ul>
+            <li>Stewardship checklist builder</li>
+            <li>Self-assessment quiz flows</li>
+            <li>Facility reporting templates</li>
+          </ul>
+        </div>
+        <div class="priority-card medium">
+          <div class="plabel">Medium Priority</div>
+          <h4>Interactive AMR Data Map</h4>
+          <ul>
+            <li>Leaflet or Mapbox integration</li>
+            <li>AMR burden dataset overlay</li>
+            <li>Country-level drill-down</li>
+          </ul>
+        </div>
+        <div class="priority-card medium">
+          <div class="plabel">Medium Priority</div>
+          <h4>Accessibility Audit</h4>
+          <ul>
+            <li>ARIA roles &amp; landmark regions</li>
+            <li>Skip-link for keyboard users</li>
+            <li>Screen reader &amp; contrast testing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       SLIDE 6 — Close
+  ════════════════════════════════════════════════ -->
+  <div class="slide slide-close" id="s5">
+    <h2>~35% Complete</h2>
+    <p>The structural foundation is solid — layout, design system, briefs library, and contact are production-ready. The next sprint should focus on audience segmentation, analytics, news, and the Take Action page to bring the platform to its core mission.</p>
+    <div class="pill-row">
+      <div class="pill">6 Pages Live</div>
+      <div class="pill">3 Partial Features</div>
+      <div class="pill">9 Pending Features</div>
+    </div>
+  </div>
+
+  <div class="hint">← → arrow keys to navigate</div>
+</div>
+
+<script>
+  const total = 6;
+  let cur = 0;
+
+  function go(dir) {
+    document.getElementById('s' + cur).classList.remove('active');
+    cur = Math.max(0, Math.min(total - 1, cur + dir));
+    document.getElementById('s' + cur).classList.add('active');
+    document.getElementById('counter').textContent = (cur + 1) + ' / ' + total;
+    document.getElementById('prev').disabled = cur === 0;
+    document.getElementById('next').disabled = cur === total - 1;
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') go(1);
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   go(-1);
+  });
+</script>
+</body>
+</html>
