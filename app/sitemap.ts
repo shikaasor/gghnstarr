@@ -1,6 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { getAllBriefs } from '@/lib/content';
 
+export const dynamic = 'force-static';
+
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://gghnstarr.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
