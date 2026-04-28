@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** v2.0 Phase 6 — Brand Rebrand (first phase, hard dependency for all subsequent v2.0 phases)
+**Current focus:** v2.0 Phase 7 — next phase (Phase 6 Brand Rebrand complete)
 
 ## Current Position
 
-Phase: 6 of 13 (Brand Rebrand — first v2.0 phase)
-Plan: 3 of 3 (06-02 complete — AMR logo in Header and Footer)
-Status: In Progress — Phase 6 plan 2 complete
-Last activity: 2026-04-28 — 06-02 executed: AMR logo JPEG placed in public/ and displayed in Header/Footer via next/image
+Phase: 6 complete → Phase 7 next
+Plan: Phase 6 all 3 plans complete
+Status: Phase 6 complete — ready to plan Phase 7
+Last activity: 2026-04-28 — Phase 6 Brand Rebrand complete
 
-Progress: [█░░░░░░░░░] 6% (v2.0, 2/31 plans complete) | v1.0 complete
+Progress: [█░░░░░░░░░] 10% (v2.0, 3/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -50,6 +50,10 @@ Progress: [█░░░░░░░░░] 6% (v2.0, 2/31 plans complete) | v1.0
 - 06-01: teal-50 added as new token for hover:bg-teal-50 class support; amr-gold #F2A900 as named accent token
 - 06-02: mixBlendMode multiply used for JPEG logo on dark backgrounds — eliminates white box artifact without preprocessing
 - 06-02: Header logo 160x64 with priority (LCP); Footer logo 140x56 (below fold, no priority)
+- Phase 6: Option B token strategy confirmed — keep teal/navy class names, update hex to AMR green/gold; zero component changes required
+- Phase 6: teal-600 darkened to #0A7050 for WCAG AA compliance on white (6.1:1 ratio)
+- Phase 6: Logo uses mix-blend-mode: multiply to handle white JPEG background on dark header
+- Phase 6: AMR gold token added as --color-amr-gold: #F2A900 for future accent uses
 
 ### Pending Todos
 
@@ -65,12 +69,11 @@ Progress: [█░░░░░░░░░] 6% (v2.0, 2/31 plans complete) | v1.0
 
 ### Blockers/Concerns
 
-- Phase 6: Exact brand hex values must be confirmed from AMR Logo_Feb2026.jpeg before token update (not blockin — just a plan-time task)
 - Phase 12: Data map library choice (D3 vs react-simple-maps) affects bundle size — decide at plan time with Lighthouse budget in mind
 - Deadline: June 28, 2026 — 8 phases in ~61 days; ~7-8 days per phase maximum
 
 ## Session Continuity
 
 Last session: 2026-04-28
-Stopped at: Phase 6 plan 02 complete — AMR logo placed in public/ and rendered in Header/Footer; 06-03 ready to execute
+Stopped at: Phase 6 complete — resume at Phase 7 planning
 Resume file: None
