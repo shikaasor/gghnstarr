@@ -122,43 +122,43 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| BRAND-01 | — | Pending |
-| BRAND-02 | — | Pending |
-| BRAND-03 | — | Pending |
-| CONT-01 | — | Pending |
-| CONT-02 | — | Pending |
-| ANAL-01 | — | Pending |
-| ANAL-02 | — | Pending |
-| HOME-01 | — | Pending |
-| AWRE-01 | — | Pending |
-| AWRE-02 | — | Pending |
-| EDUC-01 | — | Pending |
-| EDUC-02 | — | Pending |
-| NEWS-01 | — | Pending |
-| NEWS-02 | — | Pending |
-| NEWS-03 | — | Pending |
-| NEWS-04 | — | Pending |
-| ACTN-01 | — | Pending |
-| ACTN-02 | — | Pending |
-| ACTN-03 | — | Pending |
-| ACTN-04 | — | Pending |
-| TOOL-01 | — | Pending |
-| TOOL-02 | — | Pending |
-| TOOL-03 | — | Pending |
-| MAPR-01 | — | Pending |
-| MAPR-02 | — | Pending |
-| MAPR-03 | — | Pending |
-| MAPR-04 | — | Pending |
-| SOCL-01 | — | Pending |
-| SOCL-02 | — | Pending |
-| A11Y-01 | — | Pending |
-| A11Y-02 | — | Pending |
+| BRAND-01 | Phase 6 | Pending |
+| BRAND-02 | Phase 6 | Pending |
+| BRAND-03 | Phase 6 | Pending |
+| CONT-01 | Phase 7 | Pending |
+| CONT-02 | Phase 7 | Pending |
+| ANAL-01 | Phase 7 | Pending |
+| ANAL-02 | Phase 7 | Pending |
+| HOME-01 | Phase 7 | Pending |
+| AWRE-01 | Phase 8 | Pending |
+| AWRE-02 | Phase 8 | Pending |
+| EDUC-01 | Phase 8 | Pending |
+| EDUC-02 | Phase 8 | Pending |
+| NEWS-01 | Phase 9 | Pending |
+| NEWS-02 | Phase 9 | Pending |
+| NEWS-03 | Phase 9 | Pending |
+| NEWS-04 | Phase 9 | Pending |
+| ACTN-01 | Phase 10 | Pending |
+| ACTN-02 | Phase 10 | Pending |
+| ACTN-03 | Phase 10 | Pending |
+| ACTN-04 | Phase 10 | Pending |
+| TOOL-01 | Phase 11 | Pending |
+| TOOL-02 | Phase 11 | Pending |
+| TOOL-03 | Phase 11 | Pending |
+| MAPR-01 | Phase 12 | Pending |
+| MAPR-02 | Phase 12 | Pending |
+| MAPR-03 | Phase 12 | Pending |
+| MAPR-04 | Phase 12 | Pending |
+| SOCL-01 | Phase 13 | Pending |
+| SOCL-02 | Phase 13 | Pending |
+| A11Y-01 | Phase 13 | Pending |
+| A11Y-02 | Phase 13 | Pending |
 
 **Coverage:**
 - v2.0 requirements: 31 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 31 ⚠️
+- Mapped to phases: 31
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-23*
-*Last updated: 2026-04-28 after v2.0 milestone start*
+*Last updated: 2026-04-28 — v2.0 roadmap created; all 31 requirements mapped to phases 6-13*
