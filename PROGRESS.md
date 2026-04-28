@@ -3,7 +3,7 @@
 **Project:** GGHN STARR Africa AMR Modeling Initiative  
 **Client ask:** Public-facing AMR campaign website — national awareness and action platform targeting general public, healthcare workers, and policymakers  
 **Hard deadline:** June 28, 2026 (5th Inter-Ministerial Conference on Health & AMR)  
-**Last updated:** 2026-04-28
+**Last updated:** 2026-04-28 — v2.0 roadmap approved, 8 phases planned
 
 ---
 
@@ -74,54 +74,29 @@ The client brief expands the site from a policy intelligence layer to a full pub
 
 ---
 
-## Blockers
+## Decisions Resolved (2026-04-28)
 
-### BLOCKER 1 — News section architecture
-**Issue:** The site is a Next.js static export (`output: 'export'`). Static sites cannot scrape at request time.  
-**Options:**
-- A: GitHub Action (cron) → arXiv API + PubMed API (both free) → writes JSON to repo → triggers Vercel rebuild. Zero new infrastructure. Google Scholar has no official API — needs SerpAPI (~$50/month) or skip it.
-- B: Vercel serverless function called client-side. Adds hosting complexity.
-- C: RSS feeds from journals aggregated via a third-party service.  
-**Decision needed from:** Client/team — preferred data sources and budget for SerpAPI
+| Decision | Resolution |
+|----------|-----------|
+| News section architecture | GitHub Actions cron → arXiv + PubMed APIs → news.json → Vercel rebuild |
+| AMR data map source | Interactive choropleth from WHO GLASS CSV files already in resources/ |
+| Tools format | Interactive web components (checklist, quiz, facility template) |
+| Pledge mechanism | Formspree forms (same pattern as Contact page) |
+| Brand palette | Align to AMR logo green/gold/grey (exact hex at Phase 6 plan time) |
+| Google Scholar | Out of scope — no official API, SerpAPI cost not approved |
 
-### BLOCKER 2 — Interactive AMR data map data source
-**Issue:** Map scope determines implementation complexity (hours vs weeks).  
-**Options:**
-- GLASS/WHO data — publicly available country-level AMR data, downloadable as CSV
-- GGHN STARR model outputs — predicted burden per country from initiative's own modeling
-- Both as toggleable layers
-- Static pre-rendered snapshot image — zero complexity, updated manually  
-**Decision needed from:** Client/technical team — which data, who owns it
+## v2.0 Roadmap (approved 2026-04-28)
 
-### BLOCKER 3 — Tools format (checklists, quizzes, templates)
-**Issue:** "Interactive" vs "downloadable" is a large difference in build effort.  
-**Options:**
-- Static downloads (PDF/Word) — fast to build, no maintenance
-- Interactive web components (fill form → see result) — 3-5x more effort  
-**Decision needed from:** Client — what format do end users expect?
-
-### BLOCKER 4 — Take Action pledge mechanism
-**Issue:** "Pledges and commitments" could mean anything from a download to a database.  
-**Options:**
-- Static pledge form → email notification (Formspree, like Contact page) — no backend
-- Live pledge counter showing number of signatories — requires a backend or third-party (e.g. Google Sheets via GAS)
-- Download-only (printable pledge card) — zero complexity  
-**Decision needed from:** Client — does anyone need to see/count pledges publicly?
-
-### BLOCKER 5 — Awareness hub + education library content
-**Issue:** These sections have no content yet.  
-**Decision needed from:** Client/team — who is writing the explainers and educational materials, and when will they be ready?
-
----
-
-## What's Clear Enough to Build Now (no blockers)
-
-These can proceed immediately regardless of the unresolved blockers:
-
-1. **GA4 analytics** — standard Next.js integration, decided: Google Analytics 4
-2. **Social share buttons** — native share API + platform links
-3. **Audience-segmented CTAs on homepage** — needs CTA copy, but technically simple
-4. **Accessibility audit** — can run now, fixes follow
+| Phase | Name | Requirements | Status |
+|-------|------|--------------|--------|
+| 6 | Brand Rebrand | BRAND-01–03 | ○ Not started |
+| 7 | Content & Analytics | CONT-01–02, ANAL-01–02, HOME-01 | ○ Not started |
+| 8 | Awareness Hub & Education Library | AWRE-01–02, EDUC-01–02 | ○ Not started |
+| 9 | News Feed | NEWS-01–04 | ○ Not started |
+| 10 | Take Action Page | ACTN-01–04 | ○ Not started |
+| 11 | Interactive Tools | TOOL-01–03 | ○ Not started |
+| 12 | AMR Data Map | MAPR-01–04 | ○ Not started |
+| 13 | Social Sharing & Accessibility | SOCL-01–02, A11Y-01–02 | ○ Not started |
 
 ---
 
@@ -133,7 +108,8 @@ v2.0 Campaign & Action Platform    ░░░░░░░░░░   0% started
 ```
 
 **v1.0 phases:** 5/5 complete  
-**v2.0 phases:** 0/? — roadmap not yet defined (blocked on decisions above)
+**v2.0 phases:** 0/8 — roadmap approved 2026-04-28
 
 ---
-*Updated: 2026-04-28 — gap analysis session, client brief reviewed*
+*Updated: 2026-04-28 — v2.0 roadmap approved, all blockers resolved*
+
