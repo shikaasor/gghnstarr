@@ -159,12 +159,12 @@ Plans:
   3. Google Analytics 4 is active on every page — opening the GA4 real-time dashboard while navigating the site shows page view events firing
   4. GA4 custom events fire for PDF download clicks, infographic download clicks, newsletter form submissions, and pledge form submissions
   5. The homepage displays three distinct CTA sections — one for ministers, one for healthcare workers, one for the general public — each linking to a relevant page or section
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 07-01-PLAN.md — Add briefs 4–15 as JSON entries in content/ with PDF links; link infographic JPEGs from brief detail pages
-- [ ] 07-02-PLAN.md — GA4 script integration via Next.js Script component; custom event helpers for download, signup, pledge, quiz events
-- [ ] 07-03-PLAN.md — Audience-segmented CTA section component on homepage (minister / healthcare worker / public)
+- [ ] 07-01-PLAN.md — Schema fix (types.ts), GA4 analytics helpers + GoogleAnalytics in layout.tsx, Montserrat/Inter font wiring, BriefCard conditional infographic
+- [ ] 07-02-PLAN.md — docx→PDF conversion, copy assets to public/, replace all 15 JSON entries with real content, DownloadButton + InfographicBlock client components, analytics wiring
+- [ ] 07-03-PLAN.md — AudienceCTAs section component on homepage (3 cards: minister / healthcare worker / public) + visual verification checkpoint
 
 ### Phase 8: Awareness Hub & Education Library
 **Goal**: A visitor can navigate to two new content pages — an awareness hub with AMR infographics and explainers, and an education library with audience-filtered resources — and find materials relevant to their role
