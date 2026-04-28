@@ -122,7 +122,7 @@ Plans:
 
 **Dependency constraint:** Phase 6 (brand rebrand) is a hard prerequisite for all subsequent phases. No new pages are built until the design system uses the AMR brand palette and logo.
 
-- [ ] **Phase 6: Brand Rebrand** - Align site palette and logo to AMR brand identity (green/gold/grey from AMR Logo_Feb2026.jpeg) across all existing components
+- [x] **Phase 6: Brand Rebrand** - Align site palette and logo to AMR brand identity (green/gold/grey from AMR Logo_Feb2026.jpeg) across all existing components (completed 2026-04-28)
 - [ ] **Phase 7: Content & Analytics** - Publish all 15 policy briefs, add infographic assets, integrate GA4 tracking, and add audience-segmented CTAs to the homepage
 - [ ] **Phase 8: Awareness Hub & Education Library** - Two new content pages providing AMR infographics/explainers and audience-filtered learning materials
 - [ ] **Phase 9: News Feed** - Automated daily AMR research feed via GitHub Actions scraper writing arXiv/PubMed results to JSON, displayed on a filterable /news page
@@ -274,7 +274,7 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 3. Policy Briefs Library & Detail Pages | v1.0 | 3/3 | Complete | 2026-04-01 |
 | 4. Supporting Pages | v1.0 | 3/3 | Complete | 2026-04-21 |
 | 5. SEO, Performance & Launch Readiness | v1.0 | 3/3 | Complete | 2026-04-23 |
-| 6. Brand Rebrand | 2/3 | In Progress|  | - |
+| 6. Brand Rebrand | 3/3 | Complete   | 2026-04-28 | - |
 | 7. Content & Analytics | v2.0 | 0/3 | Not started | - |
 | 8. Awareness Hub & Education Library | v2.0 | 0/2 | Not started | - |
 | 9. News Feed | v2.0 | 0/2 | Not started | - |

@@ -34,6 +34,7 @@ Progress: [█░░░░░░░░░] 10% (v2.0, 3/31 plans complete) | v1.
 | 05-seo-launch | 3 | ~5 min | ~1.5 min |
 
 *v2.0 metrics will populate as plans complete*
+| Phase 06-brand-rebrand P03 | 2 | 3 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -54,6 +55,8 @@ Progress: [█░░░░░░░░░] 10% (v2.0, 3/31 plans complete) | v1.
 - Phase 6: teal-600 darkened to #0A7050 for WCAG AA compliance on white (6.1:1 ratio)
 - Phase 6: Logo uses mix-blend-mode: multiply to handle white JPEG background on dark header
 - Phase 6: AMR gold token added as --color-amr-gold: #F2A900 for future accent uses
+- [Phase 06-03]: Phase 6: Option B token strategy confirmed — keep teal/navy class names, update hex to AMR green/gold; zero component changes required
+- [Phase 06-03]: Phase 6: teal-600 #0A7050 confirmed for WCAG AA compliance on white (6.1:1 ratio)
 
 ### Pending Todos
 
