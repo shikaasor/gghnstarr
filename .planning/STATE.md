@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 6 of 13 (Brand Rebrand — first v2.0 phase)
-Plan: — (not yet planned)
-Status: Ready to plan Phase 6
-Last activity: 2026-04-28 — v2.0 roadmap created; 8 phases (6-13) mapped to 31 requirements
+Plan: 2 of 3 (06-01 complete — palette token swap done)
+Status: In Progress — Phase 6 plan 1 complete
+Last activity: 2026-04-28 — 06-01 executed: AMR brand palette tokens swapped in globals.css
 
-Progress: [░░░░░░░░░░] 0% (v2.0) | v1.0 complete
+Progress: [█░░░░░░░░░] 3% (v2.0, 1/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -45,6 +45,9 @@ Progress: [░░░░░░░░░░] 0% (v2.0) | v1.0 complete
 - v2.0: Data map = pre-process WHO GLASS CSV to static map-data.json; D3 or react-simple-maps for choropleth
 - v2.0: Forms = Formspree for pledge and prescribing commitment (no custom backend)
 - v2.0: Brand color exact hex values to be extracted from AMR Logo_Feb2026.jpeg at Phase 6 plan time
+- 06-01: Option B palette swap — keep class names, change hex values (zero component file changes required)
+- 06-01: teal-600 set to #0A7050 (not logo green) to achieve WCAG AA 4.5:1 contrast on white (~6.1:1)
+- 06-01: teal-50 added as new token for hover:bg-teal-50 class support; amr-gold #F2A900 as named accent token
 
 ### Pending Todos
 
@@ -67,5 +70,5 @@ Progress: [░░░░░░░░░░] 0% (v2.0) | v1.0 complete
 ## Session Continuity
 
 Last session: 2026-04-28
-Stopped at: v2.0 roadmap created — ROADMAP.md phases 6-13 written, STATE.md and REQUIREMENTS.md updated
+Stopped at: Phase 6 plan 01 complete — AMR brand palette tokens swapped in globals.css; 06-02 and 06-03 ready to execute
 Resume file: None
