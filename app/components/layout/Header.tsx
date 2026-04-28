@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
@@ -20,11 +21,16 @@ export function Header() {
     <header className="bg-navy-950 text-white sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 flex items-center justify-between h-24">
         {/* Logo */}
-        <Link
-          href="/"
-          className="font-serif font-bold text-lg text-teal-400 hover:text-teal-300 transition-colors"
-        >
-          GGHN STARR
+        <Link href="/" className="flex items-center shrink-0">
+          <Image
+            src="/amr-logo.jpeg"
+            alt="AntiMicrobial Resistance Initiative"
+            width={160}
+            height={64}
+            priority
+            className="object-contain h-12 w-auto"
+            style={{ mixBlendMode: 'multiply' }}
+          />
         </Link>
 
         {/* Desktop nav — hidden on mobile */}

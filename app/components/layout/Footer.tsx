@@ -1,5 +1,6 @@
 // app/components/layout/Footer.tsx
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -9,10 +10,15 @@ export function Footer() {
 
           {/* Branding block */}
           <div className="max-w-sm">
-            <p className="font-serif font-bold text-teal-400 text-lg leading-tight">
-              GGHN STARR
-            </p>
-            <p className="text-slate-300 text-sm mt-1">
+            <Image
+              src="/amr-logo.jpeg"
+              alt="AntiMicrobial Resistance Initiative"
+              width={140}
+              height={56}
+              className="object-contain h-14 w-auto"
+              style={{ mixBlendMode: 'multiply' }}
+            />
+            <p className="text-slate-300 text-sm mt-2">
               Africa AMR Modeling Initiative
             </p>
             <p className="text-slate-500 text-sm mt-2 italic">
