@@ -45,18 +45,45 @@ Publish all 15 policy briefs, surface Rwanda infographic JPEGs, integrate GA4 tr
 - All 4 event helper functions created now; pledge/quiz silently no-op until their pages exist
 - Wire existing PDF download buttons and newsletter form to fire their respective helpers
 
-### Brief data for briefs 4–15
-- Schema: same JSON schema as briefs 1–3
-- `infographicPdfUrl`: not present for briefs 4–15 (only the 3 Rwanda JPEGs exist, handled separately)
-- `thumbnailUrl`: shared AMR placeholder thumbnail for all 12 new briefs (one placeholder image)
-- PDFs: drafts will be converted to PDF and committed as part of Phase 7 execution — planner must include a task to convert .docx drafts → PDF and commit under public/briefs/
-- Some briefs (#14, #15) are outlines — include them with available content; pdfUrl populated once PDF is committed
+### Brief content — REPLACE briefs 1–3, ADD briefs 4–15
+- **CRITICAL:** Briefs 1–3 currently in `content/briefs-index.json` are synthetic placeholder content — titles and summaries do not match the real policy briefs
+- Phase 7 must REPLACE all 3 existing entries with real content AND add briefs 4–15
+- The real 15 brief titles (from master implementation doc / Mercy's drafts):
+  1. Multi Country PEA
+  2. Why countries struggle with AMR
+  3. The political economy of AMR in Africa
+  4. Global impact of funding shifts
+  5. A threat to health & national security
+  6. Domestic Budgets, Donor Leverage & Sustainability
+  7. Strengthening One Health Governance for AMR
+  8. Achieving Intra and Integrated AMR/AMU Surveillance
+  9. Optimising & maximising local laboratory systems
+  10. Stewardship & IPC — Cost effective interventions
+  11. Livestock, Food Safety, Food Security & Trade
+  12. Environmental AMR — The Missing Pillar in National Plans
+  13. Digital Transformation for AMR — AI, Interoperability & Real Time Data
+  14. Post Shock Political-Economic Conditions
+  15. Key Messages for the 5th Global AMR Conference
+- Source files: `resources/GGHN STARR_5th Interministrial AMR Meeting. Mar - Jun 2026/Briefs/Mercy_s Briefs/Drafts for review/` — planner must read these .docx files to extract real titles, key messages, executive summaries
+- Schema: same JSON schema as existing briefs
+- `infographicPdfUrl`: not present for any of the 15 briefs (only the 3 Rwanda JPEGs exist, handled separately as inline images)
+- `thumbnailUrl`: shared AMR placeholder thumbnail for all 15 briefs (one placeholder image)
+- PDFs: .docx drafts in resources/ will be converted to PDF and committed under `public/briefs/` — planner must include this as an explicit task
+- Briefs #14 and #15 are outlines only — include with available content; mark clearly in JSON
+
+### Typography — Montserrat + Inter (to be implemented in Phase 7)
+- Headings: **Montserrat** (Bold, modern, authoritative) via `next/font/google`
+- Body: **Inter** (already referenced in codebase, just not imported via next/font yet)
+- Implementation: add both fonts in `app/layout.tsx` using `next/font/google`, inject as CSS variables, update `@theme` tokens in `globals.css`
+- The `globals.css` comment already anticipates this pattern — planner should follow it
+- This is in scope for Phase 7 (not a separate phase) as it's a quick wiring task
 
 ### Claude's Discretion
 - Exact GoogleAnalytics component structure and script strategy (afterInteractive vs lazyOnload)
 - Specific icon library or SVG approach for audience CTA icons
 - Secondary link styling within CTA cards
 - CSS/Tailwind specifics for the light grey section background
+- Font weight and size scale decisions (Montserrat Bold for h1/h2, SemiBold for h3, etc.)
 
 </decisions>
 
@@ -72,7 +99,8 @@ Publish all 15 policy briefs, surface Rwanda infographic JPEGs, integrate GA4 tr
 <deferred>
 ## Deferred Ideas
 
-- None — discussion stayed within phase scope
+- **"About the Platform" page** — present in master implementation doc as Page 2 (mission/vision, theory of change, expertise) but not in any current roadmap phase. Needs a dedicated phase.
+- **Seven unplanned master pages** — Country Dashboards, One Health Knowledge Hub, Policy Action Toolkit, Research & Evidence Library, Events & Learning, Community of Practice Forum, Monitoring & Accountability Dashboard, Partner Portal — all from master doc but out of scope for v2.0 deadline (June 28, 2026). Review for v3.0.
 
 </deferred>
 
