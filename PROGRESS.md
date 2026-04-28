@@ -3,7 +3,7 @@
 **Project:** GGHN STARR Africa AMR Modeling Initiative  
 **Client ask:** Public-facing AMR campaign website — national awareness and action platform targeting general public, healthcare workers, and policymakers  
 **Hard deadline:** June 28, 2026 (5th Inter-Ministerial Conference on Health & AMR)  
-**Last updated:** 2026-04-28 — v2.0 roadmap approved, 8 phases planned
+**Last updated:** 2026-04-28 — Phase 6 Brand Rebrand complete
 
 ---
 
@@ -36,41 +36,52 @@ Phases 1–5 complete. Site is live on Vercel.
 
 ---
 
-## What Needs to Be Built (v2.0 — Campaign & Action Platform)
+## What Has Been Built (v2.0 — Campaign & Action Platform)
 
-The client brief expands the site from a policy intelligence layer to a full public-facing campaign platform. Three target audiences: general public, healthcare workers, policymakers.
+Phase 6 complete. Site now reflects official AMR brand identity.
+
+### Brand & Design System
+| Feature | Status | Notes |
+|---------|--------|-------|
+| AMR logo in header + footer | ✓ Complete | `public/amr-logo.jpeg` via next/image, mix-blend-mode:multiply |
+| AMR color palette | ✓ Complete | Emerald Green `#0A7050`, dark green backgrounds `#1A3A2A`, Gold `#F2A900` |
+| WCAG AA contrast | ✓ Complete | teal-600 at 6.1:1 on white — passes AA for normal text |
+
+---
+
+## What Needs to Be Built (v2.0 — Campaign & Action Platform)
 
 ### New Pages
 
 | Feature | Priority | Status | Blocker |
 |---------|----------|--------|---------|
-| Take Action page — pledges, prescribing commitments, advocacy toolkit | HIGH | ○ Not started | Need clarity on pledge mechanism (static form vs tracked commitments) |
-| Awareness hub — infographics and explainers | MEDIUM | ○ Not started | Content must be provided or sourced |
-| Education library — audience-specific materials | MEDIUM | ○ Not started | Content must be provided or sourced |
-| News section — aggregated AMR research feed | HIGH | ○ Not started | Architecture decision pending (see Blockers) |
-| Interactive AMR data map | MEDIUM | ○ Not started | Data source not confirmed (see Blockers) |
+| Take Action page — pledges, prescribing commitments, advocacy toolkit | HIGH | ○ Not started | None — Formspree pattern confirmed |
+| Awareness hub — infographics and explainers | MEDIUM | ○ Not started | 3 infographic JPEGs ready in resources/ |
+| Education library — audience-specific materials | MEDIUM | ○ Not started | Content structure TBD at plan time |
+| News section — aggregated AMR research feed | HIGH | ○ Not started | GitHub Actions cron → arXiv + PubMed → news.json |
+| Interactive AMR data map | MEDIUM | ○ Not started | WHO GLASS CSV files in resources/ |
 
 ### Homepage Enhancements
 
 | Feature | Priority | Status | Blocker |
 |---------|----------|--------|---------|
-| Audience-segmented CTAs | HIGH | ○ Not started | Need CTA copy per audience type |
+| Audience-segmented CTAs | HIGH | ○ Not started | Phase 7 |
 
 ### Practical Tools
 
 | Feature | Priority | Status | Blocker |
 |---------|----------|--------|---------|
-| Stewardship checklists | MEDIUM | ○ Not started | Format TBD: interactive web component vs downloadable PDF/Word |
-| Self-assessment quizzes | MEDIUM | ○ Not started | Format TBD: same as above |
-| Facility reporting templates | MEDIUM | ○ Not started | Format TBD: likely downloadable |
+| Stewardship checklists | MEDIUM | ○ Not started | Interactive web component — Phase 11 |
+| Self-assessment quizzes | MEDIUM | ○ Not started | Interactive web component — Phase 11 |
+| Facility reporting templates | MEDIUM | ○ Not started | Interactive web component — Phase 11 |
 
 ### Platform Capabilities
 
 | Feature | Priority | Status | Blocker |
 |---------|----------|--------|-------|
-| Google Analytics 4 | HIGH | ○ Not started | None — straightforward to implement |
-| Social share buttons | HIGH | ○ Not started | None — can use native share API + links |
-| Accessibility audit + WCAG fixes | MEDIUM | ○ Not started | None — audit first, then fix |
+| Google Analytics 4 | HIGH | ○ Not started | Phase 7 |
+| Social share buttons | HIGH | ○ Not started | Phase 13 |
+| Accessibility audit + WCAG fixes | MEDIUM | ○ Not started | Phase 13 |
 
 ---
 
@@ -89,7 +100,7 @@ The client brief expands the site from a policy intelligence layer to a full pub
 
 | Phase | Name | Requirements | Status |
 |-------|------|--------------|--------|
-| 6 | Brand Rebrand | BRAND-01–03 | ○ Not started |
+| 6 | Brand Rebrand | BRAND-01–03 | ✓ Complete (2026-04-28) |
 | 7 | Content & Analytics | CONT-01–02, ANAL-01–02, HOME-01 | ○ Not started |
 | 8 | Awareness Hub & Education Library | AWRE-01–02, EDUC-01–02 | ○ Not started |
 | 9 | News Feed | NEWS-01–04 | ○ Not started |
@@ -104,12 +115,12 @@ The client brief expands the site from a policy intelligence layer to a full pub
 
 ```
 v1.0 Policy Intelligence Platform  ██████████ 100% complete
-v2.0 Campaign & Action Platform    ░░░░░░░░░░   0% started
+v2.0 Campaign & Action Platform    █░░░░░░░░░  12% (1/8 phases)
 ```
 
 **v1.0 phases:** 5/5 complete  
-**v2.0 phases:** 0/8 — roadmap approved 2026-04-28
+**v2.0 phases:** 1/8 — Phase 6 Brand Rebrand complete 2026-04-28
 
 ---
-*Updated: 2026-04-28 — v2.0 roadmap approved, all blockers resolved*
+*Updated: 2026-04-28 — Phase 6 Brand Rebrand complete. AMR logo + green/gold palette live across all pages.*
 
