@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 6 of 13 (Brand Rebrand — first v2.0 phase)
-Plan: 2 of 3 (06-01 complete — palette token swap done)
-Status: In Progress — Phase 6 plan 1 complete
-Last activity: 2026-04-28 — 06-01 executed: AMR brand palette tokens swapped in globals.css
+Plan: 3 of 3 (06-02 complete — AMR logo in Header and Footer)
+Status: In Progress — Phase 6 plan 2 complete
+Last activity: 2026-04-28 — 06-02 executed: AMR logo JPEG placed in public/ and displayed in Header/Footer via next/image
 
-Progress: [█░░░░░░░░░] 3% (v2.0, 1/31 plans complete) | v1.0 complete
+Progress: [█░░░░░░░░░] 6% (v2.0, 2/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -48,6 +48,8 @@ Progress: [█░░░░░░░░░] 3% (v2.0, 1/31 plans complete) | v1.0
 - 06-01: Option B palette swap — keep class names, change hex values (zero component file changes required)
 - 06-01: teal-600 set to #0A7050 (not logo green) to achieve WCAG AA 4.5:1 contrast on white (~6.1:1)
 - 06-01: teal-50 added as new token for hover:bg-teal-50 class support; amr-gold #F2A900 as named accent token
+- 06-02: mixBlendMode multiply used for JPEG logo on dark backgrounds — eliminates white box artifact without preprocessing
+- 06-02: Header logo 160x64 with priority (LCP); Footer logo 140x56 (below fold, no priority)
 
 ### Pending Todos
 
@@ -70,5 +72,5 @@ Progress: [█░░░░░░░░░] 3% (v2.0, 1/31 plans complete) | v1.0
 ## Session Continuity
 
 Last session: 2026-04-28
-Stopped at: Phase 6 plan 01 complete — AMR brand palette tokens swapped in globals.css; 06-02 and 06-03 ready to execute
+Stopped at: Phase 6 plan 02 complete — AMR logo placed in public/ and rendered in Header/Footer; 06-03 ready to execute
 Resume file: None

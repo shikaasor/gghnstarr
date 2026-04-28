@@ -21,7 +21,7 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 
 ### Brand & Identity
 
-- [ ] **BRAND-01**: Site header and footer display the official AMR logo (AMR Logo_Feb2026.jpeg — Africa map silhouette + "AntiMicrobial Resistance" wordmark)
+- [x] **BRAND-01**: Site header and footer display the official AMR logo (AMR Logo_Feb2026.jpeg — Africa map silhouette + "AntiMicrobial Resistance" wordmark)
 - [x] **BRAND-02**: Site color palette is updated from Navy/Teal to AMR brand colors (Emerald Green, Gold, Slate Grey — derived from logo; exact values confirmed at plan phase)
 - [ ] **BRAND-03**: All existing components (buttons, badges, section backgrounds, link hovers) reflect the updated brand palette without breaking contrast ratios
 
@@ -122,7 +122,7 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| BRAND-01 | Phase 6 | Pending |
+| BRAND-01 | Phase 6 | Complete |
 | BRAND-02 | Phase 6 | Complete |
 | BRAND-03 | Phase 6 | Pending |
 | CONT-01 | Phase 7 | Pending |
