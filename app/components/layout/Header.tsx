@@ -22,15 +22,16 @@ export function Header() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 flex items-center justify-between h-24">
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0">
-          <Image
-            src="/amr-logo.jpeg"
-            alt="AntiMicrobial Resistance Initiative"
-            width={160}
-            height={64}
-            priority
-            className="object-contain h-12 w-auto"
-            style={{ mixBlendMode: 'multiply' }}
-          />
+          <div className="bg-white rounded px-2 py-1">
+            <Image
+              src="/amr-logo.jpeg"
+              alt="AntiMicrobial Resistance Initiative"
+              width={160}
+              height={64}
+              priority
+              className="object-contain h-10 w-auto"
+            />
+          </div>
         </Link>
 
         {/* Desktop nav — hidden on mobile */}

@@ -10,14 +10,15 @@ export function Footer() {
 
           {/* Branding block */}
           <div className="max-w-sm">
-            <Image
-              src="/amr-logo.jpeg"
-              alt="AntiMicrobial Resistance Initiative"
-              width={140}
-              height={56}
-              className="object-contain h-14 w-auto"
-              style={{ mixBlendMode: 'multiply' }}
-            />
+            <div className="bg-white rounded px-2 py-1 inline-block">
+              <Image
+                src="/amr-logo.jpeg"
+                alt="AntiMicrobial Resistance Initiative"
+                width={140}
+                height={56}
+                className="object-contain h-12 w-auto"
+              />
+            </div>
             <p className="text-slate-300 text-sm mt-2">
               Africa AMR Modeling Initiative
             </p>
