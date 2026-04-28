@@ -2,19 +2,19 @@
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-03-23)
+See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs -- fast, on mobile, without friction.
-**Current focus:** Phase 5: SEO, Performance & Launch Readiness
+**Current focus:** v2.0 Milestone — Campaign & Action Platform
 
 ## Current Position
 
-Phase: 5 of 5 (SEO, Performance & Launch Readiness)
-Plan: 3 of 3 in current phase
-Status: COMPLETE — All 5 phases done; site launch-ready for June 28, 2026 Inter-Ministerial Conference
-Last activity: 2026-04-23 -- Plan 05-03 complete (build verification + human checkpoint approved)
+Phase: Not started (v2.0 — defining roadmap)
+Plan: —
+Status: Milestone v2.0 started — Campaign & Action Platform
+Last activity: 2026-04-28 — v2.0 milestone initialized, 31 requirements defined
 
-Progress: [██████████] 100%
+Progress: [░░░░░░░░░░] 0% (v2.0)
 
 ## Performance Metrics
 
