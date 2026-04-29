@@ -37,7 +37,7 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 
 ### Homepage
 
-- [ ] **HOME-01**: Homepage displays three audience-segmented CTA sections routing ministers, healthcare workers, and general public to their most relevant content
+- [x] **HOME-01**: Homepage displays three audience-segmented CTA sections routing ministers, healthcare workers, and general public to their most relevant content
 
 ### Awareness Hub
 
@@ -129,7 +129,7 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | CONT-02 | Phase 7 | Complete |
 | ANAL-01 | Phase 7 | Complete |
 | ANAL-02 | Phase 7 | Complete |
-| HOME-01 | Phase 7 | Pending |
+| HOME-01 | Phase 7 | Complete |
 | AWRE-01 | Phase 8 | Pending |
 | AWRE-02 | Phase 8 | Pending |
 | EDUC-01 | Phase 8 | Pending |
