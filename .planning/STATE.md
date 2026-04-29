@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** v2.0 Phase 8 — Awareness Hub & Education Library (next)
+**Current focus:** v2.0 Phase 8 — Awareness Hub & Education Library (in progress)
 
 ## Current Position
 
-Phase: 08-awareness-hub
-Plan: 08-01 (next)
-Status: Phase 7 complete — 3/3 plans done, visual sign-off received; Phase 8 ready to begin
-Last activity: 2026-04-29 — 07-03 AudienceCTAs checkpoint approved, Phase 7 complete
+Phase: 08-awareness-hub-education-library
+Plan: 08-03 (next)
+Status: Phase 8 in progress — 08-02 complete (infographic grid, accordion explainers, awareness page)
+Last activity: 2026-04-29 — 08-02 complete (10 min, 2 tasks, 5 files)
 
-Progress: [███░░░░░░░] 22% (v2.0, 7/31 plans complete) | v1.0 complete
+Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -38,6 +38,8 @@ Progress: [███░░░░░░░] 22% (v2.0, 7/31 plans complete) | v1.
 | Phase 07-content-and-analytics P01 | 3 | 2 tasks | 7 files |
 | Phase 07-content-and-analytics P02 | 7 | 3 tasks | 25 files |
 | Phase 07-content-and-analytics P03 | ~20min | 2 tasks | 4 files |
+| Phase 08-awareness-hub P01 | 92s | 3 tasks | 3 files |
+| Phase 08-awareness-hub P02 | 10min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -69,6 +71,9 @@ Progress: [███░░░░░░░] 22% (v2.0, 7/31 plans complete) | v1.
 - [Phase 07-03]: bg-slate-100 used for AudienceCTAs to match NewsletterSignup — visual bookend sections on homepage
 - [Phase 07-03]: getAllBriefs() filters by publicationDate <= build date — prevents future-dated briefs appearing before publication day
 - [Phase 07-03]: getFeaturedBrief() auto-selects most recently published brief by date — removes need for manual featured flag updates each week
+- [Phase 08-02]: Used plain <img> tags in InfographicGrid instead of next/image — aligns with existing unoptimized images config
+- [Phase 08-02]: Imported yet-another-react-lightbox/styles.css inside InfographicGrid component, not globals.css or layout.tsx
+- [Phase 08-02]: AccordionSection uses max-h transition (0 → 2000px) for smooth expand/collapse instead of hidden/visible
 
 ### Pending Todos
 
@@ -90,5 +95,5 @@ Progress: [███░░░░░░░] 22% (v2.0, 7/31 plans complete) | v1.
 ## Session Continuity
 
 Last session: 2026-04-29
-Stopped at: Completed 07-03-PLAN.md — Phase 7 fully complete, visual sign-off received
+Stopped at: Completed 08-02-PLAN.md — /awareness route, infographic grid with lightbox, accordion explainers
 Resume file: None
