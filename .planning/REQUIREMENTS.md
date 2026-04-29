@@ -32,8 +32,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 
 ### Analytics
 
-- [ ] **ANAL-01**: Google Analytics 4 is integrated across all pages and tracks page views, brief downloads, and CTA clicks
-- [ ] **ANAL-02**: GA4 events fire correctly for key user actions: PDF download, infographic download, newsletter signup, pledge form submission, quiz completion
+- [x] **ANAL-01**: Google Analytics 4 is integrated across all pages and tracks page views, brief downloads, and CTA clicks
+- [x] **ANAL-02**: GA4 events fire correctly for key user actions: PDF download, infographic download, newsletter signup, pledge form submission, quiz completion
 
 ### Homepage
 
@@ -127,8 +127,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | BRAND-03 | Phase 6 | Complete |
 | CONT-01 | Phase 7 | Pending |
 | CONT-02 | Phase 7 | Pending |
-| ANAL-01 | Phase 7 | Pending |
-| ANAL-02 | Phase 7 | Pending |
+| ANAL-01 | Phase 7 | Complete |
+| ANAL-02 | Phase 7 | Complete |
 | HOME-01 | Phase 7 | Pending |
 | AWRE-01 | Phase 8 | Pending |
 | AWRE-02 | Phase 8 | Pending |
