@@ -11,23 +11,23 @@ export const metadata: Metadata = {
 const statCards = [
   {
     value: '1.27M',
-    label: 'Deaths globally per year from bacterial AMR (2019 WHO)',
-    icon: '👤',
+    label: 'Deaths directly caused by bacterial AMR globally — WHO, 2019',
+    source: 'WHO Global Antimicrobial Resistance and Use Survey, 2022',
   },
   {
-    value: '47',
-    label: 'African countries with National AMR Action Plans',
-    icon: '🌍',
+    value: '700K',
+    label: 'Deaths from AMR in the WHO African Region annually',
+    source: 'WHO GLASS Report, 2024',
   },
   {
     value: '$100T',
-    label: 'Projected lost global output by 2050 if no action taken',
-    icon: '💰',
+    label: 'Projected lost global output by 2050 if AMR trends continue',
+    source: 'World Bank, 2017',
   },
   {
     value: '10M',
-    label: 'Projected annual deaths from AMR by 2050 — surpassing cancer',
-    icon: '⚕️',
+    label: 'Projected annual deaths from AMR globally by 2050 — surpassing cancer',
+    source: 'WHO Review on AMR, 2016',
   },
 ];
 
@@ -101,7 +101,7 @@ const accordionItems = [
           Antimicrobial resistance (AMR) occurs when bacteria, viruses, fungi, and parasites evolve over time and no longer respond to medicines, making infections harder to treat and increasing the risk of disease spread, severe illness, and death. AMR is a natural biological process, but it is being dramatically accelerated by the misuse and overuse of antimicrobials in humans, animals, and agriculture.
         </p>
         <p>
-          The World Health Organization estimates that bacterial AMR was directly responsible for 1.27 million deaths globally in 2019, contributing to approximately 4.95 million deaths in total when counting associated mortality. Without decisive action, AMR could cause up to 10 million deaths annually by 2050 — surpassing cancer as a leading cause of death. The economic cost could exceed $100 trillion in lost global output over the same period.
+          The World Health Organization estimates that bacterial AMR was directly responsible for 1.27 million deaths globally in 2019, contributing to approximately 4.95 million deaths in total when counting associated mortality. In the WHO African Region specifically, AMR accounts for approximately 700,000 deaths annually — a disproportionate burden driven by high infectious disease prevalence and limited diagnostic capacity.
         </p>
         <p>
           Addressing AMR requires a coordinated One Health approach — recognising that the health of humans, animals, and the environment are deeply interconnected. This means evidence-based prescribing, robust surveillance, investment in diagnostics, and sustained political commitment at the highest levels.
@@ -203,13 +203,15 @@ export default function AwarenessPage() {
             {statCards.map((stat) => (
               <div
                 key={stat.value}
-                className="bg-white rounded-xl border border-slate-200 p-6 text-center shadow-sm"
+                className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm"
               >
-                <div className="text-3xl mb-3">{stat.icon}</div>
-                <div className="font-serif text-3xl font-bold text-teal-600 mb-2">
+                <div className="font-serif text-4xl font-bold text-teal-600 mb-3">
                   {stat.value}
                 </div>
-                <p className="text-slate-600 text-sm leading-relaxed">{stat.label}</p>
+                <p className="text-slate-700 text-sm leading-relaxed mb-3 font-medium">
+                  {stat.label}
+                </p>
+                <p className="text-slate-400 text-xs italic">{stat.source}</p>
               </div>
             ))}
           </div>
