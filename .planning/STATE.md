@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 08-awareness-hub-education-library
-Plan: 08-03 (next)
-Status: Phase 8 in progress — 08-02 complete (infographic grid, accordion explainers, awareness page)
-Last activity: 2026-04-29 — 08-02 complete (10 min, 2 tasks, 5 files)
+Plan: 08-04 (next)
+Status: Phase 8 in progress — 08-03 complete (EducationGrid client component, /education page with 12 curated resources)
+Last activity: 2026-04-29 — 08-03 complete (5 min, 2 tasks, 2 files)
 
 Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.0 complete
 
@@ -40,6 +40,7 @@ Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.
 | Phase 07-content-and-analytics P03 | ~20min | 2 tasks | 4 files |
 | Phase 08-awareness-hub P01 | 92s | 3 tasks | 3 files |
 | Phase 08-awareness-hub P02 | 10min | 2 tasks | 5 files |
+| Phase 08-awareness-hub-education-library P03 | 5 min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -74,6 +75,7 @@ Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.
 - [Phase 08-02]: Used plain <img> tags in InfographicGrid instead of next/image — aligns with existing unoptimized images config
 - [Phase 08-02]: Imported yet-another-react-lightbox/styles.css inside InfographicGrid component, not globals.css or layout.tsx
 - [Phase 08-02]: AccordionSection uses max-h transition (0 → 2000px) for smooth expand/collapse instead of hidden/visible
+- [Phase 08-03]: 12 education resources embedded as typed EducationResource[] constants in Server Component — no JSON file needed; multi-audience cards filter via r.audiences.includes()
 
 ### Pending Todos
 
@@ -95,5 +97,5 @@ Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.
 ## Session Continuity
 
 Last session: 2026-04-29
-Stopped at: Completed 08-02-PLAN.md — /awareness route, infographic grid with lightbox, accordion explainers
+Stopped at: Completed 08-03-PLAN.md — EducationGrid component and /education page with 12 curated resources
 Resume file: None
