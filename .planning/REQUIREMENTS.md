@@ -46,8 +46,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 
 ### Education Library
 
-- [ ] **EDUC-01**: A dedicated Education Library page (/education) displays audience-specific learning materials filterable by audience type (Policymaker, Healthcare Worker, General Public)
-- [ ] **EDUC-02**: Each education resource card shows title, audience tag, format (article/download/video), and a download or read link
+- [x] **EDUC-01**: A dedicated Education Library page (/education) displays audience-specific learning materials filterable by audience type (Policymaker, Healthcare Worker, General Public)
+- [x] **EDUC-02**: Each education resource card shows title, audience tag, format (article/download/video), and a download or read link
 
 ### News Section
 
@@ -132,8 +132,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | HOME-01 | Phase 7 | Complete |
 | AWRE-01 | Phase 8 | Pending |
 | AWRE-02 | Phase 8 | Pending |
-| EDUC-01 | Phase 8 | Pending |
-| EDUC-02 | Phase 8 | Pending |
+| EDUC-01 | Phase 8 | Complete |
+| EDUC-02 | Phase 8 | Complete |
 | NEWS-01 | Phase 9 | Pending |
 | NEWS-02 | Phase 9 | Pending |
 | NEWS-03 | Phase 9 | Pending |

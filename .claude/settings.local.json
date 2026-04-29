@@ -5,7 +5,14 @@
       "Bash(git commit:*)",
       "Bash(node C:/Users/HP_PC/.claude/get-shit-done/bin/gsd-tools.cjs roadmap get-phase 03)",
       "Bash(cat /c/Users/HP_PC/Documents/gghn/starr/.planning/phases/03-policy-briefs-library-and-detail-pages/*-VERIFICATION.md)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(node C:/Users/HP_PC/.claude/get-shit-done/bin/gsd-tools.cjs state update-progress)",
+      "Bash(node C:/Users/HP_PC/.claude/get-shit-done/bin/gsd-tools.cjs state advance-plan)",
+      "Bash(node C:/Users/HP_PC/.claude/get-shit-done/bin/gsd-tools.cjs state record-metric --phase \"08-awareness-hub-education-library\" --plan \"03\" --duration \"5 min\" --tasks \"2\" --files \"2\")",
+      "Bash(node C:/Users/HP_PC/.claude/get-shit-done/bin/gsd-tools.cjs requirements mark-complete EDUC-01 EDUC-02)"
     ]
   }
 }
