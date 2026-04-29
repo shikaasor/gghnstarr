@@ -28,7 +28,7 @@ const audiences: AudienceCard[] = [
     primaryHref: '/briefs',
     primaryLive: true,
     secondaryLinks: [
-      { label: 'AMR Awareness Hub', href: '#', live: false },
+      { label: 'AMR Awareness Hub', href: '/awareness', live: true },
       { label: 'Take Action', href: '#', live: false },
     ],
   },
@@ -37,8 +37,8 @@ const audiences: AudienceCard[] = [
     headline: 'For Healthcare Workers',
     subtext: 'Access stewardship resources and clinical guidance relevant to your role on the frontline.',
     primaryLabel: 'Explore Resources',
-    primaryHref: '#',
-    primaryLive: false,
+    primaryHref: '/education',
+    primaryLive: true,
     secondaryLinks: [
       { label: 'Policy Briefs', href: '/briefs', live: true },
       { label: 'Take Action', href: '#', live: false },
@@ -49,11 +49,11 @@ const audiences: AudienceCard[] = [
     headline: 'For the General Public',
     subtext: 'Learn what antimicrobial resistance means for your community and what you can do.',
     primaryLabel: 'Learn What You Can Do',
-    primaryHref: '#',
-    primaryLive: false,
+    primaryHref: '/awareness',
+    primaryLive: true,
     secondaryLinks: [
       { label: 'Policy Briefs', href: '/briefs', live: true },
-      { label: 'AMR Awareness Hub', href: '#', live: false },
+      { label: 'AMR Awareness Hub', href: '/awareness', live: true },
     ],
   },
 ];
