@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** v2.0 Phase 7 — In Progress (07-01 complete)
+**Current focus:** v2.0 Phase 7 — In Progress (07-02 complete)
 
 ## Current Position
 
 Phase: 07-content-and-analytics
-Plan: 07-01 complete → 07-02 next
-Status: Phase 7 in progress — 1/3 plans complete
-Last activity: 2026-04-28 — 07-01 GA4 analytics + Brief type schema + Montserrat/Inter fonts
+Plan: 07-02 complete → 07-03 next
+Status: Phase 7 in progress — 2/3 plans complete
+Last activity: 2026-04-29 — 07-02 15 real briefs published, Rwanda infographics, GA4 analytics wired
 
-Progress: [█░░░░░░░░░] 13% (v2.0, 4/31 plans complete) | v1.0 complete
+Progress: [██░░░░░░░░] 16% (v2.0, 5/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -36,6 +36,7 @@ Progress: [█░░░░░░░░░] 13% (v2.0, 4/31 plans complete) | v1.
 *v2.0 metrics will populate as plans complete*
 | Phase 06-brand-rebrand P03 | 2 | 3 tasks | 1 files |
 | Phase 07-content-and-analytics P01 | 3 | 2 tasks | 7 files |
+| Phase 07-content-and-analytics P02 | 7 | 3 tasks | 25 files |
 
 ## Accumulated Context
 
@@ -61,6 +62,8 @@ Progress: [█░░░░░░░░░] 13% (v2.0, 4/31 plans complete) | v1.
 - [Phase 07-01]: infographicPdfUrl made optional: Phase 7 real briefs have no infographic PDFs — required for TypeScript build
 - [Phase 07-01]: trackPledgeSubmit and trackQuizComplete are intentional no-ops in analytics.ts pending Phase 10 and Phase 11
 - [Phase 07-01]: GoogleAnalytics guarded by env var check; NEXT_PUBLIC_GA4_MEASUREMENT_ID=G-PLACEHOLDER in .env.local, real ID in Vercel
+- [Phase 07-02]: placeholder-pdfs: LibreOffice/pandoc unavailable on Windows — .docx files copied as .pdf placeholders; real conversion deferred
+- [Phase 07-02]: infographic-mapping: IMG_9750=brief-09 (lab systems), IMG_9751=brief-06 (domestic financing), IMG_9752=brief-07 (One Health governance NAP 2.0)
 
 ### Pending Todos
 
@@ -81,6 +84,6 @@ Progress: [█░░░░░░░░░] 13% (v2.0, 4/31 plans complete) | v1.
 
 ## Session Continuity
 
-Last session: 2026-04-28
-Stopped at: Phase 6 complete — resume at Phase 7 planning
+Last session: 2026-04-29
+Stopped at: Completed 07-02-PLAN.md — 15 briefs published, analytics wired
 Resume file: None

@@ -27,8 +27,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 
 ### Content
 
-- [ ] **CONT-01**: All 15 policy briefs are published and accessible in the briefs library (briefs 4–15 added as JSON data entries with PDF links)
-- [ ] **CONT-02**: Infographic images (IMG_9750, IMG_9751, IMG_9752 from resources/) are accessible on the site and linked from relevant brief detail pages or the awareness hub
+- [x] **CONT-01**: All 15 policy briefs are published and accessible in the briefs library (briefs 4–15 added as JSON data entries with PDF links)
+- [x] **CONT-02**: Infographic images (IMG_9750, IMG_9751, IMG_9752 from resources/) are accessible on the site and linked from relevant brief detail pages or the awareness hub
 
 ### Analytics
 
@@ -125,8 +125,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | BRAND-01 | Phase 6 | Complete |
 | BRAND-02 | Phase 6 | Complete |
 | BRAND-03 | Phase 6 | Complete |
-| CONT-01 | Phase 7 | Pending |
-| CONT-02 | Phase 7 | Pending |
+| CONT-01 | Phase 7 | Complete |
+| CONT-02 | Phase 7 | Complete |
 | ANAL-01 | Phase 7 | Complete |
 | ANAL-02 | Phase 7 | Complete |
 | HOME-01 | Phase 7 | Pending |
