@@ -41,8 +41,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 
 ### Awareness Hub
 
-- [ ] **AWRE-01**: A dedicated Awareness Hub page (/awareness) displays infographics, explainer articles, and downloadable fact sheets about AMR for a general audience
-- [ ] **AWRE-02**: Awareness hub content is organized and visually distinct (the 3 infographic JPEGs from resources/ are displayed; placeholder text for explainer articles)
+- [x] **AWRE-01**: A dedicated Awareness Hub page (/awareness) displays infographics, explainer articles, and downloadable fact sheets about AMR for a general audience
+- [x] **AWRE-02**: Awareness hub content is organized and visually distinct (the 3 infographic JPEGs from resources/ are displayed; placeholder text for explainer articles)
 
 ### Education Library
 
@@ -130,8 +130,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | ANAL-01 | Phase 7 | Complete |
 | ANAL-02 | Phase 7 | Complete |
 | HOME-01 | Phase 7 | Complete |
-| AWRE-01 | Phase 8 | Pending |
-| AWRE-02 | Phase 8 | Pending |
+| AWRE-01 | Phase 8 | Complete |
+| AWRE-02 | Phase 8 | Complete |
 | EDUC-01 | Phase 8 | Complete |
 | EDUC-02 | Phase 8 | Complete |
 | NEWS-01 | Phase 9 | Pending |

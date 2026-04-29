@@ -31,27 +31,6 @@ const statCards = [
   },
 ];
 
-const amrStories = [
-  {
-    image: '/infographics/IMG_9750.jpeg',
-    title: 'AMR Laboratory Surveillance in Rwanda',
-    caption: 'Strengthening diagnostic capacity and laboratory networks to detect and monitor antimicrobial resistance across Rwanda\'s health system.',
-    href: 'https://www.flemingfund.org/',
-  },
-  {
-    image: '/infographics/IMG_9751.jpeg',
-    title: 'Financing AMR Response in Rwanda',
-    caption: 'Domestic financing mechanisms and resource mobilisation strategies to sustain Rwanda\'s national AMR action plan implementation.',
-    href: 'https://africacdc.org/',
-  },
-  {
-    image: '/infographics/IMG_9752.jpeg',
-    title: 'One Health Governance for AMR',
-    caption: 'Coordinating human, animal, and environmental health sectors under a One Health framework to address AMR at its source.',
-    href: 'https://www.who.int/',
-  },
-];
-
 const actionCards = [
   {
     title: 'Explore the Education Library',
@@ -218,48 +197,16 @@ export default function AwarenessPage() {
         </Container>
       </section>
 
-      {/* AMR Stories — white background */}
+      {/* Fleming Fund infographics — full-width grid with lightbox */}
       <section className="py-16 bg-white">
         <Container>
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-navy-950 mb-2">
-            AMR Stories from Africa
+            Fleming Fund Rwanda Infographics
           </h2>
           <p className="text-slate-600 text-sm mb-10">
-            Real programmes, real impact — learn how African countries are responding to AMR through surveillance, financing, and One Health governance.
+            Real programmes, real impact — click any infographic to view it in full size and download.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {amrStories.map((story) => (
-              <a
-                key={story.title}
-                href={story.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow overflow-hidden"
-              >
-                <div className="overflow-hidden">
-                  <img
-                    src={story.image}
-                    alt={story.title}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-5">
-                  <h3 className="font-serif text-navy-950 font-semibold text-base mb-2 leading-snug">
-                    {story.title}
-                  </h3>
-                  <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                    {story.caption}
-                  </p>
-                  <span className="text-teal-600 text-sm font-medium group-hover:text-teal-500 inline-flex items-center gap-1">
-                    Read more
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </span>
-                </div>
-              </a>
-            ))}
-          </div>
+          <InfographicGrid infographics={infographics} />
         </Container>
       </section>
 
@@ -314,22 +261,6 @@ export default function AwarenessPage() {
         </Container>
       </section>
 
-      {/* Infographic download strip */}
-      <section className="py-12 bg-white border-t border-slate-100">
-        <Container>
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div>
-              <h2 className="font-serif text-xl font-bold text-navy-950 mb-1">
-                Download the Infographics
-              </h2>
-              <p className="text-slate-500 text-sm">
-                High-resolution Fleming Fund Rwanda infographics for presentations and outreach.
-              </p>
-            </div>
-            <InfographicGrid infographics={infographics} />
-          </div>
-        </Container>
-      </section>
     </main>
   );
 }
