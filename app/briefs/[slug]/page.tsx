@@ -2,18 +2,14 @@ import { getAllBriefs, getBriefBySlug, getExperts } from '@/lib/content';
 import { Container } from '@/components/layout/Container';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { Download } from 'lucide-react';
+import { DownloadButton } from '@/components/briefs/DownloadButton';
+import { InfographicBlock } from '@/components/briefs/InfographicBlock';
 import type { Metadata } from 'next';
 
 // REQUIRED for output:'export' — enumerates all slugs at build time
 export function generateStaticParams() {
   const briefs = getAllBriefs();
   return briefs.map(b => ({ slug: b.slug }));
-  // Returns: [
-  //   { slug: 'week-01-amr-governance-frameworks' },
-  //   { slug: 'week-02-laboratory-systems-capacity' },
-  //   { slug: 'week-03-predictive-analytics-amr-burden' },
-  // ]
 }
 
 // Per-page metadata with OG/Twitter for rich WhatsApp previews
@@ -38,7 +34,7 @@ export async function generateMetadata({
       publishedTime: brief.publicationDate,
       images: [
         {
-          url: brief.thumbnailUrl,  // e.g. '/images/thumbnails/week-01-amr-governance-frameworks.jpg'
+          url: brief.thumbnailUrl,
           width: 641,
           height: 360,
           alt: brief.title,
@@ -93,26 +89,9 @@ export default async function BriefDetailPage({
           {author && (
             <p className="text-slate-600 text-sm mb-6">By {author.name}</p>
           )}
-          {/* Download buttons — hero area only, not repeated below — locked decision */}
+          {/* Download button — hero area only, not repeated below — locked decision */}
           <div className="flex flex-wrap gap-3 no-print">
-            <a
-              href={brief.pdfUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-medium px-5 py-2.5 rounded transition-colors text-sm"
-            >
-              <Download size={16} />
-              Download PDF
-            </a>
-            <a
-              href={brief.infographicPdfUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border border-teal-600 text-teal-600 hover:bg-teal-50 font-medium px-5 py-2.5 rounded transition-colors text-sm"
-            >
-              <Download size={16} />
-              Download Infographic
-            </a>
+            <DownloadButton href={brief.pdfUrl} briefSlug={brief.slug} label="Download PDF" variant="primary" />
           </div>
         </div>
         {/* Thumbnail — smaller, beside text — locked decision */}
@@ -147,6 +126,15 @@ export default async function BriefDetailPage({
           </ul>
         </section>
 
+        {/* Rwanda Infographic — only for briefs with infographicImageUrl */}
+        {brief.infographicImageUrl && (
+          <InfographicBlock
+            imageUrl={brief.infographicImageUrl}
+            briefSlug={brief.slug}
+            briefTitle={brief.title}
+          />
+        )}
+
         {/* Author bio excerpt */}
         {author && (
           <section>
@@ -162,7 +150,7 @@ export default async function BriefDetailPage({
                 <p className="text-sm text-slate-600 mb-2">{author.title}, {author.organization}</p>
                 <p className="text-sm text-slate-700 leading-relaxed">
                   {/* Show first 200 chars of bio as excerpt */}
-                  {author.bio.slice(0, 200)}{author.bio.length > 200 ? '\u2026' : ''}
+                  {author.bio.slice(0, 200)}{author.bio.length > 200 ? '…' : ''}
                 </p>
               </div>
             </div>

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 import { Container } from '@/components/layout/Container';
+import { trackNewsletterSignup } from '@/lib/analytics';
 
 type FormState = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -30,6 +31,9 @@ export default function NewsletterSignup() {
     e.preventDefault();
     setState('submitting');
     const result = await submitNewsletter(email);
+    if (result === 'success') {
+      trackNewsletterSignup();
+    }
     setState(result);
   }
 
