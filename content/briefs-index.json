@@ -346,5 +346,28 @@
       "Governance",
       "One Health"
     ]
+  },
+  {
+    "slug": "brief-16-predictive-modeling-amr-africa",
+    "title": "Harnessing Predictive Modeling for AMR Governance in Africa",
+    "weekNumber": 16,
+    "publicationDate": "2026-06-23",
+    "authorId": "samson-a",
+    "keyTakeaway": "Predictive modeling — including Random Forest, Bayesian forecasting, and agent-based simulations — enables African governments to anticipate AMR hotspots and target interventions before resistance becomes unmanageable.",
+    "executiveSummary": "Antimicrobial resistance is accelerating across Africa, driven by high infectious-disease burdens, limited diagnostics, over-the-counter antibiotic access, and environmental contamination. Predictive modeling offers African governments a powerful tool to anticipate AMR trends, identify hotspots, and target interventions where they will have the greatest impact. Using machine-learning models such as Random Forest and Bayesian forecasting, ministries can generate early-warning signals even when surveillance data are incomplete. This brief outlines how predictive modeling can support national AMR action plans, strengthen health-system resilience, and improve resource allocation across human, animal, and environmental sectors.",
+    "keyMessages": [
+      "Predictive modeling enables anticipatory governance rather than reactive response — ministries can act before resistance trends become crises",
+      "AMR hotspots are predictable using routine hospital and pharmacy data; Bayesian models reduce uncertainty in countries with limited surveillance",
+      "Agent-based models reveal behavioral drivers of antibiotic misuse; decision-tree models identify the most cost-effective stewardship actions",
+      "Ministers should endorse predictive modeling as a core component of national AMR strategies and allocate resources based on model-identified priorities",
+      "Establishing a national modeling taskforce under One-Health governance — using forecasts to support donor proposals and investment cases — is a practical first step"
+    ],
+    "pdfUrl": "/briefs/brief-16-predictive-modeling-amr-africa.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": [
+      "Predictive Analytics",
+      "One Health",
+      "Governance"
+    ]
   }
 ]
