@@ -48,3 +48,14 @@ export interface SiteContent {
   footerTagline: string;           // Short tagline shown in footer
   stats: Array<{ value: string; label: string; }>;
 }
+
+// Phase 8: Education Library types
+export type AudienceType = 'Policymaker' | 'Healthcare Worker' | 'General Public';
+export type ResourceFormat = 'Article' | 'Download' | 'Video';
+export interface EducationResource {
+  title: string;
+  audiences: AudienceType[];
+  format: ResourceFormat;
+  source: string;
+  url: string;
+}
