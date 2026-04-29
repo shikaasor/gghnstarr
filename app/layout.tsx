@@ -1,7 +1,23 @@
 import type { Metadata } from 'next';
+import { Montserrat, Inter } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import './globals.css';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['600', '700'],
+  variable: '--font-montserrat',
+  display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-inter',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://gghnstarr.vercel.app'),
@@ -26,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={`${montserrat.variable} ${inter.variable}`} suppressHydrationWarning>
       <body className="bg-slate-50 dark:bg-navy-950 font-sans antialiased flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
@@ -34,6 +50,9 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
+      {process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID && (
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID} />
+      )}
     </html>
   );
 }
