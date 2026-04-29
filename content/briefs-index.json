@@ -16,7 +16,11 @@
     ],
     "pdfUrl": "/briefs/brief-01-multi-country-pea.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Political Economy", "Governance", "Financing"]
+    "themes": [
+      "Political Economy",
+      "Governance",
+      "Financing"
+    ]
   },
   {
     "slug": "brief-02-why-countries-struggle-amr",
@@ -35,7 +39,11 @@
     ],
     "pdfUrl": "/briefs/brief-02-why-countries-struggle-amr.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Governance", "Laboratory Systems", "Financing"]
+    "themes": [
+      "Governance",
+      "Laboratory Systems",
+      "Financing"
+    ]
   },
   {
     "slug": "brief-03-political-economy-amr-africa",
@@ -54,7 +62,11 @@
     ],
     "pdfUrl": "/briefs/brief-03-political-economy-amr-africa.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Political Economy", "Governance", "Financing"]
+    "themes": [
+      "Political Economy",
+      "Governance",
+      "Financing"
+    ]
   },
   {
     "slug": "brief-04-global-impact-funding-shifts",
@@ -73,7 +85,11 @@
     ],
     "pdfUrl": "/briefs/brief-04-global-impact-funding-shifts.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Financing", "Political Economy", "Governance"]
+    "themes": [
+      "Financing",
+      "Political Economy",
+      "Governance"
+    ]
   },
   {
     "slug": "brief-05-threat-health-national-security",
@@ -92,7 +108,11 @@
     ],
     "pdfUrl": "/briefs/brief-05-threat-health-national-security.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Governance", "One Health", "Surveillance"]
+    "themes": [
+      "Governance",
+      "One Health",
+      "Surveillance"
+    ]
   },
   {
     "slug": "brief-06-domestic-budgets-donor-leverage",
@@ -112,7 +132,11 @@
     "pdfUrl": "/briefs/brief-06-domestic-budgets-donor-leverage.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
     "infographicImageUrl": "/infographics/IMG_9751.jpeg",
-    "themes": ["Financing", "Governance", "One Health"]
+    "themes": [
+      "Financing",
+      "Governance",
+      "One Health"
+    ]
   },
   {
     "slug": "brief-07-one-health-governance",
@@ -132,7 +156,11 @@
     "pdfUrl": "/briefs/brief-07-one-health-governance.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
     "infographicImageUrl": "/infographics/IMG_9752.jpeg",
-    "themes": ["One Health", "Governance", "Surveillance"]
+    "themes": [
+      "One Health",
+      "Governance",
+      "Surveillance"
+    ]
   },
   {
     "slug": "brief-08-amr-amu-surveillance",
@@ -151,7 +179,11 @@
     ],
     "pdfUrl": "/briefs/brief-08-amr-amu-surveillance.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Surveillance", "Laboratory Systems", "One Health"]
+    "themes": [
+      "Surveillance",
+      "Laboratory Systems",
+      "One Health"
+    ]
   },
   {
     "slug": "brief-09-local-laboratory-systems",
@@ -171,7 +203,11 @@
     "pdfUrl": "/briefs/brief-09-local-laboratory-systems.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
     "infographicImageUrl": "/infographics/IMG_9750.jpeg",
-    "themes": ["Laboratory Systems", "Surveillance", "Governance"]
+    "themes": [
+      "Laboratory Systems",
+      "Surveillance",
+      "Governance"
+    ]
   },
   {
     "slug": "brief-10-stewardship-ipc-interventions",
@@ -190,7 +226,11 @@
     ],
     "pdfUrl": "/briefs/brief-10-stewardship-ipc-interventions.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Stewardship", "Governance", "Laboratory Systems"]
+    "themes": [
+      "Stewardship",
+      "Governance",
+      "Laboratory Systems"
+    ]
   },
   {
     "slug": "brief-11-livestock-food-safety-trade",
@@ -209,7 +249,11 @@
     ],
     "pdfUrl": "/briefs/brief-11-livestock-food-safety-trade.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["One Health", "Food Safety", "Surveillance"]
+    "themes": [
+      "One Health",
+      "Food Safety",
+      "Surveillance"
+    ]
   },
   {
     "slug": "brief-12-environmental-amr",
@@ -228,7 +272,11 @@
     ],
     "pdfUrl": "/briefs/brief-12-environmental-amr.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Environmental", "One Health", "Surveillance"]
+    "themes": [
+      "Environmental",
+      "One Health",
+      "Surveillance"
+    ]
   },
   {
     "slug": "brief-13-digital-transformation-amr",
@@ -247,7 +295,11 @@
     ],
     "pdfUrl": "/briefs/brief-13-digital-transformation-amr.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Digital Health", "Surveillance", "Laboratory Systems"]
+    "themes": [
+      "Digital Health",
+      "Surveillance",
+      "Laboratory Systems"
+    ]
   },
   {
     "slug": "brief-14-post-shock-political-economic",
@@ -266,7 +318,11 @@
     ],
     "pdfUrl": "/briefs/brief-14-post-shock-political-economic.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Political Economy", "Financing", "Governance"]
+    "themes": [
+      "Political Economy",
+      "Financing",
+      "Governance"
+    ]
   },
   {
     "slug": "brief-15-key-messages-5th-amr-conference",
@@ -285,7 +341,10 @@
     ],
     "pdfUrl": "/briefs/brief-15-key-messages-5th-amr-conference.pdf",
     "thumbnailUrl": "/images/amr-logo.jpeg",
-    "themes": ["Conference", "Governance", "One Health"],
-    "featured": true
+    "themes": [
+      "Conference",
+      "Governance",
+      "One Health"
+    ]
   }
 ]
