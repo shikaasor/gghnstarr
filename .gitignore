@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# large binary / source documents
+resources/*.pptx
+resources/*.docx
+resources/*.zip
