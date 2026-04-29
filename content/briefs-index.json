@@ -1,63 +1,291 @@
 [
   {
-    "slug": "week-01-amr-governance-frameworks",
-    "title": "Strengthening National AMR Governance Frameworks in West Africa",
+    "slug": "brief-01-multi-country-pea",
+    "title": "#1: A Multi-Country Political–Economic Analysis of AMR Systems in Africa",
     "weekNumber": 1,
     "publicationDate": "2026-03-10",
-    "authorId": "olawale-a",
-    "keyTakeaway": "Countries with legislated AMR national action plans show 34% lower broad-spectrum antibiotic consumption compared to countries with only voluntary guidelines.",
-    "executiveSummary": "This policy brief examines governance structures for antimicrobial resistance (AMR) management across 15 West African nations. Drawing on NIPAD platform surveillance data and WHO AFRO country assessments, we find a significant correlation between legally mandated national AMR action plans and reduced broad-spectrum antibiotic consumption. Countries with legislation in place (including Ghana, Senegal, and Côte d'Ivoire) demonstrate substantially lower consumption indices than neighboring countries relying on voluntary frameworks. Our predictive models project that without governance strengthening, the region faces a 40% increase in AMR-attributable mortality by 2035. We recommend immediate legislative action to formalize AMR oversight committees with dedicated budget lines, mandatory hospital antibiotic stewardship programs, and cross-border surveillance data-sharing agreements under the Africa CDC continental AMR framework.",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Outline — full brief forthcoming. Comparative political-economy analysis of AMR governance across 10+ African countries, examining how governance strength, financing, and institutional incentives shape AMR outcomes.",
+    "executiveSummary": "This policy brief synthesizes cross-country evidence to provide ministers with a strategic overview of the structural factors shaping AMR system performance. Countries with similar epidemiological profiles diverge sharply in performance due to differences in coordination, financing, regulatory enforcement, and digital infrastructure. The analysis draws on political economy frameworks, health systems research, and comparative insights from Fleming Fund implementation across Africa. It highlights where progress is occurring, where systems remain fragile, and what political-economic conditions must be addressed to translate AMR policy commitments into measurable impact.",
     "keyMessages": [
-      "Legislated AMR national action plans reduce broad-spectrum antibiotic consumption by an average of 34% compared to voluntary guidelines",
-      "Only 4 of 15 surveyed West African countries have legally binding AMR governance frameworks as of 2026",
-      "NIPAD platform data shows AMR-attributable mortality is increasing at 8% annually in countries without structured governance",
-      "Cross-border data sharing under Africa CDC frameworks reduces surveillance blind spots that drive AMR spread",
-      "Dedicated AMR budget lines (minimum 0.5% of health ministry budgets) correlate with effective stewardship program implementation"
+      "AMR outcomes are shaped by political-economic structures — governance strength, fiscal space, institutional incentives, and system resilience — not just technical capacity",
+      "Countries with formalized, empowered One Health platforms demonstrate more coherent AMR responses; stronger coordination observed in Rwanda, Uganda, and Kenya",
+      "AMR remains chronically underfunded across all countries assessed; most rely heavily on donors for laboratory systems, surveillance, and stewardship",
+      "Political economy analysis explains why structural weaknesses persist: AMR competes with more politically visible health priorities and institutional mandates are often unclear",
+      "Outline — full multi-country PEA brief forthcoming with complete findings and recommendations"
     ],
-    "pdfUrl": "/briefs/week-01-amr-governance-frameworks.pdf",
-    "infographicPdfUrl": "/infographics/week-01-amr-governance-frameworks-infographic.pdf",
-    "thumbnailUrl": "/images/thumbnails/week-01-amr-governance-frameworks.jpg",
-    "themes": ["Governance", "Stewardship"]
+    "pdfUrl": "/briefs/brief-01-multi-country-pea.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Political Economy", "Governance", "Financing"]
   },
   {
-    "slug": "week-02-laboratory-systems-capacity",
-    "title": "Accelerating AMR Laboratory Surveillance Capacity in East Africa",
+    "slug": "brief-02-why-countries-struggle-amr",
+    "title": "Why Countries Struggle to Adapt Global AMR Guidance: Key Challenges and What Ministers Need to Know",
     "weekNumber": 2,
     "publicationDate": "2026-03-17",
-    "authorId": "samson-a",
-    "keyTakeaway": "Whole-genome sequencing surveillance in regional hub laboratories can achieve continental AMR pathogen coverage at one-quarter the cost of building national capacity in every country.",
-    "executiveSummary": "Effective AMR surveillance requires culture-based and genomic laboratory capacity that most African countries currently lack. This brief presents a hub-and-spoke model for East Africa, where three regional reference laboratories (Kenya, Ethiopia, Tanzania) equipped with whole-genome sequencing infrastructure serve as analytical hubs for nine surrounding countries. STARR modeling using GlobalPPS data demonstrates that this architecture achieves 87% pathogen coverage at 24% of the capital cost of independent national build-outs. The Fleming Fund has demonstrated proof-of-concept in the Western Pacific; we provide a costed adaptation roadmap for East Africa. Policy-makers are urged to endorse the Africa CDC Regional Integrated Surveillance and Laboratory Network (RISLNET) expansion proposal at the June 2026 Inter-Ministerial Conference.",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Most countries face a persistent gap between global AMR guidance and national implementation due to fragmented governance, weak laboratory capacity, and chronic underfunding — not a lack of global standards.",
+    "executiveSummary": "Global AMR guidance documents issued by WHO, FAO, WOAH, and UNEP provide strong technical direction, yet most countries struggle to translate them into functional national systems. This brief highlights the major barriers: fragmented leadership across ministries, weak technical and human resource capacity, limited laboratory infrastructure for GLASS-quality data, disconnected data systems, chronic underfunding, weak regulatory enforcement, and cultural factors affecting antibiotic use. The result is a persistent gap between global expectations and national realities that slows AMR containment progress across the continent.",
     "keyMessages": [
-      "A hub-and-spoke regional laboratory model achieves 87% AMR pathogen coverage at 24% of the cost of independent national capacity",
-      "Three strategically positioned reference laboratories in Kenya, Ethiopia, and Tanzania can serve all nine East African Community member states",
-      "Whole-genome sequencing turnaround of under 72 hours is achievable with current platform costs and existing trained personnel",
-      "RISLNET expansion requires political endorsement at ministerial level to unlock Fleming Fund co-financing commitments",
-      "Specimen transport cold-chain protocols are the critical operational bottleneck; standard SOPs are available from Africa CDC and ready for adoption"
+      "Fragmented leadership across ministries of Health, Agriculture, and Environment leads to siloed planning and weak One Health coordination",
+      "Limited numbers of microbiologists, epidemiologists, and environmental scientists prevent countries from contextualizing global standards into national protocols",
+      "Many labs lack bacteriology capacity and quality systems, restricting participation in GLASS and other global surveillance platforms",
+      "Chronic underfunding and donor dependency mean NAPs are frequently adopted without the financial systems required for sustainable implementation",
+      "Cultural norms, informal drug markets, and patient expectations drive antibiotic overuse in ways that global guidance frameworks do not adequately address"
     ],
-    "pdfUrl": "/briefs/week-02-laboratory-systems-capacity.pdf",
-    "infographicPdfUrl": "/infographics/week-02-laboratory-systems-capacity-infographic.pdf",
-    "thumbnailUrl": "/images/thumbnails/week-02-laboratory-systems-capacity.jpg",
-    "themes": ["Laboratory Systems", "One Health"]
+    "pdfUrl": "/briefs/brief-02-why-countries-struggle-amr.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Governance", "Laboratory Systems", "Financing"]
   },
   {
-    "slug": "week-03-predictive-analytics-amr-burden",
-    "title": "Predictive Modeling of AMR Burden Under Antibiotic Policy Scenarios",
+    "slug": "brief-03-political-economy-amr-africa",
+    "title": "The Political Economy of Antimicrobial Resistance (AMR) in Africa",
     "weekNumber": 3,
     "publicationDate": "2026-03-24",
-    "authorId": "olawale-a",
-    "keyTakeaway": "STARR SEIR-Bayesian models project that a 20% reduction in unnecessary outpatient antibiotic prescriptions could prevent 1.2 million AMR deaths across Africa by 2035.",
-    "executiveSummary": "The GGHN STARR initiative deploys a coupled SEIR-Bayesian transmission model calibrated against WHONET and GlobalPPS surveillance data to project AMR burden trajectories under alternative antibiotic policy scenarios. This brief presents scenario analyses for three intervention packages (enhanced diagnostic stewardship, community prescribing guidelines, and hospital formulary restrictions) modeled across 22 African countries. Results indicate that combined interventions yield non-linear synergistic effects: simultaneous implementation of all three packages is projected to prevent 40% more deaths than the sum of individual interventions. The NIPAD platform visualizations underpinning these projections are available to national health ministries upon request. We call on ministers to commission country-level scenario analyses to inform national AMR investment plans ahead of the June 2026 conference.",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "AMR governance failures in Africa are rooted in misaligned economic incentives, donor dependency, and weak regulatory enforcement — structural political-economic conditions that policy frameworks alone cannot overcome.",
+    "executiveSummary": "This policy brief moves beyond the biomedical framing of AMR to identify the political and structural drivers constraining effective AMR governance. Only 6 African nations actively monitor NAP implementation, largely due to competition with more visible priorities, economic disincentives for strict regulation, and reliance on external donor financing. Misaligned incentives lead clinicians, pharmacies, livestock producers, and pharmaceutical markets to perpetuate antibiotic overuse. Donor-dependent programs such as the Fleming Fund, ICARS, and Trinity Challenge are time-limited, leaving surveillance systems vulnerable. Weak regulatory capacity allows unregulated over-the-counter antibiotic sales to persist despite prescription-only laws.",
     "keyMessages": [
-      "A 20% reduction in unnecessary outpatient antibiotic prescriptions is projected to prevent 1.2 million AMR deaths by 2035 across the continent",
-      "Combined diagnostic stewardship, community guidelines, and hospital formulary restrictions show 40% greater impact than sum of individual interventions",
-      "SEIR-Bayesian models are now calibrated for 22 African countries using WHONET and GlobalPPS surveillance data as of Q1 2026",
-      "Country-specific scenario analyses are available to health ministries via the NIPAD platform; contact GGHN STARR to request access",
-      "Investment in AMR interventions shows a 12:1 return ratio when modeled against averted hospitalizations and productivity losses"
+      "Only 6 African nations (Burkina Faso, Côte d'Ivoire, Nigeria, South Africa, Kenya, Mozambique) actively monitor AMR NAP implementation",
+      "Economic incentives drive overuse: clinicians, pharmacies, livestock producers, and pharmaceutical markets all benefit from antibiotic sales volume",
+      "Donor-dependent AMR programs create surveillance systems that weaken once project funding ends — without domestic financing they cannot be sustained",
+      "Weak regulatory enforcement allows over-the-counter antibiotic sales to persist across the continent despite existing prescription-only laws",
+      "Reforming incentive structures is the prerequisite for effective AMR control — technical interventions alone will not stem overuse without addressing political-economic root causes"
     ],
-    "pdfUrl": "/briefs/week-03-predictive-analytics-amr-burden.pdf",
-    "infographicPdfUrl": "/infographics/week-03-predictive-analytics-amr-burden-infographic.pdf",
-    "thumbnailUrl": "/images/thumbnails/week-03-predictive-analytics-amr-burden.jpg",
-    "themes": ["Predictive Analytics", "Stewardship", "One Health"],
+    "pdfUrl": "/briefs/brief-03-political-economy-amr-africa.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Political Economy", "Governance", "Financing"]
+  },
+  {
+    "slug": "brief-04-global-impact-funding-shifts",
+    "title": "Global Economic Impact of US Funding Shifts (February 2025)",
+    "weekNumber": 4,
+    "publicationDate": "2026-03-31",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Recent US development assistance cuts create compounding external shocks for African AMR systems — disrupting laboratory networks, surveillance programs, and One Health coordination that were already donor-dependent.",
+    "executiveSummary": "This brief examines how shifts in US development assistance create external economic shocks threatening the AMR response in Africa. For decades the US was the largest contributor to global health assistance; recent cuts to international health programs have disrupted funding for disease surveillance, laboratory strengthening, and outbreak response that also supports AMR monitoring. These changes coincide with declining global development assistance and rising African debt burdens. Spillover effects include interrupted TB and HIV treatment — which can accelerate drug resistance — declining WASH programs, and reduced investment in agricultural AMR programs. AMR initiatives not integrated into national budgets face significant sustainability risks.",
+    "keyMessages": [
+      "US funding cuts disrupt AMR surveillance programs indirectly by eliminating co-funding from TB, HIV, and WASH programs that share laboratory infrastructure",
+      "Reduced investment in One Health agricultural programs sabotages efforts to mitigate AMR in livestock and food systems",
+      "Countries where AMR initiatives rely on external donors face immediate sustainability crises as donor funding is withdrawn or redirected",
+      "African countries experiencing rising debt burdens lack the fiscal space to rapidly replace lost health assistance",
+      "Ministers should use this moment to accelerate domestic financing mechanisms and reduce structural dependence on single-donor AMR funding"
+    ],
+    "pdfUrl": "/briefs/brief-04-global-impact-funding-shifts.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Financing", "Political Economy", "Governance"]
+  },
+  {
+    "slug": "brief-05-threat-health-national-security",
+    "title": "Antimicrobial Resistance (AMR) as a National Security and Health Security Threat in Africa",
+    "weekNumber": 5,
+    "publicationDate": "2026-04-07",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "AMR is a national security threat — resistant pathogens cross borders through trade, travel, and food systems, threatening pandemic preparedness and Universal Health Coverage in ways that require engagement at the highest levels of government.",
+    "executiveSummary": "This policy brief informs African Ministers of Health about AMR as both a national security and health security issue. Africa bears the highest AMR burden globally; without urgent intervention, AMR could reverse gains in treating infectious diseases while threatening routine medical procedures including surgery, cancer treatment, and childbirth. Key drivers include weak surveillance systems, inappropriate antibiotic use, limited laboratory capacity, poor infection prevention and control, fragmented One Health coordination, and insufficient domestic financing. AMR threatens health system stability, economic productivity, pandemic preparedness, Universal Health Coverage progress, and regional and global security through transnational pathogen spread.",
+    "keyMessages": [
+      "Africa bears the highest global AMR burden — without urgent intervention, common infections risk becoming untreatable, reversing decades of health progress",
+      "Resistant pathogens cross borders through trade, travel, migration, and food systems, making AMR a transnational security threat requiring national security-level prioritization",
+      "AMR weakens pandemic preparedness systems — the same surveillance and laboratory infrastructure needed for outbreak detection is degraded by AMR pressures",
+      "AMR threatens Universal Health Coverage progress as treatments become more expensive, less effective, and unavailable to lower-income populations",
+      "Ministers should integrate AMR into national security and development agendas and engage heads of government and security councils in AMR governance"
+    ],
+    "pdfUrl": "/briefs/brief-05-threat-health-national-security.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Governance", "One Health", "Surveillance"]
+  },
+  {
+    "slug": "brief-06-domestic-budgets-donor-leverage",
+    "title": "Financing Antimicrobial Resistance (AMR): Domestic Budgets, Donor Leverage & Sustainable Funding in Africa",
+    "weekNumber": 6,
+    "publicationDate": "2026-04-14",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Sustainable AMR financing requires African governments to establish dedicated domestic budget lines, integrate AMR into UHC and disease programs, and use donor funds strategically for long-term system strengthening rather than short-term program delivery.",
+    "executiveSummary": "Despite growing recognition of the AMR threat, financing remains heavily donor-driven. Many African countries rely on USAID, World Bank, and Global Fund for AMR surveillance and laboratory systems. Donor cycles are short-term, project-based, and disease-specific, creating sustainability challenges. This brief outlines practical financing models: integrating AMR into domestic health budgets with dedicated budget lines; leveraging existing TB and HIV laboratory networks for AMR surveillance; establishing pooled One Health financing trust funds across ministries; exploring innovative revenue mechanisms such as health security levies and agricultural antibiotic usage fees; and developing public-private partnerships with diagnostic and pharmaceutical companies.",
+    "keyMessages": [
+      "Dedicated AMR budget lines within national health plans are the most critical first step — without them, tracking and allocating AMR funding is structurally impossible",
+      "Integrating AMR into existing TB and HIV programs maximizes existing infrastructure at minimal additional cost — GLASS reporting can leverage the same lab networks",
+      "Pooled One Health financing across ministries of Health, Agriculture, and Environment creates the cross-sector foundation that fragmented budgets cannot provide",
+      "Innovative domestic revenue mechanisms — health security levies on pharmaceutical imports, agricultural antibiotic usage fees — offer predictable non-donor funding streams",
+      "Donor funds should be directed toward long-term system strengthening (laboratory networks, data systems) rather than short-term program delivery that creates dependency"
+    ],
+    "pdfUrl": "/briefs/brief-06-domestic-budgets-donor-leverage.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "infographicImageUrl": "/infographics/IMG_9751.jpeg",
+    "themes": ["Financing", "Governance", "One Health"]
+  },
+  {
+    "slug": "brief-07-one-health-governance",
+    "title": "Strengthening One Health Governance for Antimicrobial Resistance (AMR): How Ministers Can Fix Coordination Failures Across Human, Animal, and Environmental Sectors",
+    "weekNumber": 7,
+    "publicationDate": "2026-04-21",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "One Health AMR governance failures stem from fragmented institutional leadership, not a lack of national action plans — coordination platforms exist but lack legal mandates, dedicated budgets, and cross-sector authority to enforce action.",
+    "executiveSummary": "The One Health approach has been widely adopted for AMR, yet across many African countries implementation remains weak due to fragmented governance and poor cross-sector coordination. Despite the development of National Action Plans, ministries work independently, leading to duplication, inefficient resource allocation, weak surveillance, and limited accountability. Key issues include fragmented institutional leadership where coordination platforms lack authority; weak integrated surveillance where human, veterinary, and environmental systems are rarely connected; unregulated antimicrobial use in animals due to informal drug markets; limited environmental oversight of pharmaceutical waste and agricultural runoff; and insufficient financing for coordination bodies.",
+    "keyMessages": [
+      "One Health coordination platforms exist in many countries but lack legal mandates, budgets, and authority to enforce cross-sectoral AMR action — structural reform is required",
+      "Human health, veterinary, and environmental surveillance systems are rarely integrated, creating incomplete AMR data and delayed outbreak detection",
+      "Unregulated antimicrobial use in livestock — for disease prevention, growth promotion, and routine farming — remains the largest unaddressed AMR driver in many African countries",
+      "Pharmaceutical waste, hospital effluents, and agricultural runoff introduce antimicrobial residues into water systems, but environmental AMR oversight remains almost entirely absent",
+      "Countries with strong One Health governance (Rwanda, Uganda, Kenya) demonstrate measurably more coherent AMR responses compared to countries where ministries operate independently"
+    ],
+    "pdfUrl": "/briefs/brief-07-one-health-governance.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "infographicImageUrl": "/infographics/IMG_9752.jpeg",
+    "themes": ["One Health", "Governance", "Surveillance"]
+  },
+  {
+    "slug": "brief-08-amr-amu-surveillance",
+    "title": "Designing Integrated Antimicrobial Resistance (AMR) and Antimicrobial Use (AMU) Surveillance in Africa: Using GLASS, ATLASS, WOAH and TISSA",
+    "weekNumber": 8,
+    "publicationDate": "2026-04-28",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Integrated AMR and AMU surveillance requires deploying GLASS, ATLASS, WOAH, and TISSA as a unified architecture — not as independent tools — with shared data standards, cross-sector reporting, and sustained domestic investment in laboratory quality.",
+    "executiveSummary": "Despite progress through National Action Plans, many African countries still lack comprehensive surveillance systems that can inform policy decisions. GLASS, ATLASS, and WOAH surveillance standards provide tools to strengthen surveillance, but they are typically implemented independently rather than as a unified system. Key challenges include fragmented surveillance systems that do not share data across human health, animal health, and food sectors; limited laboratory capacity with few functional microbiology labs capable of GLASS-quality antimicrobial susceptibility testing; insufficient data on antimicrobial use in humans and animals; weak data integration and reporting across ministries; and resource constraints requiring sustained domestic investment in infrastructure, workforce, and digital health systems.",
+    "keyMessages": [
+      "GLASS, ATLASS, WOAH, and TISSA must be deployed as a unified integrated architecture — implementing them independently limits their collective surveillance value",
+      "Many African countries cannot produce GLASS-quality data because they lack functional microbiology labs, quality assurance systems, and trained laboratory scientists",
+      "Reliable AMU data on antibiotic consumption in humans and animals remains scarce across most of Africa, preventing targeted interventions to reduce misuse",
+      "Human, animal, food, and environmental surveillance data are stored in disconnected databases without shared standards — integrated One Health surveillance cannot function under these conditions",
+      "Countries with robust surveillance can contribute to global monitoring (GLASS, WOAH, FAO ATLASS) while positioning themselves to attract international partnerships and funding"
+    ],
+    "pdfUrl": "/briefs/brief-08-amr-amu-surveillance.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Surveillance", "Laboratory Systems", "One Health"]
+  },
+  {
+    "slug": "brief-09-local-laboratory-systems",
+    "title": "Strengthening Laboratory Systems for AMR Data Quality: What Ministers Must Invest in to Meet GLASS Quality Standards",
+    "weekNumber": 9,
+    "publicationDate": "2026-05-05",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "GLASS-quality AMR surveillance requires targeted investment in laboratory infrastructure, quality management systems, workforce training, and digitized data systems — without these foundations, resistance data remains unreliable and policy responses are blind.",
+    "executiveSummary": "To address the AMR threat, countries must participate in the Global Antimicrobial Resistance Surveillance System (GLASS), which requires standardized, high-quality laboratory data. Many African countries face significant challenges: weak laboratory infrastructure lacking equipment, biosafety systems, and diagnostic tools for antimicrobial susceptibility testing; limited external quality assessment participation; critical shortage of trained laboratory scientists and epidemiologists; fragmented data systems not integrated with national surveillance platforms; and inadequate supply chains causing stock-outs of culture media and reagents. Strengthening laboratory systems is the essential foundation for evidence-based AMR policy, national treatment guidelines, global health security contribution, international funding access, and reduced economic burden from drug-resistant infections.",
+    "keyMessages": [
+      "Weak laboratory infrastructure — missing equipment, biosafety systems, and AST diagnostic tools — produces low-quality data that undermines clinical prescribing decisions and surveillance",
+      "Critical shortage of trained medical laboratory scientists, genomic scientists, and epidemiologists limits the capacity to generate and interpret AMR data at national scale",
+      "Few laboratories participate in external quality assessment schemes, lowering accuracy relative to international GLASS standards and disqualifying data from global reporting",
+      "AMR data are often not digitized or integrated with national surveillance platforms, causing delayed and incomplete GLASS reporting",
+      "Countries that meet GLASS standards are better positioned to attract international funding, partnerships, and technical support for sustained AMR programs"
+    ],
+    "pdfUrl": "/briefs/brief-09-local-laboratory-systems.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "infographicImageUrl": "/infographics/IMG_9750.jpeg",
+    "themes": ["Laboratory Systems", "Surveillance", "Governance"]
+  },
+  {
+    "slug": "brief-10-stewardship-ipc-interventions",
+    "title": "Stewardship & Infection Prevention and Control (IPC): The Most Cost-Effective Interventions to Combat Antimicrobial Resistance (AMR)",
+    "weekNumber": 10,
+    "publicationDate": "2026-05-12",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Antimicrobial stewardship and infection prevention and control represent the highest-impact, lowest-cost policy wins available to African health ministers — they immediately reduce unnecessary antibiotic use and prevent infections before they occur.",
+    "executiveSummary": "In many African healthcare settings, antibiotics are frequently prescribed unnecessarily while infections spread due to gaps in hygiene and IPC systems. This brief argues that Antimicrobial Stewardship (AMS) and Infection Prevention and Control (IPC) offer the highest impact for the lowest cost among all available AMR interventions. Key issues driving AMR include weak stewardship programs where hospitals lack structured guidance for clinicians; poor IPC systems with insufficient hand hygiene compliance, overcrowded hospitals, and limited training; limited surveillance to monitor antimicrobial use patterns; and inadequate health worker training. AMS and IPC together immediately reduce unnecessary antibiotic use, prevent infections before they occur, reduce healthcare costs, slow resistance emergence, and improve patient safety.",
+    "keyMessages": [
+      "Antimicrobial stewardship and IPC offer the highest impact for the lowest cost — they reduce unnecessary antibiotic use immediately without requiring new infrastructure",
+      "Many hospitals lack structured AMS programs, leading to empirical prescribing, antibiotic use for viral infections, and incorrect dosing — all preventable with proper guidance",
+      "Insufficient hand hygiene compliance, overcrowded hospitals, and inadequate sanitation allow resistant pathogens to spread within health facilities and into communities",
+      "AMS and IPC protect health systems by preserving the effectiveness of antibiotics needed for surgery, childbirth, chemotherapy, and routine infectious disease treatment",
+      "Health worker training in rational antimicrobial use and infection prevention is the essential enabler — stewardship is only as effective as the workforce implementing it"
+    ],
+    "pdfUrl": "/briefs/brief-10-stewardship-ipc-interventions.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Stewardship", "Governance", "Laboratory Systems"]
+  },
+  {
+    "slug": "brief-11-livestock-food-safety-trade",
+    "title": "Addressing Antimicrobial Resistance (AMR) in Livestock, Food Safety, and Agriculture in Africa",
+    "weekNumber": 11,
+    "publicationDate": "2026-05-19",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Antimicrobial overuse in African livestock is poorly regulated, under-surveilled, and directly transmits drug-resistant bacteria into human food chains — urgent veterinary regulation, surveillance, and One Health coordination are needed.",
+    "executiveSummary": "Antimicrobials are widely used in African livestock for treatment, disease prevention, and growth promotion, and in many countries can be purchased without veterinary prescription. Key issues include weak regulation of veterinary antimicrobials enabling over-the-counter access and misuse; limited surveillance systems for AMU and AMR in animals, food products, and agricultural environments; inadequate veterinary services leading farmers to self-administer antimicrobials without diagnosis; continued use of antimicrobials as growth promoters; food safety processing gaps allowing resistant pathogens to enter the food chain; and poor waste management contaminating soil and water. Drug-resistant infections from animal sources create public health threats, undermine food safety, threaten trade and export certification, and sabotage One Health coordination efforts.",
+    "keyMessages": [
+      "Antibiotics can be purchased over-the-counter without veterinary prescription in many African countries, enabling misuse and accelerating resistance in animal populations",
+      "Few countries have robust surveillance systems for AMU and AMR in animals and food products — resistance patterns in food production may go undetected until human transmission occurs",
+      "Antimicrobials used as growth promoters in livestock — a globally discouraged practice — continue in Africa, directly contributing to resistance emergence and spreading to humans through food",
+      "Resistant bacteria in the food chain undermine consumer safety, threaten export certification under WOAH compliance standards, and reduce agricultural productivity",
+      "Ministers of Health must coordinate with Agriculture and Environment ministries to implement One Health regulatory frameworks that cover veterinary drug distribution and food safety systems"
+    ],
+    "pdfUrl": "/briefs/brief-11-livestock-food-safety-trade.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["One Health", "Food Safety", "Surveillance"]
+  },
+  {
+    "slug": "brief-12-environmental-amr",
+    "title": "Environmental AMR – The Missing Pillar in National Plans",
+    "weekNumber": 12,
+    "publicationDate": "2026-05-26",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Environmental AMR — spread through untreated wastewater, pharmaceutical effluents, and agricultural runoff — is the missing pillar in African national action plans, leaving a major resistance transmission pathway entirely unmonitored and unaddressed.",
+    "executiveSummary": "UNEP has identified environmental AMR as a critical yet overlooked component of the One Health framework. In many African countries, weak wastewater management systems and rapid urbanisation amplify this risk. A large proportion of wastewater in African cities is untreated before discharge, releasing antibiotic residues and resistant microorganisms into rivers, groundwater, and irrigation systems. Pharmaceutical manufacturing sites discharge antibiotic compounds into surrounding water bodies, creating resistance hotspots. Most national AMR surveillance systems focus on clinical and veterinary settings but rarely include environmental monitoring. African countries also lack regulations on antibiotic discharge limits, standards for pharmaceutical wastewater treatment, and environmental AMR monitoring frameworks.",
+    "keyMessages": [
+      "Environmental AMR is the missing pillar in African national action plans — untreated wastewater, pharmaceutical effluents, and agricultural runoff create resistance hotspots that no current surveillance captures",
+      "A large proportion of wastewater in African cities is discharged untreated, releasing antibiotic residues and resistant bacteria into rivers, groundwater, and irrigation systems used for drinking and food production",
+      "Pharmaceutical manufacturing sites without adequate effluent treatment act as concentration hotspots for resistance development, accelerating the evolution of highly resistant bacterial strains",
+      "National AMR surveillance systems across Africa rarely include environmental monitoring, leaving a major resistance transmission pathway entirely invisible to policy",
+      "Ministers should update national AMR strategies to explicitly include environmental pillars and strengthen cross-sector collaboration with environment, water, and industry ministries"
+    ],
+    "pdfUrl": "/briefs/brief-12-environmental-amr.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Environmental", "One Health", "Surveillance"]
+  },
+  {
+    "slug": "brief-13-digital-transformation-amr",
+    "title": "Digital Transformation for Antimicrobial Resistance (AMR): AI, Interoperability & Real-Time Data",
+    "weekNumber": 13,
+    "publicationDate": "2026-06-02",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "AI analytics, interoperable health information systems, and real-time data platforms can modernize AMR surveillance in Africa — but only with investment in electronic laboratory systems, cloud infrastructure, and health informatics workforce capacity.",
+    "executiveSummary": "Although many countries have adopted National Action Plans aligned with WHO's Global Action Plan on AMR, surveillance remains limited. Digital technologies — AI analytics, electronic laboratory systems, and interoperable health information systems — offer powerful tools to modernise AMR surveillance and stewardship. Key challenges include fragmented, non-interoperable data systems that cannot communicate across sectors; AMR data often reported months or years after collection; under-utilisation of AI and advanced analytics due to infrastructure, workforce, and governance gaps; and dependency on electronic laboratory information systems, secure data platforms, skilled health informatics professionals, and reliable internet and cloud infrastructure that many countries currently lack.",
+    "keyMessages": [
+      "Most African countries operate multiple health information systems that cannot communicate with each other, making integrated One Health AMR tracking structurally impossible without interoperability reform",
+      "AMR data are often reported months or years after collection — this latency eliminates the ability to respond in real time to emerging resistance patterns or outbreaks",
+      "AI and advanced analytics can detect emerging resistance patterns and optimize antibiotic use, but most African countries lack the infrastructure, trained workforce, and governance frameworks to deploy them",
+      "Digital AMR systems require electronic laboratory information systems, secure data platforms, health informatics professionals, and reliable internet — these prerequisites must be funded first",
+      "Countries with strong digital surveillance systems can contribute to global monitoring initiatives (GLASS, WOAH, FAO ATLASS) while attracting international partnerships and funding"
+    ],
+    "pdfUrl": "/briefs/brief-13-digital-transformation-amr.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Digital Health", "Surveillance", "Laboratory Systems"]
+  },
+  {
+    "slug": "brief-14-post-shock-political-economic",
+    "title": "#14: Post-Shock Political–Economic Conditions (Outline)",
+    "weekNumber": 14,
+    "publicationDate": "2026-06-09",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Outline — full brief forthcoming. Examines how macroeconomic shocks (US funding cuts, fiscal tightening, geopolitical instability, supply chain disruptions) have reshaped AMR governance, laboratory systems, and financing across African countries since early 2025.",
+    "executiveSummary": "Outline — full brief forthcoming. This brief will examine post-shock political-economic conditions affecting AMR systems: macroeconomic shifts including rising debt burdens and donor contraction; governance and institutional stability across countries; health system and laboratory impacts from economic shocks on procurement and EQA participation; veterinary and food safety system effects; digital surveillance and data interoperability changes; and environmental AMR risks emerging from urbanisation and wastewater mismanagement. It will document what remained stable and what changed, with implications for AMR policy and financing priorities for the next 12-24 months.",
+    "keyMessages": [
+      "Outline — full brief forthcoming",
+      "Brief will analyze how March 2026 shock events (global funding shifts, domestic fiscal tightening, supply chain disruptions) are reshaping AMR systems across Africa",
+      "Will document which countries strengthened AMR governance post-shock and which experienced stagnation or regression",
+      "Will examine how economic shocks affected laboratory procurement, EQA participation, GLASS reporting, and data quality",
+      "Will provide minister-facing implications for AMR policy, financing, and implementation priorities for the next 12-24 months"
+    ],
+    "pdfUrl": "/briefs/brief-14-post-shock-political-economic.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Political Economy", "Financing", "Governance"]
+  },
+  {
+    "slug": "brief-15-key-messages-5th-amr-conference",
+    "title": "#15: Key Messages for the 5th Global AMR Conference (Outline)",
+    "weekNumber": 15,
+    "publicationDate": "2026-06-16",
+    "authorId": "piringar-mercy-niyang",
+    "keyTakeaway": "Outline — full brief forthcoming. Synthesizes all 15 weeks of the Africa AMR policy brief series into ten actionable conference commitments for African ministers — from domestic budget lines to GLASS reporting — to drive the June 2026 inter-ministerial agenda.",
+    "executiveSummary": "Outline — full brief forthcoming. This capstone brief will synthesize the entire 15-week Africa AMR Policy Brief Series for the 5th Global AMR Conference. It will cover: the African AMR reality in 2026 as revealed by comparative analysis across 10+ countries; the five most urgent AMR threats for ministers including rising resistance, unregulated livestock use, weak laboratory systems, digital fragmentation, and environmental AMR; the five most cost-effective interventions — AMS, IPC, integrated surveillance, One Health governance, and laboratory quality systems; what ministers need to do differently to move from donor-dependence to domestic financing; and ten actionable conference-ready commitments for ministers covering budgets, surveillance, One Health, laboratory quality, digital health, and global reporting obligations.",
+    "keyMessages": [
+      "Outline — full brief forthcoming",
+      "Ten actionable conference commitments will be presented, including: allocate a protected AMR budget line in FY2026/27; establish national AMR/AMU/AMC surveillance systems; mandate quarterly One Health AMRCC meetings",
+      "The five most urgent AMR threats identified across the 15-week series: rising resistance in priority pathogens, unregulated livestock antimicrobial use, weak laboratory and surveillance systems, digital fragmentation, and environmental AMR",
+      "The five most cost-effective interventions: antimicrobial stewardship (AMS), infection prevention and control (IPC), integrated AMR/AMU surveillance, One Health governance strengthening, and targeted laboratory quality investments",
+      "Closing call for African leadership at the global AMR stage — emphasizing sovereignty, sustainability, and long-term system resilience as the conference agenda framework"
+    ],
+    "pdfUrl": "/briefs/brief-15-key-messages-5th-amr-conference.pdf",
+    "thumbnailUrl": "/images/amr-logo.jpeg",
+    "themes": ["Conference", "Governance", "One Health"],
     "featured": true
   }
 ]
