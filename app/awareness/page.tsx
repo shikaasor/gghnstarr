@@ -8,6 +8,72 @@ export const metadata: Metadata = {
   description: 'Learn about antimicrobial resistance — what it is, why it matters for Africa, and what you can do. Explore infographics and download fact sheets.',
 };
 
+const statCards = [
+  {
+    value: '1.27M',
+    label: 'Deaths globally per year from bacterial AMR (2019 WHO)',
+    icon: '👤',
+  },
+  {
+    value: '47',
+    label: 'African countries with National AMR Action Plans',
+    icon: '🌍',
+  },
+  {
+    value: '$100T',
+    label: 'Projected lost global output by 2050 if no action taken',
+    icon: '💰',
+  },
+  {
+    value: '10M',
+    label: 'Projected annual deaths from AMR by 2050 — surpassing cancer',
+    icon: '⚕️',
+  },
+];
+
+const amrStories = [
+  {
+    image: '/infographics/IMG_9750.jpeg',
+    title: 'AMR Laboratory Surveillance in Rwanda',
+    caption: 'Strengthening diagnostic capacity and laboratory networks to detect and monitor antimicrobial resistance across Rwanda\'s health system.',
+    href: 'https://www.flemingfund.org/',
+  },
+  {
+    image: '/infographics/IMG_9751.jpeg',
+    title: 'Financing AMR Response in Rwanda',
+    caption: 'Domestic financing mechanisms and resource mobilisation strategies to sustain Rwanda\'s national AMR action plan implementation.',
+    href: 'https://africacdc.org/',
+  },
+  {
+    image: '/infographics/IMG_9752.jpeg',
+    title: 'One Health Governance for AMR',
+    caption: 'Coordinating human, animal, and environmental health sectors under a One Health framework to address AMR at its source.',
+    href: 'https://www.who.int/',
+  },
+];
+
+const actionCards = [
+  {
+    title: 'Explore the Education Library',
+    description: 'Find resources tailored to your role — policymaker, healthcare worker, or general public.',
+    href: '/education',
+    label: 'Browse Resources',
+  },
+  {
+    title: 'Take Action',
+    description: 'Sign a public pledge, record a prescribing commitment, or download advocacy toolkit assets.',
+    href: '/take-action',
+    label: 'Take Action',
+  },
+  {
+    title: 'Download Fact Sheets',
+    description: 'Access WHO fact sheets, Africa CDC reports, and One Health guidance for your community.',
+    href: 'https://www.who.int/docs/default-source/antimicrobial-resistance/amr-factsheet.pdf',
+    label: 'Downloads',
+    external: true,
+  },
+];
+
 const infographics = [
   {
     src: '/infographics/IMG_9750.jpeg',
@@ -110,40 +176,131 @@ const accordionItems = [
 export default function AwarenessPage() {
   return (
     <main>
-      {/* Hero */}
-      <section className="bg-teal-600 text-white py-14">
+      {/* Hero — dark teal with bold title */}
+      <section className="bg-navy-950 text-white py-16 md:py-20">
         <Container>
           <div className="max-w-2xl">
-            <span className="inline-block bg-white/20 text-white text-xs font-medium px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
+            <span className="inline-block bg-amr-gold/20 text-amr-gold text-xs font-semibold px-3 py-1 rounded-full mb-5 uppercase tracking-wide">
               AMR Awareness Hub
             </span>
-            <h1 className="font-serif text-3xl md:text-4xl font-bold mb-4">
-              Understanding Antimicrobial Resistance
+            <h1 className="font-serif text-4xl md:text-5xl font-bold mb-5 leading-tight">
+              Be AMR Aware
             </h1>
-            <p className="text-teal-100 text-lg leading-relaxed">
-              AMR is one of the greatest public health threats of our time. Explore infographics, learn the facts, and find resources relevant to your role.
+            <p className="text-slate-300 text-lg md:text-xl leading-relaxed">
+              Antimicrobial resistance is one of the greatest threats to human health. Learn the facts, explore real stories from Africa, and find out what you can do — today.
             </p>
           </div>
         </Container>
       </section>
 
-      {/* Infographic grid */}
-      <section className="py-14 bg-slate-50">
+      {/* Know the Facts — warm cream background */}
+      <section className="py-16 bg-amber-50/60">
         <Container>
-          <h2 className="font-serif text-2xl font-bold text-navy-950 mb-2">
-            Fleming Fund Rwanda Infographics
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-navy-950 mb-10 text-center">
+            Know the Facts
           </h2>
-          <p className="text-slate-600 text-sm mb-8">
-            Click any infographic to view it in full size.
-          </p>
-          <InfographicGrid infographics={infographics} />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {statCards.map((stat) => (
+              <div
+                key={stat.value}
+                className="bg-white rounded-xl border border-slate-200 p-6 text-center shadow-sm"
+              >
+                <div className="text-3xl mb-3">{stat.icon}</div>
+                <div className="font-serif text-3xl font-bold text-teal-600 mb-2">
+                  {stat.value}
+                </div>
+                <p className="text-slate-600 text-sm leading-relaxed">{stat.label}</p>
+              </div>
+            ))}
+          </div>
         </Container>
       </section>
 
-      {/* Explainer accordions */}
-      <section className="py-14 bg-white">
+      {/* AMR Stories — white background */}
+      <section className="py-16 bg-white">
         <Container>
-          <h2 className="font-serif text-2xl font-bold text-navy-950 mb-2">
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-navy-950 mb-2">
+            AMR Stories from Africa
+          </h2>
+          <p className="text-slate-600 text-sm mb-10">
+            Real programmes, real impact — learn how African countries are responding to AMR through surveillance, financing, and One Health governance.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {amrStories.map((story) => (
+              <a
+                key={story.title}
+                href={story.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow overflow-hidden"
+              >
+                <div className="overflow-hidden">
+                  <img
+                    src={story.image}
+                    alt={story.title}
+                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-5">
+                  <h3 className="font-serif text-navy-950 font-semibold text-base mb-2 leading-snug">
+                    {story.title}
+                  </h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                    {story.caption}
+                  </p>
+                  <span className="text-teal-600 text-sm font-medium group-hover:text-teal-500 inline-flex items-center gap-1">
+                    Read more
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      {/* Get Involved — dark navy background */}
+      <section className="py-16 bg-navy-800 text-white">
+        <Container>
+          <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2">
+            Get Involved
+          </h2>
+          <p className="text-slate-300 text-sm mb-10">
+            AMR affects everyone. Here is how you can join the response — in your clinic, your community, and your country.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {actionCards.map((action) => (
+              <a
+                key={action.title}
+                href={action.href}
+                target={action.external ? '_blank' : undefined}
+                rel={action.external ? 'noopener noreferrer' : undefined}
+                className="group block bg-navy-950 rounded-xl p-6 border border-white/10 hover:border-amr-gold/40 transition-colors"
+              >
+                <div className="font-serif text-lg font-bold text-white mb-2 group-hover:text-amr-gold transition-colors">
+                  {action.title}
+                </div>
+                <p className="text-slate-400 text-sm leading-relaxed mb-5">
+                  {action.description}
+                </p>
+                <span className="inline-flex items-center gap-2 bg-amr-gold text-navy-950 text-sm font-semibold px-4 py-2 rounded-lg group-hover:bg-white transition-colors">
+                  {action.label}
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+              </a>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      {/* AMR Explained — warm cream, accordion for deeper reading */}
+      <section className="py-16 bg-amber-50/60">
+        <Container>
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-navy-950 mb-2">
             AMR Explained
           </h2>
           <p className="text-slate-600 text-sm mb-8">
@@ -151,6 +308,23 @@ export default function AwarenessPage() {
           </p>
           <div className="max-w-3xl">
             <AccordionSection items={accordionItems} />
+          </div>
+        </Container>
+      </section>
+
+      {/* Infographic download strip */}
+      <section className="py-12 bg-white border-t border-slate-100">
+        <Container>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+              <h2 className="font-serif text-xl font-bold text-navy-950 mb-1">
+                Download the Infographics
+              </h2>
+              <p className="text-slate-500 text-sm">
+                High-resolution Fleming Fund Rwanda infographics for presentations and outreach.
+              </p>
+            </div>
+            <InfographicGrid infographics={infographics} />
           </div>
         </Container>
       </section>
