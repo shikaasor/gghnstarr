@@ -6,12 +6,13 @@ export interface Brief {
   title: string;                   // Full brief title
   weekNumber: number;              // Publication week (1, 2, 3...)
   publicationDate: string;         // ISO date string: "2026-03-24"
-  authorId: string;                // References Expert.id in experts.json
+  authorId?: string;               // References Expert.id in experts.json (optional — some briefs have no author)
   keyTakeaway: string;             // One-sentence key insight
   executiveSummary: string;        // 100-150 word summary
   keyMessages: string[];           // 3-7 bullet points
   pdfUrl: string;                  // "/briefs/week-01-amr-governance.pdf"
-  infographicPdfUrl: string;       // "/infographics/week-01-infographic.pdf"
+  infographicPdfUrl?: string;      // "/infographics/week-01-infographic.pdf" (optional — Phase 7 briefs have no infographic PDFs)
+  infographicImageUrl?: string;    // "/infographics/IMG_9750.jpeg" (optional — inline JPEG for brief detail pages)
   thumbnailUrl: string;            // "/images/thumbnails/week-01.jpg"
   themes: string[];                // Subset of: "Governance" | "Laboratory Systems" |
                                    // "Predictive Analytics" | "One Health" | "Stewardship"

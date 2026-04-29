@@ -38,7 +38,7 @@ export default function BriefCard({ brief, expert }: BriefCardProps) {
           <p className="text-sm text-slate-600 mb-2">{expert.name}</p>
         )}
         <p className="text-sm text-slate-700 leading-snug mb-4">{brief.keyTakeaway}</p>
-        <div className="mt-auto grid grid-cols-2 gap-2">
+        <div className={brief.infographicPdfUrl ? "mt-auto grid grid-cols-2 gap-2" : "mt-auto"}>
           <a
             href={brief.pdfUrl}
             target="_blank"
@@ -47,14 +47,16 @@ export default function BriefCard({ brief, expert }: BriefCardProps) {
           >
             <Download size={14} />Download PDF
           </a>
-          <a
-            href={brief.infographicPdfUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-1 text-sm font-medium border border-slate-400 text-slate-600 hover:bg-slate-50 px-3 py-2 rounded transition-colors"
-          >
-            <Download size={14} />Infographic
-          </a>
+          {brief.infographicPdfUrl && (
+            <a
+              href={brief.infographicPdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-1 text-sm font-medium border border-slate-400 text-slate-600 hover:bg-slate-50 px-3 py-2 rounded transition-colors"
+            >
+              <Download size={14} />Infographic
+            </a>
+          )}
         </div>
       </div>
     </div>
