@@ -123,7 +123,7 @@ Plans:
 **Dependency constraint:** Phase 6 (brand rebrand) is a hard prerequisite for all subsequent phases. No new pages are built until the design system uses the AMR brand palette and logo.
 
 - [x] **Phase 6: Brand Rebrand** - Align site palette and logo to AMR brand identity (green/gold/grey from AMR Logo_Feb2026.jpeg) across all existing components (completed 2026-04-28)
-- [ ] **Phase 7: Content & Analytics** - Publish all 15 policy briefs, add infographic assets, integrate GA4 tracking, and add audience-segmented CTAs to the homepage
+- [x] **Phase 7: Content & Analytics** - Publish all 15 policy briefs, add infographic assets, integrate GA4 tracking, and add audience-segmented CTAs to the homepage (completed 2026-04-29)
 - [ ] **Phase 8: Awareness Hub & Education Library** - Two new content pages providing AMR infographics/explainers and audience-filtered learning materials
 - [ ] **Phase 9: News Feed** - Automated daily AMR research feed via GitHub Actions scraper writing arXiv/PubMed results to JSON, displayed on a filterable /news page
 - [ ] **Phase 10: Take Action Page** - Pledge form, prescribing commitment form, and advocacy toolkit downloads on a dedicated /take-action page
@@ -162,9 +162,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 07-01-PLAN.md — Schema fix (types.ts), GA4 analytics helpers + GoogleAnalytics in layout.tsx, Montserrat/Inter font wiring, BriefCard conditional infographic
-- [ ] 07-02-PLAN.md — docx→PDF conversion, copy assets to public/, replace all 15 JSON entries with real content, DownloadButton + InfographicBlock client components, analytics wiring
-- [ ] 07-03-PLAN.md — AudienceCTAs section component on homepage (3 cards: minister / healthcare worker / public) + visual verification checkpoint
+- [x] 07-01-PLAN.md — Schema fix (types.ts), GA4 analytics helpers + GoogleAnalytics in layout.tsx, Montserrat/Inter font wiring, BriefCard conditional infographic
+- [x] 07-02-PLAN.md — docx→PDF conversion, copy assets to public/, replace all 15 JSON entries with real content, DownloadButton + InfographicBlock client components, analytics wiring
+- [x] 07-03-PLAN.md — AudienceCTAs section component on homepage (3 cards: minister / healthcare worker / public) + visual verification checkpoint
 
 ### Phase 8: Awareness Hub & Education Library
 **Goal**: A visitor can navigate to two new content pages — an awareness hub with AMR infographics and explainers, and an education library with audience-filtered resources — and find materials relevant to their role

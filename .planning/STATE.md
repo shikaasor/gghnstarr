@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** v2.0 Phase 7 — Complete (07-03 awaiting human-verify checkpoint)
+**Current focus:** v2.0 Phase 8 — Awareness Hub & Education Library (next)
 
 ## Current Position
 
-Phase: 07-content-and-analytics
-Plan: 07-03 complete (awaiting human visual verification at checkpoint)
-Status: Phase 7 in progress — 3/3 plans complete, pending visual sign-off
-Last activity: 2026-04-29 — 07-03 AudienceCTAs section built, Phase 7 all tasks done
+Phase: 08-awareness-hub
+Plan: 08-01 (next)
+Status: Phase 7 complete — 3/3 plans done, visual sign-off received; Phase 8 ready to begin
+Last activity: 2026-04-29 — 07-03 AudienceCTAs checkpoint approved, Phase 7 complete
 
-Progress: [███░░░░░░░] 19% (v2.0, 6/31 plans complete) | v1.0 complete
+Progress: [███░░░░░░░] 22% (v2.0, 7/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -37,7 +37,7 @@ Progress: [███░░░░░░░] 19% (v2.0, 6/31 plans complete) | v1.
 | Phase 06-brand-rebrand P03 | 2 | 3 tasks | 1 files |
 | Phase 07-content-and-analytics P01 | 3 | 2 tasks | 7 files |
 | Phase 07-content-and-analytics P02 | 7 | 3 tasks | 25 files |
-| Phase 07-content-and-analytics P03 | 6 | 1 task | 2 files |
+| Phase 07-content-and-analytics P03 | ~20min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -67,6 +67,8 @@ Progress: [███░░░░░░░] 19% (v2.0, 6/31 plans complete) | v1.
 - [Phase 07-02]: infographic-mapping: IMG_9750=brief-09 (lab systems), IMG_9751=brief-06 (domestic financing), IMG_9752=brief-07 (One Health governance NAP 2.0)
 - [Phase 07-03]: AudienceCTAs disabled primary CTAs render as <span> elements (not <Link>) — prevents navigation semantics for future-page placeholders
 - [Phase 07-03]: bg-slate-100 used for AudienceCTAs to match NewsletterSignup — visual bookend sections on homepage
+- [Phase 07-03]: getAllBriefs() filters by publicationDate <= build date — prevents future-dated briefs appearing before publication day
+- [Phase 07-03]: getFeaturedBrief() auto-selects most recently published brief by date — removes need for manual featured flag updates each week
 
 ### Pending Todos
 
@@ -88,5 +90,5 @@ Progress: [███░░░░░░░] 19% (v2.0, 6/31 plans complete) | v1.
 ## Session Continuity
 
 Last session: 2026-04-29
-Stopped at: 07-03-PLAN.md Task 2 — checkpoint:human-verify (visual sign-off needed)
+Stopped at: Completed 07-03-PLAN.md — Phase 7 fully complete, visual sign-off received
 Resume file: None
