@@ -175,11 +175,13 @@ Plans:
   2. Fact sheets are available as direct file downloads from the awareness hub page
   3. Navigating to /education shows a grid of resource cards filterable by audience type (Policymaker / Healthcare Worker / General Public)
   4. Each education resource card shows title, audience tag, format label (Article / Download / Video), and a working link or download button
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 08-01-PLAN.md — /awareness page: AwarenessHub component with infographic display grid and fact sheet download links
-- [ ] 08-02-PLAN.md — /education page: education.json data file, EducationCard component, client-side audience filter
+- [ ] 08-01-PLAN.md — Types, Header nav, and AudienceCTAs enablement
+- [ ] 08-02-PLAN.md — /awareness page: infographic grid with lightbox and accordion explainers
+- [ ] 08-03-PLAN.md — /education page: tab-filtered resource grid with 12 curated resources
+- [ ] 08-04-PLAN.md — Final build verification and visual sign-off checkpoint
 
 ### Phase 9: News Feed
 **Goal**: A daily-refreshed feed of recent AMR research articles from arXiv and PubMed is publicly accessible at /news, automatically populated by a GitHub Actions cron job without any manual intervention
@@ -276,7 +278,7 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 5. SEO, Performance & Launch Readiness | v1.0 | 3/3 | Complete | 2026-04-23 |
 | 6. Brand Rebrand | 3/3 | Complete    | 2026-04-28 | - |
 | 7. Content & Analytics | 2/3 | Complete    | 2026-04-29 | - |
-| 8. Awareness Hub & Education Library | v2.0 | 0/2 | Not started | - |
+| 8. Awareness Hub & Education Library | v2.0 | 0/4 | Not started | - |
 | 9. News Feed | v2.0 | 0/2 | Not started | - |
 | 10. Take Action Page | v2.0 | 0/2 | Not started | - |
 | 11. Interactive Tools | v2.0 | 0/3 | Not started | - |
