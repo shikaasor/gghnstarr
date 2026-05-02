@@ -204,14 +204,14 @@ Plans:
 **Requirements**: ACTN-01, ACTN-02, ACTN-03, ACTN-04
 **Success Criteria** (what must be TRUE):
   1. /take-action displays three clearly separated sections: Pledge, Prescribing Commitment, and Advocacy Toolkit
-  2. Submitting the pledge form (name, country, role, commitment statement) via Formspree shows a success confirmation message on the page
-  3. Submitting the prescribing commitment form (name, facility, specialty, specific commitment) via Formspree shows a success confirmation message
+  2. Submitting the pledge form (name, country, role, commitment statement) via Google Apps Script webhook shows a success confirmation message (card collapses, session-locks, toast appears)
+  3. Submitting the prescribing commitment form (name, facility, specialty, specific commitment) via Google Apps Script webhook shows a success confirmation message
   4. The advocacy toolkit section provides at least three downloadable assets (fact sheet, letter template, social media card) as direct file download links that resolve
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 10-01-PLAN.md — /take-action page scaffold with three sections; PledgeForm and CommitmentForm components wired to Formspree endpoints
-- [ ] 10-02-PLAN.md — Advocacy toolkit section: asset files in public/toolkit/, DownloadCard component, download link list
+- [ ] 10-01-PLAN.md — /take-action page shell, ActionCardGrid (hash auto-expand, session lock), PledgeForm, CommitmentForm, ActionToast, form-config module, analytics activation, Header nav button, AudienceCTAs deep link wiring
+- [ ] 10-02-PLAN.md — Advocacy toolkit: DownloadCard component, ToolkitSection (3-column grid), public/toolkit/ directory; Phase 10 visual verification checkpoint
 
 ### Phase 11: Interactive Tools
 **Goal**: A healthcare worker or facility manager can use three browser-based tools — a stewardship checklist, a self-assessment quiz, and a facility reporting template — without downloading any software
