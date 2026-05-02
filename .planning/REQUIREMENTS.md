@@ -52,8 +52,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 ### News Section
 
 - [ ] **NEWS-01**: A dedicated News page (/news) displays a feed of recent AMR research articles automatically fetched from arXiv and PubMed APIs
-- [ ] **NEWS-02**: A GitHub Actions workflow runs on a daily schedule, calls arXiv and PubMed search APIs with AMR-related queries, writes results to a JSON file in the repo, and triggers a Vercel rebuild
-- [ ] **NEWS-03**: Each news card shows article title, source (arXiv/PubMed), authors, publication date, and a link to the original article
+- [x] **NEWS-02**: A GitHub Actions workflow runs on a daily schedule, calls arXiv and PubMed search APIs with AMR-related queries, writes results to a JSON file in the repo, and triggers a Vercel rebuild
+- [x] **NEWS-03**: Each news card shows article title, source (arXiv/PubMed), authors, publication date, and a link to the original article
 - [ ] **NEWS-04**: News feed can be filtered by source (arXiv / PubMed) and is sorted by publication date (newest first)
 
 ### Take Action
@@ -135,8 +135,8 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | EDUC-01 | Phase 8 | Complete |
 | EDUC-02 | Phase 8 | Complete |
 | NEWS-01 | Phase 9 | Pending |
-| NEWS-02 | Phase 9 | Pending |
-| NEWS-03 | Phase 9 | Pending |
+| NEWS-02 | Phase 9 | Complete |
+| NEWS-03 | Phase 9 | Complete |
 | NEWS-04 | Phase 9 | Pending |
 | ACTN-01 | Phase 10 | Pending |
 | ACTN-02 | Phase 10 | Pending |

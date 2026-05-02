@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** v2.0 Phase 8 — Awareness Hub & Education Library (in progress)
+**Current focus:** v2.0 Phase 9 — News Feed (in progress)
 
 ## Current Position
 
-Phase: 08-awareness-hub-education-library
-Plan: 08-04 (next)
-Status: Phase 8 in progress — 08-03 complete (EducationGrid client component, /education page with 12 curated resources)
-Last activity: 2026-04-29 — 08-03 complete (5 min, 2 tasks, 2 files)
+Phase: 09-news-feed
+Plan: 09-02 (next)
+Status: Phase 9 in progress — 09-01 complete (fetch-news.mjs scraper, 200 article news.json, GitHub Actions cron)
+Last activity: 2026-05-02 — 09-01 complete (5 min, 3 tasks, 6 files)
 
-Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 32% (v2.0, 10/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -41,6 +41,7 @@ Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.
 | Phase 08-awareness-hub P01 | 92s | 3 tasks | 3 files |
 | Phase 08-awareness-hub P02 | 10min | 2 tasks | 5 files |
 | Phase 08-awareness-hub-education-library P03 | 5 min | 2 tasks | 2 files |
+| Phase 09 P01 | 5min | 3 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -76,6 +77,9 @@ Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.
 - [Phase 08-02]: Imported yet-another-react-lightbox/styles.css inside InfographicGrid component, not globals.css or layout.tsx
 - [Phase 08-02]: AccordionSection uses max-h transition (0 → 2000px) for smooth expand/collapse instead of hidden/visible
 - [Phase 08-03]: 12 education resources embedded as typed EducationResource[] constants in Server Component — no JSON file needed; multi-audience cards filter via r.audiences.includes()
+- [Phase 09]: PubMed idlist approach: ESearch idlist passed directly as id= to ESummary/EFetch — WebEnv history returns undefined query_key causing 500 errors
+- [Phase 09]: fast-xml-parser in devDependencies only — used by Node.js scraper script, not in Next.js bundle
+- [Phase 09]: GitHub Actions workflow uses npm ci so fast-xml-parser devDependency is available in CI; NCBI_API_KEY is optional secret
 
 ### Pending Todos
 
@@ -96,6 +100,6 @@ Progress: [███░░░░░░░] 29% (v2.0, 9/31 plans complete) | v1.
 
 ## Session Continuity
 
-Last session: 2026-04-29
-Stopped at: Completed 08-03-PLAN.md — EducationGrid component and /education page with 12 curated resources
+Last session: 2026-05-02
+Stopped at: Completed 09-01-PLAN.md — scraper pipeline: fetch-news.mjs, content/news.json (200 articles), GitHub Actions cron workflow
 Resume file: None
