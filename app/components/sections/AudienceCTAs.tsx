@@ -29,7 +29,7 @@ const audiences: AudienceCard[] = [
     primaryLive: true,
     secondaryLinks: [
       { label: 'AMR Awareness Hub', href: '/awareness', live: true },
-      { label: 'Take Action', href: '#', live: false },
+      { label: 'Take Action', href: '/take-action#pledge', live: true },
     ],
   },
   {
@@ -41,7 +41,7 @@ const audiences: AudienceCard[] = [
     primaryLive: true,
     secondaryLinks: [
       { label: 'Policy Briefs', href: '/briefs', live: true },
-      { label: 'Take Action', href: '#', live: false },
+      { label: 'Take Action', href: '/take-action#commitment', live: true },
     ],
   },
   {
