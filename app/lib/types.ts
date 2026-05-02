@@ -59,3 +59,18 @@ export interface EducationResource {
   source: string;
   url: string;
 }
+
+// Phase 9: News Feed types
+export type NewsSource = 'arXiv' | 'PubMed';
+
+export interface NewsArticle {
+  id: string;            // arXiv ID (e.g. "2504.12345") or PMID (e.g. "38123456")
+  source: NewsSource;    // "arXiv" | "PubMed"
+  title: string;         // Full article title
+  authors: string;       // "FirstAuthor et al." or single author name
+  publishedDate: string; // ISO date YYYY-MM-DD (normalized from source)
+  journal: string;       // Journal name (PubMed) or primary arXiv category (e.g. "q-bio.OT")
+  abstract: string;      // Full abstract text (UI truncates to 2-3 sentences in NewsCard)
+  url: string;           // https://pubmed.ncbi.nlm.nih.gov/{pmid}/ or https://arxiv.org/abs/{id}
+  doi?: string;          // DOI if available (used for deduplication)
+}
