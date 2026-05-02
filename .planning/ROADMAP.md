@@ -280,7 +280,7 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 7. Content & Analytics | 2/3 | Complete    | 2026-04-29 | - |
 | 8. Awareness Hub & Education Library | v2.0 | 0/4 | Not started | - |
 | 9. News Feed | v2.0 | 0/2 | Not started | - |
-| 10. Take Action Page | v2.0 | 0/2 | Not started | - |
+| 10. Take Action Page | 1/2 | In Progress|  | - |
 | 11. Interactive Tools | v2.0 | 0/3 | Not started | - |
 | 12. AMR Data Map | v2.0 | 0/3 | Not started | - |
 | 13. Social Sharing & Accessibility | v2.0 | 0/3 | Not started | - |

@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** v2.0 Phase 9 — News Feed (complete); Phase 10 — Take Action (next)
+**Current focus:** v2.0 Phase 10 — Take Action (in progress)
 
 ## Current Position
 
-Phase: 10-take-action
-Plan: 10-01 (next)
-Status: Phase 9 complete — 09-01 (scraper pipeline), 09-02 (/news frontend page with filters) both done
-Last activity: 2026-05-02 — 09-02 complete (15 min, 3 tasks, 4 files)
+Phase: 10-take-action-page
+Plan: 10-02 (next)
+Status: 10-01 complete — /take-action page with ActionCardGrid, PledgeForm, CommitmentForm, Header gold button, AudienceCTAs deep links
+Last activity: 2026-05-02 — 10-01 complete (3 min, 2 tasks, 10 files)
 
-Progress: [████░░░░░░] 35% (v2.0, 11/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 38% (v2.0, 12/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -43,6 +43,7 @@ Progress: [████░░░░░░] 35% (v2.0, 11/31 plans complete) | v1
 | Phase 08-awareness-hub-education-library P03 | 5 min | 2 tasks | 2 files |
 | Phase 09 P01 | 5min | 3 tasks | 6 files |
 | Phase 09 P02 | 15min | 3 tasks | 4 files |
+| Phase 10-take-action-page P01 | 3min | 2 tasks | 10 files |
 
 ## Accumulated Context
 
@@ -83,6 +84,10 @@ Progress: [████░░░░░░] 35% (v2.0, 11/31 plans complete) | v1
 - [Phase 09]: GitHub Actions workflow uses npm ci so fast-xml-parser devDependency is available in CI; NCBI_API_KEY is optional secret
 - [Phase 09-02]: NewsCard source displayed as plain uppercase text (no badge/chip)
 - [Phase 09-02]: visibleCount resets to PAGE_SIZE on filter change to prevent pagination confusion
+- [Phase 10-01]: formConfig reads NEXT_PUBLIC_GAS_PLEDGE_URL and NEXT_PUBLIC_GAS_COMMITMENT_URL from env; placeholder URLs in .env.local, real in Vercel
+- [Phase 10-01]: Pledge card pre-expanded by default (init expanded='pledge'); hash on mount overrides
+- [Phase 10-01]: Session locking via Set<CardId> — locked card ignores toggle; no re-open after successful submit
+- [Phase 10-01]: isButton flag on navLinks renders Take Action as AMR gold button in Header without separate array
 
 ### Pending Todos
 
@@ -104,5 +109,5 @@ Progress: [████░░░░░░] 35% (v2.0, 11/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-02
-Stopped at: Completed 09-02-PLAN.md — /news page with NewsGrid filters (source + date range), load-more pagination, NewsCard component, updated Header nav
+Stopped at: Completed 10-01-PLAN.md — /take-action page with ActionCardGrid, PledgeForm, CommitmentForm, ActionToast, form-config, Header gold button, AudienceCTAs deep links
 Resume file: None
