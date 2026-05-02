@@ -483,7 +483,7 @@ export function FeaturedBrief({ brief }: { brief: Brief }) {
 
 Partner logos are PNGs per `site.json` (`/images/partners/gghn.png` etc.). This is fine — PNG supports transparency and colour fidelity.
 
-Note: `site.json` uses `"name": "GGHN (Good Governance for Health in Nigeria)"` as the first partner. The requirement says "GUCGHPI" — these refer to the same organisation. Use the `name` field from `site.json` as the `alt` text.
+Note: `site.json` uses `"name": "GGHN (Georgetown Global Health Nigeria)"` as the first partner. The requirement says "GUCGHPI" — these refer to the same organisation. Use the `name` field from `site.json` as the `alt` text.
 
 ```tsx
 // PartnerLogos.tsx — Server Component

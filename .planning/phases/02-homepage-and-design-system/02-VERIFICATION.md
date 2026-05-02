@@ -78,7 +78,7 @@ human_verification:
 | HOME-03 | 02-03 | Partner Logos strip: GUCGHPI, Fleming Fund, Africa CDC, WHO AFRO | PARTIALLY SATISFIED | Component wired with all 4 partners. PNG assets absent from `public/images/partners/` — logos show as broken images at runtime. Component logic is correct; only assets are missing. |
 | HOME-04 | 02-04 | Newsletter signup capturing email, submitting to Mailchimp (plan pivoted to Google Apps Script) | PARTIALLY SATISFIED | Form component complete with correct GAS integration pattern. Non-functional until user replaces `NEXT_PUBLIC_GAS_URL` placeholder and deploys GAS Web App. This is documented as user setup, not a code gap. |
 
-**Note on HOME-03 partner name:** REQUIREMENTS.md says "GUCGHPI" — this appears to be a variant acronym for GGHN (Good Governance for Health in Nigeria / Georgetown University Center for Global Health Practice and Impact). `site.json` uses "GGHN (Good Governance for Health in Nigeria)" which matches the project's consistent branding. This is not a functional gap.
+**Note on HOME-03 partner name:** REQUIREMENTS.md says "GUCGHPI" — this appears to be a variant acronym for GGHN (Georgetown Global Health Nigeria). `site.json` uses "GGHN (Georgetown Global Health Nigeria)" which matches the project's consistent branding. This is not a functional gap.
 
 **Note on HOME-04 service pivot:** REQUIREMENTS.md specifies Mailchimp; 02-04-PLAN.md and implementation use Google Apps Script. This is a deliberate plan-level decision (GAS is free tier; avoids Mailchimp API key management in static export). The requirement intent — email capture — is met by the implementation.
 

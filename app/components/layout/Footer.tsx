@@ -57,7 +57,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 pt-6 border-t border-navy-800 text-xs text-slate-600 text-center">
-          &copy; {new Date().getFullYear()} Good Governance for Health in Nigeria (GGHN). All rights reserved.
+          &copy; {new Date().getFullYear()} Georgetown Global Health Nigeria (GGHN). All rights reserved.
         </div>
       </div>
     </footer>
