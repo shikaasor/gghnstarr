@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** v2.0 Phase 9 — News Feed (in progress)
+**Current focus:** v2.0 Phase 9 — News Feed (complete); Phase 10 — Take Action (next)
 
 ## Current Position
 
-Phase: 09-news-feed
-Plan: 09-02 (next)
-Status: Phase 9 in progress — 09-01 complete (fetch-news.mjs scraper, 200 article news.json, GitHub Actions cron)
-Last activity: 2026-05-02 — 09-01 complete (5 min, 3 tasks, 6 files)
+Phase: 10-take-action
+Plan: 10-01 (next)
+Status: Phase 9 complete — 09-01 (scraper pipeline), 09-02 (/news frontend page with filters) both done
+Last activity: 2026-05-02 — 09-02 complete (15 min, 3 tasks, 4 files)
 
-Progress: [████░░░░░░] 32% (v2.0, 10/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 35% (v2.0, 11/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -42,6 +42,7 @@ Progress: [████░░░░░░] 32% (v2.0, 10/31 plans complete) | v1
 | Phase 08-awareness-hub P02 | 10min | 2 tasks | 5 files |
 | Phase 08-awareness-hub-education-library P03 | 5 min | 2 tasks | 2 files |
 | Phase 09 P01 | 5min | 3 tasks | 6 files |
+| Phase 09 P02 | 15min | 3 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -80,6 +81,8 @@ Progress: [████░░░░░░] 32% (v2.0, 10/31 plans complete) | v1
 - [Phase 09]: PubMed idlist approach: ESearch idlist passed directly as id= to ESummary/EFetch — WebEnv history returns undefined query_key causing 500 errors
 - [Phase 09]: fast-xml-parser in devDependencies only — used by Node.js scraper script, not in Next.js bundle
 - [Phase 09]: GitHub Actions workflow uses npm ci so fast-xml-parser devDependency is available in CI; NCBI_API_KEY is optional secret
+- [Phase 09-02]: NewsCard source displayed as plain uppercase text (no badge/chip)
+- [Phase 09-02]: visibleCount resets to PAGE_SIZE on filter change to prevent pagination confusion
 
 ### Pending Todos
 
@@ -101,5 +104,5 @@ Progress: [████░░░░░░] 32% (v2.0, 10/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-02
-Stopped at: Completed 09-01-PLAN.md — scraper pipeline: fetch-news.mjs, content/news.json (200 articles), GitHub Actions cron workflow
+Stopped at: Completed 09-02-PLAN.md — /news page with NewsGrid filters (source + date range), load-more pagination, NewsCard component, updated Header nav
 Resume file: None
