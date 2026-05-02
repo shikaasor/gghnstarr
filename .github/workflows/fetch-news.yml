@@ -1,0 +1,38 @@
+name: Fetch AMR News
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC daily
+  workflow_dispatch:        # Allow manual trigger for testing
+
+permissions:
+  contents: write           # Required to push commits back to main
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run news scraper
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: node scripts/fetch-news.mjs
+
+      - name: Commit and push news.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/news.json
+          git diff --staged --quiet && echo "No new articles — skipping commit" || \
+            git commit -m "chore(news): daily article refresh $(date -u +%Y-%m-%d)"
+          git push
