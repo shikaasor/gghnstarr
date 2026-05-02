@@ -15,9 +15,12 @@ export function trackNewsletterSignup() {
   sendGAEvent('event', 'newsletter_signup', {});
 }
 
-// No-op until Phase 10 /take-action page exists
 export function trackPledgeSubmit() {
-  // Phase 10: sendGAEvent('event', 'pledge_submit', {});
+  sendGAEvent('event', 'pledge_submit', {});
+}
+
+export function trackCommitmentSubmit() {
+  sendGAEvent('event', 'commitment_submit', {});
 }
 
 // No-op until Phase 11 /tools quiz page exists
