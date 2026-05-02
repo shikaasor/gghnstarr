@@ -11,6 +11,7 @@ const navLinks = [
   { href: '/briefs', label: 'Briefs' },
   { href: '/awareness', label: 'Awareness' },
   { href: '/education', label: 'Education' },
+  { href: '/news', label: 'News' },
   { href: '/methodology', label: 'Methodology' },
   { href: '/experts', label: 'Experts' },
   { href: '/contact', label: 'Contact' },
