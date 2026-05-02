@@ -192,11 +192,11 @@ Plans:
   2. Navigating to /news shows a feed of article cards each displaying title, source (arXiv or PubMed), authors, publication date, and a link to the original article
   3. The feed can be filtered by source (arXiv / PubMed) — selecting a filter shows only articles from that source
   4. Articles are sorted newest-first by default
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 09-01-PLAN.md — GitHub Actions workflow: daily cron, arXiv + PubMed API calls, write to content/news.json, trigger Vercel deploy hook
-- [ ] 09-02-PLAN.md — /news page: NewsCard component, client-side source filter, sort by date; seed news.json with initial data
+- [ ] 09-01-PLAN.md — Scraper pipeline: NewsArticle type, fetch-news.mjs (arXiv + PubMed APIs), pre-seeded content/news.json, GitHub Actions daily cron workflow
+- [ ] 09-02-PLAN.md — Frontend: NewsCard, NewsGrid (source + date filter, load-more), /news page.tsx, Header nav update
 
 ### Phase 10: Take Action Page
 **Goal**: A visitor motivated to act against AMR can submit a public pledge, a healthcare worker can record a prescribing commitment, and anyone can download advocacy toolkit assets — all from a single /take-action page
