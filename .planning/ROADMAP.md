@@ -311,7 +311,7 @@ Plans:
 **Goal:** Every brief detail page surfaces a Discussion section (powered by Giscus + GitHub Discussions) below the Prev/Next navigation, giving policymakers a lightweight way to comment on and react to AMR briefs without requiring authentication
 **Depends on:** Phase 18
 **Requirements:** BENG-01, BENG-02
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 
 Plans:
 - [ ] 19-01-PLAN.md — Install @giscus/react and create GiscusComments client component

@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages
-Plan: 19-01 (complete)
-Status: Phase 19 in progress — GiscusComments component installed and created (19-01); brief detail page integration pending (19-02)
-Last activity: 2026-05-03 — 19-01 complete (~1 min, 2 tasks, 3 files)
+Plan: 19-02 (checkpoint:human-action — Tasks 1-2 complete, Task 3 awaiting GitHub setup)
+Status: Phase 19 Tasks 1-2 done — GiscusComments wired into page.tsx, giscus.json created; Task 3 awaits user GitHub Discussions setup + repoId/categoryId
+Last activity: 2026-05-03 — 19-02 Tasks 1-2 complete (~1 min, 2 tasks, 2 files)
 
 Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1.0 complete
 
@@ -47,6 +47,7 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 | Phase 10-take-action-page P02 | 30min | 2 tasks | 8 files |
 | Phase 15 P01 | 8min | 2 tasks | 4 files |
 | Phase 19 P01 | 1 | 2 tasks | 3 files |
+| Phase 19 P02 | 1min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -100,6 +101,8 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 - [Phase 15-02]: Register Now CTA URL corrected to /registration (internal route) after visual verification — keeps users on GGHN platform
 - [Phase Phase 19-01]: repoId and categoryId use PLACEHOLDER strings — user fills in real values from giscus.app before Phase 19 goes live; they are NOT secrets
 - [Phase Phase 19-01]: mapping=pathname auto-creates one GitHub Discussion per brief URL slug; theme=light hardcoded (no dark mode); loading=lazy reduces LCP impact
+- [Phase 19-02]: GiscusComments placed after Prev/Next nav, inside Container but outside max-w-3xl — allows iframe to span full Container width
+- [Phase 19-02]: public/giscus.json origin allowlist includes gghnstarr.vercel.app, www.gghnstarr.org, localhost:3000 — update if custom domain differs
 
 ### Pending Todos
 
@@ -130,5 +133,5 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-03
-Stopped at: Completed 19-01-PLAN.md — @giscus/react installed, GiscusComments component created with pathname mapping and no-print wrapper
+Stopped at: 19-02-PLAN.md checkpoint:human-action (Task 3) — GiscusComments wired into page.tsx and giscus.json created; awaiting GitHub Discussions setup + repoId/categoryId from user
 Resume file: None
