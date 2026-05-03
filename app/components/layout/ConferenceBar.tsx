@@ -53,7 +53,7 @@ export function ConferenceBar() {
         {/* Right: CTA + dismiss */}
         <div className="flex items-center gap-2 shrink-0">
           <a
-            href="https://www.5thhighlevelministerialng.com/"
+            href="https://www.5thhighlevelministerialng.com/registration"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-[#DC2626] font-semibold px-3 py-0.5 rounded text-xs animate-cta-pulse hover:animate-none hover:bg-slate-100 transition-colors"

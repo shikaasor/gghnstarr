@@ -38,7 +38,7 @@ export function ConferenceHero() {
           The 5th High-Level Inter-Ministerial Meeting on AMR took place at the Transcorp Hilton Conference Center, Abuja, Nigeria.
         </p>
         <a
-          href="https://www.5thhighlevelministerialng.com/"
+          href="https://www.5thhighlevelministerialng.com/registration"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-teal-600 text-white font-bold px-8 py-3 rounded-lg text-lg hover:bg-teal-500 transition-colors"
@@ -65,7 +65,7 @@ export function ConferenceHero() {
         June 28–30, 2026 · Transcorp Hilton Conference Center, Abuja, Nigeria
       </p>
       <a
-        href="https://www.5thhighlevelministerialng.com/"
+        href="https://www.5thhighlevelministerialng.com/registration"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-[#DC2626] text-white font-bold px-8 py-3 rounded-lg text-lg hover:bg-red-700 transition-colors animate-cta-pulse hover:animate-none"
