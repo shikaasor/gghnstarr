@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { DownloadButton } from '@/components/briefs/DownloadButton';
 import { InfographicBlock } from '@/components/briefs/InfographicBlock';
-import { GiscusComments } from '@/components/briefs/GiscusComments';
 import type { Metadata } from 'next';
 
 // REQUIRED for output:'export' — enumerates all slugs at build time
@@ -190,8 +189,6 @@ export default async function BriefDetailPage({
         </div>
       </nav>
 
-      {/* Giscus commenting — one Discussion thread per brief slug */}
-      <GiscusComments />
 
     </Container>
   );
