@@ -9,12 +9,12 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 
 ## Current Position
 
-Phase: 15-conference-hub-dedicated-conference-page-and-site-wide-countdown-widget
-Plan: 15-02 (complete)
-Status: Phase 15 complete — ConferenceBar sticky widget (15-01) and /conference gateway page (15-02) both shipped
-Last activity: 2026-05-03 — 15-02 complete (~15 min, 3 tasks, 4 files)
+Phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages
+Plan: 19-01 (complete)
+Status: Phase 19 in progress — GiscusComments component installed and created (19-01); brief detail page integration pending (19-02)
+Last activity: 2026-05-03 — 19-01 complete (~1 min, 2 tasks, 3 files)
 
-Progress: [████░░░░░░] 48% (v2.0, 15/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -46,6 +46,7 @@ Progress: [████░░░░░░] 48% (v2.0, 15/31 plans complete) | v1
 | Phase 10-take-action-page P01 | 3min | 2 tasks | 10 files |
 | Phase 10-take-action-page P02 | 30min | 2 tasks | 8 files |
 | Phase 15 P01 | 8min | 2 tasks | 4 files |
+| Phase 19 P01 | 1 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -97,6 +98,8 @@ Progress: [████░░░░░░] 48% (v2.0, 15/31 plans complete) | v1
 - [Phase 15-01]: daysLeft initialized as null prevents hydration mismatch on static export
 - [Phase 15-01]: sessionStorage used (not localStorage) — bar returns each new browser session for maximum conference awareness
 - [Phase 15-02]: Register Now CTA URL corrected to /registration (internal route) after visual verification — keeps users on GGHN platform
+- [Phase Phase 19-01]: repoId and categoryId use PLACEHOLDER strings — user fills in real values from giscus.app before Phase 19 goes live; they are NOT secrets
+- [Phase Phase 19-01]: mapping=pathname auto-creates one GitHub Discussion per brief URL slug; theme=light hardcoded (no dark mode); loading=lazy reduces LCP impact
 
 ### Pending Todos
 
@@ -127,5 +130,5 @@ Progress: [████░░░░░░] 48% (v2.0, 15/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-03
-Stopped at: Completed 15-02-PLAN.md — /conference gateway page with hero countdown, about section, and themes; Phase 15 fully complete (2/2 plans)
+Stopped at: Completed 19-01-PLAN.md — @giscus/react installed, GiscusComments component created with pathname mapping and no-print wrapper
 Resume file: None
