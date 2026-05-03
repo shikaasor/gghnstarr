@@ -86,6 +86,12 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 - [ ] **A11Y-01**: A full accessibility audit is completed across all pages identifying WCAG AA violations
 - [ ] **A11Y-02**: All identified WCAG AA violations are fixed — minimum: color contrast, keyboard navigation, alt text, focus indicators
 
+### Conference Hub
+
+- [x] **CONF-01**: A site-wide crimson sticky banner appears above the header on every page (except /conference), showing the event name, date, location, days-until countdown, and a pulsing Register Now CTA — auto-hides after June 28, 2026, and can be dismissed per session
+- [x] **CONF-02**: A dedicated /conference gateway page displays a full-width hero with large days countdown, event name, date/location, and Register Now CTA — automatically switches to an archive state post-conference
+- [x] **CONF-03**: The /conference page includes an About section (conference overview and overarching theme) and a Themes & Agenda section (5 agenda highlights with icons)
+
 ---
 
 ## v3.0 Requirements (Deferred)
@@ -153,12 +159,15 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | SOCL-02 | Phase 13 | Pending |
 | A11Y-01 | Phase 13 | Pending |
 | A11Y-02 | Phase 13 | Pending |
+| CONF-01 | Phase 15 | Complete |
+| CONF-02 | Phase 15 | Complete |
+| CONF-03 | Phase 15 | Complete |
 
 **Coverage:**
-- v2.0 requirements: 31 total
-- Mapped to phases: 31
+- v2.0 requirements: 34 total
+- Mapped to phases: 34
 - Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-23*
-*Last updated: 2026-04-28 — v2.0 roadmap created; all 31 requirements mapped to phases 6-13*
+*Last updated: 2026-05-03 — Phase 15 Conference Hub added CONF-01/02/03; total 34 requirements*
