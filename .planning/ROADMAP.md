@@ -211,7 +211,7 @@ Plans:
 
 Plans:
 - [ ] 10-01-PLAN.md — /take-action page shell, ActionCardGrid (hash auto-expand, session lock), PledgeForm, CommitmentForm, ActionToast, form-config module, analytics activation, Header nav button, AudienceCTAs deep link wiring
-- [ ] 10-02-PLAN.md — Advocacy toolkit: DownloadCard component, ToolkitSection (3-column grid), public/toolkit/ directory; Phase 10 visual verification checkpoint
+- [x] 10-02-PLAN.md — Advocacy toolkit: DownloadCard component, ToolkitSection (3-column grid), public/toolkit/ directory; Phase 10 visual verification checkpoint (completed 2026-05-03)
 
 ### Phase 11: Interactive Tools
 **Goal**: A healthcare worker or facility manager can use three browser-based tools — a stewardship checklist, a self-assessment quiz, and a facility reporting template — without downloading any software
@@ -280,7 +280,7 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 7. Content & Analytics | 2/3 | Complete    | 2026-04-29 | - |
 | 8. Awareness Hub & Education Library | v2.0 | 0/4 | Not started | - |
 | 9. News Feed | v2.0 | 0/2 | Not started | - |
-| 10. Take Action Page | 2/2 | Complete   | 2026-05-03 | - |
+| 10. Take Action Page | 2/2 | Complete    | 2026-05-03 | - |
 | 11. Interactive Tools | v2.0 | 0/3 | Not started | - |
 | 12. AMR Data Map | v2.0 | 0/3 | Not started | - |
 | 13. Social Sharing & Accessibility | v2.0 | 0/3 | Not started | - |
