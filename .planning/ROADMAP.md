@@ -273,7 +273,7 @@ Plans:
 
 **Goal:** A site-wide crimson sticky banner drives conference awareness on every page, and a dedicated /conference gateway page provides a branded teaser with countdown, event overview, and agenda highlights that routes visitors to the official 5th High-Level Inter-Ministerial Meeting site — both components auto-update after June 28, 2026
 **Depends on:** Phase 14
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 
 Plans:
 - [ ] 15-01-PLAN.md — ConferenceBar sticky widget (crimson top bar, countdown, dismiss, pulse CTA, layout wiring, nav link)

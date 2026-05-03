@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 15-conference-hub-dedicated-conference-page-and-site-wide-countdown-widget
-Plan: 15-01 (complete)
-Status: Phase 15 in progress — ConferenceBar sticky widget built (plan 1/2); /conference page (plan 2) next
-Last activity: 2026-05-03 — 15-01 complete (8 min, 2 tasks, 4 files)
+Plan: 15-02 (complete)
+Status: Phase 15 complete — ConferenceBar sticky widget (15-01) and /conference gateway page (15-02) both shipped
+Last activity: 2026-05-03 — 15-02 complete (~15 min, 3 tasks, 4 files)
 
-Progress: [████░░░░░░] 45% (v2.0, 14/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 48% (v2.0, 15/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -96,6 +96,7 @@ Progress: [████░░░░░░] 45% (v2.0, 14/31 plans complete) | v1
 - [Phase 15-01]: ConferenceBar z-[60] sticky top-0 rendered before Header in DOM — correct stacking without Header CSS changes
 - [Phase 15-01]: daysLeft initialized as null prevents hydration mismatch on static export
 - [Phase 15-01]: sessionStorage used (not localStorage) — bar returns each new browser session for maximum conference awareness
+- [Phase 15-02]: Register Now CTA URL corrected to /registration (internal route) after visual verification — keeps users on GGHN platform
 
 ### Pending Todos
 
@@ -126,5 +127,5 @@ Progress: [████░░░░░░] 45% (v2.0, 14/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-03
-Stopped at: Completed 15-01-PLAN.md — ConferenceBar sticky widget with countdown, session-dismiss, cta-pulse animation; Header Conference nav link; Phase 15 plan 1/2 complete
+Stopped at: Completed 15-02-PLAN.md — /conference gateway page with hero countdown, about section, and themes; Phase 15 fully complete (2/2 plans)
 Resume file: None
