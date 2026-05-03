@@ -308,12 +308,14 @@ Plans:
 
 ### Phase 19: Brief Engagement — Giscus commenting system on brief detail pages
 
-**Goal:** [To be planned]
+**Goal:** Every brief detail page surfaces a Discussion section (powered by Giscus + GitHub Discussions) below the Prev/Next navigation, giving policymakers a lightweight way to comment on and react to AMR briefs without requiring authentication
 **Depends on:** Phase 18
-**Plans:** 0 plans
+**Requirements:** BENG-01, BENG-02
+**Plans:** 2 plans
 
 Plans:
-- [ ] TBD (run /gsd:plan-phase 19 to break down)
+- [ ] 19-01-PLAN.md — Install @giscus/react and create GiscusComments client component
+- [ ] 19-02-PLAN.md — Wire GiscusComments into brief detail page + public/giscus.json + GitHub setup checkpoint
 
 ---
 
