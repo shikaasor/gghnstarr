@@ -61,7 +61,7 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 - [x] **ACTN-01**: A dedicated Take Action page (/take-action) exists with three distinct sections: pledge, prescribing commitment, and advocacy toolkit
 - [x] **ACTN-02**: A visitor can submit a public pledge form (name, country, role, commitment statement) via Formspree and receive a confirmation message
 - [x] **ACTN-03**: A healthcare worker can submit a prescribing commitment form (name, facility, specialty, specific commitment) via Formspree
-- [ ] **ACTN-04**: Advocacy toolkit section provides downloadable assets (fact sheets, letter templates, social media cards) as direct file downloads
+- [x] **ACTN-04**: Advocacy toolkit section provides downloadable assets (fact sheets, letter templates, social media cards) as direct file downloads
 
 ### Interactive Tools
 
@@ -141,7 +141,7 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | ACTN-01 | Phase 10 | Complete |
 | ACTN-02 | Phase 10 | Complete |
 | ACTN-03 | Phase 10 | Complete |
-| ACTN-04 | Phase 10 | Pending |
+| ACTN-04 | Phase 10 | Complete |
 | TOOL-01 | Phase 11 | Pending |
 | TOOL-02 | Phase 11 | Pending |
 | TOOL-03 | Phase 11 | Pending |

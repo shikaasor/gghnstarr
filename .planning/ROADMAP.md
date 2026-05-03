@@ -126,7 +126,7 @@ Plans:
 - [x] **Phase 7: Content & Analytics** - Publish all 15 policy briefs, add infographic assets, integrate GA4 tracking, and add audience-segmented CTAs to the homepage (completed 2026-04-29)
 - [ ] **Phase 8: Awareness Hub & Education Library** - Two new content pages providing AMR infographics/explainers and audience-filtered learning materials
 - [ ] **Phase 9: News Feed** - Automated daily AMR research feed via GitHub Actions scraper writing arXiv/PubMed results to JSON, displayed on a filterable /news page
-- [ ] **Phase 10: Take Action Page** - Pledge form, prescribing commitment form, and advocacy toolkit downloads on a dedicated /take-action page
+- [x] **Phase 10: Take Action Page** - Pledge form, prescribing commitment form, and advocacy toolkit downloads on a dedicated /take-action page (completed 2026-05-03)
 - [ ] **Phase 11: Interactive Tools** - Three web-based tools: stewardship checklist, self-assessment quiz, and facility reporting template
 - [ ] **Phase 12: AMR Data Map** - Interactive choropleth map at /data-map showing WHO GLASS resistance data by country with pathogen/antibiotic filters
 - [ ] **Phase 13: Social Sharing & Accessibility** - Social share buttons on brief and news pages, plus full WCAG AA accessibility audit and fixes
@@ -280,7 +280,7 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 7. Content & Analytics | 2/3 | Complete    | 2026-04-29 | - |
 | 8. Awareness Hub & Education Library | v2.0 | 0/4 | Not started | - |
 | 9. News Feed | v2.0 | 0/2 | Not started | - |
-| 10. Take Action Page | 1/2 | In Progress|  | - |
+| 10. Take Action Page | 2/2 | Complete   | 2026-05-03 | - |
 | 11. Interactive Tools | v2.0 | 0/3 | Not started | - |
 | 12. AMR Data Map | v2.0 | 0/3 | Not started | - |
 | 13. Social Sharing & Accessibility | v2.0 | 0/3 | Not started | - |
