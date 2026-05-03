@@ -9,12 +9,12 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 
 ## Current Position
 
-Phase: 10-take-action-page
-Plan: 10-02 (complete)
-Status: Phase 10 complete — /take-action page with hero, ActionCardGrid, PledgeForm, CommitmentForm, ToolkitSection (3 download cards), Header gold button, AudienceCTAs deep links, GAS form-handler
-Last activity: 2026-05-03 — 10-02 complete (30 min, 2 tasks, 8 files)
+Phase: 15-conference-hub-dedicated-conference-page-and-site-wide-countdown-widget
+Plan: 15-01 (complete)
+Status: Phase 15 in progress — ConferenceBar sticky widget built (plan 1/2); /conference page (plan 2) next
+Last activity: 2026-05-03 — 15-01 complete (8 min, 2 tasks, 4 files)
 
-Progress: [████░░░░░░] 42% (v2.0, 13/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 45% (v2.0, 14/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -45,6 +45,7 @@ Progress: [████░░░░░░] 42% (v2.0, 13/31 plans complete) | v1
 | Phase 09 P02 | 15min | 3 tasks | 4 files |
 | Phase 10-take-action-page P01 | 3min | 2 tasks | 10 files |
 | Phase 10-take-action-page P02 | 30min | 2 tasks | 8 files |
+| Phase 15 P01 | 8min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -92,6 +93,9 @@ Progress: [████░░░░░░] 42% (v2.0, 13/31 plans complete) | v1
 - [Phase 10-02]: Single GAS endpoint (NEXT_PUBLIC_GAS_URL) with formType routing replaces two separate env vars — simplifies Vercel config and GAS deployment
 - [Phase 10-02]: DownloadCard uses same-origin /toolkit/ hrefs — browser download attribute only works for same-origin URLs; public/ serves files from same origin
 - [Phase 10-02]: public/toolkit/.gitkeep commits the directory so Vercel includes it; real asset files are dropped without code changes
+- [Phase 15-01]: ConferenceBar z-[60] sticky top-0 rendered before Header in DOM — correct stacking without Header CSS changes
+- [Phase 15-01]: daysLeft initialized as null prevents hydration mismatch on static export
+- [Phase 15-01]: sessionStorage used (not localStorage) — bar returns each new browser session for maximum conference awareness
 
 ### Pending Todos
 
@@ -122,5 +126,5 @@ Progress: [████░░░░░░] 42% (v2.0, 13/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-03
-Stopped at: Completed 10-02-PLAN.md — Advocacy Toolkit DownloadCard + ToolkitSection, public/toolkit/.gitkeep, GAS form consolidation refactor; Phase 10 complete
+Stopped at: Completed 15-01-PLAN.md — ConferenceBar sticky widget with countdown, session-dismiss, cta-pulse animation; Header Conference nav link; Phase 15 plan 1/2 complete
 Resume file: None
