@@ -27,3 +27,8 @@ export function trackCommitmentSubmit() {
 export function trackQuizComplete() {
   // Phase 11: sendGAEvent('event', 'quiz_complete', {});
 }
+
+// Generic event tracker for ad-hoc events (e.g. comment_submitted)
+export function trackEvent(eventName: string, params: Record<string, string> = {}) {
+  sendGAEvent('event', eventName, params);
+}
