@@ -36,6 +36,15 @@
    Target: Elements on /briefs/[slug] pages for clean printed output
    ========================================================================== */
 
+/* Conference bar CTA pulse */
+@keyframes cta-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.85; transform: scale(1.04); }
+}
+.animate-cta-pulse {
+  animation: cta-pulse 1.8s ease-in-out infinite;
+}
+
 @media print {
   /* A4 page setup with readable margins */
   @page {
