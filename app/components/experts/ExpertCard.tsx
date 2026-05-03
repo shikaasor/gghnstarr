@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import type { Expert } from '@/lib/types';
 
 interface ExpertCardProps {
@@ -8,12 +7,11 @@ interface ExpertCardProps {
 export function ExpertCard({ expert }: ExpertCardProps) {
   return (
     <article className="bg-white rounded-lg overflow-hidden shadow-sm border border-slate-100">
-      <div className="relative bg-slate-100 aspect-square">
-        <Image
+      <div className="aspect-square bg-slate-100 overflow-hidden">
+        <img
           src={expert.photoUrl}
           alt={expert.name}
-          fill
-          className="object-cover"
+          className="w-full h-full object-cover"
           style={{ objectPosition: expert.photoPosition ?? 'top' }}
         />
       </div>
