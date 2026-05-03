@@ -260,6 +260,60 @@ Plans:
 - [ ] 13-02-PLAN.md — Accessibility audit (axe-core or Lighthouse a11y) across all pages; document all AA violations
 - [ ] 13-03-PLAN.md — Fix all identified WCAG AA violations; re-audit to confirm zero failures
 
+### Phase 14: Color Palette Refresh — brighter emerald green across all brand tokens
+
+**Goal:** [To be planned]
+**Depends on:** Phase 13
+**Plans:** 0 plans
+
+Plans:
+- [ ] TBD (run /gsd:plan-phase 14 to break down)
+
+### Phase 15: Conference Hub — dedicated /conference page and site-wide countdown widget
+
+**Goal:** [To be planned]
+**Depends on:** Phase 14
+**Plans:** 0 plans
+
+Plans:
+- [ ] TBD (run /gsd:plan-phase 15 to break down)
+
+### Phase 16: Education Redesign — archive with filters, training vs resources split, publications and verifiable references
+
+**Goal:** [To be planned]
+**Depends on:** Phase 15
+**Plans:** 0 plans
+
+Plans:
+- [ ] TBD (run /gsd:plan-phase 16 to break down)
+
+### Phase 17: Lead Capture — pre-download access wall collecting name, role, email and audience category via GAS
+
+**Goal:** [To be planned]
+**Depends on:** Phase 16
+**Plans:** 0 plans
+
+Plans:
+- [ ] TBD (run /gsd:plan-phase 17 to break down)
+
+### Phase 18: Expert Registration — portfolio submission form and self-serve visibility on experts page
+
+**Goal:** [To be planned]
+**Depends on:** Phase 17
+**Plans:** 0 plans
+
+Plans:
+- [ ] TBD (run /gsd:plan-phase 18 to break down)
+
+### Phase 19: Brief Engagement — Giscus commenting system on brief detail pages
+
+**Goal:** [To be planned]
+**Depends on:** Phase 18
+**Plans:** 0 plans
+
+Plans:
+- [ ] TBD (run /gsd:plan-phase 19 to break down)
+
 ---
 
 ## Progress

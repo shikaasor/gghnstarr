@@ -105,6 +105,15 @@ Progress: [████░░░░░░] 42% (v2.0, 13/31 plans complete) | v1
 - Interactive AMR data map → Phase 12
 - Accessibility + social share → Phase 13
 
+### Roadmap Evolution
+
+- Phase 14 added: Color Palette Refresh — brighter emerald green
+- Phase 15 added: Conference Hub — dedicated /conference page + site-wide countdown widget
+- Phase 16 added: Education Redesign — archive/filter, training vs resources split, publications and verifiable references
+- Phase 17 added: Lead Capture — pre-download access wall (name, role, email, audience) via GAS
+- Phase 18 added: Expert Registration — portfolio submission form + visibility on experts page
+- Phase 19 added: Brief Engagement — Giscus commenting on brief detail pages
+
 ### Blockers/Concerns
 
 - Phase 12: Data map library choice (D3 vs react-simple-maps) affects bundle size — decide at plan time with Lighthouse budget in mind
