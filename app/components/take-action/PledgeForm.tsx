@@ -8,6 +8,7 @@ import { trackPledgeSubmit } from '@/lib/analytics';
 type FormState = 'idle' | 'submitting' | 'success' | 'error';
 
 interface PledgePayload {
+  formType: 'pledge';
   name: string;
   country: string;
   role: string;
@@ -47,12 +48,13 @@ export function PledgeForm({ onSuccess }: PledgeFormProps) {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (!formConfig.pledgeUrl) {
+    if (!formConfig.formUrl) {
       setState('error');
       return;
     }
     setState('submitting');
-    const result = await submitToGAS(formConfig.pledgeUrl, {
+    const result = await submitToGAS(formConfig.formUrl, {
+      formType: 'pledge',
       name,
       country,
       role,

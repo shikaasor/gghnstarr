@@ -1,16 +1,11 @@
 // app/lib/form-config.ts
-// Backend URL configuration for GAS (Google Apps Script) form endpoints
+// Single GAS endpoint for all forms. Each form sends a `formType` field so the
+// script routes submissions to the correct Google Sheet tab.
 
 export const formConfig = {
-  pledgeUrl: process.env.NEXT_PUBLIC_GAS_PLEDGE_URL ?? '',
-  commitmentUrl: process.env.NEXT_PUBLIC_GAS_COMMITMENT_URL ?? '',
+  formUrl: process.env.NEXT_PUBLIC_GAS_URL ?? '',
 } as const;
 
-if (process.env.NODE_ENV === 'development') {
-  if (!formConfig.pledgeUrl) {
-    console.warn('[form-config] NEXT_PUBLIC_GAS_PLEDGE_URL is not set — pledge submissions will be no-ops.');
-  }
-  if (!formConfig.commitmentUrl) {
-    console.warn('[form-config] NEXT_PUBLIC_GAS_COMMITMENT_URL is not set — commitment submissions will be no-ops.');
-  }
+if (process.env.NODE_ENV === 'development' && !formConfig.formUrl) {
+  console.warn('[form-config] NEXT_PUBLIC_GAS_URL is not set — form submissions will fail.');
 }

@@ -13,7 +13,7 @@ async function submitNewsletter(emailValue: string): Promise<'success' | 'error'
       method: 'POST',
       redirect: 'follow',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-      body: JSON.stringify({ email: emailValue, source: 'homepage', timestamp: new Date().toISOString() }),
+      body: JSON.stringify({ formType: 'newsletter', email: emailValue, source: 'homepage', timestamp: new Date().toISOString() }),
     });
     if (!res.ok) return 'error';
     const json = await res.json();

@@ -8,6 +8,7 @@ import { trackCommitmentSubmit } from '@/lib/analytics';
 type FormState = 'idle' | 'submitting' | 'success' | 'error';
 
 interface CommitmentPayload {
+  formType: 'commitment';
   name: string;
   facility: string;
   specialty: string;
@@ -47,12 +48,13 @@ export function CommitmentForm({ onSuccess }: CommitmentFormProps) {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (!formConfig.commitmentUrl) {
+    if (!formConfig.formUrl) {
       setState('error');
       return;
     }
     setState('submitting');
-    const result = await submitToGAS(formConfig.commitmentUrl, {
+    const result = await submitToGAS(formConfig.formUrl, {
+      formType: 'commitment',
       name,
       facility,
       specialty,
