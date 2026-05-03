@@ -15,6 +15,7 @@ const navLinks = [
   { href: '/methodology', label: 'Methodology' },
   { href: '/experts', label: 'Experts' },
   { href: '/contact', label: 'Contact' },
+  { href: '/conference', label: 'Conference' },
   { href: '/take-action', label: 'Take Action', isButton: true },
 ];
 
