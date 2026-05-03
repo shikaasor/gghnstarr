@@ -28,6 +28,7 @@ export interface Expert {
   organization: string;            // Institutional affiliation
   bio: string;                     // 200-word professional bio
   photoUrl: string;                // "/images/experts/{slug}.jpg"
+  photoPosition?: string;          // CSS object-position, e.g. "50% 20%" — defaults to "top"
   specialties: string[];           // e.g. ["AMR Surveillance", "Genomics"]
   linkedinUrl?: string;            // Optional LinkedIn profile URL
 }
