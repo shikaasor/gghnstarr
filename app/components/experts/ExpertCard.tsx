@@ -7,12 +7,11 @@ interface ExpertCardProps {
 export function ExpertCard({ expert }: ExpertCardProps) {
   return (
     <article className="bg-white rounded-lg overflow-hidden shadow-sm border border-slate-100">
-      <div className="aspect-square bg-slate-100 overflow-hidden">
+      <div className="aspect-square bg-slate-200 overflow-hidden">
         <img
           src={expert.photoUrl}
           alt={expert.name}
-          className="w-full h-full object-cover"
-          style={{ objectPosition: expert.photoPosition ?? 'top' }}
+          className="w-full h-full object-contain object-top"
         />
       </div>
       <div className="p-5 flex flex-col gap-2">
