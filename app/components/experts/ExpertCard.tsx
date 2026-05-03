@@ -13,7 +13,7 @@ export function ExpertCard({ expert }: ExpertCardProps) {
           src={expert.photoUrl}
           alt={expert.name}
           fill
-          className="object-cover"
+          className="object-cover object-top"
         />
       </div>
       <div className="p-5 flex flex-col gap-2">
