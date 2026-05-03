@@ -271,12 +271,13 @@ Plans:
 
 ### Phase 15: Conference Hub — dedicated /conference page and site-wide countdown widget
 
-**Goal:** [To be planned]
+**Goal:** A site-wide crimson sticky banner drives conference awareness on every page, and a dedicated /conference gateway page provides a branded teaser with countdown, event overview, and agenda highlights that routes visitors to the official 5th High-Level Inter-Ministerial Meeting site — both components auto-update after June 28, 2026
 **Depends on:** Phase 14
-**Plans:** 0 plans
+**Plans:** 2 plans
 
 Plans:
-- [ ] TBD (run /gsd:plan-phase 15 to break down)
+- [ ] 15-01-PLAN.md — ConferenceBar sticky widget (crimson top bar, countdown, dismiss, pulse CTA, layout wiring, nav link)
+- [ ] 15-02-PLAN.md — /conference gateway page (hero countdown, about section, themes section, post-conference archive state)
 
 ### Phase 16: Education Redesign — archive with filters, training vs resources split, publications and verifiable references
 
