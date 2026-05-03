@@ -8,9 +8,9 @@ export function GiscusComments() {
       <h2 className="font-serif text-xl text-navy-950 font-bold mb-6">Discussion</h2>
       <Giscus
         repo="shikaasor/gghnstarr"
-        repoId="PLACEHOLDER_REPO_ID"
+        repoId="R_kgDOSIeHPQ"
         category="General"
-        categoryId="PLACEHOLDER_CATEGORY_ID"
+        categoryId="DIC_kwDOSIeHPc4C8PxB"
         mapping="pathname"
         reactionsEnabled="1"
         emitMetadata="0"
