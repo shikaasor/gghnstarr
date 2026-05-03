@@ -2,103 +2,104 @@
 phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages
 plan: "01"
 subsystem: ui
-tags: [giscus, commenting, github-discussions, react, client-component]
+tags: [commenting, gas, anonymous, react, client-component, static-json]
 
 # Dependency graph
 requires: []
 provides:
-  - GiscusComments React component wrapping Giscus iframe for brief detail pages
-  - "@giscus/react ^3.1.0 installed as production dependency"
+  - CommentForm React client component — anonymous GAS-backed comment submission
+  - CommentList React server component — renders approved comments from static JSON
+  - content/comments.json seed file — to be populated by GitHub Actions cron
 affects:
-  - 19-02 (brief detail page integration — imports GiscusComments)
+  - 19-02 (brief detail page wiring — imports CommentForm and CommentList)
 
 # Tech tracking
 tech-stack:
-  added: ["@giscus/react ^3.1.0"]
-  patterns: ["use client directive for iframe-based third-party embeds", "PLACEHOLDER strings for user-configured IDs (not env vars)"]
+  added: []
+  patterns: ["GAS form routing via formType field — same pattern as Phase 10 pledge/commitment forms", "static JSON import via relative path for content outside app/ directory"]
 
 key-files:
   created:
-    - app/components/briefs/GiscusComments.tsx
+    - content/comments.json
+    - app/components/briefs/CommentForm.tsx
+    - app/components/briefs/CommentList.tsx
   modified:
-    - package.json
-    - package-lock.json
+    - app/lib/analytics.ts
 
 key-decisions:
-  - "repoId and categoryId use PLACEHOLDER strings — user fills in real values from giscus.app before Phase 19 goes live; they are NOT secrets"
-  - "mapping=pathname creates one GitHub Discussion per brief URL slug automatically — no manual mapping needed"
-  - "theme=light hardcoded — site has no dark mode; preferred_color_scheme not used"
-  - "loading=lazy defers iframe until user scrolls — reduces LCP impact"
-  - "no-print class on section wrapper hides comments during print — globals.css already defines .no-print"
+  - "Phase 19: replaced Giscus with GAS anonymous commenting — Giscus requires GitHub login, target audience are normies without GitHub accounts"
+  - "CommentList uses relative path import '../../../content/comments.json' — @/* alias maps to app/, not project root"
+  - "trackEvent generic helper added to analytics.ts — CommentForm tracks comment_submitted event"
+  - "formType: 'comment' routes to comment handler in existing GAS endpoint — no new endpoint needed"
 
 patterns-established:
-  - "Third-party iframe embeds: 'use client' + lazy loading + no-print wrapper"
-  - "PLACEHOLDER pattern for user-configured external service IDs that are not secrets"
+  - "GAS form routing: single NEXT_PUBLIC_GAS_URL endpoint, formType field distinguishes pledge/commitment/comment"
+  - "Static JSON for user-generated content: GitHub Actions cron writes file, Next.js build imports at build time"
 
 requirements-completed: [BENG-01]
 
 # Metrics
-duration: 1min
+duration: ~5min
 completed: 2026-05-03
 ---
 
-# Phase 19 Plan 01: GiscusComments Component Summary
+# Phase 19 Plan 01: CommentForm + CommentList Components Summary
 
-**@giscus/react installed and GiscusComments component created — pathname-mapped, lazy-loaded, print-hidden Giscus iframe wrapper ready for brief detail page integration**
+**GAS-backed anonymous commenting components created — CommentForm POSTs to existing GAS endpoint with formType routing, CommentList renders approved comments from static content/comments.json**
 
 ## Performance
 
-- **Duration:** ~1 min
-- **Started:** 2026-05-03T12:50:17Z
-- **Completed:** 2026-05-03T12:51:30Z
-- **Tasks:** 2
-- **Files modified:** 3
+- **Duration:** ~5 min
+- **Completed:** 2026-05-03
+- **Tasks:** 3
+- **Files modified:** 4
 
 ## Accomplishments
-- Installed @giscus/react ^3.1.0 as production dependency (8 packages total)
-- Created GiscusComments.tsx with 'use client' directive, all required Giscus props, and no-print section wrapper
+- Created content/comments.json seed file (empty object, to be populated by GitHub Actions)
+- Created CommentForm.tsx — 'use client', name/email/comment fields, POSTs to NEXT_PUBLIC_GAS_URL with formType: 'comment'
+- Created CommentList.tsx — server component, imports content/comments.json via relative path, renders comments by slug
+- Added trackEvent generic helper to app/lib/analytics.ts
 - TypeScript compilation clean with zero errors
 
 ## Task Commits
 
-Each task was committed atomically:
-
-1. **Task 1: Install @giscus/react** - `b4860e3` (chore)
-2. **Task 2: Create GiscusComments component** - `dd7b0f5` (feat)
-
-**Plan metadata:** (docs commit — see below)
+1. **Task 1: Seed content/comments.json** - `ed14ae0` (chore)
+2. **Task 2: Create CommentForm component** - `b9c0ab9` (feat)
+3. **Task 3: Create CommentList component** - `82fcfa6` (feat)
 
 ## Files Created/Modified
-- `app/components/briefs/GiscusComments.tsx` - 'use client' Giscus iframe wrapper with pathname mapping, light theme, lazy loading, and no-print section
-- `package.json` - Added @giscus/react ^3.1.0 dependency
-- `package-lock.json` - Updated lockfile with 8 new packages
+- `content/comments.json` - Seed empty object; GitHub Actions cron populates with approved comments keyed by brief slug
+- `app/components/briefs/CommentForm.tsx` - 'use client' form with name/email/comment; POSTs to GAS with formType: 'comment'; success/error/submitting states
+- `app/components/briefs/CommentList.tsx` - Server component; imports comments.json; renders per-slug comments or empty state
+- `app/lib/analytics.ts` - Added trackEvent generic helper for comment_submitted and future ad-hoc events
 
 ## Decisions Made
-- `repoId` and `categoryId` set as PLACEHOLDER strings — user must fill in real values from giscus.app before Phase 19 goes live; these are not secrets so they are hardcoded rather than env vars
-- `mapping="pathname"` — auto-creates one GitHub Discussion per brief URL slug with no manual setup
-- `theme="light"` — site has no dark mode; "preferred_color_scheme" not used per research
-- `loading="lazy"` — defers iframe load until scroll; reduces initial page load overhead
+- Replaced Giscus with GAS anonymous commenting — target audience (African health policymakers) don't have GitHub accounts; Giscus requires GitHub login to comment
+- CommentList uses `'../../../content/comments.json'` relative import — the `@/*` tsconfig alias maps to `./app/*`, not the project root; content/ lives at root
+- Reuse existing NEXT_PUBLIC_GAS_URL endpoint with `formType: 'comment'` routing — same pattern as Phase 10 pledge and commitment forms; no new GAS endpoint or env var needed
+- trackEvent added to analytics.ts as generic helper rather than a specific trackCommentSubmit — enables future ad-hoc events without repeated boilerplate
 
 ## Deviations from Plan
 
-None - plan executed exactly as written.
+### Auto-fixed Issues
 
-## Issues Encountered
-None
+**1. [Rule 2 - Missing functionality] Added trackEvent to analytics.ts**
+- **Found during:** Task 2 (creating CommentForm)
+- **Issue:** CommentForm calls `trackEvent('comment_submitted', ...)` but analytics.ts only had specific named functions (trackPdfDownload, trackPledgeSubmit, etc.) — no generic trackEvent
+- **Fix:** Added `export function trackEvent(eventName: string, params: Record<string, string> = {})` wrapping sendGAEvent
+- **Files modified:** app/lib/analytics.ts
+- **Commit:** b9c0ab9
 
-## User Setup Required
-
-**Before Phase 19 goes live**, the user must:
-1. Visit https://giscus.app and configure for the `shikaasor/gghnstarr` repo
-2. Enable GitHub Discussions on the repository
-3. Copy the real `repoId` and `categoryId` values from giscus.app
-4. Replace `PLACEHOLDER_REPO_ID` and `PLACEHOLDER_CATEGORY_ID` in `app/components/briefs/GiscusComments.tsx`
-
-These are not secrets — they can be committed directly in the component file.
+**2. [Rule 1 - Bug] Fixed CommentList import path**
+- **Found during:** Task 3 (creating CommentList)
+- **Issue:** Plan specified `import commentsData from '@/content/comments.json'` but `@/*` alias resolves to `./app/*` — would fail at build time
+- **Fix:** Used relative path `'../../../content/comments.json'`
+- **Files modified:** app/components/briefs/CommentList.tsx
+- **Commit:** 82fcfa6
 
 ## Next Phase Readiness
-- GiscusComments component ready to import in Plan 02 (brief detail page integration)
-- No blockers — component exports named `GiscusComments`, TypeScript clean, props match Giscus spec
+- CommentForm and CommentList ready to import in Plan 02 (brief detail page integration)
+- No blockers — both components export named exports, TypeScript clean
 
 ---
 *Phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages*

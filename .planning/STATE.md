@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages
-Plan: 19-02 (checkpoint:human-action — Tasks 1-2 complete, Task 3 awaiting GitHub setup)
-Status: Phase 19 Tasks 1-2 done — GiscusComments wired into page.tsx, giscus.json created; Task 3 awaits user GitHub Discussions setup + repoId/categoryId
-Last activity: 2026-05-03 — 19-02 Tasks 1-2 complete (~1 min, 2 tasks, 2 files)
+Plan: 19-02 (complete)
+Status: Phase 19 complete — GAS anonymous commenting system fully implemented; awaiting GAS script deployment and GAS_COMMENTS_URL secret before going live
+Last activity: 2026-05-03 — Phase 19 pivot from Giscus to GAS commenting; all tasks complete (~10 min, 5 tasks, 7 files)
 
 Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1.0 complete
 
@@ -99,10 +99,11 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 - [Phase 15-01]: daysLeft initialized as null prevents hydration mismatch on static export
 - [Phase 15-01]: sessionStorage used (not localStorage) — bar returns each new browser session for maximum conference awareness
 - [Phase 15-02]: Register Now CTA URL corrected to /registration (internal route) after visual verification — keeps users on GGHN platform
-- [Phase Phase 19-01]: repoId and categoryId use PLACEHOLDER strings — user fills in real values from giscus.app before Phase 19 goes live; they are NOT secrets
-- [Phase Phase 19-01]: mapping=pathname auto-creates one GitHub Discussion per brief URL slug; theme=light hardcoded (no dark mode); loading=lazy reduces LCP impact
-- [Phase 19-02]: GiscusComments placed after Prev/Next nav, inside Container but outside max-w-3xl — allows iframe to span full Container width
-- [Phase 19-02]: public/giscus.json origin allowlist includes gghnstarr.vercel.app, www.gghnstarr.org, localhost:3000 — update if custom domain differs
+- [Phase 19]: replaced Giscus with GAS anonymous commenting — Giscus requires GitHub login, target audience are normies without GitHub accounts
+- [Phase 19-01]: CommentList uses relative path import '../../../content/comments.json' — @/* alias maps to app/, not project root; content/ lives at root
+- [Phase 19-01]: formType: 'comment' routes to comment handler in existing GAS endpoint — no new endpoint or env var needed
+- [Phase 19-02]: GAS_COMMENTS_URL stored as GitHub Actions secret (not NEXT_PUBLIC_) — only cron job reads it; browser clients use existing NEXT_PUBLIC_GAS_URL
+- [Phase 19-02]: fetch-comments.yml gracefully skips if secret not configured — safe to deploy before GAS is set up
 
 ### Pending Todos
 
@@ -133,5 +134,5 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-03
-Stopped at: 19-02-PLAN.md checkpoint:human-action (Task 3) — GiscusComments wired into page.tsx and giscus.json created; awaiting GitHub Discussions setup + repoId/categoryId from user
+Stopped at: Completed Phase 19 pivot — Giscus replaced with GAS anonymous commenting; all code complete; awaiting GAS script deployment + GAS_COMMENTS_URL secret
 Resume file: None

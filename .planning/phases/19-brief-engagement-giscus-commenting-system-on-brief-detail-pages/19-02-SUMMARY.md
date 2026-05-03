@@ -2,102 +2,91 @@
 phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages
 plan: "02"
 subsystem: ui
-tags: [giscus, commenting, github-discussions, next-js, static-export, origin-hardening]
+tags: [commenting, gas, github-actions, cron, static-json, brief-detail]
 
 # Dependency graph
 requires:
   - phase: 19-01
-    provides: GiscusComments React component wrapping Giscus iframe
+    provides: CommentForm and CommentList components
 provides:
-  - GiscusComments wired into every brief detail page below Prev/Next nav
-  - public/giscus.json restricting Giscus iframe to authorized origins
+  - Discussion section on every brief detail page below Prev/Next nav
+  - fetch-comments GitHub Actions cron updating content/comments.json daily
 affects:
-  - 19-02 Task 3 continuation (GitHub setup + repoId/categoryId placeholder fill-in — awaiting human action)
+  - All /briefs/[slug] pages (adds Discussion section)
 
 # Tech tracking
 tech-stack:
   added: []
-  patterns: ["Server Component page importing Client Component (GiscusComments) — same pattern as DownloadButton and InfographicBlock", "public/giscus.json origin allowlist for third-party iframe hardening"]
+  patterns: ["GitHub Actions cron for static content refresh — same pattern as fetch-news.yml", "Server Component page importing Client Component (CommentForm) — same pattern as DownloadButton and InfographicBlock"]
 
 key-files:
   created:
-    - public/giscus.json
+    - .github/workflows/fetch-comments.yml
   modified:
     - app/briefs/[slug]/page.tsx
 
 key-decisions:
-  - "GiscusComments placed after closing </nav> of Prev/Next block, inside Container but outside max-w-3xl — allows iframe to span full Container width"
-  - "giscus.json origins: gghnstarr.vercel.app + www.gghnstarr.org + localhost:3000 — update if custom domain differs"
-  - "No React.Suspense or dynamic() wrapping — not needed for static export; loading=lazy on Giscus component handles deferred load"
+  - "Phase 19: replaced Giscus with GAS anonymous commenting — Giscus requires GitHub login, target audience are normies without GitHub accounts"
+  - "Discussion section uses no-print class — hidden when brief page is printed"
+  - "GAS_COMMENTS_URL is a GitHub Actions secret (not a NEXT_PUBLIC_ env var) — only the cron job needs it"
+  - "fetch-comments.yml gracefully skips if GAS_COMMENTS_URL secret not yet configured — safe to deploy before GAS is set up"
+  - "CommentList and CommentForm placed after </nav> of Prev/Next block, inside Container but outside max-w-3xl — consistent with Giscus placement from original plan"
 
 patterns-established:
-  - "public/giscus.json: serve domain allowlist from /public for Giscus iframe origin restriction"
+  - "GitHub Actions secret for read-only GAS endpoints used only by cron (not browser clients)"
 
 requirements-completed: [BENG-01, BENG-02]
 
 # Metrics
-duration: 1min
+duration: ~5min
 completed: 2026-05-03
 ---
 
-# Phase 19 Plan 02: Brief Detail Page Giscus Integration Summary
+# Phase 19 Plan 02: Brief Detail Page Discussion Integration Summary
 
-**GiscusComments wired into every brief detail page below Prev/Next nav, and public/giscus.json created for origin hardening — widget awaits one-time GitHub setup (Task 3 checkpoint)**
+**Discussion section wired into every brief detail page — CommentList + CommentForm below Prev/Next nav, daily GitHub Actions cron syncs approved comments from GAS**
 
 ## Performance
 
-- **Duration:** ~1 min
-- **Started:** 2026-05-03T12:53:14Z
-- **Completed:** 2026-05-03T12:53:59Z
-- **Tasks:** 2 of 3 complete (Task 3 is a human-action checkpoint)
+- **Duration:** ~5 min
+- **Completed:** 2026-05-03
+- **Tasks:** 2
 - **Files modified:** 2
 
 ## Accomplishments
-- Added `import { GiscusComments } from '@/components/briefs/GiscusComments'` to brief detail page
-- Rendered `<GiscusComments />` after the closing `</nav>` of Prev/Next navigation, inside Container but outside max-w-3xl content div
-- Created `public/giscus.json` with origin allowlist restricting Giscus iframe to gghnstarr.vercel.app, www.gghnstarr.org, and localhost:3000
+- Added CommentForm and CommentList imports to brief detail page
+- Added Discussion section after Prev/Next nav with no-print class, CommentList (per-slug approved comments), and CommentForm (anonymous submission)
+- Created .github/workflows/fetch-comments.yml — daily 06:00 UTC cron, curl GAS_COMMENTS_URL → content/comments.json, commit with [skip ci], gracefully skips if secret not set
 - TypeScript compilation clean with zero errors
+- npm run build completes without errors
 
 ## Task Commits
 
-Each task was committed atomically:
-
-1. **Task 1: Wire GiscusComments into brief detail page** - `08c4038` (feat)
-2. **Task 2: Create public/giscus.json for origin hardening** - `91161c7` (feat)
-
-*Task 3 (GitHub setup + fill in repoId/categoryId) is a checkpoint:human-action — awaiting user action*
+1. **Task 1: Wire Discussion section** - `004ae90` (feat)
+2. **Task 2: Add fetch-comments cron** - `751d981` (chore)
 
 ## Files Created/Modified
-- `app/briefs/[slug]/page.tsx` - Added GiscusComments import and JSX rendering after Prev/Next nav
-- `public/giscus.json` - Domain allowlist served at /giscus.json; Giscus checks this file to validate allowed origins
+- `app/briefs/[slug]/page.tsx` - Added CommentForm + CommentList imports; Discussion section with h2, CommentList, CommentForm after Prev/Next nav
+- `.github/workflows/fetch-comments.yml` - Daily cron mirrors fetch-news.yml pattern; uses GAS_COMMENTS_URL secret; commits updated comments.json with [skip ci]
 
 ## Decisions Made
-- GiscusComments placed after `</nav>` of Prev/Next block, inside `<Container>` but outside the `max-w-3xl` content div — ensures iframe spans full Container width for comfortable display
-- `public/giscus.json` includes `www.gghnstarr.org` as likely custom domain — remove if not in use
-- No React.Suspense or dynamic() wrapping added — not needed for static Next.js export; `loading="lazy"` on the Giscus component handles deferred iframe loading
+- GAS_COMMENTS_URL stored as GitHub Actions secret (not in .env.local) — the cron job reads it server-side; browser clients use the existing NEXT_PUBLIC_GAS_URL for form submission
+- `[skip ci]` tag on auto-commits prevents infinite loop — GitHub Actions won't re-trigger on its own commits
+- `permissions: contents: write` added to workflow — mirrors fetch-news.yml; required to push the updated comments.json back to main
 
 ## Deviations from Plan
 
 None - plan executed exactly as written.
 
-## Issues Encountered
-None
+## Phase 19 Complete
 
-## User Setup Required
+Phase 19 is now fully implemented. The system is ready to go live once:
+1. A GAS script is deployed to handle `formType: 'comment'` submissions (store in spreadsheet with moderation)
+2. A GAS read endpoint returns approved comments as `{ "brief-slug": [{ name, comment, date }] }` JSON
+3. `GAS_COMMENTS_URL` secret is added to GitHub repository settings (for cron fetch)
+4. Trigger the `fetch-comments` workflow manually once to populate content/comments.json
 
-**Task 3 is a blocking human-action checkpoint.** The user must complete the following before the commenting widget goes live:
-
-1. **Enable GitHub Discussions** — GitHub → shikaasor/gghnstarr → Settings → Features → tick "Discussions"
-2. **Install Giscus GitHub App** — https://github.com/apps/giscus → Install → select shikaasor/gghnstarr
-3. **Get repoId and categoryId** — https://giscus.app → enter shikaasor/gghnstarr → copy `data-repo-id` and `data-category-id` from the generated snippet
-4. **Fill in placeholders** — Replace `PLACEHOLDER_REPO_ID` and `PLACEHOLDER_CATEGORY_ID` in `app/components/briefs/GiscusComments.tsx`
-5. **Verify locally** — `npm run dev` → visit any /briefs/[slug] page → scroll to bottom → Giscus comment box should appear
-6. **Run build** — `npm run build` should pass cleanly
-
-## Next Phase Readiness
-- GiscusComments is now rendering on every brief detail page
-- Widget will load as soon as real repoId/categoryId values are filled in (Task 3)
-- After Task 3 completion, Phase 19 is fully live — no further code changes needed
+No code changes required — the system is complete.
 
 ---
 *Phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages*
