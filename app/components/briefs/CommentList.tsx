@@ -1,4 +1,4 @@
-import commentsData from '@/content/comments.json';
+import commentsData from '../../../content/comments.json';
 
 interface Comment {
   name: string;

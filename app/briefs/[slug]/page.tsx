@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { DownloadButton } from '@/components/briefs/DownloadButton';
 import { InfographicBlock } from '@/components/briefs/InfographicBlock';
+import { CommentForm } from '@/components/briefs/CommentForm';
+import { CommentList } from '@/components/briefs/CommentList';
 import type { Metadata } from 'next';
 
 // REQUIRED for output:'export' — enumerates all slugs at build time
@@ -189,6 +191,14 @@ export default async function BriefDetailPage({
         </div>
       </nav>
 
+      {/* Discussion — GAS-backed anonymous commenting */}
+      <section className="no-print mt-16 pt-8 border-t border-slate-200">
+        <h2 className="font-serif text-xl text-navy-950 font-bold mb-8">Discussion</h2>
+        <div className="mb-10">
+          <CommentList slug={slug} />
+        </div>
+        <CommentForm slug={slug} />
+      </section>
 
     </Container>
   );
