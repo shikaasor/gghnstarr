@@ -24,7 +24,7 @@ export function Header() {
 
   return (
     <header className="bg-navy-950 text-white sticky top-0 z-50">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 flex items-center justify-between h-24">
+      <div className="w-full px-4 sm:px-6 lg:px-10 flex items-center justify-between h-24">
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0">
           <div className="bg-white rounded px-2 py-1">
@@ -40,7 +40,7 @@ export function Header() {
         </Link>
 
         {/* Desktop nav — hidden on mobile */}
-        <nav className="hidden md:flex items-center gap-6" aria-label="Main navigation">
+        <nav className="hidden md:flex items-center gap-6 ml-10" aria-label="Main navigation">
           {navLinks.map((link) =>
             link.isButton ? (
               <Link

@@ -8,12 +8,7 @@ export default function EducationCard({ item }: EducationCardProps) {
   const isPublication = item.format === 'Publication';
 
   return (
-    <a
-      href={item.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group bg-white rounded-lg border border-slate-200 shadow-sm hover:shadow-md transition-shadow p-5 flex flex-col gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600"
-    >
+    <div className="group bg-white rounded-lg border border-slate-200 shadow-sm hover:shadow-md transition-shadow p-5 flex flex-col gap-3">
       {/* Format badge + source row */}
       <div className="flex items-center justify-between gap-2">
         <span className="text-xs text-slate-400 font-medium uppercase tracking-wide">
@@ -30,9 +25,16 @@ export default function EducationCard({ item }: EducationCardProps) {
         </span>
       </div>
 
-      {/* Title */}
-      <h3 className="font-serif font-semibold text-navy-950 text-sm leading-snug group-hover:text-teal-700 transition-colors">
-        {item.title}
+      {/* Title — the primary link */}
+      <h3 className="font-serif font-semibold text-navy-950 text-sm leading-snug">
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-teal-700 transition-colors focus:outline-none focus-visible:underline"
+        >
+          {item.title}
+        </a>
       </h3>
 
       {/* Publication metadata */}
@@ -49,7 +51,6 @@ export default function EducationCard({ item }: EducationCardProps) {
               href={`https://doi.org/${item.doi}`}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
               className="text-xs text-teal-700 hover:underline w-fit"
             >
               DOI: {item.doi}
@@ -82,6 +83,6 @@ export default function EducationCard({ item }: EducationCardProps) {
         ))}
         <span className="text-xs text-slate-400 ml-auto">{item.year}</span>
       </div>
-    </a>
+    </div>
   );
 }
