@@ -92,6 +92,11 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 - [x] **CONF-02**: A dedicated /conference gateway page displays a full-width hero with large days countdown, event name, date/location, and Register Now CTA — automatically switches to an archive state post-conference
 - [x] **CONF-03**: The /conference page includes an About section (conference overview and overarching theme) and a Themes & Agenda section (5 agenda highlights with icons)
 
+### Brief Engagement
+
+- [x] **BENG-01**: Every brief detail page surfaces a Discussion section below the Prev/Next navigation with an anonymous comment submission form (name required, email optional) — no GitHub or any other account required
+- [x] **BENG-02**: Submitted comments are stored in Supabase and displayed live (approved comments appear immediately after moderation without a site rebuild)
+
 ---
 
 ## v3.0 Requirements (Deferred)
@@ -162,12 +167,14 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | CONF-01 | Phase 15 | Complete |
 | CONF-02 | Phase 15 | Complete |
 | CONF-03 | Phase 15 | Complete |
+| BENG-01 | Phase 19 | Complete |
+| BENG-02 | Phase 19 | Complete |
 
 **Coverage:**
-- v2.0 requirements: 34 total
-- Mapped to phases: 34
+- v2.0 requirements: 36 total
+- Mapped to phases: 36
 - Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-23*
-*Last updated: 2026-05-03 — Phase 15 Conference Hub added CONF-01/02/03; total 34 requirements*
+*Last updated: 2026-05-06 — Phase 19 Brief Engagement added BENG-01/02; total 36 requirements*
