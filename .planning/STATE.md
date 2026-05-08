@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 17-lead-capture-pre-download-access-wall-collecting-name-role-email-and-audience-category-via-gas
-Plan: 17-02 (complete)
-Status: Phase 17 in progress — Plan 02 delivered (DownloadButton + BriefCard gated download surfaces)
-Last activity: 2026-05-08 — Phase 17 Plan 02: DownloadButton and BriefCard converted to gated downloads with LeadCaptureModal; ~2 min, 2 tasks, 2 files
+Plan: 17-03 (complete)
+Status: Phase 17 complete — Plans 01-03 delivered (LeadCaptureModal, DownloadButton/BriefCard, FeaturedBrief/DownloadCard all gated)
+Last activity: 2026-05-08 — Phase 17 Plan 03: FeaturedBrief and DownloadCard converted to gated downloads with LeadCaptureModal; ~5 min, 2 tasks, 3 files
 
 Progress: [████░░░░░░] 61% (v2.0, 21/31 plans complete) | v1.0 complete
 
@@ -53,6 +53,7 @@ Progress: [████░░░░░░] 61% (v2.0, 21/31 plans complete) | v1
 | Phase 16 P03 | ~10 | 2 tasks | 2 files |
 | Phase 17 P01 | 8 | 2 tasks | 2 files |
 | Phase 17 P02 | 2 | 2 tasks | 2 files |
+| Phase 17 P03 | 5 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -123,6 +124,9 @@ Progress: [████░░░░░░] 61% (v2.0, 21/31 plans complete) | v1
 - [Phase 17-01]: Lead capture key stores user email string (not boolean) — enables email-based deduplication in GAS if needed later
 - [Phase 17]: DownloadButton: <a> replaced with <button type=button> — programmatic window.open in onClick is synchronous so popup blockers do not interfere on bypass path
 - [Phase 17]: BriefCard: alreadySubmitted initialized false avoids hydration mismatch on static export; separate showPdfModal/showInfographicModal for two independent download surfaces
+- [Phase 17-03]: FeaturedBrief uses React Fragment to wrap section + modal — avoids extra DOM wrapper while keeping modal at component root outside the section
+- [Phase 17-03]: DownloadCard renders original anchor for ungated cards (gated=false) to preserve native browser download behavior for image assets
+- [Phase 17-03]: gated prop on DownloadCard defaults false — PNG/JPEG callers omit it, PDF/DOCX callers pass gated=true; zero call-site changes for ungated cards
 
 ### Pending Todos
 
@@ -153,5 +157,5 @@ Progress: [████░░░░░░] 61% (v2.0, 21/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-08
-Stopped at: Phase 17 Plan 02 complete — DownloadButton and BriefCard gated, build passes, ready for 17-03
+Stopped at: Phase 17 Plan 03 complete — FeaturedBrief and DownloadCard gated, build passes, Phase 17 fully complete
 Resume file: None

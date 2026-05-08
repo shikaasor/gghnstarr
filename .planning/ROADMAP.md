@@ -294,7 +294,7 @@ Plans:
 
 **Goal:** All PDF downloads site-wide are gated behind a one-time lead capture modal — visitors submit email and audience category before downloading, returning submitters bypass the wall automatically via localStorage, and data flows to GAS via the existing NEXT_PUBLIC_GAS_URL endpoint
 **Depends on:** Phase 16
-**Plans:** 2/4 plans executed
+**Plans:** 3/4 plans executed
 
 Plans:
 - [ ] 17-01-PLAN.md — Lead capture lib (localStorage helpers) + LeadCaptureModal component
