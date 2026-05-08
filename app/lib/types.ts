@@ -49,19 +49,8 @@ export interface SiteContent {
   stats: Array<{ value: string; label: string; }>;
 }
 
-// Phase 8: Education Library types
-/** @deprecated Use EducationItem instead (Phase 16 redesign). Kept for EducationGrid.tsx backward compatibility until Plan 03. */
+// Phase 8 → Phase 16: AudienceType retained (used by EducationItem.audiences in Phase 16 components)
 export type AudienceType = 'Policymaker' | 'Healthcare Worker' | 'General Public';
-/** @deprecated Use ContentFormat instead (Phase 16 redesign). */
-export type ResourceFormat = 'Article' | 'Download' | 'Video';
-/** @deprecated Use EducationItem instead (Phase 16 redesign). Kept for EducationGrid.tsx backward compatibility until Plan 03. */
-export interface EducationResource {
-  title: string;
-  audiences: AudienceType[];
-  format: ResourceFormat;
-  source: string;
-  url: string;
-}
 
 // Phase 16: Education Redesign types
 export type EducationTab = 'training' | 'resources';
