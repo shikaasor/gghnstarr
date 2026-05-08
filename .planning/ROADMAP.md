@@ -292,12 +292,15 @@ Plans:
 
 ### Phase 17: Lead Capture — pre-download access wall collecting name, role, email and audience category via GAS
 
-**Goal:** [To be planned]
+**Goal:** All PDF downloads site-wide are gated behind a one-time lead capture modal — visitors submit email and audience category before downloading, returning submitters bypass the wall automatically via localStorage, and data flows to GAS via the existing NEXT_PUBLIC_GAS_URL endpoint
 **Depends on:** Phase 16
-**Plans:** 0 plans
+**Plans:** 4 plans
 
 Plans:
-- [ ] TBD (run /gsd:plan-phase 17 to break down)
+- [ ] 17-01-PLAN.md — Lead capture lib (localStorage helpers) + LeadCaptureModal component
+- [ ] 17-02-PLAN.md — Gate DownloadButton and BriefCard PDF download links
+- [ ] 17-03-PLAN.md — Gate FeaturedBrief homepage download and DownloadCard toolkit assets
+- [ ] 17-04-PLAN.md — Final build verification and human verification checkpoint
 
 ### Phase 18: Expert Registration — portfolio submission form and self-serve visibility on experts page
 
