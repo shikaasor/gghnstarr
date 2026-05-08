@@ -8,6 +8,7 @@ const toolkitAssets = [
     format: 'PDF',
     href: '/toolkit/amr-fact-sheet.pdf',
     filename: 'amr-fact-sheet.pdf',
+    gated: true,
   },
   {
     title: 'Advocacy Letter Template',
@@ -16,6 +17,7 @@ const toolkitAssets = [
     format: 'DOCX',
     href: '/toolkit/amr-letter-template.docx',
     filename: 'amr-letter-template.docx',
+    gated: true,
   },
   {
     title: 'Social Media Card',
