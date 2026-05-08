@@ -281,12 +281,14 @@ Plans:
 
 ### Phase 16: Education Redesign — archive with filters, training vs resources split, publications and verifiable references
 
-**Goal:** [To be planned]
+**Goal:** Rebuild /education as a fully data-driven archive — Training vs Resources tabs with hash-based URL state, four filter dimensions (audience, format, topic, year), pagination, verifiable source citations on every card, and publications as a first-class resource format
 **Depends on:** Phase 15
-**Plans:** 0 plans
+**Plans:** 3 plans
 
 Plans:
-- [ ] TBD (run /gsd:plan-phase 16 to break down)
+- [ ] 16-01-PLAN.md — Types and data layer: EducationItem type + content/education.json (15 items)
+- [ ] 16-02-PLAN.md — Components: EducationTabs (stateful), EducationCard, EducationFilters
+- [ ] 16-03-PLAN.md — Page wiring: replace page.tsx, retire EducationGrid, visual verification checkpoint
 
 ### Phase 17: Lead Capture — pre-download access wall collecting name, role, email and audience category via GAS
 
