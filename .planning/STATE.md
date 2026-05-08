@@ -11,8 +11,8 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 
 Phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages
 Plan: 19-02 (complete)
-Status: Phase 19 complete — GAS anonymous commenting system fully implemented; awaiting GAS script deployment and GAS_COMMENTS_URL secret before going live
-Last activity: 2026-05-03 — Phase 19 pivot from Giscus to GAS commenting; all tasks complete (~10 min, 5 tasks, 7 files)
+Status: Phase 19 complete — Supabase commenting system fully implemented; awaiting Supabase project setup (table, RLS, env vars) before going live
+Last activity: 2026-05-08 — Phase 19 pivot from GAS+GitHub Actions to Supabase client-side fetch; all tasks complete (~10 min, 5 tasks, 5 files)
 
 Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1.0 complete
 
@@ -104,6 +104,7 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 - [Phase 19-01]: formType: 'comment' routes to comment handler in existing GAS endpoint — no new endpoint or env var needed
 - [Phase 19-02]: GAS_COMMENTS_URL stored as GitHub Actions secret (not NEXT_PUBLIC_) — only cron job reads it; browser clients use existing NEXT_PUBLIC_GAS_URL
 - [Phase 19-02]: fetch-comments.yml gracefully skips if secret not configured — safe to deploy before GAS is set up
+- [Phase 19]: replaced GAS+GitHub Actions comment display with Supabase client-side fetch — live approval without rebuild cycle
 
 ### Pending Todos
 
@@ -133,6 +134,6 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 
 ## Session Continuity
 
-Last session: 2026-05-03
-Stopped at: Completed Phase 19 pivot — Giscus replaced with GAS anonymous commenting; all code complete; awaiting GAS script deployment + GAS_COMMENTS_URL secret
+Last session: 2026-05-08
+Stopped at: Completed Phase 19 Supabase pivot — GAS+GitHub Actions replaced with Supabase client-side fetch; all code complete; awaiting Supabase project setup (table + RLS + env vars)
 Resume file: None
