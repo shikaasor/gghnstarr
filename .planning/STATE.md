@@ -9,12 +9,12 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 
 ## Current Position
 
-Phase: 19-brief-engagement-giscus-commenting-system-on-brief-detail-pages
-Plan: 19-02 (complete)
-Status: Phase 19 complete — Supabase commenting system fully implemented; awaiting Supabase project setup (table, RLS, env vars) before going live
-Last activity: 2026-05-08 — Phase 19 pivot from GAS+GitHub Actions to Supabase client-side fetch; all tasks complete (~10 min, 5 tasks, 5 files)
+Phase: 16-education-redesign-archive-with-filters-training-vs-resources-split-publications-and-verifiable-references
+Plan: 16-01 (complete)
+Status: Phase 16 in progress — Plan 01 complete (data contract + content migration); Plans 02 and 03 remaining
+Last activity: 2026-05-08 — Phase 16 Plan 01: EducationItem type and content/education.json (15 items: 12 resources + 3 training seeds); 8 min, 2 tasks, 2 files
 
-Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 52% (v2.0, 17/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -48,6 +48,7 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 | Phase 15 P01 | 8min | 2 tasks | 4 files |
 | Phase 19 P01 | 1 | 2 tasks | 3 files |
 | Phase 19 P02 | 1min | 2 tasks | 2 files |
+| Phase 16 P01 | 8 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -105,6 +106,9 @@ Progress: [████░░░░░░] 48% (v2.0, 16/31 plans complete) | v1
 - [Phase 19-02]: GAS_COMMENTS_URL stored as GitHub Actions secret (not NEXT_PUBLIC_) — only cron job reads it; browser clients use existing NEXT_PUBLIC_GAS_URL
 - [Phase 19-02]: fetch-comments.yml gracefully skips if secret not configured — safe to deploy before GAS is set up
 - [Phase 19]: replaced GAS+GitHub Actions comment display with Supabase client-side fetch — live approval without rebuild cycle
+- [Phase Phase 16-01]: EducationResource kept with @deprecated JSDoc — EducationGrid.tsx still uses it; both types coexist until Plan 03 replaces that component
+- [Phase Phase 16-01]: Three Article items reclassified as Publication format (Cambridge/ASH&E, Frontiers, PubMed/JAC-AMR) with authors, journal, doi for visual distinction
+- [Phase Phase 16-01]: content/education.json as single source of truth — adding a resource never requires a code change
 
 ### Pending Todos
 

@@ -283,7 +283,7 @@ Plans:
 
 **Goal:** Rebuild /education as a fully data-driven archive — Training vs Resources tabs with hash-based URL state, four filter dimensions (audience, format, topic, year), pagination, verifiable source citations on every card, and publications as a first-class resource format
 **Depends on:** Phase 15
-**Plans:** 3 plans
+**Plans:** 1/3 plans executed
 
 Plans:
 - [ ] 16-01-PLAN.md — Types and data layer: EducationItem type + content/education.json (15 items)
