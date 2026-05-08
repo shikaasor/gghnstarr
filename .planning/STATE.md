@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 16-education-redesign-archive-with-filters-training-vs-resources-split-publications-and-verifiable-references
-Plan: 16-02 (complete)
-Status: Phase 16 in progress — Plans 01 and 02 complete (data contract + UI components); Plan 03 remaining
-Last activity: 2026-05-08 — Phase 16 Plan 02: EducationCard, EducationFilters, EducationTabs components; 8 min, 2 tasks, 3 files
+Plan: 16-03 (complete)
+Status: Phase 16 complete — all 3 plans delivered (data contract, UI components, page integration)
+Last activity: 2026-05-08 — Phase 16 Plan 03: Server Component wiring education.json into EducationTabs, EducationGrid retired, /education page human-verified; ~10 min, 2 tasks, 2 files
 
-Progress: [████░░░░░░] 55% (v2.0, 18/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 58% (v2.0, 19/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -50,6 +50,7 @@ Progress: [████░░░░░░] 55% (v2.0, 18/31 plans complete) | v1
 | Phase 19 P02 | 1min | 2 tasks | 2 files |
 | Phase 16 P01 | 8 | 2 tasks | 2 files |
 | Phase 16 P02 | 8 | 2 tasks | 3 files |
+| Phase 16 P03 | ~10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -113,6 +114,8 @@ Progress: [████░░░░░░] 55% (v2.0, 18/31 plans complete) | v1
 - [Phase 16-02]: EducationTabs owns all state (tab, filters, pagination); EducationCard and EducationFilters are pure presentational with no hooks
 - [Phase 16-02]: Hash sync uses useEffect + popstate listener — useSearchParams is incompatible with static Next.js export
 - [Phase 16-02]: OR-within-dimension AND-across-dimension filter logic — within a dimension any selected value matches; across dimensions all must match
+- [Phase 16-03]: page.tsx is a pure Server Component — reads content/education.json at build time via readFileSync, passes items array as prop to EducationTabs Client Component
+- [Phase 16-03]: EducationGrid retired to export {} stub with comment pointing to EducationTabs — preserves git history, avoids accidental re-creation
 
 ### Pending Todos
 
@@ -143,5 +146,5 @@ Progress: [████░░░░░░] 55% (v2.0, 18/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-08
-Stopped at: Phase 16 Plan 03 Task 1 complete — awaiting checkpoint:human-verify (Task 2 visual verification of /education redesign)
+Stopped at: Phase 16 Plan 03 complete — all tasks done, SUMMARY written, ready for Phase 17
 Resume file: None
