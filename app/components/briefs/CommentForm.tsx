@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { supabase } from '@/lib/supabase';
 import { trackEvent } from '@/lib/analytics';
 
 interface Props {
@@ -16,18 +17,15 @@ export function CommentForm({ slug }: Props) {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setStatus('submitting');
-    try {
-      const url = process.env.NEXT_PUBLIC_GAS_URL;
-      if (!url) throw new Error('GAS URL not configured');
-      await fetch(url, {
-        method: 'POST',
-        body: JSON.stringify({ formType: 'comment', slug, name, email, comment }),
-      });
-      trackEvent('comment_submitted', { brief_slug: slug });
-      setStatus('success');
-    } catch {
+    const { error } = await supabase
+      .from('comments')
+      .insert({ slug, name, email: email || null, comment, status: 'pending' });
+    if (error) {
       setStatus('error');
+      return;
     }
+    trackEvent('comment_submitted', { brief_slug: slug });
+    setStatus('success');
   }
 
   if (status === 'success') {
