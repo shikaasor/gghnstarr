@@ -50,14 +50,55 @@ export interface SiteContent {
 }
 
 // Phase 8: Education Library types
+/** @deprecated Use EducationItem instead (Phase 16 redesign). Kept for EducationGrid.tsx backward compatibility until Plan 03. */
 export type AudienceType = 'Policymaker' | 'Healthcare Worker' | 'General Public';
+/** @deprecated Use ContentFormat instead (Phase 16 redesign). */
 export type ResourceFormat = 'Article' | 'Download' | 'Video';
+/** @deprecated Use EducationItem instead (Phase 16 redesign). Kept for EducationGrid.tsx backward compatibility until Plan 03. */
 export interface EducationResource {
   title: string;
   audiences: AudienceType[];
   format: ResourceFormat;
   source: string;
   url: string;
+}
+
+// Phase 16: Education Redesign types
+export type EducationTab = 'training' | 'resources';
+export type ContentFormat =
+  | 'Course'
+  | 'Webinar'
+  | 'Article'
+  | 'Download'
+  | 'Video'
+  | 'Publication';
+export type TopicTag =
+  | 'AMR Surveillance'
+  | 'Stewardship'
+  | 'Governance'
+  | 'One Health'
+  | 'Diagnostics'
+  | 'Policy'
+  | 'Awareness'
+  | 'Research';
+
+export interface EducationItem {
+  id: string;                    // slug-style unique ID e.g. "au-amr-framework-2020"
+  tab: EducationTab;             // 'training' | 'resources'
+  title: string;
+  audiences: AudienceType[];
+  format: ContentFormat;
+  topics: TopicTag[];
+  year: number;                  // Publication or event year
+  source: string;                // Organization name e.g. "WHO" or "Africa CDC"
+  sourceVerified: boolean;       // true = working external link confirmed; false = show "Source unverified" flag
+  url: string;                   // External link or hosted /public path
+  // Training-specific (optional for resources tab)
+  platform?: string;             // e.g. "WHO Academy", "Coursera", "ECHO"
+  // Publication-specific (only for format === 'Publication')
+  authors?: string;              // "Lastname, A. et al."
+  journal?: string;              // "Lancet Infectious Diseases"
+  doi?: string;                  // "10.1016/..." — used as secondary link if url is the DOI resolver
 }
 
 // Phase 9: News Feed types
