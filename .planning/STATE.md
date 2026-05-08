@@ -9,12 +9,12 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 
 ## Current Position
 
-Phase: 16-education-redesign-archive-with-filters-training-vs-resources-split-publications-and-verifiable-references
-Plan: 16-03 (complete)
-Status: Phase 16 complete — all 3 plans delivered (data contract, UI components, page integration)
-Last activity: 2026-05-08 — Phase 16 Plan 03: Server Component wiring education.json into EducationTabs, EducationGrid retired, /education page human-verified; ~10 min, 2 tasks, 2 files
+Phase: 17-lead-capture-pre-download-access-wall-collecting-name-role-email-and-audience-category-via-gas
+Plan: 17-01 (complete)
+Status: Phase 17 in progress — Plan 01 delivered (localStorage helpers + LeadCaptureModal foundation)
+Last activity: 2026-05-08 — Phase 17 Plan 01: SSR-safe localStorage utility and LeadCaptureModal with silent-fail GAS submit and download-always guarantee; ~8 min, 2 tasks, 2 files
 
-Progress: [████░░░░░░] 58% (v2.0, 19/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 61% (v2.0, 20/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -51,6 +51,7 @@ Progress: [████░░░░░░] 58% (v2.0, 19/31 plans complete) | v1
 | Phase 16 P01 | 8 | 2 tasks | 2 files |
 | Phase 16 P02 | 8 | 2 tasks | 3 files |
 | Phase 16 P03 | ~10 | 2 tasks | 2 files |
+| Phase 17 P01 | 8 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -116,6 +117,9 @@ Progress: [████░░░░░░] 58% (v2.0, 19/31 plans complete) | v1
 - [Phase 16-02]: OR-within-dimension AND-across-dimension filter logic — within a dimension any selected value matches; across dimensions all must match
 - [Phase 16-03]: page.tsx is a pure Server Component — reads content/education.json at build time via readFileSync, passes items array as prop to EducationTabs Client Component
 - [Phase 16-03]: EducationGrid retired to export {} stub with comment pointing to EducationTabs — preserves git history, avoids accidental re-creation
+- [Phase 17-01]: LeadCaptureModal silent-fail on GAS error — download always proceeds after submit to avoid blocking user access
+- [Phase 17-01]: Dismiss path (backdrop click or X) calls onClose() only — no download, no localStorage write; parent shows inline message after dismiss
+- [Phase 17-01]: Lead capture key stores user email string (not boolean) — enables email-based deduplication in GAS if needed later
 
 ### Pending Todos
 
@@ -146,5 +150,5 @@ Progress: [████░░░░░░] 58% (v2.0, 19/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-08
-Stopped at: Phase 16 Plan 03 complete — all tasks done, SUMMARY written, ready for Phase 17
+Stopped at: Phase 17 Plan 01 complete — lead-capture.ts + LeadCaptureModal created, build passes, ready for 17-02
 Resume file: None
