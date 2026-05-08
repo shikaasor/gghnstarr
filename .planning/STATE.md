@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 16-education-redesign-archive-with-filters-training-vs-resources-split-publications-and-verifiable-references
-Plan: 16-01 (complete)
-Status: Phase 16 in progress — Plan 01 complete (data contract + content migration); Plans 02 and 03 remaining
-Last activity: 2026-05-08 — Phase 16 Plan 01: EducationItem type and content/education.json (15 items: 12 resources + 3 training seeds); 8 min, 2 tasks, 2 files
+Plan: 16-02 (complete)
+Status: Phase 16 in progress — Plans 01 and 02 complete (data contract + UI components); Plan 03 remaining
+Last activity: 2026-05-08 — Phase 16 Plan 02: EducationCard, EducationFilters, EducationTabs components; 8 min, 2 tasks, 3 files
 
-Progress: [████░░░░░░] 52% (v2.0, 17/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 55% (v2.0, 18/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -49,6 +49,7 @@ Progress: [████░░░░░░] 52% (v2.0, 17/31 plans complete) | v1
 | Phase 19 P01 | 1 | 2 tasks | 3 files |
 | Phase 19 P02 | 1min | 2 tasks | 2 files |
 | Phase 16 P01 | 8 | 2 tasks | 2 files |
+| Phase 16 P02 | 8 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -109,6 +110,9 @@ Progress: [████░░░░░░] 52% (v2.0, 17/31 plans complete) | v1
 - [Phase Phase 16-01]: EducationResource kept with @deprecated JSDoc — EducationGrid.tsx still uses it; both types coexist until Plan 03 replaces that component
 - [Phase Phase 16-01]: Three Article items reclassified as Publication format (Cambridge/ASH&E, Frontiers, PubMed/JAC-AMR) with authors, journal, doi for visual distinction
 - [Phase Phase 16-01]: content/education.json as single source of truth — adding a resource never requires a code change
+- [Phase 16-02]: EducationTabs owns all state (tab, filters, pagination); EducationCard and EducationFilters are pure presentational with no hooks
+- [Phase 16-02]: Hash sync uses useEffect + popstate listener — useSearchParams is incompatible with static Next.js export
+- [Phase 16-02]: OR-within-dimension AND-across-dimension filter logic — within a dimension any selected value matches; across dimensions all must match
 
 ### Pending Todos
 
@@ -139,5 +143,5 @@ Progress: [████░░░░░░] 52% (v2.0, 17/31 plans complete) | v1
 ## Session Continuity
 
 Last session: 2026-05-08
-Stopped at: Completed Phase 19 Supabase pivot — GAS+GitHub Actions replaced with Supabase client-side fetch; all code complete; awaiting Supabase project setup (table + RLS + env vars)
+Stopped at: Completed Phase 16 Plan 02 — EducationCard, EducationFilters, EducationTabs components built and compiling
 Resume file: None
