@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/third-parties": "^16.2.4",
+    "@supabase/supabase-js": "^2.105.3",
     "@tailwindcss/postcss": "^4.2.2",
     "clsx": "^2.1.1",
     "lucide-react": "^1.6.0",
