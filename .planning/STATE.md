@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Position
 
 Phase: 17-lead-capture-pre-download-access-wall-collecting-name-role-email-and-audience-category-via-gas
-Plan: 17-03 (complete)
-Status: Phase 17 complete — Plans 01-03 delivered (LeadCaptureModal, DownloadButton/BriefCard, FeaturedBrief/DownloadCard all gated)
-Last activity: 2026-05-08 — Phase 17 Plan 03: FeaturedBrief and DownloadCard converted to gated downloads with LeadCaptureModal; ~5 min, 2 tasks, 3 files
+Plan: 17-04 (complete)
+Status: Phase 17 fully complete — Plans 01-04 delivered (LeadCaptureModal, DownloadButton/BriefCard, FeaturedBrief/DownloadCard all gated, human-verified)
+Last activity: 2026-05-09 — Phase 17 Plan 04: Human verification of lead capture flow; all 6 test scenarios (A-F) confirmed passing; ~5 min, 2 tasks, 0 files
 
-Progress: [████░░░░░░] 61% (v2.0, 21/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 65% (v2.0, 22/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -54,6 +54,7 @@ Progress: [████░░░░░░] 61% (v2.0, 21/31 plans complete) | v1
 | Phase 17 P01 | 8 | 2 tasks | 2 files |
 | Phase 17 P02 | 2 | 2 tasks | 2 files |
 | Phase 17 P03 | 5 | 2 tasks | 3 files |
+| Phase 17 P04 | 5 | 2 tasks | 0 files |
 
 ## Accumulated Context
 
@@ -127,6 +128,9 @@ Progress: [████░░░░░░] 61% (v2.0, 21/31 plans complete) | v1
 - [Phase 17-03]: FeaturedBrief uses React Fragment to wrap section + modal — avoids extra DOM wrapper while keeping modal at component root outside the section
 - [Phase 17-03]: DownloadCard renders original anchor for ungated cards (gated=false) to preserve native browser download behavior for image assets
 - [Phase 17-03]: gated prop on DownloadCard defaults false — PNG/JPEG callers omit it, PDF/DOCX callers pass gated=true; zero call-site changes for ungated cards
+- [Phase Phase 17-04]: Human verification confirmed all 6 test scenarios (A-F) pass — lead capture wall production-ready
+- [Phase Phase 17-04]: Returning visitor bypass confirmed: second click on any gated surface skips modal entirely via localStorage (gghn_lead_email)
+- [Phase Phase 17-04]: PNG assets on /take-action confirmed ungated — gated prop defaults false, preserving native anchor behavior
 
 ### Pending Todos
 
@@ -156,6 +160,6 @@ Progress: [████░░░░░░] 61% (v2.0, 21/31 plans complete) | v1
 
 ## Session Continuity
 
-Last session: 2026-05-08
-Stopped at: Phase 17 Plan 03 complete — FeaturedBrief and DownloadCard gated, build passes, Phase 17 fully complete
+Last session: 2026-05-09
+Stopped at: Phase 17 Plan 04 complete — human verification passed all 6 test scenarios, Phase 17 fully signed off
 Resume file: None
