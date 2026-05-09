@@ -92,6 +92,10 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 - [x] **CONF-02**: A dedicated /conference gateway page displays a full-width hero with large days countdown, event name, date/location, and Register Now CTA — automatically switches to an archive state post-conference
 - [x] **CONF-03**: The /conference page includes an About section (conference overview and overarching theme) and a Themes & Agenda section (5 agenda highlights with icons)
 
+### Lead Capture
+
+- [x] **LEAD-01**: All PDF downloads site-wide are gated behind a one-time lead capture modal — visitors submit email and audience category before downloading, returning submitters bypass the wall automatically via localStorage, and data flows to GAS via the existing NEXT_PUBLIC_GAS_URL endpoint
+
 ### Brief Engagement
 
 - [x] **BENG-01**: Every brief detail page surfaces a Discussion section below the Prev/Next navigation with an anonymous comment submission form (name required, email optional) — no GitHub or any other account required
@@ -169,10 +173,11 @@ All v1.0 requirements delivered across Phases 1–5 (completed 2026-04-23).
 | CONF-03 | Phase 15 | Complete |
 | BENG-01 | Phase 19 | Complete |
 | BENG-02 | Phase 19 | Complete |
+| LEAD-01 | Phase 17 | Complete |
 
 **Coverage:**
-- v2.0 requirements: 36 total
-- Mapped to phases: 36
+- v2.0 requirements: 37 total
+- Mapped to phases: 37
 - Unmapped: 0
 
 ---

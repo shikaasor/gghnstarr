@@ -11,6 +11,7 @@
  *   "Newsletter"   — email signups
  *   "Pledges"      — public AMR pledges
  *   "Commitments"  — healthcare worker prescribing commitments
+ *   "Leads"        — lead capture (email + audience category + optional name)
  */
 
 function doPost(e) {
@@ -22,7 +23,7 @@ function doPost(e) {
   }
 
   var formType = data.formType || 'unknown';
-  var sheetName = { newsletter: 'Newsletter', pledge: 'Pledges', commitment: 'Commitments' }[formType] || 'Unknown';
+  var sheetName = { newsletter: 'Newsletter', pledge: 'Pledges', commitment: 'Commitments', 'lead-capture': 'Leads' }[formType] || 'Unknown';
 
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = ss.getSheetByName(sheetName);
@@ -40,8 +41,9 @@ function getHeaders(formType) {
   switch (formType) {
     case 'newsletter':  return ['Timestamp', 'Email', 'Source'];
     case 'pledge':      return ['Timestamp', 'Name', 'Country', 'Role', 'Commitment Statement'];
-    case 'commitment':  return ['Timestamp', 'Name', 'Facility', 'Specialty', 'Specific Commitment'];
-    default:            return ['Timestamp', 'Form Type', 'Raw Data'];
+    case 'commitment':    return ['Timestamp', 'Name', 'Facility', 'Specialty', 'Specific Commitment'];
+    case 'lead-capture':  return ['Timestamp', 'Email', 'Audience Category', 'Name'];
+    default:              return ['Timestamp', 'Form Type', 'Raw Data'];
   }
 }
 
@@ -50,8 +52,9 @@ function getRow(formType, data) {
   switch (formType) {
     case 'newsletter':  return [ts, data.email || '', data.source || ''];
     case 'pledge':      return [ts, data.name || '', data.country || '', data.role || '', data.commitmentStatement || ''];
-    case 'commitment':  return [ts, data.name || '', data.facility || '', data.specialty || '', data.specificCommitment || ''];
-    default:            return [ts, formType, JSON.stringify(data)];
+    case 'commitment':    return [ts, data.name || '', data.facility || '', data.specialty || '', data.specificCommitment || ''];
+    case 'lead-capture':  return [ts, data.email || '', data.audienceCategory || '', data.name || ''];
+    default:              return [ts, formType, JSON.stringify(data)];
   }
 }
 
