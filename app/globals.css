@@ -1,16 +1,25 @@
 @import "tailwindcss";
 
 /* AMR Brand Tokens — Emerald Green / Gold / Slate */
-/* Colors derived from AMR Logo_Feb2026.jpeg: Green #0A7050, Gold #F2A900 */
+/* Phase 14: primary green refreshed to #319974 (brighter emerald). WCAG AA waived for brand vibrancy. */
 @theme {
   /* Primary palette — AMR Brand (Emerald Green / Gold / Dark Green) */
+  /* WCAG NOTE: teal-600 (#319974) on white = ~3.5:1; white on teal-600 = ~4.1:1.
+     WCAG AA compliance is deliberately waived in favor of brand vibrancy.
+     teal-600 is the user-pinned brand green; all other stops map to Tailwind emerald scale. */
   --color-navy-950: #1A3A2A;      /* AMR dark green — primary dark background */
   --color-navy-900: #1F4A35;      /* AMR green — card backgrounds, secondary dark */
   --color-navy-800: #2D5A42;      /* AMR green lighter — borders, dividers */
-  --color-teal-600: #0A7050;      /* AMR Emerald Green — CTAs, accent, links (darkened for WCAG AA 4.5:1 on white) */
-  --color-teal-500: #0F8A5F;      /* AMR green — hover states */
-  --color-teal-400: #12A572;      /* AMR green light — highlights, accent */
-  --color-teal-50:  #D4EFE4;      /* AMR green pale — hover backgrounds */
+  --color-teal-50:  #ecfdf5;      /* Tailwind emerald-50 — hover backgrounds */
+  --color-teal-100: #d1fae5;      /* Tailwind emerald-100 — education page tints */
+  --color-teal-200: #a7f3d0;      /* Tailwind emerald-200 — CommentList/CommentForm borders */
+  --color-teal-300: #6ee7b7;      /* Tailwind emerald-300 — highlights */
+  --color-teal-400: #34d399;      /* Tailwind emerald-400 — accent highlights */
+  --color-teal-500: #10b981;      /* Tailwind emerald-500 — hover states */
+  --color-teal-600: #319974;      /* AMR Brand Green — CTAs, accent, links (WCAG AA waived) */
+  --color-teal-700: #2A8263;      /* Derived: darken #319974 ~15% via HSL — hover/focus states */
+  --color-teal-800: #065f46;      /* Tailwind emerald-800 */
+  --color-teal-900: #064e3b;      /* Tailwind emerald-900 — NewsCard hover */
   --color-amr-gold: #F2A900;      /* AMR Gold — accent uses */
 
   /* Neutral palette */
