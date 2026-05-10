@@ -264,7 +264,7 @@ Plans:
 
 **Goal:** The site-wide green brand token is updated from the Phase 6 value (#0A7050) to a brighter emerald green (#319974), with a complete teal scale (teal-50 through teal-900) rebuilt using Tailwind emerald values, and every page confirmed rendering correctly with the new palette
 **Depends on:** Phase 13
-**Plans:** 2 plans
+**Plans:** 1/2 plans executed
 
 Plans:
 - [ ] 14-01-PLAN.md — Rebuild full teal token scale in app/globals.css (@319974 for teal-600, emerald scale for all other stops, WCAG waiver comment) + next build verification

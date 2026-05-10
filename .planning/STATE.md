@@ -9,12 +9,12 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 
 ## Current Position
 
-Phase: 17-lead-capture-pre-download-access-wall-collecting-name-role-email-and-audience-category-via-gas
-Plan: 17-04 (complete)
-Status: Phase 17 fully complete — Plans 01-04 delivered (LeadCaptureModal, DownloadButton/BriefCard, FeaturedBrief/DownloadCard all gated, human-verified)
-Last activity: 2026-05-09 — Phase 17 Plan 04: Human verification of lead capture flow; all 6 test scenarios (A-F) confirmed passing; ~5 min, 2 tasks, 0 files
+Phase: 14-color-palette-refresh-brighter-emerald-green-across-all-brand-tokens
+Plan: 14-01 (complete)
+Status: Phase 14 Plan 01 complete — Full 10-stop teal token scale with #319974 brand green deployed; next build passes
+Last activity: 2026-05-10 — Phase 14 Plan 01: Teal palette refresh from 4-stop Phase 6 palette to complete emerald scale; ~3 min, 2 tasks, 1 file
 
-Progress: [████░░░░░░] 65% (v2.0, 22/31 plans complete) | v1.0 complete
+Progress: [████░░░░░░] 68% (v2.0, 23/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
@@ -55,6 +55,7 @@ Progress: [████░░░░░░] 65% (v2.0, 22/31 plans complete) | v1
 | Phase 17 P02 | 2 | 2 tasks | 2 files |
 | Phase 17 P03 | 5 | 2 tasks | 3 files |
 | Phase 17 P04 | 5 | 2 tasks | 0 files |
+| Phase 14 P01 | 3 | 2 tasks | 1 file |
 
 ## Accumulated Context
 
@@ -131,6 +132,9 @@ Progress: [████░░░░░░] 65% (v2.0, 22/31 plans complete) | v1
 - [Phase Phase 17-04]: Human verification confirmed all 6 test scenarios (A-F) pass — lead capture wall production-ready
 - [Phase Phase 17-04]: Returning visitor bypass confirmed: second click on any gated surface skips modal entirely via localStorage (gghn_lead_email)
 - [Phase Phase 17-04]: PNG assets on /take-action confirmed ungated — gated prop defaults false, preserving native anchor behavior
+- [Phase 14-01]: teal-600 set to #319974 (brighter brand green), deliberately waiving WCAG AA compliance in favor of brand vibrancy
+- [Phase 14-01]: All other teal stops use Tailwind emerald hex values mapped to teal- names — zero component changes required
+- [Phase 14-01]: teal-50 updated from Phase 6 custom value (#D4EFE4) to Tailwind emerald-50 (#ecfdf5)
 
 ### Pending Todos
 
@@ -160,6 +164,6 @@ Progress: [████░░░░░░] 65% (v2.0, 22/31 plans complete) | v1
 
 ## Session Continuity
 
-Last session: 2026-05-09
-Stopped at: Phase 17 Plan 04 complete — human verification passed all 6 test scenarios, Phase 17 fully signed off
+Last session: 2026-05-10
+Stopped at: Phase 14 Plan 01 complete — teal palette refreshed to full 10-stop emerald scale with #319974 brand green, build verified
 Resume file: None
