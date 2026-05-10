@@ -262,12 +262,13 @@ Plans:
 
 ### Phase 14: Color Palette Refresh — brighter emerald green across all brand tokens
 
-**Goal:** [To be planned]
+**Goal:** The site-wide green brand token is updated from the Phase 6 value (#0A7050) to a brighter emerald green (#319974), with a complete teal scale (teal-50 through teal-900) rebuilt using Tailwind emerald values, and every page confirmed rendering correctly with the new palette
 **Depends on:** Phase 13
-**Plans:** 0 plans
+**Plans:** 2 plans
 
 Plans:
-- [ ] TBD (run /gsd:plan-phase 14 to break down)
+- [ ] 14-01-PLAN.md — Rebuild full teal token scale in app/globals.css (@319974 for teal-600, emerald scale for all other stops, WCAG waiver comment) + next build verification
+- [ ] 14-02-PLAN.md — Visual verification checkpoint: human confirms new brighter emerald green renders correctly across all 11 routes
 
 ### Phase 15: Conference Hub — dedicated /conference page and site-wide countdown widget
 
