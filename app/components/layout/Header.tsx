@@ -23,7 +23,7 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-navy-950 text-white sticky top-0 z-50">
+    <header className="bg-teal-600 text-white sticky top-0 z-50">
       <div className="w-full px-4 sm:px-6 lg:px-10 flex items-center justify-between h-24">
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0">
@@ -78,7 +78,7 @@ export function Header() {
       {isOpen && (
         <nav
           id="mobile-nav"
-          className="md:hidden bg-navy-900 border-t border-navy-800 px-4 py-4 flex flex-col gap-1"
+          className="md:hidden bg-teal-700 border-t border-teal-800 px-4 py-4 flex flex-col gap-1"
           aria-label="Mobile navigation"
         >
           {navLinks.map((link) =>
