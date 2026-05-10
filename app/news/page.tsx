@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import type { NewsArticle } from '@/lib/types';
 import NewsGrid from '@/components/news/NewsGrid';
+import { Container } from '@/components/layout/Container';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -18,7 +19,7 @@ function getAllArticles(): NewsArticle[] {
 export default function NewsPage() {
   const articles = getAllArticles();
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <Container className="py-12">
       <div className="mb-8">
         <h1 className="font-serif text-3xl font-bold text-navy-950 mb-2">AMR Research News</h1>
         <p className="text-slate-500 text-sm">
@@ -26,6 +27,6 @@ export default function NewsPage() {
         </p>
       </div>
       <NewsGrid articles={articles} />
-    </div>
+    </Container>
   );
 }
