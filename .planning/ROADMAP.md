@@ -214,19 +214,21 @@ Plans:
 - [x] 10-02-PLAN.md — Advocacy toolkit: DownloadCard component, ToolkitSection (3-column grid), public/toolkit/ directory; Phase 10 visual verification checkpoint (completed 2026-05-03)
 
 ### Phase 11: Interactive Tools
-**Goal**: A healthcare worker or facility manager can use three browser-based tools — a stewardship checklist, a self-assessment quiz, and a facility reporting template — without downloading any software
+**Goal**: A healthcare worker or facility manager can use four browser-based tools — a stewardship checklist, a self-assessment quiz, a facility reporting template, and a One Health competency prioritization tool — without downloading any software
 **Depends on**: Phase 6
 **Requirements**: TOOL-01, TOOL-02, TOOL-03
 **Success Criteria** (what must be TRUE):
   1. At /tools/stewardship-checklist a user can check off AMR stewardship practices, see a live completion score update as boxes are ticked, and trigger a browser print of the completed checklist
   2. At /tools/amr-quiz a user can answer multiple-choice questions, submit the quiz, and see a scored results summary with tailored recommendations based on their score band
   3. At /tools/facility-template a user can fill in key AMR reporting fields in a form and trigger a browser-print summary of their entries as a printable template
+  4. At /tools/competency-prioritization a training program planner can rate optional competencies across 14 One Health domains using pairwise comparisons and receive a ranked priority output they can print or copy
 **Plans**: TBD
 
 Plans:
 - [ ] 11-01-PLAN.md — /tools/stewardship-checklist: checklist data JSON, ChecklistTool client component with score tracking and window.print()
 - [ ] 11-02-PLAN.md — /tools/amr-quiz: quiz data JSON, QuizTool client component with scoring logic and results display
 - [ ] 11-03-PLAN.md — /tools/facility-template: FacilityTemplateTool client component with form fields and print layout
+- [ ] 11-04-PLAN.md — /tools/competency-prioritization: extract 14-domain competency data from xlsx, CompetencyTool client component with pairwise comparison UI, auto-scoring, ranked output, and print
 
 ### Phase 12: AMR Data Map
 **Goal**: A policymaker can explore antibiotic resistance rates across African countries on an interactive choropleth map, filter by pathogen and antibiotic, and click a country to see its detailed resistance figures
@@ -323,6 +325,37 @@ Plans:
 - [ ] 19-01-PLAN.md — Install @giscus/react and create GiscusComments client component
 - [ ] 19-02-PLAN.md — Wire GiscusComments into brief detail page + public/giscus.json + GitHub setup checkpoint
 
+### Phase 20: Education Resource Import — populate education library with 172 verified AMR resources
+
+**Goal:** The education library at /education is populated with all 172 records from the AMR Resource Repository spreadsheet — each card shows title, format, audience, WHO region, purpose, description, and a working external link — replacing the 15 placeholder items currently in content/education.json
+**Depends on:** Phase 16
+**Plans:** 2 plans
+
+Plans:
+- [ ] 20-01-PLAN.md — Extract all 172 records from AMR Resource Repository.xlsx into content/education.json with full EducationItem typing (title, format, audience, topic, year, url, description, region)
+- [ ] 20-02-PLAN.md — Add region filter dimension to EducationFilters and EducationTabs; visual verification checkpoint
+
+### Phase 21: Tools Directory — searchable catalog of One Health tools and resources at /tools-directory
+
+**Goal:** A visitor can browse and filter the landscape of major One Health tools at /tools-directory — a searchable card grid of the 50 major tools from the One Health Tools Inventory, filterable by audience type (policymakers / multisectoral / national / global), organization level, and One Health domain
+**Depends on:** Phase 20
+**Plans:** 3 plans
+
+Plans:
+- [ ] 21-01-PLAN.md — Extract 50 major tools from Table 1 of One Health Tools Inventory into content/oh-tools.json with types (name, year, organization, scope, audience, description, url)
+- [ ] 21-02-PLAN.md — ToolCard component, ToolsGrid with audience/scope/organization filters, /tools-directory page.tsx, Header nav link
+- [ ] 21-03-PLAN.md — Visual verification checkpoint and next build confirmation
+
+### Phase 22: ICARS Projects on Awareness — showcase 40 funded AMR interventions on /awareness
+
+**Goal:** The /awareness page includes a new "AMR Interventions" section showing all 40 ICARS-funded projects as filterable cards — each card displays country, sector badge (Humans / Animals / Environment), project title, description excerpt, and key outcomes — filterable by sector
+**Depends on:** Phase 21
+**Plans:** 2 plans
+
+Plans:
+- [ ] 22-01-PLAN.md — Extract 40 ICARS projects from International Center for Antimicrobial Resistance Solutions.xlsx into content/icars-projects.json with types (country, sector, title, description, outcomes, fundingPartners)
+- [ ] 22-02-PLAN.md — IcarsProjectCard component, IcarsProjectsSection (sector filter), wire into /awareness page below existing sections; visual verification checkpoint
+
 ---
 
 ## Progress
@@ -344,6 +377,9 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 8. Awareness Hub & Education Library | v2.0 | 0/4 | Not started | - |
 | 9. News Feed | v2.0 | 0/2 | Not started | - |
 | 10. Take Action Page | 2/2 | Complete    | 2026-05-03 | - |
-| 11. Interactive Tools | v2.0 | 0/3 | Not started | - |
+| 11. Interactive Tools | v2.0 | 0/4 | Not started | - |
 | 12. AMR Data Map | v2.0 | 0/3 | Not started | - |
 | 13. Social Sharing & Accessibility | v2.0 | 0/3 | Not started | - |
+| 20. Education Resource Import | v2.0 | 0/2 | Not started | - |
+| 21. Tools Directory | v2.0 | 0/3 | Not started | - |
+| 22. ICARS Projects on Awareness | v2.0 | 0/2 | Not started | - |
