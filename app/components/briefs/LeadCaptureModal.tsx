@@ -15,7 +15,6 @@ export function LeadCaptureModal({ href, onClose }: LeadCaptureModalProps) {
   const [email, setEmail] = useState('');
   const [audienceCategory, setAudienceCategory] = useState('');
   const [name, setName] = useState('');
-  const [role, setRole] = useState('');
   const [submitting, setSubmitting] = useState(false);
 
   function triggerDownload() {
@@ -45,7 +44,6 @@ export function LeadCaptureModal({ href, onClose }: LeadCaptureModalProps) {
           email,
           audienceCategory,
           name: name || undefined,
-          role: role || undefined,
           timestamp: new Date().toISOString(),
         }),
       });
@@ -148,27 +146,6 @@ export function LeadCaptureModal({ href, onClose }: LeadCaptureModalProps) {
               placeholder="Your name (optional)"
               className={inputClass}
             />
-          </div>
-
-          {/* Role — optional */}
-          <div>
-            <label htmlFor="lc-role" className="block text-sm font-medium text-navy-950 mb-1">
-              Role
-            </label>
-            <select
-              id="lc-role"
-              value={role}
-              onChange={(e) => setRole(e.target.value)}
-              className={inputClass}
-            >
-              <option value="">Select your role (optional)</option>
-              <option value="Minister">Minister</option>
-              <option value="Policy Advisor">Policy Advisor</option>
-              <option value="Healthcare Worker">Healthcare Worker</option>
-              <option value="Researcher">Researcher</option>
-              <option value="Student">Student</option>
-              <option value="Other">Other</option>
-            </select>
           </div>
 
           <button
