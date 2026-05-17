@@ -242,6 +242,17 @@
     "doi": "10.1002/puh2.70260"
   },
   {
+    "id": "42141512",
+    "source": "PubMed",
+    "title": "Antibiotic Metabolites Are an Overlooked Driver of Resistance Dissemination in Plant Systems",
+    "authors": "Li Y et al.",
+    "publishedDate": "2026-05-15",
+    "journal": "Environ Sci Technol",
+    "abstract": "Antibiotic pollution in agroecosystems is widely recognized, yet the risks posed by their metabolites remain insufficiently addressed. Using lettuce as a model, we investigated how tetracycline (TC) and its metabolites, anhydrotetracycline (ATC) and epitetracycline (ETC), contribute to the dissemination of antibiotic resistance genes (ARGs). TC primarily accumulated in roots and declined during translocation, whereas ATC exhibited greater persistence and became the predominant residue through in planta transformation. At environmentally relevant concentrations (&#x2264;0.1 mg&#xb7;L), ATC more effectively expanded the mobilizable resistome than the parent compound by inducing reactive oxygen species, activating the SOS response, increasing membrane permeability, and promoting RP4 plasmid conjugative transfer. These processes facilitated the acquisition of multidrug resistance and the colonization of plant tissues by human pathogens, includingand, thereby increasing ARG burdens in both rhizosphere and phyllosphere compartments. Metagenomic analysis further confirmed the coselection of nontetracycline ARGs, such asand, and the enrichment of efflux systems (/) in pathogenic bacteria. Our findings challenge the parent-compound-centered paradigm of antibiotic risk assessment by identifying ATC as a key high-risk driver of ARG dissemination in food plants and highlighting the need to incorporate transformation products into future management strategies.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42141512/",
+    "doi": "10.1021/acs.est.6c04146"
+  },
+  {
     "id": "42141392",
     "source": "PubMed",
     "title": "Increased mortality and Acinetobacter baumannii predominance despite stable healthcare-associated infection rates during the COVID-19 pandemic",
@@ -2186,16 +2197,5 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42106122/",
     "doi": "10.1016/j.jfp.2026.100807"
-  },
-  {
-    "id": "42099085",
-    "source": "PubMed",
-    "title": "Multiomics Integrated Analysis of the Inhibitory Mechanism of Tannic Acid on MRSA Biofilms",
-    "authors": "Yang M et al.",
-    "publishedDate": "2026-05-07",
-    "journal": "J Proteome Res",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42099085/",
-    "doi": "10.1021/acs.jproteome.5c01168"
   }
 ]
