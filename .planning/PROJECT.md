@@ -112,4 +112,4 @@ A credible, authoritative platform where African health policymakers can find an
 | Tools: Interactive web components | Higher engagement than static downloads for target audiences | — Pending |
 
 ---
-*Last updated: 2026-04-28 after v2.0 milestone start — resource audit completed*
+*Last updated: 2026-05-25 — Phase 20 complete: education library expanded to 187 records with description, region, and region filter*
