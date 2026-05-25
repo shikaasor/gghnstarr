@@ -126,10 +126,11 @@ export default function EducationTabs({ items }: EducationTabsProps) {
   return (
     <div>
       {/* Tab bar */}
-      <div className="flex gap-1 border-b border-slate-200 mb-8">
+      <div role="tablist" className="flex gap-1 border-b border-slate-200 mb-8">
         {(['training', 'resources'] as EducationTab[]).map((tab) => (
           <button
             key={tab}
+            role="tab"
             onClick={() => handleTabClick(tab)}
             aria-selected={activeTab === tab}
             className={
