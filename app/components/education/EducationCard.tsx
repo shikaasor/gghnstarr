@@ -27,14 +27,18 @@ export default function EducationCard({ item }: EducationCardProps) {
 
       {/* Title — the primary link */}
       <h3 className="font-serif font-semibold text-navy-950 text-sm leading-snug">
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-teal-700 transition-colors focus:outline-none focus-visible:underline"
-        >
-          {item.title}
-        </a>
+        {item.url ? (
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-teal-700 transition-colors focus:outline-none focus-visible:underline"
+          >
+            {item.title}
+          </a>
+        ) : (
+          <span>{item.title}</span>
+        )}
       </h3>
 
       {/* Description excerpt */}
