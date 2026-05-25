@@ -3,6 +3,7 @@ Extraction script: AMR Resource Repository.xlsx -> content/education.json
 One-shot, re-runnable. Committed for provenance.
 """
 
+import hashlib
 import json
 import re
 import sys
@@ -126,13 +127,14 @@ def build_items() -> list[dict]:
         if "course" in type_col.lower() or "training" in purpose.lower():
             tab = "training"
 
-        # Build slug id, prefix with amr- to avoid collision with curated ids
-        base_slug = "amr-" + slugify(title)[:80]
+        # Build slug id, prefix with amr- to avoid collision with curated ids.
+        # Use a content hash suffix for collisions so IDs are stable across
+        # re-runs regardless of row order (avoids fragile sequential counters).
+        base_slug = "amr-" + slugify(title)[:60]
         slug = base_slug
-        counter = 2
-        while slug in seen_ids:
-            slug = f"{base_slug}-{counter}"
-            counter += 1
+        if slug in seen_ids:
+            h = hashlib.md5(title.encode()).hexdigest()[:6]
+            slug = f"{base_slug}-{h}"
         seen_ids.add(slug)
 
         url = fix_url(url_col)
