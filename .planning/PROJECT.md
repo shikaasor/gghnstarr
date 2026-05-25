@@ -112,4 +112,4 @@ A credible, authoritative platform where African health policymakers can find an
 | Tools: Interactive web components | Higher engagement than static downloads for target audiences | — Pending |
 
 ---
-*Last updated: 2026-05-25 — Phase 20 complete: education library expanded to 187 records with description, region, and region filter*
+*Last updated: 2026-05-25 — Phase 21 complete: Tools Directory live at /tools-directory — searchable, filterable catalog of 50 One Health tools with free-text search and three chip-filter dimensions*
