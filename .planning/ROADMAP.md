@@ -399,7 +399,7 @@ Plans:
 
 **Goal:** A visitor can browse and filter the landscape of major One Health tools at /tools-directory — a searchable card grid of the 50 major tools from the One Health Tools Inventory, filterable by audience type (policymakers / multisectoral / national / global), organization level, and One Health domain
 **Depends on:** Phase 20
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 
 Plans:
 **Wave 1**
@@ -412,7 +412,7 @@ Plans:
 
 **Wave 3** *(blocked on Wave 2 completion)*
 
-- [ ] 21-03-PLAN.md — Visual verification checkpoint and next build confirmation
+- [x] 21-03-PLAN.md — Visual verification checkpoint and next build confirmation
 
 ### Phase 22: ICARS Projects on Awareness — showcase 40 funded AMR interventions on /awareness
 
@@ -450,5 +450,5 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 12. AMR Data Map | v2.0 | 0/3 | Not started | - |
 | 13. Social Sharing & Accessibility | v2.0 | 0/3 | Not started | - |
 | 20. Education Resource Import | v2.0 | 2/2 | Complete    | 2026-05-25 |
-| 21. Tools Directory | v2.0 | 2/3 | In Progress|  |
+| 21. Tools Directory | v2.0 | 3/3 | Complete   | 2026-05-25 |
 | 22. ICARS Projects on Awareness | v2.0 | 0/2 | Not started | - |
