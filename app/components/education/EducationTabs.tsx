@@ -102,6 +102,25 @@ export default function EducationTabs({ items }: EducationTabsProps) {
     currentPage * PAGE_SIZE
   );
 
+  // Windowed page numbers: show at most 7 pages around current
+  const pageNumbers = useMemo(() => {
+    if (totalPages <= 7) return Array.from({ length: totalPages }, (_, i) => i + 1);
+    const delta = 2;
+    const start = Math.max(2, currentPage - delta);
+    const end = Math.min(totalPages - 1, currentPage + delta);
+    const pages: (number | '...')[] = [1];
+    if (start > 2) pages.push('...');
+    for (let i = start; i <= end; i++) pages.push(i);
+    if (end < totalPages - 1) pages.push('...');
+    pages.push(totalPages);
+    return pages;
+  }, [totalPages, currentPage]);
+
+  const goToPage = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div>
       {/* Tab bar */}
@@ -185,29 +204,35 @@ export default function EducationTabs({ items }: EducationTabsProps) {
 
       {/* Pagination */}
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2 mt-10">
+        <div className="flex items-center justify-center gap-2 mt-10 flex-wrap">
           <button
-            onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+            onClick={() => goToPage(Math.max(1, currentPage - 1))}
             disabled={currentPage === 1}
             className="px-3 py-1.5 text-sm rounded border border-slate-200 disabled:opacity-40 hover:bg-slate-50"
           >
             ← Prev
           </button>
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-            <button
-              key={page}
-              onClick={() => setCurrentPage(page)}
-              className={`px-3 py-1.5 text-sm rounded border ${
-                page === currentPage
-                  ? 'bg-teal-600 text-white border-teal-600'
-                  : 'border-slate-200 hover:bg-slate-50'
-              }`}
-            >
-              {page}
-            </button>
-          ))}
+          {pageNumbers.map((page, idx) =>
+            page === '...' ? (
+              <span key={`ellipsis-${idx}`} className="px-2 text-slate-400 text-sm select-none">
+                …
+              </span>
+            ) : (
+              <button
+                key={page}
+                onClick={() => goToPage(page as number)}
+                className={`px-3 py-1.5 text-sm rounded border ${
+                  page === currentPage
+                    ? 'bg-teal-600 text-white border-teal-600'
+                    : 'border-slate-200 hover:bg-slate-50'
+                }`}
+              >
+                {page}
+              </button>
+            )
+          )}
           <button
-            onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+            onClick={() => goToPage(Math.min(totalPages, currentPage + 1))}
             disabled={currentPage === totalPages}
             className="px-3 py-1.5 text-sm rounded border border-slate-200 disabled:opacity-40 hover:bg-slate-50"
           >
