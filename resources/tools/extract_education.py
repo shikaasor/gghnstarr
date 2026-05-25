@@ -14,7 +14,8 @@ import openpyxl
 
 XLSX_PATH = Path(__file__).parent / "AMR Resource Repository.xlsx"
 OUTPUT_PATH = Path(__file__).parent.parent.parent / "content" / "education.json"
-CURATED_PATH = OUTPUT_PATH  # same file; curated records live there already
+# Curated records live in a separate file so re-runs never double-import.
+CURATED_PATH = Path(__file__).parent.parent.parent / "content" / "education-curated.json"
 
 # Map xlsx Type column -> ContentFormat enum
 TYPE_TO_FORMAT = {
@@ -202,7 +203,8 @@ if __name__ == "__main__":
     print(len(items))
     print(items[0])
 
-    # Read the existing 15 curated records
+    # Read curated records from the dedicated baseline file.
+    # This file is never overwritten by this script, making re-runs idempotent.
     with open(CURATED_PATH, encoding="utf-8") as f:
         curated = json.load(f)
 
@@ -211,4 +213,4 @@ if __name__ == "__main__":
         json.dump(combined, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-    print(f"Wrote {len(combined)} records to {OUTPUT_PATH}")
+    print(f"Wrote {len(combined)} records to {OUTPUT_PATH} ({len(curated)} curated + {len(items)} imported)")
