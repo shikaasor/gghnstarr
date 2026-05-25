@@ -298,15 +298,16 @@ export interface ToolItem {
 | A2 | Only Table 1 (50 tools) is in scope; Table 2 (991 resources) is excluded | Source Data Reference | Importing 991 rows would balloon the page and contradict phase goal "50 major tools from Table 1" |
 | A3 | No pagination strictly required (50 items fit one page), but EducationTabs pagination can be reused if desired | Don't Hand-Roll | Minor UX choice only |
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **"One Health domain" filter — which column?**
    - What we know: phase goal lists three filter dimensions (audience type, organization level, One Health domain). Spreadsheet has Audience Type (C9), Organization Level (C4), Scope (C5), Audience Level (C8). No literal "domain" column.
    - What's unclear: whether "domain" = the sectoral audience types (Animal/Environment/Laboratory/Public health) or = Scope.
-   - Recommendation: build three filters = Organization Level (C4) + Audience Type (C9) + Scope (C5); confirm naming at plan time. Add search box for free text.
+   - **RESOLVED: "One Health domain" maps to Scope (C5). Three filter dimensions implemented: Organization Level (C4), Audience Type (C9), and Scope (C5). Free-text search box added for name/organization/description.**
 
 2. **Should the OH-JPA Action Track / Theory-of-Change numeric columns (C6/C7) be surfaced?**
    - Recommendation: skip — they are coded numbers requiring a legend (the legend is in the footnotes). Out of scope for a clean card grid.
+   - **RESOLVED: C6/C7 columns skipped — not surfaced on cards.**
 
 ## Environment Availability
 
