@@ -327,7 +327,7 @@ Plans:
 
 ### Phase 20: Education Resource Import — populate education library with 172 verified AMR resources
 
-**Goal:** The education library at /education is populated with all 172 records from the AMR Resource Repository spreadsheet — each card shows title, format, audience, WHO region, purpose, description, and a working external link — replacing the 15 placeholder items currently in content/education.json
+**Goal:** The education library at /education is populated with all 172 records from the AMR Resource Repository spreadsheet — each card shows title, format, audience, WHO region, purpose, description, and a working external link — appended to the 15 curated items already in content/education.json for 187 total records
 **Depends on:** Phase 16
 **Plans:** 2 plans
 
