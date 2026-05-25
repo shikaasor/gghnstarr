@@ -37,6 +37,13 @@ export default function EducationCard({ item }: EducationCardProps) {
         </a>
       </h3>
 
+      {/* Description excerpt */}
+      {item.description && (
+        <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+          {item.description}
+        </p>
+      )}
+
       {/* Publication metadata */}
       {isPublication && (
         <div className="flex flex-col gap-1">
@@ -71,7 +78,7 @@ export default function EducationCard({ item }: EducationCardProps) {
         </span>
       )}
 
-      {/* Footer: audience tags + year */}
+      {/* Footer: audience tags + region badge + year */}
       <div className="mt-auto flex flex-wrap items-center gap-2">
         {item.audiences.map((audience) => (
           <span
@@ -81,7 +88,14 @@ export default function EducationCard({ item }: EducationCardProps) {
             {audience}
           </span>
         ))}
-        <span className="text-xs text-slate-400 ml-auto">{item.year}</span>
+        {item.region && (
+          <span className="text-xs px-2 py-0.5 rounded-full border border-slate-300 text-slate-500 font-medium">
+            {item.region}
+          </span>
+        )}
+        {item.year !== undefined && (
+          <span className="text-xs text-slate-400 ml-auto">{item.year}</span>
+        )}
       </div>
     </div>
   );
