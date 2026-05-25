@@ -450,5 +450,5 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 12. AMR Data Map | v2.0 | 0/3 | Not started | - |
 | 13. Social Sharing & Accessibility | v2.0 | 0/3 | Not started | - |
 | 20. Education Resource Import | v2.0 | 2/2 | Complete    | 2026-05-25 |
-| 21. Tools Directory | v2.0 | 3/3 | Complete   | 2026-05-25 |
+| 21. Tools Directory | v2.0 | 3/3 | Complete    | 2026-05-25 |
 | 22. ICARS Projects on Awareness | v2.0 | 0/2 | Not started | - |

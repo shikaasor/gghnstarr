@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v2.0
 milestone_name: Campaign & Action Platform
-status: executing
-stopped_at: Phase 14 Plan 02 complete — visual verification approved on all 11 routes, Header nav updated to teal-600 brand green
-last_updated: "2026-05-25T16:25:24.101Z"
+status: ready_to_plan
+stopped_at: Phase 21 complete (3/3) — ready to discuss Phase 22
+last_updated: 2026-05-25T17:02:12.307Z
 last_activity: 2026-05-25
 progress:
   total_phases: 17
   completed_phases: 11
   total_plans: 32
-  completed_plans: 31
+  completed_plans: 48
   percent: 65
 ---
 
@@ -21,13 +21,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** Phase 21 — tools-directory-searchable-catalog-of-one-health-tools-and-r
+**Current focus:** Phase 22 — icars projects on awareness — showcase 40 funded amr interventions on /awareness
 
 ## Current Position
 
-Phase: 21 (tools-directory-searchable-catalog-of-one-health-tools-and-r) — EXECUTING
-Plan: 3 of 3
-Status: Ready to execute
+Phase: 22
+Plan: Not started
+Status: Ready to plan
 Last activity: 2026-05-25
 
 Progress: [██████████] 97%
@@ -36,7 +36,7 @@ Progress: [██████████] 97%
 
 **Velocity (v1.0):**
 
-- Total plans completed: 17
+- Total plans completed: 20
 - Average duration: ~7 min
 - Total execution time: ~1h 45min
 
@@ -50,6 +50,7 @@ Progress: [██████████] 97%
 | 04-supporting | 3 | ~4 min | ~1.5 min |
 | 05-seo-launch | 3 | ~5 min | ~1.5 min |
 | 20 | 2 | - | - |
+| 21 | 3 | - | - |
 
 *v2.0 metrics will populate as plans complete*
 | Phase 06-brand-rebrand P03 | 2 | 3 tasks | 1 files |
