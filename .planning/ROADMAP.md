@@ -399,12 +399,12 @@ Plans:
 
 **Goal:** A visitor can browse and filter the landscape of major One Health tools at /tools-directory — a searchable card grid of the 50 major tools from the One Health Tools Inventory, filterable by audience type (policymakers / multisectoral / national / global), organization level, and One Health domain
 **Depends on:** Phase 20
-**Plans:** 3 plans
+**Plans:** 1/3 plans executed
 
 Plans:
 **Wave 1**
 
-- [ ] 21-01-PLAN.md — Extract 50 major tools from Table 1 of One Health Tools Inventory into content/oh-tools.json with types (name, year, organization, scope, audience, description, url)
+- [x] 21-01-PLAN.md — Extract 50 major tools from Table 1 of One Health Tools Inventory into content/oh-tools.json with types (name, year, organization, scope, audience, description, url)
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
@@ -450,5 +450,5 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 12. AMR Data Map | v2.0 | 0/3 | Not started | - |
 | 13. Social Sharing & Accessibility | v2.0 | 0/3 | Not started | - |
 | 20. Education Resource Import | v2.0 | 2/2 | Complete    | 2026-05-25 |
-| 21. Tools Directory | v2.0 | 0/3 | Not started | - |
+| 21. Tools Directory | v2.0 | 1/3 | In Progress|  |
 | 22. ICARS Projects on Awareness | v2.0 | 0/2 | Not started | - |
