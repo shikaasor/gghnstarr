@@ -162,3 +162,14 @@ if __name__ == "__main__":
     items = build_items()
     print(len(items))
     print(items[0])
+
+    # Read the existing 15 curated records
+    with open(CURATED_PATH, encoding="utf-8") as f:
+        curated = json.load(f)
+
+    combined = curated + items
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(combined, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+    print(f"Wrote {len(combined)} records to {OUTPUT_PATH}")
