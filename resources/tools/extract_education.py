@@ -78,8 +78,10 @@ def map_region(region_val: str) -> str | None:
 
 def extract_year(source_val: str) -> int | None:
     matches = re.findall(r"(?:19|20)\d{2}", source_val or "")
-    if matches:
-        return int(matches[-1])
+    for year in reversed(matches):
+        y = int(year)
+        if 1990 <= y <= 2026:
+            return y
     return None
 
 
