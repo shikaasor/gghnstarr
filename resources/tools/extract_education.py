@@ -64,12 +64,14 @@ def map_format(type_val: str) -> str:
     return TYPE_TO_FORMAT.get(key, "Download")
 
 
-def map_region(region_val: str) -> str:
+def map_region(region_val: str) -> str | None:
     key = (region_val or "").lower().strip()
+    if not key:
+        return None  # blank cell -> omit region entirely
     result = REGION_MAP.get(key)
     if result is None:
-        print(f"WARNING: unmapped region '{region_val}' -> 'All regions'", file=sys.stderr)
-        return "All regions"
+        print(f"WARNING: unmapped region '{region_val}' -> skipping", file=sys.stderr)
+        return None
     return result
 
 
@@ -137,6 +139,7 @@ def build_items() -> list[dict]:
         source = derive_source(source_col, url)
         year = extract_year(source_col)
 
+        region = map_region(region_col)
         item: dict = {
             "id": slug,
             "tab": tab,
@@ -148,8 +151,9 @@ def build_items() -> list[dict]:
             "sourceVerified": False,
             "url": url,
             "description": description,
-            "region": map_region(region_col),
         }
+        if region is not None:
+            item["region"] = region
         if year is not None:
             item["year"] = year
 
