@@ -57,7 +57,7 @@ export default function EducationCard({ item }: EducationCardProps) {
           {item.journal && (
             <p className="text-xs text-slate-500 italic">{item.journal}</p>
           )}
-          {item.doi && (
+          {item.doi && !item.url?.includes(item.doi) && (
             <a
               href={`https://doi.org/${item.doi}`}
               target="_blank"
