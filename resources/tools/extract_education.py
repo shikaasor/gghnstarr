@@ -42,6 +42,37 @@ REGION_MAP = {
     "all regions": "All regions",
 }
 
+# Map spreadsheet "Purpose" column keywords -> TopicTag values
+# Add entries as new purpose values are discovered in the spreadsheet.
+PURPOSE_TO_TOPICS: dict[str, list[str]] = {
+    "surveillance": ["AMR Surveillance", "Research"],
+    "amr surveillance": ["AMR Surveillance", "Research"],
+    "stewardship": ["Stewardship"],
+    "antimicrobial stewardship": ["Stewardship"],
+    "governance": ["Governance", "Policy"],
+    "policy": ["Policy", "Governance"],
+    "one health": ["One Health"],
+    "diagnostics": ["Diagnostics"],
+    "awareness": ["Awareness"],
+    "education": ["Awareness"],
+    "training": ["Awareness"],
+    "research": ["Research"],
+}
+
+
+def map_topics(purpose_val: str) -> list[str]:
+    """Map the spreadsheet Purpose column to one or more TopicTag values."""
+    key = (purpose_val or "").lower().strip()
+    # Check for exact match first
+    if key in PURPOSE_TO_TOPICS:
+        return PURPOSE_TO_TOPICS[key]
+    # Check for substring keyword match
+    for keyword, topics in PURPOSE_TO_TOPICS.items():
+        if keyword in key:
+            return topics
+    return ["Research"]
+
+
 # Default audience by format
 FORMAT_AUDIENCE = {
     "Publication": ["Healthcare Worker"],
@@ -150,7 +181,7 @@ def build_items() -> list[dict]:
             "title": title,
             "audiences": FORMAT_AUDIENCE.get(fmt, ["Policymaker"]),
             "format": fmt,
-            "topics": ["Research"],
+            "topics": map_topics(purpose),
             "source": source,
             "sourceVerified": False,
             "url": url,
