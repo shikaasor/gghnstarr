@@ -95,26 +95,28 @@ export default function EducationTabs({ items }: EducationTabsProps) {
     });
   }, [tabItems, selectedAudiences, selectedFormats, selectedTopics, selectedYears, selectedRegions]);
 
-  // Pagination
-  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  // Pagination — clamp currentPage so stale page state after filter change
+  // does not produce an empty slice when totalPages decreases.
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const safePage = Math.min(currentPage, totalPages);
   const paginated = filtered.slice(
-    (currentPage - 1) * PAGE_SIZE,
-    currentPage * PAGE_SIZE
+    (safePage - 1) * PAGE_SIZE,
+    safePage * PAGE_SIZE
   );
 
   // Windowed page numbers: show at most 7 pages around current
   const pageNumbers = useMemo(() => {
     if (totalPages <= 7) return Array.from({ length: totalPages }, (_, i) => i + 1);
     const delta = 2;
-    const start = Math.max(2, currentPage - delta);
-    const end = Math.min(totalPages - 1, currentPage + delta);
+    const start = Math.max(2, safePage - delta);
+    const end = Math.min(totalPages - 1, safePage + delta);
     const pages: (number | '...')[] = [1];
     if (start > 2) pages.push('...');
     for (let i = start; i <= end; i++) pages.push(i);
     if (end < totalPages - 1) pages.push('...');
     pages.push(totalPages);
     return pages;
-  }, [totalPages, currentPage]);
+  }, [totalPages, safePage]);
 
   const goToPage = (page: number) => {
     setCurrentPage(page);
@@ -206,8 +208,8 @@ export default function EducationTabs({ items }: EducationTabsProps) {
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-2 mt-10 flex-wrap">
           <button
-            onClick={() => goToPage(Math.max(1, currentPage - 1))}
-            disabled={currentPage === 1}
+            onClick={() => goToPage(Math.max(1, safePage - 1))}
+            disabled={safePage === 1}
             className="px-3 py-1.5 text-sm rounded border border-slate-200 disabled:opacity-40 hover:bg-slate-50"
           >
             ← Prev
@@ -222,7 +224,7 @@ export default function EducationTabs({ items }: EducationTabsProps) {
                 key={page}
                 onClick={() => goToPage(page as number)}
                 className={`px-3 py-1.5 text-sm rounded border ${
-                  page === currentPage
+                  page === safePage
                     ? 'bg-teal-600 text-white border-teal-600'
                     : 'border-slate-200 hover:bg-slate-50'
                 }`}
@@ -232,8 +234,8 @@ export default function EducationTabs({ items }: EducationTabsProps) {
             )
           )}
           <button
-            onClick={() => goToPage(Math.min(totalPages, currentPage + 1))}
-            disabled={currentPage === totalPages}
+            onClick={() => goToPage(Math.min(totalPages, safePage + 1))}
+            disabled={safePage === totalPages}
             className="px-3 py-1.5 text-sm rounded border border-slate-200 disabled:opacity-40 hover:bg-slate-50"
           >
             Next →
