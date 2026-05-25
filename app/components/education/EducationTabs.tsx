@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import type { EducationItem, EducationTab, AudienceType, ContentFormat, TopicTag } from '@/lib/types';
+import type { EducationItem, EducationTab, AudienceType, ContentFormat, TopicTag, WHORegion } from '@/lib/types';
 import EducationCard from './EducationCard';
 import EducationFilters from './EducationFilters';
 
@@ -28,6 +28,7 @@ export default function EducationTabs({ items }: EducationTabsProps) {
   const [selectedFormats, setSelectedFormats] = useState<ContentFormat[]>([]);
   const [selectedTopics, setSelectedTopics] = useState<TopicTag[]>([]);
   const [selectedYears, setSelectedYears] = useState<number[]>([]);
+  const [selectedRegions, setSelectedRegions] = useState<WHORegion[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
 
   const handleTabClick = (tab: EducationTab) => {
@@ -38,6 +39,7 @@ export default function EducationTabs({ items }: EducationTabsProps) {
     setSelectedFormats([]);
     setSelectedTopics([]);
     setSelectedYears([]);
+    setSelectedRegions([]);
     setCurrentPage(1);
   };
 
@@ -66,6 +68,11 @@ export default function EducationTabs({ items }: EducationTabsProps) {
       ),
     [tabItems]
   );
+  const availableRegions = useMemo(
+    () =>
+      [...new Set(tabItems.map((i) => i.region).filter((r): r is WHORegion => r !== undefined))].sort() as WHORegion[],
+    [tabItems]
+  );
 
   // Apply filters: OR within dimension, AND across dimensions
   const filtered = useMemo(() => {
@@ -81,9 +88,12 @@ export default function EducationTabs({ items }: EducationTabsProps) {
       const yearMatch =
         selectedYears.length === 0 ||
         (item.year !== undefined && selectedYears.includes(item.year));
-      return audienceMatch && formatMatch && topicMatch && yearMatch;
+      const regionMatch =
+        selectedRegions.length === 0 ||
+        (item.region !== undefined && selectedRegions.includes(item.region));
+      return audienceMatch && formatMatch && topicMatch && yearMatch && regionMatch;
     });
-  }, [tabItems, selectedAudiences, selectedFormats, selectedTopics, selectedYears]);
+  }, [tabItems, selectedAudiences, selectedFormats, selectedTopics, selectedYears, selectedRegions]);
 
   // Pagination
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
@@ -118,10 +128,12 @@ export default function EducationTabs({ items }: EducationTabsProps) {
         formats={availableFormats}
         topics={availableTopics}
         years={availableYears}
+        regions={availableRegions}
         selectedAudiences={selectedAudiences}
         selectedFormats={selectedFormats}
         selectedTopics={selectedTopics}
         selectedYears={selectedYears}
+        selectedRegions={selectedRegions}
         onAudienceChange={(v) => {
           setSelectedAudiences(v);
           setCurrentPage(1);
@@ -138,11 +150,16 @@ export default function EducationTabs({ items }: EducationTabsProps) {
           setSelectedYears(v);
           setCurrentPage(1);
         }}
+        onRegionChange={(v) => {
+          setSelectedRegions(v);
+          setCurrentPage(1);
+        }}
         onClearAll={() => {
           setSelectedAudiences([]);
           setSelectedFormats([]);
           setSelectedTopics([]);
           setSelectedYears([]);
+          setSelectedRegions([]);
           setCurrentPage(1);
         }}
       />

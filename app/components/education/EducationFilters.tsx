@@ -1,20 +1,23 @@
-import type { AudienceType, ContentFormat, TopicTag } from '@/lib/types';
+import type { AudienceType, ContentFormat, TopicTag, WHORegion } from '@/lib/types';
 
 interface EducationFiltersProps {
   audiences: AudienceType[];
   formats: ContentFormat[];
   topics: TopicTag[];
   years: number[];
+  regions: WHORegion[];
   // Selected values (arrays for multi-select)
   selectedAudiences: AudienceType[];
   selectedFormats: ContentFormat[];
   selectedTopics: TopicTag[];
   selectedYears: number[];
+  selectedRegions: WHORegion[];
   // Setters
   onAudienceChange: (v: AudienceType[]) => void;
   onFormatChange: (v: ContentFormat[]) => void;
   onTopicChange: (v: TopicTag[]) => void;
   onYearChange: (v: number[]) => void;
+  onRegionChange: (v: WHORegion[]) => void;
   onClearAll: () => void;
 }
 
@@ -29,21 +32,25 @@ export default function EducationFilters({
   formats,
   topics,
   years,
+  regions,
   selectedAudiences,
   selectedFormats,
   selectedTopics,
   selectedYears,
+  selectedRegions,
   onAudienceChange,
   onFormatChange,
   onTopicChange,
   onYearChange,
+  onRegionChange,
   onClearAll,
 }: EducationFiltersProps) {
   const hasActiveFilters =
     selectedAudiences.length > 0 ||
     selectedFormats.length > 0 ||
     selectedTopics.length > 0 ||
-    selectedYears.length > 0;
+    selectedYears.length > 0 ||
+    selectedRegions.length > 0;
 
   return (
     <div className="flex flex-col gap-4 mb-8">
@@ -137,6 +144,30 @@ export default function EducationFilters({
                 }`}
               >
                 {year}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Region row */}
+      {regions.length > 0 && (
+        <div className="flex flex-col gap-2">
+          <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+            Region
+          </span>
+          <div className="flex flex-wrap gap-2">
+            {regions.map((region) => (
+              <button
+                key={region}
+                onClick={() => onRegionChange(toggleValue(selectedRegions, region))}
+                className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+                  selectedRegions.includes(region)
+                    ? 'bg-teal-600 text-white'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                }`}
+              >
+                {region}
               </button>
             ))}
           </div>
