@@ -116,3 +116,38 @@ export interface NewsArticle {
   url: string;           // https://pubmed.ncbi.nlm.nih.gov/{pmid}/ or https://arxiv.org/abs/{id}
   doi?: string;          // DOI if available (used for deduplication)
 }
+
+// Phase 21: One Health Tools Directory
+// Token unions verified by openpyxl distinct-value scan of the 50 Table 1 data rows.
+export type OHOrganizationLevel =
+  | 'Quadripartite'
+  | 'National'
+  | 'International/Regional'
+  | 'NGO'
+  | 'Academic';
+export type OHAudienceType =
+  | 'Multisectoral'
+  | 'Policymakers'
+  | 'Animal health'
+  | 'Laboratory'
+  | 'Environment'
+  | 'Public health';
+export type OHScope =
+  | 'Assessment'
+  | 'Implementation'
+  | 'Monitoring'
+  | 'Action Plans'
+  | 'Prioritisation';
+
+export interface ToolItem {
+  id: string;                                  // slug from name
+  name: string;                                // C1 (whitespace-collapsed)
+  year: number;                                // C2
+  organization: string;                        // C3 (whitespace-collapsed)
+  organizationLevels: OHOrganizationLevel[];   // C4 (comma-split + normalized)
+  scopes: OHScope[];                           // C5 (comma-split)
+  audienceLevels: string[];                    // C8 (e.g. National, Subnational)
+  audienceTypes: OHAudienceType[];             // C9 (comma-split)
+  description: string;                         // C11
+  url: string;                                 // C13 (cleaned; '' if none)
+}
