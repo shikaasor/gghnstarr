@@ -60,7 +60,10 @@ export default function EducationTabs({ items }: EducationTabsProps) {
     [tabItems]
   );
   const availableYears = useMemo(
-    () => [...new Set(tabItems.map((i) => i.year))].sort((a, b) => b - a),
+    () =>
+      [...new Set(tabItems.map((i) => i.year).filter((y): y is number => y !== undefined))].sort(
+        (a, b) => b - a
+      ),
     [tabItems]
   );
 
@@ -76,7 +79,8 @@ export default function EducationTabs({ items }: EducationTabsProps) {
         selectedTopics.length === 0 ||
         selectedTopics.some((t) => item.topics.includes(t));
       const yearMatch =
-        selectedYears.length === 0 || selectedYears.includes(item.year);
+        selectedYears.length === 0 ||
+        (item.year !== undefined && selectedYears.includes(item.year));
       return audienceMatch && formatMatch && topicMatch && yearMatch;
     });
   }, [tabItems, selectedAudiences, selectedFormats, selectedTopics, selectedYears]);

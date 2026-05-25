@@ -71,6 +71,16 @@ export type TopicTag =
   | 'Awareness'
   | 'Research';
 
+// Phase 20: WHO region tokens from AMR Resource Repository spreadsheet
+export type WHORegion =
+  | 'AFRO'
+  | 'EURO'
+  | 'PAHO'
+  | 'EMRO'
+  | 'WPRO'
+  | 'SEARO'
+  | 'All regions';
+
 export interface EducationItem {
   id: string;                    // slug-style unique ID e.g. "au-amr-framework-2020"
   tab: EducationTab;             // 'training' | 'resources'
@@ -78,10 +88,12 @@ export interface EducationItem {
   audiences: AudienceType[];
   format: ContentFormat;
   topics: TopicTag[];
-  year: number;                  // Publication or event year
+  year?: number;                 // Publication or event year (optional — 62 imported records have no extractable year)
   source: string;                // Organization name e.g. "WHO" or "Africa CDC"
   sourceVerified: boolean;       // true = working external link confirmed; false = show "Source unverified" flag
   url: string;                   // External link or hosted /public path
+  description?: string;          // From AMR Repository Description column (Phase 20 import)
+  region?: WHORegion;            // WHO region (Phase 20 import); 20-02 adds a region filter
   // Training-specific (optional for resources tab)
   platform?: string;             // e.g. "WHO Academy", "Coursera", "ECHO"
   // Publication-specific (only for format === 'Publication')
