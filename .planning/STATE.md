@@ -1,3 +1,19 @@
+---
+gsd_state_version: 1.0
+milestone: v2.0
+milestone_name: Campaign & Action Platform
+status: ready_to_plan
+stopped_at: Phase 20 complete (2/2) — ready to discuss Phase 21
+last_updated: 2026-05-25T09:32:38.899Z
+last_activity: 2026-05-25 -- Phase 20 execution started
+progress:
+  total_phases: 17
+  completed_phases: 10
+  total_plans: 29
+  completed_plans: 45
+  percent: 59
+---
+
 # Project State
 
 ## Project Reference
@@ -5,21 +21,22 @@
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A credible, authoritative platform where African health policymakers can find and download the latest AMR policy briefs — fast, on mobile, without friction.
-**Current focus:** v2.0 Phase 11 — Interactive Tools (next)
+**Current focus:** Phase 21 — tools directory — searchable catalog of one health tools and resources at /tools directory
 
 ## Current Position
 
-Phase: 14-color-palette-refresh-brighter-emerald-green-across-all-brand-tokens
-Plan: 14-02 (complete)
-Status: Phase 14 complete — All 11 routes human-verified with #319974 brighter emerald green; Header nav updated to teal-600; production-ready
-Last activity: 2026-05-10 — Phase 14 Plan 02: Visual verification sign-off + Header bg-navy-950 → bg-teal-600 fix; ~5 min, 2 tasks, 1 file
+Phase: 21
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-05-25
 
 Progress: [████░░░░░░] 68% (v2.0, 23/31 plans complete) | v1.0 complete
 
 ## Performance Metrics
 
 **Velocity (v1.0):**
-- Total plans completed: 15
+
+- Total plans completed: 17
 - Average duration: ~7 min
 - Total execution time: ~1h 45min
 
@@ -32,6 +49,7 @@ Progress: [████░░░░░░] 68% (v2.0, 23/31 plans complete) | v1
 | 03-briefs | 3 | ~8 min | ~3 min |
 | 04-supporting | 3 | ~4 min | ~1.5 min |
 | 05-seo-launch | 3 | ~5 min | ~1.5 min |
+| 20 | 2 | - | - |
 
 *v2.0 metrics will populate as plans complete*
 | Phase 06-brand-rebrand P03 | 2 | 3 tasks | 1 files |
@@ -142,6 +160,7 @@ Progress: [████░░░░░░] 68% (v2.0, 23/31 plans complete) | v1
 ### Pending Todos
 
 8 todos resolved into roadmap phases:
+
 - Audience-segmented CTAs → Phase 7 (CONT-01 group)
 - Analytics integration → Phase 7
 - News section → Phase 9

@@ -329,11 +329,11 @@ Plans:
 
 **Goal:** The education library at /education is populated with all 172 records from the AMR Resource Repository spreadsheet — each card shows title, format, audience, WHO region, purpose, description, and a working external link — appended to the 15 curated items already in content/education.json for 187 total records
 **Depends on:** Phase 16
-**Plans:** 2 plans
+**Plans:** 2/2 plans complete
 
 Plans:
-- [ ] 20-01-PLAN.md — Extract all 172 records from AMR Resource Repository.xlsx into content/education.json with full EducationItem typing (title, format, audience, topic, year, url, description, region)
-- [ ] 20-02-PLAN.md — Add region filter dimension to EducationFilters and EducationTabs; visual verification checkpoint
+- [x] 20-01-PLAN.md — Extract all 172 records from AMR Resource Repository.xlsx into content/education.json with full EducationItem typing (title, format, audience, topic, year, url, description, region)
+- [x] 20-02-PLAN.md — Add region filter dimension to EducationFilters and EducationTabs; visual verification checkpoint
 
 ### Phase 21: Tools Directory — searchable catalog of One Health tools and resources at /tools-directory
 
@@ -380,6 +380,6 @@ v2.0: 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13
 | 11. Interactive Tools | v2.0 | 0/4 | Not started | - |
 | 12. AMR Data Map | v2.0 | 0/3 | Not started | - |
 | 13. Social Sharing & Accessibility | v2.0 | 0/3 | Not started | - |
-| 20. Education Resource Import | v2.0 | 0/2 | Not started | - |
+| 20. Education Resource Import | v2.0 | 2/2 | Complete    | 2026-05-25 |
 | 21. Tools Directory | v2.0 | 0/3 | Not started | - |
 | 22. ICARS Projects on Awareness | v2.0 | 0/2 | Not started | - |
