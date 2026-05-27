@@ -47,7 +47,9 @@ export default function ToolsFilters({
   return (
     <div className="flex flex-col gap-4 mb-8">
       {/* Search box */}
+      <label htmlFor="tools-search" className="sr-only">Search tools</label>
       <input
+        id="tools-search"
         type="text"
         value={searchQuery}
         onChange={(e) => onSearchChange(e.target.value)}
