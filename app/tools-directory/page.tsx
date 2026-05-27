@@ -12,9 +12,16 @@ export const metadata: Metadata = {
 };
 
 export default function ToolsDirectoryPage() {
-  const tools: ToolItem[] = JSON.parse(
-    readFileSync(join(process.cwd(), 'content/oh-tools.json'), 'utf-8')
-  );
+  let tools: ToolItem[] = [];
+  try {
+    tools = JSON.parse(
+      readFileSync(join(process.cwd(), 'content/oh-tools.json'), 'utf-8')
+    ) as ToolItem[];
+  } catch (err) {
+    // Log for server-side observability; render gracefully degraded UI
+    console.error('[ToolsDirectoryPage] Failed to load oh-tools.json:', err);
+    // tools stays [] — ToolsGrid will render "0 tools" rather than crashing
+  }
 
   return (
     <main>
