@@ -60,9 +60,18 @@ def fix_url(url_val: str) -> str:
         return "https://" + m.group(0).rstrip(".,;")
 
     # Scheme-less host fragment with a dot and a path (e.g. "Github.com/EIDSS").
+    # Guard against false positives (version strings, decimal numbers, abbreviations).
     m = re.search(r"\b[\w.-]+\.[a-z]{2,}(?:/\S*)?", url_val, re.IGNORECASE)
     if m:
-        return "https://" + m.group(0).rstrip(".,;")
+        candidate = "https://" + m.group(0).rstrip(".,;")
+        # Only accept if it looks like a real host (has a path or a proper TLD suffix)
+        if re.search(r"\.[a-z]{2,}/", candidate) or re.search(r"\.[a-z]{2,}$", candidate):
+            import sys
+            print(
+                f"  [fix_url] fallback regex matched '{m.group(0)}' — verify manually",
+                file=sys.stderr,
+            )
+            return candidate
 
     return ""
 
