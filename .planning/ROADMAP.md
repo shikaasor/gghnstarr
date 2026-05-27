@@ -416,13 +416,13 @@ Plans:
 
 ### Phase 22: ICARS Projects on Awareness — showcase 40 funded AMR interventions on /awareness
 
-**Goal:** The /awareness page includes a new "AMR Interventions" section showing all 40 ICARS-funded projects as filterable cards — each card displays country, sector badge (Humans / Animals / Environment), project title, description excerpt, and key outcomes — filterable by sector
+**Goal:** The /awareness page includes a new "AMR Interventions" section showing the 25 ICARS-funded projects as filterable cards — each card displays country, sector badge (Humans / One Health / Terrestrial and Aquatic Animals / Food and Feed / Environment), project title, description excerpt, and key outcomes — filterable by sector
 **Depends on:** Phase 21
 **Plans:** 2 plans
 
 Plans:
 
-- [ ] 22-01-PLAN.md — Extract 40 ICARS projects from International Center for Antimicrobial Resistance Solutions.xlsx into content/icars-projects.json with types (country, sector, title, description, outcomes, fundingPartners)
+- [ ] 22-01-PLAN.md — Extract 25 ICARS projects from International Center for Antimicrobial Resistance Solutions.xlsx into content/icars-projects.json with types (country, sector, title, description, outcomes, fundingPartners)
 - [ ] 22-02-PLAN.md — IcarsProjectCard component, IcarsProjectsSection (sector filter), wire into /awareness page below existing sections; visual verification checkpoint
 
 ---
