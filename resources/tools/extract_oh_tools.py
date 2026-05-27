@@ -130,7 +130,7 @@ def build_items() -> list[dict]:
         organization = clean(ws.cell(r, 3).value)
         organization_levels = split_clean(ws.cell(r, 4).value)
         scopes = split_clean(ws.cell(r, 5).value)
-        audience_levels = split_clean(ws.cell(r, 8).value)
+        audience_levels = [t.title() for t in split_clean(ws.cell(r, 8).value)]
         audience_types = split_clean(ws.cell(r, 9).value)
         description = clean(ws.cell(r, 11).value)
         url = fix_url(clean(ws.cell(r, 13).value))
