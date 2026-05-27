@@ -142,7 +142,7 @@ export type OHScope =
 export interface ToolItem {
   id: string;                                  // slug from name
   name: string;                                // C1 (whitespace-collapsed)
-  year: number;                                // C2
+  year?: number;                               // C2 (optional — some entries may lack a year)
   organization: string;                        // C3 (whitespace-collapsed)
   organizationLevels: OHOrganizationLevel[];   // C4 (comma-split + normalized)
   scopes: OHScope[];                           // C5 (comma-split)
