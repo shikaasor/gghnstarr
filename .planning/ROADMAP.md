@@ -422,7 +422,12 @@ Plans:
 
 Plans:
 
+**Wave 1**
+
 - [ ] 22-01-PLAN.md — Extract 25 ICARS projects from International Center for Antimicrobial Resistance Solutions.xlsx into content/icars-projects.json with types (country, sector, title, description, outcomes, fundingPartners)
+
+**Wave 2** *(blocked on Wave 1 completion)*
+
 - [ ] 22-02-PLAN.md — IcarsProjectCard component, IcarsProjectsSection (sector filter), wire into /awareness page below existing sections; visual verification checkpoint
 
 ---
