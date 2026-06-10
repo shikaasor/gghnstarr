@@ -29,11 +29,21 @@ export default function ConferenceBadge({ conferenceDate: _conferenceDate }: Con
   }, []);
 
   return (
-    <span className="inline-flex items-center gap-2 bg-white/15 border border-white/40 text-white px-6 py-3 rounded-full text-base font-medium">
-      <CalendarDays size={20} />
-      {daysLeft === null
-        ? 'Road to the 5th Inter-Ministerial Conference \u2022 June 28, 2026'
-        : `${daysLeft} days to June 28, 2026 \u2014 5th Inter-Ministerial Conference`}
-    </span>
+    <div className="flex flex-col items-center gap-2">
+      <span className="inline-flex items-center gap-2 bg-white/15 border border-white/40 text-white px-6 py-3 rounded-full text-base font-medium">
+        <CalendarDays size={20} />
+        {daysLeft === null
+          ? 'Road to the 5th Inter-Ministerial Conference \u2022 June 28, 2026'
+          : `${daysLeft} days to June 28, 2026 \u2014 5th Inter-Ministerial Conference`}
+      </span>
+      <a
+        href="https://www.5thhighlevelministerialng.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-teal-300 hover:text-teal-200 text-sm underline underline-offset-2 transition-colors"
+      >
+        Official Conference Website
+      </a>
+    </div>
   );
 }

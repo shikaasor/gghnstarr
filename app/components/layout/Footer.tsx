@@ -20,28 +20,21 @@ export function Footer() {
               />
             </div>
             <p className="text-slate-300 text-sm mt-2">
-              Africa AMR Modeling Initiative
+              Starr Initiative
             </p>
             <p className="text-slate-500 text-sm mt-2 italic">
               Evidence. Advocacy. Action.
             </p>
           </div>
 
-          {/* Partners + contact block */}
+          {/* Contact block */}
           <div className="flex flex-col gap-3">
-            <p className="text-xs text-slate-500 uppercase tracking-wider font-medium">
-              Partners
-            </p>
-            <p className="text-sm text-slate-400">
-              Fleming Fund &middot; Africa CDC &middot; WHO AFRO
-            </p>
-
-            <div className="flex flex-col gap-1 mt-2">
+            <div className="flex flex-col gap-1">
               <a
-                href="mailto:starr@gghn.org.ng"
+                href="mailto:starr@gghnigeria.org"
                 className="text-sm text-teal-500 hover:text-teal-400 transition-colors"
               >
-                starr@gghn.org.ng
+                starr@gghnigeria.org
               </a>
               <a
                 href="https://linkedin.com/company/gghn-nigeria"

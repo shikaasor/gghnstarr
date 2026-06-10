@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Container } from '@/components/layout/Container';
-import InfographicGrid from '@/components/awareness/InfographicGrid';
 import AccordionSection from '@/components/awareness/AccordionSection';
 
 export const metadata: Metadata = {
@@ -50,24 +49,6 @@ const actionCards = [
     href: 'https://www.who.int/docs/default-source/antimicrobial-resistance/amr-factsheet.pdf',
     label: 'Downloads',
     external: true,
-  },
-];
-
-const infographics = [
-  {
-    src: '/infographics/IMG_9750.jpeg',
-    title: 'AMR Laboratory Surveillance in Rwanda',
-    description: 'Strengthening diagnostic capacity and laboratory networks to detect and monitor antimicrobial resistance across Rwanda\'s health system.',
-  },
-  {
-    src: '/infographics/IMG_9751.jpeg',
-    title: 'Financing AMR Response in Rwanda',
-    description: 'Domestic financing mechanisms and resource mobilisation strategies to sustain Rwanda\'s national AMR action plan implementation.',
-  },
-  {
-    src: '/infographics/IMG_9752.jpeg',
-    title: 'One Health Governance for AMR',
-    description: 'Coordinating human, animal, and environmental health sectors under a One Health framework to address AMR at its source.',
   },
 ];
 
@@ -194,19 +175,6 @@ export default function AwarenessPage() {
               </div>
             ))}
           </div>
-        </Container>
-      </section>
-
-      {/* Fleming Fund infographics — full-width grid with lightbox */}
-      <section className="py-16 bg-white">
-        <Container>
-          <h2 className="font-serif text-2xl md:text-3xl font-bold text-navy-950 mb-2">
-            Fleming Fund Rwanda Infographics
-          </h2>
-          <p className="text-slate-600 text-sm mb-10">
-            Real programmes, real impact — click any infographic to view it in full size and download.
-          </p>
-          <InfographicGrid infographics={infographics} />
         </Container>
       </section>
 

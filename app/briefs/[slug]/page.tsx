@@ -2,8 +2,6 @@ import { getAllBriefs, getBriefBySlug, getExperts } from '@/lib/content';
 import { Container } from '@/components/layout/Container';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { DownloadButton } from '@/components/briefs/DownloadButton';
-import { InfographicBlock } from '@/components/briefs/InfographicBlock';
 import { CommentForm } from '@/components/briefs/CommentForm';
 import { CommentList } from '@/components/briefs/CommentList';
 import type { Metadata } from 'next';
@@ -14,7 +12,6 @@ export function generateStaticParams() {
   return briefs.map(b => ({ slug: b.slug }));
 }
 
-// Per-page metadata with OG/Twitter for rich WhatsApp previews
 export async function generateMetadata({
   params,
 }: {
@@ -24,35 +21,27 @@ export async function generateMetadata({
   const brief = getBriefBySlug(slug);
   if (!brief) return {};
   return {
-    title: brief.title,   // Root layout template adds ' | GGHN STARR' automatically
+    title: brief.title,
     description: brief.keyTakeaway,
-    alternates: {
-      canonical: `/briefs/${brief.slug}`,
-    },
+    alternates: { canonical: `/briefs/${brief.slug}` },
     openGraph: {
       title: brief.title,
       description: brief.keyTakeaway,
       type: 'article',
       publishedTime: brief.publicationDate,
-      images: [
-        {
-          url: brief.thumbnailUrl,
-          width: 641,
-          height: 360,
-          alt: brief.title,
-        },
-      ],
+      images: brief.slideImageUrl
+        ? [{ url: brief.slideImageUrl, width: 1920, height: 1080, alt: brief.title }]
+        : [],
     },
     twitter: {
       card: 'summary_large_image',
       title: brief.title,
       description: brief.keyTakeaway,
-      images: [brief.thumbnailUrl],
+      images: brief.slideImageUrl ? [brief.slideImageUrl] : [],
     },
   };
 }
 
-// Page component — async because params is a Promise in Next.js 16
 export default async function BriefDetailPage({
   params,
 }: {
@@ -65,8 +54,7 @@ export default async function BriefDetailPage({
   const experts = getExperts();
   const author = experts.find(e => e.id === brief.authorId);
 
-  // Prev/Next navigation — computed from sorted array
-  const allBriefs = getAllBriefs(); // sorted by weekNumber ascending
+  const allBriefs = getAllBriefs();
   const currentIndex = allBriefs.findIndex(b => b.slug === slug);
   const prevBrief = currentIndex > 0 ? allBriefs[currentIndex - 1] : null;
   const nextBrief = currentIndex < allBriefs.length - 1 ? allBriefs[currentIndex + 1] : null;
@@ -78,66 +66,107 @@ export default async function BriefDetailPage({
   return (
     <Container className="py-12">
 
-      {/* Hero: text-first, thumbnail beside — locked decision */}
-      <div className="flex flex-col md:flex-row gap-8 mb-12">
-        {/* Text column */}
-        <div className="flex-1">
-          <p className="text-xs uppercase tracking-wider text-teal-600 font-medium mb-2">
-            Week {brief.weekNumber} · {dateLabel}
-          </p>
-          <h1 className="font-serif text-2xl md:text-3xl text-navy-950 font-bold mb-3">
-            {brief.title}
-          </h1>
-          {author && (
-            <p className="text-slate-600 text-sm mb-6">By {author.name}</p>
-          )}
-          {/* Download button — hero area only, not repeated below — locked decision */}
-          <div className="flex flex-wrap gap-3 no-print">
-            <DownloadButton href={brief.pdfUrl} briefSlug={brief.slug} label="Download PDF" variant="primary" />
-          </div>
-        </div>
-        {/* Thumbnail — smaller, beside text — locked decision */}
-        <div className="md:w-64 flex-shrink-0">
-          <img
-            src={brief.thumbnailUrl}
-            alt={brief.title}
-            className="w-full rounded-lg shadow-md object-cover"
-          />
-        </div>
+      {/* Back to catalog */}
+      <div className="mb-6">
+        <Link
+          href="/briefs"
+          className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-teal-600 transition-colors"
+        >
+          <span aria-hidden="true">&larr;</span>
+          Back to Policy Briefs
+        </Link>
       </div>
 
-      {/* Content sections below hero — locked decision */}
-      <div className="max-w-3xl space-y-10">
+      {/* Header */}
+      <div className="max-w-3xl mb-8">
+        <div className="flex flex-wrap items-center gap-3 mb-4">
+          <span className="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-full">
+            Brief #{brief.weekNumber}
+          </span>
+          {brief.category && (
+            <span className="text-xs font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full">
+              {brief.category}
+            </span>
+          )}
+          <span className="text-xs text-slate-500">{dateLabel}</span>
+        </div>
 
-        {/* Executive Summary */}
-        <section>
-          <h2 className="font-serif text-xl text-navy-950 font-bold mb-4">Executive Summary</h2>
-          <p className="text-slate-700 leading-relaxed">{brief.executiveSummary}</p>
-        </section>
+        {brief.shortTitle && (
+          <p className="text-sm font-medium text-teal-600 uppercase tracking-wide mb-1">
+            {brief.shortTitle}
+          </p>
+        )}
+        <h1 className="font-serif text-2xl md:text-3xl text-navy-950 font-bold mb-3 leading-tight">
+          {brief.title}
+        </h1>
 
-        {/* Key Messages — bullet list */}
-        <section>
-          <h2 className="font-serif text-xl text-navy-950 font-bold mb-4">Key Messages</h2>
-          <ul className="space-y-3">
-            {brief.keyMessages.map((msg, i) => (
-              <li key={i} className="flex gap-3 text-slate-700">
-                <span className="text-teal-600 flex-shrink-0 font-bold mt-0.5">•</span>
-                <span>{msg}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* Rwanda Infographic — only for briefs with infographicImageUrl */}
-        {brief.infographicImageUrl && (
-          <InfographicBlock
-            imageUrl={brief.infographicImageUrl}
-            briefSlug={brief.slug}
-            briefTitle={brief.title}
-          />
+        {brief.domain && (
+          <p className="text-sm text-slate-500">
+            {brief.domain}{brief.subdomain ? ` · ${brief.subdomain}` : ''}
+          </p>
         )}
 
-        {/* Author bio excerpt */}
+        {author && (
+          <p className="text-slate-600 text-sm mt-2">By {author.name}</p>
+        )}
+      </div>
+
+      {/* Slide image — full width, prominent */}
+      {brief.slideImageUrl && (
+        <div className="mb-10 rounded-xl overflow-hidden shadow-lg border border-slate-200">
+          <img
+            src={brief.slideImageUrl}
+            alt={`Slide for Brief #${brief.weekNumber}: ${brief.title}`}
+            className="w-full h-auto"
+          />
+        </div>
+      )}
+
+      {/* Content sections */}
+      <div className="max-w-3xl space-y-10">
+
+        {/* Write-up summary */}
+        {brief.writeupSummary && (
+          <section>
+            <h2 className="font-serif text-xl text-navy-950 font-bold mb-4">Summary</h2>
+            <p className="text-slate-700 leading-relaxed">{brief.writeupSummary}</p>
+          </section>
+        )}
+
+        {/* Call to action */}
+        {brief.callToAction && (
+          <section className="bg-teal-50 border border-teal-100 rounded-xl p-6">
+            <h2 className="font-serif text-lg text-teal-900 font-bold mb-2">Call to Action</h2>
+            <p className="text-teal-800 leading-relaxed">{brief.callToAction}</p>
+          </section>
+        )}
+
+        {/* Key messages (aim) */}
+        {brief.keyMessages.length > 0 && (
+          <section>
+            <h2 className="font-serif text-xl text-navy-950 font-bold mb-4">Aim</h2>
+            <ul className="space-y-3">
+              {brief.keyMessages.map((msg, i) => (
+                <li key={i} className="flex gap-3 text-slate-700">
+                  <span className="text-teal-600 flex-shrink-0 font-bold mt-0.5">•</span>
+                  <span>{msg}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {/* Abuja / 5th HLMM alignment */}
+        {brief.alignment && (
+          <section>
+            <h2 className="font-serif text-xl text-navy-950 font-bold mb-3">
+              Alignment — Abuja / 5th HLMM
+            </h2>
+            <p className="text-slate-600 text-sm leading-relaxed">{brief.alignment}</p>
+          </section>
+        )}
+
+        {/* Author bio */}
         {author && (
           <section>
             <h2 className="font-serif text-xl text-navy-950 font-bold mb-4">About the Author</h2>
@@ -151,7 +180,6 @@ export default async function BriefDetailPage({
                 <p className="font-medium text-navy-950">{author.name}</p>
                 <p className="text-sm text-slate-600 mb-2">{author.title}, {author.organization}</p>
                 <p className="text-sm text-slate-700 leading-relaxed">
-                  {/* Show first 200 chars of bio as excerpt */}
                   {author.bio.slice(0, 200)}{author.bio.length > 200 ? '…' : ''}
                 </p>
               </div>
@@ -161,14 +189,11 @@ export default async function BriefDetailPage({
 
       </div>
 
-      {/* Prev/Next navigation — locked decision (discretion: placement and styling) */}
+      {/* Prev/Next navigation */}
       <nav className="mt-16 pt-8 border-t border-slate-200 flex justify-between gap-4 no-print">
         <div>
           {prevBrief && (
-            <Link
-              href={`/briefs/${prevBrief.slug}`}
-              className="group flex flex-col text-sm"
-            >
+            <Link href={`/briefs/${prevBrief.slug}`} className="group flex flex-col text-sm">
               <span className="text-xs text-slate-500 mb-1">&larr; Previous</span>
               <span className="text-teal-600 group-hover:text-teal-500 font-medium line-clamp-2">
                 {prevBrief.title}
@@ -178,10 +203,7 @@ export default async function BriefDetailPage({
         </div>
         <div className="text-right">
           {nextBrief && (
-            <Link
-              href={`/briefs/${nextBrief.slug}`}
-              className="group flex flex-col text-sm items-end"
-            >
+            <Link href={`/briefs/${nextBrief.slug}`} className="group flex flex-col text-sm items-end">
               <span className="text-xs text-slate-500 mb-1">Next &rarr;</span>
               <span className="text-teal-600 group-hover:text-teal-500 font-medium line-clamp-2">
                 {nextBrief.title}
@@ -191,7 +213,7 @@ export default async function BriefDetailPage({
         </div>
       </nav>
 
-      {/* Discussion — GAS-backed anonymous commenting */}
+      {/* Discussion */}
       <section className="no-print mt-16 pt-8 border-t border-slate-200">
         <h2 className="font-serif text-xl text-navy-950 font-bold mb-8">Discussion</h2>
         <div className="mb-10">

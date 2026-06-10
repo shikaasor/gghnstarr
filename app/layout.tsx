@@ -4,7 +4,6 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 import './globals.css';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { ConferenceBar } from '@/components/layout/ConferenceBar';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -45,7 +44,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${montserrat.variable} ${inter.variable}`} suppressHydrationWarning>
       <body className="bg-slate-50 dark:bg-navy-950 font-sans antialiased flex flex-col min-h-screen">
-        <ConferenceBar />
         <Header />
         <main className="flex-grow">
           {children}

@@ -40,7 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# large binary / source documents
-resources/*.pptx
-resources/*.docx
-resources/*.zip
+# large binary / source documents and local working files
+/resources/
+notes.md

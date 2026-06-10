@@ -14,10 +14,8 @@ const navLinks = [
   { href: '/tools-directory', label: 'Tools' },
   { href: '/news', label: 'News' },
   { href: '/methodology', label: 'Methodology' },
-  { href: '/experts', label: 'Experts' },
   { href: '/contact', label: 'Contact' },
   { href: '/conference', label: 'Conference' },
-  { href: '/take-action', label: 'Take Action', isButton: true },
 ];
 
 export function Header() {
@@ -42,25 +40,15 @@ export function Header() {
 
         {/* Desktop nav — hidden on mobile */}
         <nav className="hidden md:flex items-center gap-6 ml-10" aria-label="Main navigation">
-          {navLinks.map((link) =>
-            link.isButton ? (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="bg-amr-gold text-navy-950 hover:bg-yellow-400 font-semibold px-4 py-1.5 rounded transition-colors text-sm"
-              >
-                {link.label}
-              </Link>
-            ) : (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-slate-200 hover:text-teal-400 transition-colors text-sm font-medium"
-              >
-                {link.label}
-              </Link>
-            )
-          )}
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-slate-200 hover:text-teal-400 transition-colors text-sm font-medium"
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
 
         {/* Mobile hamburger button — visible on mobile only */}
@@ -82,27 +70,16 @@ export function Header() {
           className="md:hidden bg-teal-700 border-t border-teal-800 px-4 py-4 flex flex-col gap-1"
           aria-label="Mobile navigation"
         >
-          {navLinks.map((link) =>
-            link.isButton ? (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-navy-950 bg-amr-gold hover:bg-yellow-400 font-semibold px-3 py-2 rounded text-base transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ) : (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-slate-200 hover:text-teal-400 hover:bg-navy-800 transition-colors text-base font-medium px-3 py-2 rounded"
-                onClick={() => setIsOpen(false)}
-              >
-                {link.label}
-              </Link>
-            )
-          )}
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-slate-200 hover:text-teal-400 hover:bg-navy-800 transition-colors text-base font-medium px-3 py-2 rounded"
+              onClick={() => setIsOpen(false)}
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
       )}
     </header>

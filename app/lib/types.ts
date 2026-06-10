@@ -2,20 +2,27 @@
 
 // LOCKED — all fields mandated by CONTEXT.md decisions
 export interface Brief {
-  slug: string;                    // URL-safe identifier: "week-01-amr-governance"
-  title: string;                   // Full brief title
-  weekNumber: number;              // Publication week (1, 2, 3...)
-  publicationDate: string;         // ISO date string: "2026-03-24"
-  authorId?: string;               // References Expert.id in experts.json (optional — some briefs have no author)
-  keyTakeaway: string;             // One-sentence key insight
-  executiveSummary: string;        // 100-150 word summary
-  keyMessages: string[];           // 3-7 bullet points
-  pdfUrl: string;                  // "/briefs/week-01-amr-governance.pdf"
-  infographicPdfUrl?: string;      // "/infographics/week-01-infographic.pdf" (optional — Phase 7 briefs have no infographic PDFs)
-  infographicImageUrl?: string;    // "/infographics/IMG_9750.jpeg" (optional — inline JPEG for brief detail pages)
-  thumbnailUrl: string;            // "/images/thumbnails/week-01.jpg"
-  themes: string[];                // Subset of: "Governance" | "Laboratory Systems" |
-                                   // "Predictive Analytics" | "One Health" | "Stewardship"
+  slug: string;                    // URL-safe identifier: "brief-01-governance-markets-microbes"
+  title: string;                   // Long title (full brief title)
+  shortTitle?: string;             // Short/display title from catalog
+  weekNumber: number;              // Brief number (1–54)
+  publicationDate: string;         // ISO date string: "2026-01-05"
+  authorId?: string;               // References Expert.id in experts.json (optional)
+  keyTakeaway: string;             // One-sentence key insight / call to action
+  executiveSummary: string;        // Write-up summary (~50 words)
+  keyMessages: string[];           // Aim / key messages
+  pdfUrl?: string;                 // "/briefs/week-01-amr-governance.pdf" (optional)
+  infographicPdfUrl?: string;      // "/infographics/week-01-infographic.pdf" (optional)
+  infographicImageUrl?: string;    // "/infographics/IMG_9750.jpeg" (optional)
+  thumbnailUrl: string;            // Slide PNG used as thumbnail: "/slides/brief-01.png"
+  slideImageUrl?: string;          // Full slide PNG: "/slides/brief-01.png"
+  themes: string[];                // Derived from category for legacy compat
+  category?: string;               // e.g. "Governance & Political Economy"
+  domain?: string;                 // e.g. "AMR system drivers"
+  subdomain?: string;              // e.g. "Multi-country political-economy analysis"
+  writeupSummary?: string;         // Write-up summary (~50 words) from catalog
+  callToAction?: string;           // Call to action summary (~20 words) from catalog
+  alignment?: string;              // Alignment to Abuja / 5th HLMM
   featured?: boolean;              // True for the single featured brief on homepage
 }
 

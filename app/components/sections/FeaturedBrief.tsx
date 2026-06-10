@@ -56,7 +56,7 @@ export default function FeaturedBrief({ brief }: FeaturedBriefProps) {
       </section>
       {showModal && (
         <LeadCaptureModal
-          href={brief.pdfUrl}
+          href={brief.pdfUrl ?? ''}
           onClose={() => setShowModal(false)}
         />
       )}
