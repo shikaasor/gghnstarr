@@ -209,6 +209,17 @@
     "doi": "10.1016/j.jinf.2026.106785"
   },
   {
+    "id": "42264542",
+    "source": "PubMed",
+    "title": "Degrading Resistance on Command: LAMP-D Reframes Targeted Protein Degradation as a Photochemical Problem",
+    "authors": "Kumar A et al.",
+    "publishedDate": "2026-06-15",
+    "journal": "ChemMedChem",
+    "abstract": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42264542/",
+    "doi": "10.1002/cmdc.70344"
+  },
+  {
     "id": "42069123",
     "source": "PubMed",
     "title": "Genome-informed monitoring and characterization of Escherichia coli, including shiga toxin-producing strains, in a river with diverse land uses",
@@ -919,7 +930,7 @@
     "authors": "Xavier SP et al.",
     "publishedDate": "2026-06-10",
     "journal": "Syst Rev",
-    "abstract": "",
+    "abstract": "Excessive and inappropriate use of antibiotics represents a major concern directly associated with the emergence of resistant microorganisms, posing a global public health threat. Inappropriate prescribing patterns are particularly frequent in pediatric populations, leading to significant clinical and epidemiological consequences. Improving the quality of antibiotic prescribing is a rational and necessary strategy to strengthen the AWaRe framework (Access, Watch, and Reserve), proposed by the World Health Organization (WHO) to guide rational antibiotic use. This study aimed to systematically review and conduct a meta-analysis on antibiotic prescribing patterns in pediatric patients across Africa. We systematically searched PubMed, Embase, SciElo,&#xa0;Scopus, Web of Science, and the WHO Global Index Medicus on 23 May 2025. Eligible studies reported antibiotic prescribing patterns among pediatric patients in Africa, including types of prescribed antibiotics, route of administration, and AWaRe classification. Methodological quality was assessed using the National Institutes of Health (NIH) tools. Pooled prevalence estimates were calculated using random-effects meta-analysis based on the Freeman-Tukey double arcsine transformation. The pooled prevalence of antibiotic prescribing among pediatric patients in Africa was 76.0% (95% CI, 68.0-82.0; I&#x2009;=&#x2009;99.8%). Approximately 78.0% received at least one antibiotic parenterally, with a mean of 1.55 antibiotics per patient (95% CI, 1.36-1.74). The highest prescribing prevalence was observed in Central Africa (85.0%), followed by Western (83.0%), while Eastern and Southern regions reported a prevalence of 64.0%. By AWaRe classification, Access antibiotics accounted for 65.0% of prescriptions, Watch for 27.0%, and Reserve for 3.0% (reported only in South Africa). The most prescribed antibiotics included amoxicillin (54.1%), amikacin (47.5%), gentamicin (41.2%), and ampicillin (38.0%) in the Access group; ceftriaxone (48.3%), cefuroxime (42.0%), and imipenem/meropenem (32.9%) in the Watch group; and ampicillin combined with cloxacillin (28.0%) in the not-recommended group. These findings provide a descriptive overview of antibiotic prescribing patterns among pediatric patients in Africa. Given the variability across studies, the results underscore the importance of strengthening antimicrobial stewardship initiatives and promoting the rational use of antibiotics, particularly within the AWaRe framework, to support efforts aimed at mitigating antimicrobial resistance.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42271497/",
     "doi": "10.1186/s13643-026-03223-9"
   },
@@ -930,7 +941,7 @@
     "authors": "Bi JG et al.",
     "publishedDate": "2026-06-10",
     "journal": "BMC Microbiol",
-    "abstract": "",
+    "abstract": "The invasive pest Spodoptera frugiperda poses a potential threat to the ecological security of western Yunnan, using the Gaoligong Mountains as an important cross-border corridor and overwintering site. However, the potential role of gut microbiota in the local adaptation of S. frugiperda during its invasion remains poorly understood. Adult populations were monitored using sex pheromone traps, and metagenomic sequencing was performed on larval gut microbiota from different regions of the Gaoligong Mountains. The gut microbial composition and functional potential were analyzed, with specific focus on the microbial traits potentially associated with host adaptation and invasion. S. frugiperda populations persisted year-round in the Gaoligong Mountains, with adult activity peaking from January to May. Microbial diversity was highest in southern samples. Enterococcus, typically dominant in S. frugiperda, displayed low abundance in the central and northern regions. In contrast, Providencia emerged as the dominant genus specifically at the Pianma site (PM, along the China-Myanmar border), where the gut microbiota exhibited higher abundance of site-specific functional genes compared to other regions. These genes encoded proteins including type 1 subunit membrane proteins and outer membrane-targeting proteins. Additionally, the PM samples showed a higher relative abundance of genes K07345, K07347, and K15125. Functional annotation highlighted a strong potential for vancomycin degradation and an enrichment of diverse antimicrobial resistance-associated genes, with adeL being the most abundant. These findings suggest that the PM area may represent an important gateway or a priority monitoring site for the transboundary invasion of S. frugiperda, underscoring the urgency of strengthening local management of invasive pests.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42271238/",
     "doi": "10.1186/s12866-026-05259-2"
   },
@@ -2187,16 +2198,5 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42250651/",
     "doi": "10.1016/j.jhin.2026.05.044"
-  },
-  {
-    "id": "42250626",
-    "source": "PubMed",
-    "title": "Mechanistic origins and evolutionary erosion of collateral sensitivity in a β-lactamase",
-    "authors": "Salamonsen D et al.",
-    "publishedDate": "2026-06-05",
-    "journal": "J Mol Biol",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42250626/",
-    "doi": "10.1016/j.jmb.2026.169893"
   }
 ]
