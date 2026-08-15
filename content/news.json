@@ -99,6 +99,17 @@
     "doi": "10.1080/21505594.2026.2664989"
   },
   {
+    "id": "42599049",
+    "source": "PubMed",
+    "title": "A quorum sensing antagonist with dual bacterium- and host-directed anti-pathogenic activity against Pseudomonas aeruginosa",
+    "authors": "Li DD et al.",
+    "publishedDate": "2026-12-01",
+    "journal": "Virulence",
+    "abstract": "is a major opportunistic pathogen whose clinical management is increasingly compromised by antibiotic resistance and biofilm-associated persistence. Anti-pathogenic strategies that attenuate virulence without inhibiting bacterial growth offer a promising alternative to conventional antibiotics. Here, we identify thesp-derived bisindole alkaloid (R)-6'-debromohamacanthin B (RDB) as a potent dual bacterium- and host-directed anti-pathogenic agent against. RDB suppressed quorum sensing (QS) activity and markedly inhibited biofilm formation at growth-independent concentrations starting at 100 pM. Mechanistically, RDB functionally interfered with several central QS regulators, including LasR, RhlR, PqsR, and QscR, consistent with network-level attenuation of QS signaling, and reduced intracellular c-di-GMP levels associated with biofilm regulation. Beyond its bacterium-directed activity, RDB enhanced macrophage-mediated phagocytosis and intracellular bacterial clearance while limiting excessive production of pro-inflammatory mediators. In a murine wound infection model, RDB significantly reduced infection severity, restricted systemic dissemination, and promoted wound healing without detectable toxicity. Collectively, these findings demonstrate that RDB exerts dual bacterium-directed and host-directed activities, simultaneously attenuating virulence and biofilm formation while reinforcing host defense and controlling pathological inflammation. This multifaceted mode of action positions RDB as a promising anti-pathogenic therapeutic candidate for the management ofinfections without promoting antimicrobial resistance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599049/",
+    "doi": "10.1080/21505594.2026.2712735"
+  },
+  {
     "id": "42591846",
     "source": "PubMed",
     "title": "Microfluidic-assembled curcumin ionizable lipid nanoparticles enhance aqueous delivery and antibiofilm activity against Staphylococcus aureus",
@@ -572,6 +583,17 @@
     "doi": "10.1016/j.bioactmat.2026.06.006"
   },
   {
+    "id": "42597927",
+    "source": "PubMed",
+    "title": "PlasmidRiskNet: An explainable machine-learning framework for antimicrobial resistance plasmid risk stratification",
+    "authors": "Agboola OE et al.",
+    "publishedDate": "2026-10-01",
+    "journal": "New Microbes New Infect",
+    "abstract": "Plasmids are the principal vehicles of horizontal antimicrobial resistance (AMR) gene transfer, yet risk analyses rarely combine gene content, mobility, and network topology. We asked whether explainable machine learning over these dimensions can stratify plasmid dissemination risk, and tested rigorously where it succeeds and fails. From 72,556 PLSDB 2025 plasmids we integrated 251,138 AMRFinderPlus gene records with CARD v3 ontology and MOBsuite typing, built a co-resistance network, and derived a composite PlasmidRisk score from five features. Three classifiers were evaluated by five-fold cross-validation; external validation used WHO and ECDC 2024 to 2025 carbapenemase designations as a feature-independent reference. We added length- and host-adjusted burden models, phylum-normalized enrichment, and feature-category ablation. AMR genes occurred in 41.0% of plasmids across 85 drug classes. The network (29,758 nodes) was heterogeneous rather than scale-free. Internal cross-validation AUCs exceeded 0.999, but because labels derived from the scored features this reflects internal consistency, not generalization. The feature-independent external AUC was modest (0.607): strong for the metallo-beta-lactamases,, and(0.72 to 0.73) but at or below chance forand(0.45 to 0.51). The conjugative burden advantage did not survive adjustment for length and host phylum (adjusted incidence rate ratio 0.93), with length dominant. PlasmidRiskNet offers a useful pre-screening layer for MBL-bearing plasmids but not for the compact serine-carbapenemase backbones (,), which require replicon typing. Honest external and confounder-adjusted evaluation, not internal metrics, defines its class-specific surveillance value.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42597927/",
+    "doi": "10.1016/j.nmni.2026.101823"
+  },
+  {
     "id": "42572614",
     "source": "PubMed",
     "title": "Protocol for a stepped wedge randomized controlled trial to optimize antibiotics prescription in Nepal",
@@ -746,6 +768,281 @@
     "abstract": "Vancomycin requires individualized dosing guided by therapeutic drug monitoring, but current laboratory assays are slow and centralized. We describe a competition-format microarray assay on a poly(oligo(ethylene glycol) methacrylate-co-glycidyl methacrylate) brush integrated into a single-use microfluidic cassette and portable reader to quantify vancomycin directly from fingerstick volumes of whole blood in 30 min. The assay shows a limit of detection of 0.8 &#x3bc;g/mL and precise quantification across the clinical range, with relative error below 20%. In a pilot study of 31 patient samples, cassette measurements correlated strongly with routine hospital testing with minimal bias, including when operated by minimally trained coordinators. This work establishes an approach for rapid, decentralized vancomycin monitoring that could support area-under-the-curve-based dosing in settings where access to high-complexity laboratories is limited and suggests a path toward extending therapeutic drug monitoring to point-of-care devices.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42473667/",
     "doi": "10.1016/j.isci.2026.116064"
+  },
+  {
+    "id": "42601049",
+    "source": "PubMed",
+    "title": "Late-Onset Neonatal Sepsis: Contemporary Epidemiology, Diagnosis, Prevention, and Precision Therapeutics",
+    "authors": "Dixit S et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Am J Perinatol",
+    "abstract": "Late-onset neonatal sepsis (LOS) remains a major challenge in modern neonatal intensive care units (NICUs), disproportionately affecting very low birth weight (VLBW) and extremely preterm infants. Despite advances in perinatal care, LOS continues to contribute to high mortality, prolonged hospitalization, and long-term neurodevelopmental impairment. Emerging trends-including evolving pathogen profiles, increased antimicrobial resistance (AMR), and widespread microbiome disruption-highlight persistent clinical and public health concerns. This review synthesizes current evidence on the epidemiology, pathophysiology, diagnosis, and management of LOS, with emphasis on evolving diagnostics, antimicrobial stewardship, prevention strategies, and emerging precision approaches. Key gaps and research priorities are highlighted to inform future clinical practice and neonatal health policy. This narrative review synthesizes contemporary literature, including multicenter cohort studies, national registries, and emerging diagnostic and predictive technologies. LOS arises from the complex interplay between neonatal immune immaturity, invasive NICU interventions, and microbial exposure. Gram-positive organisms predominate in high-income settings, while multidrug-resistant Gram-negative pathogens are increasingly reported in low- and middle-income countries, contributing to higher morbidity and mortality. Early-life antibiotic exposure and dysbiosis compromise the gut microbiome, further increasing susceptibility. Clinical recognition remains challenging due to nonspecific signs, often leading to delayed or excessive empiric antibiotic therapy. Rapid molecular diagnostics, emerging predictive tools, including early-warning models, and serial biomarker monitoring offer opportunities for pathogen-directed therapy, individualized pharmacokinetic optimization, and safe antimicrobial stewardship. Prevention through central-line bundles, human milk feeding, probiotics, strict hand hygiene, and context-specific infection-control strategies remains central to reducing LOS incidence. LOS represents a multifactorial syndrome with profound implications for survival and neurodevelopment in preterm and VLBW infants. Effective management requires integration of precision diagnostics, individualized therapy, microbiome-preserving strategies, neuroprotective interventions, and equitable implementation of prevention and stewardship programs. Bridging mechanistic understanding with scalable, context-sensitive approaches is critical to improving survival, reducing morbidity, and optimizing long-term outcomes.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42601049/",
+    "doi": "10.1055/a-2938-3600"
+  },
+  {
+    "id": "42601018",
+    "source": "PubMed",
+    "title": "An updated systematic review on antimicrobial resistance among Salmonella Typhi worldwide",
+    "authors": "Murthy S et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Clin Microbiol Infect",
+    "abstract": "Updated evidence on antimicrobial resistance (AMR) among Salmonella Typhi is needed to inform empiric treatment and typhoid prevention including vaccine introduction. To update our 2020 systematic review on prevalence and trends of AMR among Salmonella Typhi. DATA SOURCES: PubMed, Web of Science, and preprint repositories from database inception through 30 November 2025, citation searching, and contacting authors of new reports. We included studies reporting antimicrobial susceptibility testing results of Salmonella Typhi isolated from a normally sterile site in a person. We adapted the Joanna Briggs Institute guidance for critical appraisal on prevalence studies. We calculated the proportion of resistant isolates for each antimicrobial tested by dividing the number of resistant isolates by the total number of isolates tested. We computed by decade the median proportions of isolates resistant by United Nations region and performed chi-squared test for trend in proportions. Of 411 included reports tested 132,174 Salmonella Typhi isolated from 1972-2024 across 54 countries, of which 114,907 (87.0%) were from Southern Asia. Of 1,289 estimates, 1,172 (90.9%) were facility-based. Of Salmonella Typhi isolates assessed, 22,320 (30.7%) of 72,731 were multidrug-resistant (MDR), 41,225 (42.4%) of 97,269 resistant to ciprofloxacin, and 2,086 (3.4%) of 62,186 resistant to azithromycin. From 1990, by decade, the median proportion of MDR Salmonella Typhi increased by consecutive decade for Africa and decreased for Asia. Of isolates in countries reporting extensively drug-resistant (XDR) Salmonella Typhi, 20,954 (58.0%) of 36,153 were from Pakistan, one (16.7%) of six from China Hong Kong Special Administrative Region, 10 (0.5%) of 1,880 from India and three (0.4%) of 736 from Laos. The expansion of MDR Salmonella Typhi in Africa and regional emergence of XDR Salmonella Typhi in Asia compromise typhoid treatment and support typhoid prevention including by vaccination.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42601018/",
+    "doi": "10.1016/j.cmi.2026.08.007"
+  },
+  {
+    "id": "42600860",
+    "source": "PubMed",
+    "title": "Antimicrobial, anti-biofilm, and anticancer activities of green-synthesized silver nanoparticles using Crossostephium chinense (L.) Makino aqueous leaf extract",
+    "authors": "Dey M et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Microb Pathog",
+    "abstract": "The increasing burden of infectious diseases, driven by microbial pathogenicity and antimicrobial resistance, necessitates the development of effective and sustainable antimicrobial strategies. In that context, this study reports, for the first time, the green synthesis of silver nanoparticles (AgNPs) using an aqueous extract of Crossostephium chinense (L.) Makino (CC) leaves, wherein plant-derived phytochemicals act as natural reducing and capping agents. Mass spectrometric analyses of CC aqueous leaf extract identified 62 possible metabolites, including flavonoids, phenolics, and terpenoids, that possibly facilitate nanoparticle synthesis. The synthesized C. chinense-derived silver nanoparticles (CC-AgNPs) were characterized as moderately stable, crystalline, spherical with sizes ranging from 20-80 nm. CC-AgNPs displayed broad-spectrum antimicrobial activity, showing the greatest susceptibility in Bacillus subtilis and Pseudomonas aeruginosa, with a minimum inhibitory concentration (MIC) of 6 &#x3bc;g/mL, while electron microscopy confirmed severe structural damage to bacterial membranes. Furthermore, CC-AgNPs displayed strong antibiofilm activity, achieving up to 92% biofilm inhibition in B. subtilis at 12 &#x3bc;g/mL. The anticancer potential of CC-AgNPs was evaluated against breast cancer (MCF-7 and MDA-MB-231), chronic myelogenous leukemia (K562), and hepatoblastoma (HepG2) cell lines. Among these, MDA-MB-231 cells were the most sensitive, exhibiting the lowest ICvalue. Further mechanistic investigations in MDA-MB-231 cells demonstrated apoptosis induction, as evidenced by nuclear fragmentation, Annexin V/PI staining and activation of caspases. In conclusion, these findings highlight CC-AgNPs as promising candidates for antimicrobial, antibiofilm, and anticancer applications.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42600860/",
+    "doi": "10.1016/j.micpath.2026.108776"
+  },
+  {
+    "id": "42600763",
+    "source": "PubMed",
+    "title": "Reversing Antibiotic Resistance and Reprogramming Macrophage Polarization by Extracellular Vesicles from Fresh Schisandra chinensis: A Dual Pharmacological Strategy for Drug-Resistant Wound Infection and Sepsis",
+    "authors": "Wang H et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Pharmacol Res",
+    "abstract": "The rapid global escalation of multi-drug resistant (MDR) infections, ranging from localized chronic MRSA-infected wounds to systemic CRE-induced sepsis, has necessitated the urgent development of innovative antimicrobial potentiators. Herein, we identify Schisandra chinensis-derived extracellular vesicles (SCEVs) as a versatile, biogenic nanoplatform capable of simultaneously reversing bacterial resistance and resolving pathological inflammation. SCEVs exhibit intrinsic, broad-spectrum antibacterial activity and function as potent antibiotic sensitizers. At a low dose, SCEVs reduced the MICs of clinical MDR strains by up to 20-fold, achieving a fractional inhibitory concentration index (FICI) of 0.215. Leveraging this synergy, we engineered meropenem-loaded SCEVs (Mero@SCEVs) to achieve targeted intracellular delivery with an encapsulation efficiency of 20%. Integrated proteomic analyses unveiled that SCEVs exert their multifaceted efficacy through a dual-action mechanism whereby chitinase and Histone H4 disrupt bacterial membrane integrity, while ATP synthase targets F-type ATPase to deplete intracellular energy levels in pathogens. Simultaneously, SCEVs exert profound immunomodulatory effects by scavenging 71.4% of excessive ROS and driving macrophage polarization from a pro-inflammatory M1 phenotype to a pro-healing M2 phenotype. To facilitate clinical translation, a ROS-responsive PBA-HAMA/PVA hydrogel was developed for the sustained delivery of SCEVs to diabetic wounds, accelerating closure within 15 days. Beyond topical therapy, intraperitoneal injection of SCEVs rescued 60% of mice from lethal CRE-induced sepsis by suppressing cytokine storms and alleviating multi-organ damage. Collectively, this work establishes SCEVs as a novel antibiotic adjuvant strategy with dual antimicrobial and immunomodulatory pharmacology for managing the drug-resistant bacterial infectious continuum from localized wounds to systemic sepsis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42600763/",
+    "doi": "10.1016/j.phrs.2026.108399"
+  },
+  {
+    "id": "42600361",
+    "source": "PubMed",
+    "title": "Antibiofilm activity of a recombinant mussel-derived antimicrobial protein through surface charge-mediated hydration layer formation",
+    "authors": "Kim SH et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Int J Biol Macromol",
+    "abstract": "Biofilm formation on biomedical devices remains a major cause of persistent infections and antibiotic resistance. In this study, we developed a charge-mediated, anti-adhesive platform by immobilizing recombinant mussel adhesive protein-antimicrobial peptide fusions (MAP-AMPs) on solid substrates via a simple EDC/NHS covalent coupling reaction. Using recombinant MAP-foot protein-151 (MAP-fp-151) as a versatile scaffold, immobilized MAP-AMPs were characterized by attenuated total reflectance Fourier-transform infrared (ATR-FTIR) spectroscopy, scanning electron microscopy (SEM), atomic force microscopy (AFM), and Coomassie brilliant blue staining. While soluble MAP-AMPs exhibited potent bactericidal activity against both reference and antibiotic-resistance clinical E. coli strains, their immobilized forms primarily inhibited biofilm formation rather than exhibiting direct bactericidal activity. Computational simulations and experimental surface analyses revealed that the cationic MAP-AMPs formed island-like clusters that elevated surface positive potential and organized a dense, long-range hydration layer extending beyond the clusters into the bare surface regions. This mechanism was experimentally validated using Kelvin probe force microscopy (KPFM) and contact angle analysis, which showed elevated surface potential, increased water retention, and reduced water contact angles. Bacterial adhesion on the MAP-AMP2-immobilized surface was significantly suppressed, with adhesion rates reduced to 27.62-45.16% across all tested strains. These results indicate that MAP-AMP-immobilized surfaces provide a versatile, biocompatible, and resistance-independent strategy for preventing biofilm formation through charge-mediated hydration, offering broad potential for biomedical device coatings and antifouling applications.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42600361/",
+    "doi": "10.1016/j.ijbiomac.2026.154017"
+  },
+  {
+    "id": "42600219",
+    "source": "PubMed",
+    "title": "Comparison of antimicrobial resistance patterns of bloodstream Pseudomonas aeruginosa isolates from two tertiary university hospitals in Türkiye and Hungary",
+    "authors": "Akbulut RE et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Infect Dis Health",
+    "abstract": "Pseudomonas aeruginosa is a major cause of healthcare-associated bloodstream infections, and its resistance patterns can vary by hospital setting, care unit, and time. This study compared resistance patterns of P. aeruginosa isolates recovered from blood cultures at two tertiary university hospitals in T&#xfc;rkiye and Hungary. This retrospective, multicenter and cross-sectional surveillance study included the first eligible bloodstream P. aeruginosa isolates obtained from patients admitted to intensive care units (ICUs) and non-ICU wards between 2020 and 2023. Class-based resistance patterns to carbapenems, cephalosporins, and fluoroquinolones, as well as multidrug resistance (MDR), were evaluated using predefined criteria. Annual trends and center-by-year interactions were analyzed using log-binomial regression, while independent associations and exploratory period differences were assessed using logistic regression. A total of 703 patients were included (Turkish center = 180, Hungarian center = 523). Multivariate analyses identified independent associations of ward type with four resistance outcomes, center with cephalosporin resistance; year with fluoroquinolone resistance and MDR; and gender with fluoroquinolone resistance. Cephalosporin, fluoroquinolone, and MDR resistance declined significantly over time, whereas the decrease in carbapenem resistance was borderline at the Hungarian center. No significant annual trends were observed at the Turkish center, and the center-by-year interactions were nonsignificant. Exploratory analyses showed lower resistance in 2022-2023 than in 2020-2021 in Hungary but not in T&#xfc;rkiye. Resistance patterns in bloodstream P. aeruginosa isolates varied by center, care setting and time. ICU-focused surveillance and locally tailored stewardship strategies may support the management of these infections.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42600219/",
+    "doi": "10.1016/j.idh.2026.100456"
+  },
+  {
+    "id": "42599987",
+    "source": "PubMed",
+    "title": "Encoded metabolic remodeling amplifies drug resistance in Mycobacterium tuberculosis",
+    "authors": "Frey AM et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "PLoS Pathog",
+    "abstract": "Antibiotic pressure causes pathogens to evolve many forms of altered drug susceptibility. In addition to target or activator mutations conferring canonical drug resistance, mutations can serve as steppingstones to or enhancers of resistance. In clinical strains of Mycobacterium tuberculosis (Mtb), we find that idsA2, which encodes an isoprenyl pyrophosphate synthase involved in the synthesis of precursors for essential components of the cell wall and electron transport chain, is undergoing diversifying selection in Lineage 4, and that these mutations are associated with the acquisition of first-line antibiotic resistance. By engineering isogenic Mtb strains to express clinically prevalent variants of idsA2, we show that idsA2 variants alter the inhibitory concentrations of first-line drugs, most significantly increasing the inhibitory concentration of ethambutol by two-fold. Targeted lipid analyses reveal that disrupting IdsA2 function redirects limited resources in the isoprenoid synthesis pathway, leading to increased production of decaprenyl phosphate species. This suggests that idsA2 and ubiA mutations share an ethambutol resistance mechanism. Where idsA2 mutations arise after embB mutations, they maintain their multiplicative effect on the inhibitory concentration of ethambutol such that the variants together result in high-level resistance. As a result, identification of idsA2 mutations can be utilized to improve the specificity of genotypic ethambutol susceptibility testing. Together, this work shows how idsA2 mutations remodel bacterial metabolism and augment ethambutol resistance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599987/",
+    "doi": "10.1371/journal.ppat.1014237"
+  },
+  {
+    "id": "42599638",
+    "source": "PubMed",
+    "title": "Adaptive Evolution in Aminoacyl-tRNA Synthetases Drives Antibiotic Tolerance and Resistance in Clinical Klebsiella pneumoniae Isolates",
+    "authors": "Abd-Alazeez RA et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Mol Biotechnol",
+    "abstract": "Klebsiella pneumoniae is a major global health threat due to the rapid spread of antimicrobial resistance (AMR), which severely limits treatment options. Although horizontal gene transfer of mobile genetic elements is a key driver of multidrug resistance, this study explores how adaptive evolution within the core genome may also contribute to the clinical success of resistant strains. Using whole-genome sequencing-based pangenome analysis of clinically relevant classical K. pneumoniae isolates, we identified 3159 variants distributed across 414 core genes, indicating that even highly conserved cellular functions accumulate mutations in clinical environments. Functional enrichment analysis revealed a significant concentration of mutations in the aminoacyl-tRNA synthetase (aaRS) pathway, a central component of protein synthesis and a known antibiotic target. Multiple missense variants were detected in eight aaRS genes, with the Asn366Asp mutation in metG present in all analyzed isolates. We hypothesize that this conserved, recurrent mutation may contribute to bacterial adaptation, potentially by modulating protein synthesis, although this proposed mechanism remains speculative and requires experimental validation. Recurrent mutations were also observed in ileS and leuS, both targets of existing antimicrobials, while a Ser480Pro mutation in pyrG (CTP synthase) was identified in several isolates. Overall, these findings highlight core genome variation as a potential contributor to antimicrobial resistance in K. pneumoniae and suggest that conserved mutations such as metG Asn366Asp may represent candidate genomic biomarkers warranting further investigation. Because this study is based solely on comparative genomics, the proposed functional and mechanistic interpretations should be regarded as hypotheses for future experimental testing.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599638/",
+    "doi": "10.1007/s12033-026-01603-z"
+  },
+  {
+    "id": "42599593",
+    "source": "PubMed",
+    "title": "Biochemical and cellular effects of propolis and silver nanoparticle combination: apoptotic signaling and antibiofilm activity",
+    "authors": "Erdoğan E et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Mol Biol Rep",
+    "abstract": "Cancer and antimicrobial resistance represent two of the most critical challenges to global health. The limitations of conventional therapies, including severe side effects, drug resistance, and high failure rates, necessitate the exploration of novel and synergistic treatment strategies. Natural products like propolis and nanotechnology-based agents such as silver nanoparticles (AgNPs) have emerged as promising candidates due to their multifaceted biological activities. This study investigated the synergistic anticancer and antibacterial effects of Turkish propolis and AgNPs. The selective cytotoxicity of propolis and AgNPs was evaluated on human breast adenocarcinoma (MCF-7) and non-tumorigenic mammary epithelial (MCF-10&#xa0;A) cell lines using MTT assays. Apoptosis was assessed by Annexin V/PI staining and cell cycle distribution by flow cytometry. Mitochondrial membrane potential was analyzed using JC-1 staining, and the expression of apoptosis-related proteins (Bcl-2, p38 MAPK) was examined by Western blot. Antibacterial and antibiofilm efficacy against carbapenem-resistant Acinetobacter baumannii and Escherichia coli were determined by broth microdilution, checkerboard, and biofilm inhibition assays. Propolis and AgNPs exhibited selective, dose-dependent cytotoxicity against MCF-7 cancer cells (IC: 0.233&#xa0;mg/mL and IC: 3.12&#xa0;&#xb5;g/mL, respectively) while sparing MCF-10&#xa0;A cells. Their combination synergistically enhanced apoptosis (47.42% vs. 9.89% and 14.74% for single agents), induced G1 cell cycle arrest, and promoted mitochondrial depolarization. Western blot analysis confirmed the synergistic downregulation of the anti-apoptotic protein Bcl-2. In antibacterial assays, the propolis-AgNP combination demonstrated synergistic effects (FICi: 0.375 for A. baumannii; 0.5 for E. coli) and significantly reduced preformed biofilms by up to 81.3% and 76.4%, respectively, outperforming propolis alone. Turkish propolis and AgNPs synergistically enhance anticancer and antibacterial effects by selectively inducing apoptosis in breast cancer cells and suppressing carbapenem-resistant pathogens and their biofilms. This dual-action approach highlights the potential of combining natural products with nanomaterials as innovative strategies against cancer and multidrug-resistant infections.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599593/",
+    "doi": "10.1007/s11033-026-12599-9"
+  },
+  {
+    "id": "42599583",
+    "source": "PubMed",
+    "title": "Immunization with PLGA-encapsulated recombinant staphylococcal enterotoxin C confers protection against intramammary Staphylococcus aureus challenge in a murine mastitis model",
+    "authors": "Deepak D et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Antonie Van Leeuwenhoek",
+    "abstract": "Mastitis caused by Staphylococcus aureus remains a significant challenge to control due to increasing antimicrobial resistance and the limited efficacy of existing vaccines. Staphylococcal enterotoxin C (SEC) is a critical virulence factor and a highly immunogenic determinant in S. aureus strains&#xa0;frequently isolated from bovine mastitis cases. In this study, we evaluated the immunogenicity and protective efficacy of recombinant SEC (rSEC) encapsulated within poly(lactide-co-glycolide) microparticles (PLGA-rSEC) using a murine mastitis model. Immunization with PLGA-rSEC induced significantly higher serum IgG responses (OD) compared with bacterin, non-encapsulated rSEC and control groups (p&#x2009;<&#x2009;0.05). Following intramammary challenge with S. aureus, mice immunized with PLGA-rSEC showed a marked reduction in mammary gland bacterial load, resulting in a 3.15&#xa0;log&#xa0;CFU/gland reduction. This protective efficacy was significantly superior to that of the traditional bacterin group (2.23&#xa0;log&#xa0;CFU/gland; p&#x2009;<&#x2009;0.05). Furthermore, PLGA-rSEC-immunized mice exhibited attenuated inflammatory responses, characterized by lower serum C-reactive protein (CRP) levels and a rapid reduction in serum IL-10 concentrations post-challenge. Histopathological analysis confirmed the preservation of mammary gland architecture with minimal inflammatory cell infiltration in the PLGA-rSEC group, contrasting with the severe necrosis and abscess formation observed in control groups. Overall, PLGA-encapsulated rSEC elicited a robust humoral immune response and conferred significant protection against intramammary S. aureus challenge. These findings suggest that PLGA-rSEC is a promising subunit vaccine candidate for the prevention of S. aureus-associated bovine mastitis, offering improved protective efficacy compared with conventional vaccine formulations.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599583/",
+    "doi": "10.1007/s10482-026-02400-z"
+  },
+  {
+    "id": "42599548",
+    "source": "PubMed",
+    "title": "Environmental filtering shapes biosynthetic potential and resistome of antarctic microbiomes",
+    "authors": "Medeiros WB et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "World J Microbiol Biotechnol",
+    "abstract": "Environmental filtering is a major driver of microbial community assembly in Antarctic ecosystems, yet its influence on biosynthetic potential and antimicrobial resistance remains poorly understood. Here, we analyzed 319 medium- to high-quality metagenome-assembled genomes (MAGs) recovered from four Antarctic sites (Whalers Bay, Crater Lake, Fumarole Bay, and Hannah Point) to investigate the relationship between geochemical gradients, biosynthetic gene clusters (BGCs), and antimicrobial resistance genes (ARGs). Integrating genome-resolved metagenomics, biosynthetic mining, resistome profiling, and environmental analyses, we identified 1,197 BGCs, with terpene clusters representing more than 25% of the total. Several biosynthetic hotspots were detected, including an Acidobacteriota MAG harboring 62 BGCs. Resistome composition exhibited strong site-specific structuring and was significantly associated with geochemical variables, particularly cobalt, iron, organic carbon, and thermal variation. Network analyses revealed highly connected MAGs affiliated with Pseudomonadota and Actinomycetota, linking diverse BGC and ARG classes. At the same time, genomic co-localization of biosynthetic and resistance determinants suggests potential adaptive associations between secondary metabolism and self-resistance mechanisms. Together, these findings demonstrate that environmental filtering shapes both the taxonomic and functional organization of Antarctic microbiomes and highlight polar ecosystems as reservoirs of unexplored biosynthetic diversity with potential biotechnological relevance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599548/",
+    "doi": "10.1007/s11274-026-05201-8"
+  },
+  {
+    "id": "42599453",
+    "source": "PubMed",
+    "title": "Ginkgolide B drives TCA cycle to accelerate Streptococcus suis biofilm dissociation",
+    "authors": "Wang Y et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Arch Microbiol",
+    "abstract": "Streptococcus suis (S. suis) is an important zoonotic pathogen that often forms biofilm, leading to persistent clinical infections and exacerbation of antibiotic resistance. There is an urgent need to develop novel antibiofilm strategies. In this study, for the first time, lactate dehydrogenase (LDH) was targeted with the aim of reactivating the metabolic activity of bacteria embedded in biofilm using natural product molecules, thereby disrupting mature biofilm. Through virtual screening based on the TCMSP database, molecular docking, and molecular dynamics simulations, two potential molecules, ginkgolide B and daidzein were identified. The results showed that ginkgolide B significantly eradicated mature biofilm of S. suis at 160&#xa0;&#xb5;g/mL, whereas daidzein did not exhibit such an effect. Ginkgolide B treatment led to a marked accumulation of tricarboxylic acid (TCA) cycle intermediates (pyruvate, malate, fumarate, and isocitrate), a substantial downregulation of the pentose phosphate pathway product ribose-5-phosphate, and a global upregulation of NADH as well as various high energy phosphate compounds and amino acids. These findings suggest that ginkgolide B may interfere with TCA cycle, leading to reduced lactate fermentation, enhanced accumulation of TCA cycle-related metabolites, and broader metabolic changes in biofilm-associated S. suis. This metabolic disturbance may contribute to the disruption of mature biofilm. This study validates the feasibility of a 'metabolic activation' strategy in eradicating mature biofilm of S. suis and provides ginkgolide B as a candidate molecule for the development of novel antibiofilm agents.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599453/",
+    "doi": "10.1007/s00203-026-05140-w"
+  },
+  {
+    "id": "42599400",
+    "source": "PubMed",
+    "title": "Evolutionary Convergence on a Dihydrofolate Reductase Mutation Drives Trimethoprim-Sulfamethoxazole Resistance in Burkholderia thailandensis",
+    "authors": "Guillier S et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "ACS Infect Dis",
+    "abstract": "Trimethoprim-sulfamethoxazole (SXT) remains central to melioidosis eradication therapy, yet the genetic basis of resistance evolution in Burkholderia pseudomallei is not fully defined. Using Burkholderia thailandensis as a biosafe surrogate, we subjected populations to stepwise in vitro evolution under increasing SXT concentrations. Whole-genome sequencing revealed rapid population diversification followed by selective sweeps leading to fixation of fitter resistant variants. Early adaptation involved mutations in regulators of RND efflux systems and folate-associated genes, consistent with multifactorial resistance. Despite this heterogeneity, all evolutionary trajectories converged on a single nonsynonymous substitution, I99L, in dihydrofolate reductase (DHFR/FolA), which rose to fixation at high SXT concentrations. This substitution mirrors changes reported in SXT-resistant B. pseudomallei isolates from chronic infections. Allelic reconstruction demonstrated that Bt-DHFR(I99L) is sufficient to confer a 4- to 16-fold increase in trimethoprim MIC. Biochemical and structural analyses showed preserved catalytic activity but reduced trimethoprim binding, consistent with an allosteric resistance mechanism. Together, these findings establish DHFR as a dominant evolutionary target under SXT pressure and support B. thailandensis as a robust model for dissecting resistance evolution in B. pseudomallei.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599400/",
+    "doi": "10.1021/acsinfecdis.5c01132"
+  },
+  {
+    "id": "42599392",
+    "source": "PubMed",
+    "title": "Natural and Synthetic AMPs from Latin America across Diversity Engineering and Applications",
+    "authors": "Brango-Vanegas J et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "ACS Infect Dis",
+    "abstract": "Latin America's biodiversity accounts for approximately 60% of the world's total, fueling scientific research into natural products, a highly relevant area in drug discovery to this day. This is accompanied by an increasing number of antimicrobial peptides (AMPs) derived from natural products in the region, which over the past decade have been redesigned through modifications, enhancements, and refinements of their physicochemical properties and antimicrobial potency, using approaches that range from rational design and structure-activity relationship (SAR) studies to artificial intelligence and machine learning methodologies. AMPs and their derivatives represent a vast chemical space with potential for antibacterial, antifungal, antiviral, and antiparasitic therapies, with emerging applications beyond infectious diseases. Over the years, studies have identified these peptides from a wide range of sources, including amphibians, reptiles, invertebrates, and microorganisms from South America, highlighting their diverse biological activities. This raises important questions about whether Latin America is a fertile source of inspiration for the development of AMPs. It also prompts an examination of the region's historical and ongoing contributions to the field of natural and synthetic AMPs with anti-infective potential. Additionally, it highlights the need to assess the region's progress in keeping pace with the recent advancements in engineering AMPs to combat resistant bacteria. This mini-review addresses these topics and related issues, exploring Latin America's discoveries, challenges, and innovations in AMPs and their applications, particularly in anti-infective agents.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599392/",
+    "doi": "10.1021/acsinfecdis.6c00394"
+  },
+  {
+    "id": "42599391",
+    "source": "PubMed",
+    "title": "Perseverance: We Should Continue to Strive for Novel Antibiotics and Companion Diagnostics",
+    "authors": "Tommasi RA",
+    "publishedDate": "2026-08-14",
+    "journal": "ACS Infect Dis",
+    "abstract": "Since Fleming's discovery of penicillin, antibiotic resistance has remained an inevitable biological reality; however, our guidelines and diagnostic practices are not keeping pace with the rising medical need. This viewpoint uses a real family case of recurrent Group C streptococcal pharyngitis to illustrate these gaps in an outpatient setting. The situation is obviously more dire with life threatening infections. Addressing the fragile antibiotic pipeline requires updated, accessible guidelines, routine culturing upon relapse, and public education to support fair pricing and sustained investment in novel antibiotics and companion diagnostics.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599391/",
+    "doi": "10.1021/acsinfecdis.6c00637"
+  },
+  {
+    "id": "42599355",
+    "source": "PubMed",
+    "title": "Sequence analyses to accelerate the development of rapid resistance assays targeting the Neisseria gonorrhoeae gyrA gene",
+    "authors": "Ayfan AKS et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Eur J Clin Microbiol Infect Dis",
+    "abstract": "Mutations in the Neisseria gonorrhoeae (NG) gyrA codons 91 and 95 are known to confer resistance to ciprofloxacin, but questions remain over whether all the various permutations of these codons are needed for optimal molecular detection of NG ciprofloxacin susceptibility. Here, we used publicly available sequence data to answer this question to help inform the design of next-generation NG gyrA assays. NG gyrA alleles (n&#x2009;=&#x2009;73) were downloaded from the NG-STAR platform, as were all NG sequences and associated metadata from Pathogenwatch (n&#x2009;=&#x2009;38,367 records; n= 31,114 following de-duplication). Analyses focused on understanding the frequency of NG gyrA 91 and 95 alterations and the applicability of assay designs to detect ciprofloxacin resistance. While the 73 NG-STAR alleles reflect considerable gyrA sequence diversity, just four amino acid combinations at codons 91 and 95 (wild-type; S91F/D95A; S91F/D95G; S91F/D95N) comprised&#x2009;>&#x2009;99% of isolates. Also, 91-only and 95-only mutants are rare, comprising less than 1% of sequences, and moreover were typically sporadic temporally and genetically (e.g., within and across different MLSTs). The results also indicate that certain NG-STAR alleles (e.g., gyrA_42.0, gyrA_53.0, and gyrA_60.0) have high sequence homology with other commensals, including Neisseria meningitidis, and hence warrant careful consideration during assay design to avoid off-target detection. The results highlight that 91-only and 95-only mutants do occur at relatively low frequency, and hence assays should ideally detect both SNPs independently, with 91 as the priority. However, an assay targeting either codon alone, or both codons collectively without independently discriminating each codon, would still correctly classify approximately 99% of resistant alleles. The 0.47% of single-codon mutants, if not accounted for by an assay, nonetheless carry a real, if small, risk of false-susceptible results at the individual patient level. Local validation against contemporary sequence diversity, ideally integrated with the European Centre for Disease Prevention and Control (ECDC) Euro-GASP framework, remains essential for any assay design and deployment decision.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599355/",
+    "doi": "10.1007/s10096-026-05628-9"
+  },
+  {
+    "id": "42599354",
+    "source": "PubMed",
+    "title": "Non canonical perspectives on AmpR mediated ampC expression in Gram negative bacteria, with particular emphasis on the potential regulatory purview of FtsZ",
+    "authors": "Gupta SK et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "World J Microbiol Biotechnol",
+    "abstract": "&#x3b2;-Lactamases (BLs) are a principal cause of antimicrobial resistance in Gram-negative bacteria, hydrolysing &#x3b2;-lactam antibiotics and rendering them ineffective. Among these, the chromosomally encoded AmpC is unusual: unlike plasmid-borne BLs, its expression is tightly and inducibly controlled by the transcriptional regulator AmpR, which senses peptidoglycan-recycling intermediates and switches from repressor to activator under &#x3b2;-lactam pressure. This review re-examines AmpR not as an isolated genetic switch but as a metabolic sensor that reads the intracellular muropeptide pool and converts it into a proportionate resistance response. Building on this, we propose a conceptual FtsZ-AmpR-AmpC axis: because FtsZ orchestrates septal peptidoglycan remodelling during cell division, it shapes the very muropeptide landscape that AmpR monitors, offering an indirect route by which division dynamics may modulate AmpC induction. This is the first review to frame AmpC regulation in this way. We further note the framework's principal limitations: the FtsZ contribution remains inferential, the physiological AmpR activators are still unidentified and the AmpR-AmpC system is not conserved across all Gram-negative bacteria. Resolving these gaps through time-resolved muropeptide profiling and controlled FtsZ perturbation may reveal new, division-linked vulnerabilities for countering &#x3b2;-lactam resistance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599354/",
+    "doi": "10.1007/s11274-026-05167-7"
+  },
+  {
+    "id": "42599328",
+    "source": "PubMed",
+    "title": "Non-Drug therapeutic strategies to combat antimicrobial resistance in livestock: a review",
+    "authors": "Mengistu DA et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Mol Biol Rep",
+    "abstract": "Antimicrobial resistance (AMR) represents an escalating global public health crisis, projected to cause 10&#xa0;million deaths annually by 2050. Pathogens such as bacteria, viruses, fungi, and parasites evade treatments in animals and humans due to overuse and misuse of antimicrobials, particularly antibiotics, in medical and veterinary practices. This drives a worldwide surge in resistant infections, disproportionately burdening livestock health and productivity. This review examines the global rise of AMR and its impacts on livestock and public health, underscoring the need for non-drug therapeutic alternatives. Promising alternatives include genetic engineering and CRISPR-Cas systems, phage therapy, probiotics, antimicrobial peptides, fecal microbiota transplantation, phytotherapy and essential oils, immunomodulators, nanotechnology, biofilm disruptors, acidifiers, vaccination strategies, and precision livestock farming. These approaches target resistance mechanisms without relying on conventional drugs. Despite challenges like knowledge gaps, regulatory barriers, financial limitations, and policy gaps, stakeholders must prioritize accelerated research, regulatory reforms, investments, and international collaboration. Rapid integration of these technologies into human and veterinary medicine is vital to mitigate AMR's health, economic, and social impacts.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599328/",
+    "doi": "10.1007/s11033-026-12567-3"
+  },
+  {
+    "id": "42599326",
+    "source": "PubMed",
+    "title": "Phage and CRISPR based precision antimicrobials: a dual strategy against multidrug-resistant bacteria",
+    "authors": "Musini A et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Mol Biol Rep",
+    "abstract": "The rapid global emergence of multidrug-resistant (MDR) bacterial pathogens has significantly reduced the effectiveness of conventional antibiotics, creating an urgent need for alternative antimicrobial strategies. Among emerging precision therapeutics bacteriophage therapy and Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-Cas systems have shown to have strong potential through highly specific bacterial targeting mechanisms. Bacteriophages have the ability to replicate themselves and penetrate biofilms, and the ability of CRISPR-Cas systems to edit the genes responsible for antimicrobial resistance, virulence factors, and the mobile genetic elements that underlie bacterial resistance. The recent advancement enabled the integration of these technologies through CRISPR-armed bacteriophages, which utilize bacteriophages as delivery mechanisms for CRISPR and address the large populations of MDR bacteria. Compared to administering CRISPR and bacteriophage independently, the current data suggest that the use of these two methods synergistically will lead to greater efficacy of delivery, specific targeting of resistance determinants, decreased risk of resistance development, and minimal impact on the body's beneficial microorganisms. While the potential combination of these approaches holds great promise to help combat the issue of MDR bacteria, there are still numerous barriers to overcome in order to implement these methods which include narrow phage host range, bacterial escape mechanisms, off-target CRISPR activity, anti-CRISPR proteins, host immune responses, and unresolved manufacturing and regulatory limitations. This review critically examines bacteriophage-based antimicrobials, CRISPR-Cas therapeutic systems, and their emerging integration as CRISPR-armed phages, highlighting their comparative advantages, current limitations, and future potential as promising targeted antimicrobial approach platforms requiring further clinical validation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599326/",
+    "doi": "10.1007/s11033-026-12544-w"
+  },
+  {
+    "id": "42599096",
+    "source": "PubMed",
+    "title": "Constitutive, endogenous, fluorescent membrane reporters for dynamic cell cycle analysis in Bacillus subtilis",
+    "authors": "Joncha JH et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Appl Environ Microbiol",
+    "abstract": "Bacteria increase in biomass and divide, but determining precisely when cell division completes is technically challenging. To aid time-lapse imaging and cell-cycle tracking, we set out to identify a protein inthat, when fused with a fluorophore, would cause the membrane to fluoresce in a constitutive, uniform, and bright manner. A forward genetic transposon-based approach, combined with fluorescence-activated cell sorting, was used to identify a fluorescent fusion to the glucose PTS transmembrane transport protein PtsG with all desired properties. Moreover, PtsG&#x3a9;msfGFP was constitutive and neutral to growth under all conditions tested and also labeled membranes during sporulation. We used PtsG&#x3a9;msfGFP to track cell growth in microfluidic channels and modify the definition of cytokinesis as when membrane fluorescence reached a local maximum at the division plane, a definition further supported by fluorescence loss in photobleaching (FLIP) microscopy. Simultaneous imaging with a compatible fluorescent fusion to the cell division protein FtsZ indicated that FtsZ peak intensity occurred midway through septum constriction and that Z-ring recycling coincided with cytokinesis. We conclude that PtsG&#x3a9;msfGFP is a useful tool for membrane imaging and cell-cycle tracking. As such, we provide constructs with fluorophores that emit across the visible spectrum and various antibiotic resistance cassettes to facilitate deployment in.IMPORTANCEBacterial cells are fully divided when the new membrane separates the cytoplasm of each daughter. Reproducible staining of bacterial membranes with exogenous labels for fluorescence microscopy can be challenging, particularly during chemostatic growth in microfluidic devices. Here, we report that fusion of a fluorescent protein to the glucose transporter, PtsG, causes the membrane ofto emit bright, uniform fluorescence under a variety of conditions. We use PtsG&#x3a9;msfGFP to improve the definition of cytokinesis during microfluidic growth, and we note that a fluorescent PtsG fusion would likely facilitate fluorescent membrane staining in any organism, at least in theory.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599096/",
+    "doi": "10.1128/aem.01126-26"
+  },
+  {
+    "id": "42599081",
+    "source": "PubMed",
+    "title": "Shotgun metagenomic sequence data from milk and fecal samples of dairy cattle in Thailand",
+    "authors": "Buddhasiri S et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Microbiol Resour Announc",
+    "abstract": "We report shotgun metagenomic sequence data from milk and fecal samples of dairy cattle in Thailand. This data set captures microbial genetic profiles from mammary- and gut-associated sample types and provides a resource for future comparative microbiome, functional, and antimicrobial resistance gene analyses in dairy cattle.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599081/",
+    "doi": "10.1128/mra.00564-26"
+  },
+  {
+    "id": "42598734",
+    "source": "PubMed",
+    "title": "Nanoparticle-Like Scavenger Mediated by NIR/pH Stimulation for MRSA-Associated Infections",
+    "authors": "Chen X et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Small",
+    "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) infections represent a severe global clinical threat due to its multi-antibiotic resistance, abundant virulence factors, and complex pathogenic mechanisms. In the present study, hollow copper sulfide (CuS) nanoparticles (NPs) with a strong photothermal effect were employed as carriers for the loading of the NO-releasing bioactive molecule S-nitrosoglycine (GSNO). These NPs were also camouflaged with mouse red blood cell membranes (RBCMs) via extrusion to fabricate CuS-GSNO@RBCM NPs designed to effectively eliminate MRSA and its biofilms. Under 1064&#xa0;nm near-infrared laser irradiation, CuS NPs had a mild photothermal effect, establishing an in situ catalytic platform that boosted reactive oxygen species (ROS) production. In the acidic infectious microenvironment, the release of copper ions induced GSNO to produce NO for reactive nitrogen species (RNS) generation. The ROS and RNS generated in situ by this system consumed endogenous MRSA glutathione, disrupting redox homeostasis, with the additional presence of copper ion-mediated copper death forming a multi-bactericidal network. The RBCMs also neutralized proteins secreted by MRSA to reduce lung cell injury. In vitro and in vivo experiments were employed to verify the MRSA-elimination efficacy of the proposed system, which offers an innovative nanotherapeutic strategy for the precise treatment of drug-resistant bacterial infections.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42598734/",
+    "doi": "10.1002/smll.75217"
+  },
+  {
+    "id": "42596738",
+    "source": "PubMed",
+    "title": "Boronic Acid Inhibitors of β-Lactamases: A Promising Strategy Against Antimicrobial Resistance",
+    "authors": "Santi N et al.",
+    "publishedDate": "2026-08-14",
+    "journal": "Med Res Rev",
+    "abstract": "The rise of antimicrobial resistance (AMR) poses a critical threat to global health, mostly due to the proliferation of &#x3b2;-lactamases, a class of enzymes responsible for the inactivation of &#x3b2;-lactam antibiotics. Among the most promising strategies to restore &#x3b2;-lactam efficacy is the use of &#x3b2;-lactamase inhibitors (BLIs), with boronic acid derivatives emerging as a pivotal and chemically versatile class. These compounds act as transition-state analogs, forming reversible covalent bonds with the catalytic serine of serine &#x3b2;-lactamases (SBLs), effectively mimicking the tetrahedral intermediate of &#x3b2;-lactam hydrolysis. Their electron-deficient boron atom, combined with a tunable scaffold, allows fine modulation of potency, selectivity, and pharmacokinetic properties. This review traces the evolution of boronic acid-based BLIs from early phenylboronic acids to next-generation acyclic and cyclic derivatives, highlighting key structure-activity relationships, binding mechanisms, and microbiological profiles. Clinically approved agents such as vaborbactam, as well as investigational compounds including taniborbactam, xeruborbactam, and benzoxaboroles, are discussed in the context of their therapeutic relevance and spectrum of activity. Particular attention is given to their ability to inhibit class A and C enzymes, with ongoing efforts aimed at extending coverage to class D and metallo-&#x3b2;-lactamases. Additionally, the review explores innovative approaches such as kinetic target-guided synthesis and fragment-based design to expand the chemical space of boronic acid pharmacophores. Together, these advances underscore the potential of boronic acid-based BLIs as powerful tools in overcoming &#x3b2;-lactamase-mediated resistance and developing next-generation antimicrobial therapies.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42596738/",
+    "doi": "10.1002/med.70097"
+  },
+  {
+    "id": "42600238",
+    "source": "PubMed",
+    "title": "Antimicrobial prescribing practices and perceptions of antimicrobial resistance in companion animal veterinary practice in Peru",
+    "authors": "Gutiérrez MK et al.",
+    "publishedDate": "2026-08-13",
+    "journal": "Prev Vet Med",
+    "abstract": "This study assessed antimicrobial prescribing practices and perceptions of antimicrobial resistance (AMR) among veterinarians working in companion animal practice in Peru. A cross-sectional study was conducted using an open online survey administered between 2022 and 2023. Responses from 442 veterinarians were analyzed descriptively, and multivariable logistic regression models were used to identify factors associated with selected prescribing practices. Fever (82.2%) was the most frequently reported clinical indicator for initiating antimicrobial treatment. Approximately half of respondents reported always performing culture and antimicrobial susceptibility testing before prescribing antimicrobials. Overall, 82.9% of respondents reported being unfamiliar with the WHO and/or WOAH classification of critically important antimicrobials (CIA). Regarding last-resort antimicrobial use, 29.0% reported having used these agents, including carbapenems, for severe clinical conditions. Prescribing patterns varied across clinical systems, with penicillins combined with &#x3b2;-lactamase inhibitors exhibiting the highest overall reported frequency of use, particularly in respiratory, dermatological, and urogenital conditions. In multivariable logistic regression analysis, frequent use of culture and susceptibility testing was associated with higher odds of last-resort antimicrobial use (OR = 4.30; 95% CI: 1.94-9.54), whereas postgraduate training was associated with greater odds of knowledge of CIA (OR = 3.29; 95% CI: 1.65-6.54). These findings reveal heterogeneity in prescribing patterns, substantial knowledge gaps regarding CIA, and professional factors associated with practices relevant to resistance selection, providing evidence to support the strengthening of antimicrobial stewardship strategies in companion animal practice in Peru.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42600238/",
+    "doi": "10.1016/j.prevetmed.2026.106984"
+  },
+  {
+    "id": "42595815",
+    "source": "PubMed",
+    "title": "Genomic catalogue of giant viruses reveals expanded diversity and functional potential",
+    "authors": "Vasquez YM et al.",
+    "publishedDate": "2026-08-13",
+    "journal": "Nat Microbiol",
+    "abstract": "Nucleocytoplasmic large DNA and Mirusviricota viruses exhibit taxonomic richness which continually expands due to metagenomic sequencing. Here we curate a database of giant virus metagenome-assembled genomes (GVMAGs V2), comprising 8,508 species-level representatives from 18,727 GVMAGs, a sixfold increase from the previous giant virus phylogenetic frameworks. Phylogenomics revealed 712 previously undescribed genera, 13 previously unknown viral families and an order we propose named Mycodnavirales. By accounting for alternative and custom genetic codes, we improved gene calling in over 1,300 GVMAGs, enabling more accurate identification of protein-coding genes. Database mining uncovered putative endogenous viral elements in hosts spanning algae, fungi and parasitic protists, highlighting that giant virus integration is widespread and evolutionarily persistent. Protein-level analysis revealed enriched genes for pollutant degradation in Algavirales and widespread biosynthetic gene clusters linked to antimicrobial-like and antibiotic resistance gene-like activity. This public resource will serve as a foundation for expanding giant virus diversity, uncovering virus-host interactions and exploring viral evolution.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595815/",
+    "doi": "10.1038/s41564-026-02435-y"
   },
   {
     "id": "42595703",
@@ -974,7 +1271,7 @@
     "authors": "Baldodiya GM et al.",
     "publishedDate": "2026-08-12",
     "journal": "Microb Pathog",
-    "abstract": "Ethnomedicinal use of Tecomella undulata (Rohida) bark to treat syphilis and skin infections, Dalbergia sissoo (Sheesham) leaves/wood to cure skin infections and gonorrhoea, Heliotropium indicum (Indian heliotrope) to cure wounds; and Solanum virginianum (Kantakari) roots/fruits to relieve urinary tract infections are well known. Such conditions are associated with the Staphylococcus aureus infection, a human pathogenic bacteria known for its virulence, antibiotic resistance and biofilm forming abilities. Despite the traditional relevance of these plants, detailed scientific studies on antibiofilm activity against S. aureus remains unexplored. In this study, plant/leaf extracts of these plants were evaluated for antimicrobial activity and their underlying antibiofilm mechanism. Crude extracts (n-hexane, ethyl acetate, acetone, methanol) were analyzed and antibiofilm properties were accessed via liquid and solid-phase assays and FE-SEM. LC-HRMS identified phytochemicals were further analyzed targeting S. aureus proteins ClfA, ClfB, SrtA, SarA and AgrA via molecular docking and dynamics studies. Out of 16 crude extracts, methanolic extracts demonstrated the highest antibacterial activity with lowest MIC of TU-MeOH (1.8 mg/mL) and highest SV-MeOH (7.5mg/mL). All extracts exhibited robust biofilm inhibition (conc. 5-12.5 mg/mL) confirmed by wrinkled, non-mucoid colonies and FE-SEM showing disrupted extracellular matrix. LC-HRMS analysis of TU-MeOH revealed a total of 104 phytochemicals, including flavonoids, alkaloids, terpenoids, phenols etc. Molecular docking showed Catechin 5-O-(2-feruloyl-6-p-coumaroyl-beta-D-glucopyranoside), Goyaglycoside g and Tryptophol [xylosyl-(1->6)-glucoside] as multitargeting hits further validated by molecular dynamics showing stable interactions. Methanolic extracts of T. undulata, D. sissoo, H. indicum, and S. virginianum inhibits S. aureus biofilm disrupting the extracellular matrix. Catechin derivatives, Goyaglycoside g, and Tryptophol, act as multitarget inhibitors of key adhesive and regulatory biofilm proteins highlighting their therapeutic potential.",
+    "abstract": "Ethnomedicinal use of Tecomella undulata (Rohida) bark to treat syphilis and skin infections, Dalbergia sissoo (Sheesham) leaves/wood to cure skin infections and gonorrhoea, Heliotropium indicum (Indian heliotrope) to cure wounds; and Solanum virginianum (Kantakari) roots/fruits to relieve urinary tract infections are well known. Such conditions are associated with the Staphylococcus aureus infection, a human pathogenic bacteria known for its virulence, antibiotic resistance and biofilm forming abilities. Despite the traditional relevance of these plants, detailed scientific studies on antibiofilm activity against S. aureus remains unexplored. In this study, plant/leaf extracts of these plants were evaluated for antimicrobial activity and their underlying antibiofilm mechanism. Crude extracts (n-hexane, ethyl acetate, acetone, methanol) were analyzed and antibiofilm properties were accessed via liquid and solid-phase assays and FE-SEM. LC-HRMS identified phytochemicals were further analyzed targeting S. aureus proteins ClfA, ClfB, SrtA, SarA and AgrA via molecular docking and dynamics studies. Out of 16 crude extracts, methanolic extracts demonstrated the highest antibacterial activity with lowest MIC of TU-MeOH (1.8&#x202f;mg/mL) and highest of SV-MeOH (7.5&#x202f;mg/mL). All extracts exhibited robust biofilm inhibition (conc. 5-12.5&#x202f;mg/mL) confirmed by wrinkled, non-mucoid colonies and FE-SEM showing disrupted extracellular matrix. LC-HRMS analysis of TU-MeOH revealed a total of 104 phytochemicals, including flavonoids, alkaloids, terpenoids, phenols etc. Molecular docking showed Catechin 5-O-(2-feruloyl-6-p-coumaroyl-beta-D-glucopyranoside), Goyaglycoside g and Tryptophol [xylosyl-(1->6)-glucoside] as multitargeting hits further validated by molecular dynamics showing stable interactions. Methanolic extracts of T. undulata, D. sissoo, H. indicum, and S. virginianum inhibits S. aureusbiofilm disrupting the extracellular matrix. Catechin derivatives, Goyaglycoside g, and Tryptophol, act as multitarget inhibitors of key adhesive and regulatory biofilm proteins highlighting their therapeutic potential.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42586513/",
     "doi": "10.1016/j.micpath.2026.108763"
   },
@@ -1117,7 +1414,7 @@
     "authors": "Xia X et al.",
     "publishedDate": "2026-08-12",
     "journal": "Microbiol Spectr",
-    "abstract": "The global health threat of antimicrobial resistance necessitates the development of novel therapeutic strategies. This study identifies the anticancer agent mitoxantrone as a potent antimicrobial against. Through passaging experiments, we demonstrate that resistance to mitoxantrone arises via mutations in thegene, leading to the overexpression of the SmvA efflux pump. Transcriptomic analysis reveals that mitoxantrone treatment induces the bacterial SOS response, likely due to DNA damage. Critically, we found that mitoxantrone exhibits a synergistic effect with tigecycline against, bothand in a murine wound infection model. Mechanistically, this synergy is driven by tigecycline-mediated enhancement of intracellular mitoxantrone accumulation. These findings reveal a potentially effective combination regimen to combatinfections.IMPORTANCEThe rise of antibiotic-resistantdemands new treatment options. This study uncovers that mitoxantrone, a drug currently approved for cancer therapy, is effective against. Furthermore, we discovered that combining mitoxantrone with the existing antibiotic tigecycline is synergistic against. We found that tigecycline enhances mitoxantrone accumulation inside bacterial cells. Overall, our work identified the tigecycline-mitoxantrone combination as a promising strategy to treatinfections.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42584093/",
     "doi": "10.1128/spectrum.00568-26"
   },
@@ -1128,7 +1425,7 @@
     "authors": "Hong Y-P et al.",
     "publishedDate": "2026-08-12",
     "journal": "Microbiol Spectr",
-    "abstract": "is a major zoonotic foodborne pathogen, and antimicrobial resistance (AMR) inpresents a significant public health challenge. Compared with conventional antimicrobial susceptibility testing (AST), whole-genome sequencing (WGS) provides a more rapid and comprehensive approach to AMR characterization, thereby informing antimicrobial selection and supporting public health surveillance. In this study, Oxford Nanopore Technology (ONT)-based WGS was performed on 1,490isolates collected through nationwide surveillance in Taiwan in 2025. Genotypic resistance inferred from WGS data was compared with phenotypic AST results to assess the performance of ONT-WGS. Overall, WGS-inferred resistance showed high concordance with phenotypic resistance for most antimicrobials. However, major genotype-phenotype discordance was observed, attributed to four categories: (i) breakpoint-dependent classification, (ii) reduced or absent phenotypic expression of resistance genes, (iii) minimum inhibitory concentration (MIC) modulation by, and (iv) absence of known AMR determinants. Notable discrepancies included tigecycline resistance without known genetic determinants, nalidixic acid resistance linked to-mediated MIC elevation, and a high prevalence of colistin resistance (35.7%) inEnteritidis, with most resistant isolates lacking identifiable AMR determinants. Additionally, a significant proportion of ESBL- and AmpC-producing isolates were classified as susceptible or intermediate to cefotaxime and ceftazidime under CLSI criteria, highlighting the potential for misclassification and treatment failure. These findings demonstrate that ONT-WGS enables accurate and comprehensive AMR characterization by directly identifying resistance determinants and avoiding potential misclassification associated with breakpoint-based AST interpretations. When interpreted appropriately, WGS can support better antimicrobial selection and serve as a valuable alternative to conventional susceptibility testing. Accurate prediction of antimicrobial resistance is essential for appropriate therapy and effective surveillance of. However, discordance between genotype-based predictions and phenotypic antimicrobial susceptibility testing (AST) can complicate clinical interpretation. In this nationwide study of 1,490 Salmonella isolates, we show that Oxford Nanopore Technology-based whole-genome sequencing (ONT-WGS) provides rapid and comprehensive detection of antimicrobial resistance determinants with high concordance to phenotypic AST. We further identify four major mechanisms underlying genotype-phenotype discordance, including breakpoint-dependent classification, reduced or absent phenotypic expression of resistance genes, minimum inhibitory concentration (MIC) modulation by, and the absence of known AMR determinants. These findings demonstrate how WGS can complement conventional AST, improve interpretation of challenging susceptibility results, and strengthen genomic surveillance of emerging antimicrobial-resistant.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42584076/",
     "doi": "10.1128/spectrum.01797-26"
   },
@@ -1139,7 +1436,7 @@
     "authors": "Bhagat T et al.",
     "publishedDate": "2026-08-12",
     "journal": "Future Microbiol",
-    "abstract": "To evaluate the efficacy of probiotics in preventing or treating bacterial infections across different infection types in recently published randomized controlled trials (RCTs). Systematic review of 12 RCTs (2021-2026) addressing probiotics (single or multistrain) for recurrent urinary tract infections (rUTI),eradication, respiratory tract infections (RTI), acne vulgaris, and multidrug-resistant (MDR) bacterial colonization. RoB assessed using Cochrane RoB 2.0; qualitative GRADE certainty assessment performed for all primary outcomes. Narrative synthesis with vote-counting analysis conducted due to heterogeneous study designs and outcomes. Across 12 RCTs (&#x2009;=&#x2009;1200 participants), probiotics demonstrated consistent directional benefit for rUTI (2 RCTs: 75% recurrence-free vs. 33% placebo),eradication (3 RCTs: 70-86% eradication rates), and RTI symptom reduction (3 RCTs: 64-96% improvement). Acne lesion reduction was observed in two RCTs. MDR colonization results were inconsistent (two RCTs). GRADE certainty of evidence ranged from low to moderate across all outcomes, primarily due to imprecision from small sample size and heterogenicity. Probiotics show promise as adjuvant therapy for select bacterial infections, but evidence certainty is low. Larger structured RCTs with standardized outcome measures are required before routine clinical recommendations can be established. PROSPERO; https://www.crd.york.ac.uk/PROSPERO identifier is CRD420261339142.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42584057/",
     "doi": "10.1080/17460913.2026.2715938"
   },
@@ -1161,7 +1458,7 @@
     "authors": "Lee I et al.",
     "publishedDate": "2026-08-12",
     "journal": "J Infect Dis",
-    "abstract": "Persistent intestinal carbapenemase-producing Enterobacterales (CPE) carriage challenges infection prevention and antimicrobial stewardship. We evaluated fecal microbiota transplantation (FMT) for decolonization and response-associated recipient microbiome features. This prospective cohort study assessed intestinal CPE clearance in 131 adult carriers (68 receiving FMT; 63 under observation). Responders achieved clearance, defined as three consecutive negative rectal surveillance cultures for CPE, obtained at 3-day intervals within 1 month after FMT. Following least absolute shrinkage and selection operator (LASSO)-based covariate selection, Cox proportional hazards models estimated associations between FMT and time to successful decolonization within prespecified 0-30-day and 0-90-day windows. A longitudinal metagenomic subcohort of 21 FMT recipients (102 fecal samples) underwent shotgun sequencing to characterize taxonomic composition, microbial network organization, functional pathways, antimicrobial resistance genes (ARGs), and donor engraftment. After LASSO-based covariate selection, FMT was associated with faster CPE clearance than observation at 1 month (hazard ratio, 4.02; 95% confidence interval, 1.84-8.79), with effects sustained at 3 months. Responders showed relatively preserved baseline microbial network organization and enrichment of taxa annotated with arginine-related pathway features, suggesting metabolic relevance to microbial niche competition. After FMT, responders had greater engraftment of donor-associated taxa and donor-like ecological reassembly, with reduced Klebsiella pneumoniae dominance and ARG abundance. FMT may accelerate intestinal decolonization in CPE carriers; response variability was associated with recipient gut-microbiome ecology, suggesting microbiome-guided patient selection could optimize microbiota-based strategies.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42583799/",
     "doi": "10.1093/infdis/jiag414"
   },
@@ -1204,7 +1501,7 @@
     "authors": "Jia H et al.",
     "publishedDate": "2026-08-11",
     "journal": "Adv Healthc Mater",
-    "abstract": "The increasing severity of antibiotic-resistant bacterial infections necessitates the development of next-generation wound dressings capable of both potent antimicrobial activity and effective tissue repair. Porous organic framework materials possess stable structural connectivity, large specific surface areas, and well-ordered pore architectures, making them promising platforms for applications in infectious wound healing. In this study, metal-organic framework (MOF) and hydrogen-bonded organic framework (HOF) nanofilms (MOF-on-HOF) were successfully integrated onto medical gauze through van der Waals heterojunction interactions, enabling a synergistic cascade effect that enhances both antibacterial activity and wound regeneration. The MOF-on-HOF composite was uniformly loaded on gauze by utilizing the solution processability of HOF and the interfacial film-forming ability of MOF. The resulting MOF-on-HOF dressing rapidly and efficiently eliminated Gram-positive pathogens, thus demonstrating excellent antibacterial efficacy against Staphylococcus aureus (&#x2265;99%). Meanwhile, it facilitated hemostasis, scavenges reactive oxygen species (ROS), and accelerates cell migration. In a methicillin-resistant Staphylococcus aureus (MRSA)-infected wound model, treatment with MOF-on-HOF@guaze eradicated bacterial load on the wound surface, hence reduces the expression of pro-inflammatory cytokines, and significantly promotes wound closure, achieving a wound healing rate of 98%. These results highlight the MOF-on-HOF@guaze as a promising platform for managing acutely infected wounds and combating antimicrobial resistance.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42581572/",
     "doi": "10.1002/adhm.71543"
   },
@@ -1215,7 +1512,7 @@
     "authors": "Hennig-Pauka I et al.",
     "publishedDate": "2026-08-11",
     "journal": "BMC Vet Res",
-    "abstract": "Actinobacillus pleuropneumoniae (APP) remains one of the most significant bacterial respiratory pathogens in swine production worldwide, causing porcine pleuropneumonia with substantial economic impact. Although recent reviews have summarized aspects of APP epidemiology, serotyping, surface-associated virulence determinants, and vaccine development strategies, several complementary research areas have advanced rapidly since the last DISease CONtrol TOOLS (DISCONTOOLS) 2017 report on this bacterium. These include antimicrobial resistance surveillance, chronic persistence mechanisms such as biofilm formation, refined experimental infection models, intracellular survival within host immune cells, and the immunopathological processes driving lung injury. This review focuses on these practical and mechanistic dimensions, emphasizing their relevance for herd-level control, outbreak management, and future therapeutic approaches. Recent genomic studies of multidrug-resistant strains, as well as the development of improved molecular diagnostic tools, are also discussed. Collectively, emerging evidence suggests that APP should not be viewed solely as an extracellular pathogen causing acute disease outbreaks, but rather as an adaptable organism capable of persistence, immune modulation, and endemic circulation in modern pig populations. Addressing these challenges will require integrated strategies that combine antimicrobial stewardship, improved surveillance, and a deeper understanding of host-pathogen interactions.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42581360/",
     "doi": "10.1186/s12917-026-05791-3"
   },
@@ -1226,7 +1523,7 @@
     "authors": "Deghidy EA et al.",
     "publishedDate": "2026-08-11",
     "journal": "Sci Rep",
-    "abstract": "Antimicrobial drugs are fundamental to modern medicine. The rise and spread of drug-resistant microorganisms jeopardize our ability to manage common infections and perform critical medical interventions. The present work aimed to assess and analyze antimicrobial resistance and sensitivity in the neonatal intensive care unit of Alexandria University Children's Hospital to improve antibiotic choices in the neonatal intensive care unit. A medical record-based study of 1105 neonates with sepsis admitted to the NICU during the four-year study period (2019 to 2022) was conducted, with no exclusion criteria. The data were uploaded to the WHONET system after being collected. The results can be recorded as interpreted values: \"R\" (Resistant), \"I\" (Intermediate), and \"S\" (Sensitive). Interpretation guidelines for most standardized testing methodologies were built into the system. In addition, the program also permits retrieval and correction of clinical records. Among the 1105 neonates included in our study, Male patients accounted for 56.4%, with a mean gestational age of 32.67&#x2009;&#xb1;&#x2009;2.86 weeks. Early-onset neonatal sepsis (EOS) was detected in 329(29.7%), while late-onset neonatal sepsis (LOS) was detected in 776(70.2%) neonates. Klebsiella was the predominant pathogen, accounting for 554 (50.1%). This organism was responsible for 136(24.5%) neonates in 2019, 148(26.7%) neonates in 2020, 137(24.7%) neonates in 2021 and 133(24.0%) neonates in 2022. Candida species was the second most common pathogen in our NICU; 126 (11.4%) cases were distributed as follows: 31 (24.6%), 32 (25.4%), and 40 (31.7%). 23 (18.2%) cases occurred in 2019, 2020, 2021, and 2022, respectively. Across the 4 years of the study, 2020 had the highest sepsis frequency. Drug resistance was high in most of the isolates. It was maximum (94-80%) for Cefotaxime, Piperacillin, Amoxicillin/Clavulanic acid, and ceftriaxone. It varied between 60 and 80% for Piperacillin/Tazobactam, Imipenem, Ceftazidime, Cefoperazone/Sulbactam, Meropenem, Ampicillin/Sulbactam, and Ciprofloxacin. The current study found that neonatal sepsis had a nosocomial infection profile shared by both early-onset and late-onset sepsis. K. pneumoniae was the predominant pathogen in both EOS and LOS in our study, similar to other developing countries, and is totally different from developed countries.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42581299/",
     "doi": "10.1038/s41598-026-65490-9"
   },
@@ -1237,7 +1534,7 @@
     "authors": "Lieberknecht-Jouy SC et al.",
     "publishedDate": "2026-08-11",
     "journal": "Npj Viruses",
-    "abstract": "Recurrent urinary tract infections frequently arise from uropathogenic bacteria invading bladder epithelial cells, where they establish persistent intracellular reservoirs. Phages represent a promising therapeutic alternative to antibiotics owing to their host specificity, ability to circumvent antibiotic resistance, and capacity to disrupt biofilms. In this study, we investigated whether lytic phages can gain access to human bladder epithelial cells and are able to target internalized bacteria using an in vitro bladder infection model. We show that phages can enter the bladder epithelium either via direct cellular uptake or through co-invasion with extracellularly infected bacteria. Notably, the presence of extracellular uropathogenic Escherichia coli (UPEC) substantially enhanced intracellular phage uptake, revealing a previously unrecognized bacteria-assisted pathway for intracellular phage delivery that may facilitate access to intracellular bacterial reservoirs. Phage treatment prevented epithelial infection by UPEC and preserved urothelial cell integrity. Moreover, phages reduced intracellular bacterial burden, although complete eradication was not achieved and efficacy was limited to early stages of infection. Together, these findings advance understanding of phage-pathogen-human interactions to optimize phage-based strategies for recurrent urinary tract infections.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42581232/",
     "doi": "10.1038/s44298-026-00222-4"
   },
@@ -1248,7 +1545,7 @@
     "authors": "Alghamdi S et al.",
     "publishedDate": "2026-08-11",
     "journal": "BMJ Open",
-    "abstract": "Inappropriate and broad-spectrum antibiotic use contributes to antimicrobial resistance (AMR) and higher healthcare costs. In Saudi Arabia, despite ongoing antimicrobial stewardship efforts, comprehensive real-world evidence on antibiotic prescribing patterns remains limited. This study aimed to evaluate antibiotic prescribing among insured (Daman) beneficiaries in Saudi Arabia and benchmark against international standards. Retrospective analysis of deidentified health insurance claims from the National Platform for Health and Insurance Exchange Services (NPHIES), covering 1 November 2023-31 October 2024. Antibiotic prescriptions were identified within claims and linked to diagnostic codes using the International Classification of Diseases, Tenth Revision, Australian Modification (ICD-10-AM) to determine clinical indications for use. Among 4.02&#x2009;million claimants, 8.3&#x2009;million antibiotic prescriptions were identified. Antibiotic claims were mapped to the Saudi Food and Drug Authority (SFDA) drug list. Hospital antibiotic consumption was expressed as defined daily doses (DDD) per 100 patient-days for five selected inpatient antibiotics, whereas overall antibiotic consumption (in both community and hospital settings) was expressed as DDD per 1000 insured persons per day. Treatment duration, prescriber specialty and patient demographics were measured. Appropriateness of antimicrobial prescribing for respiratory tract infections was assessed using Healthcare Effectiveness Data and Information Set (HEDIS) metrics. Age-stratified and sex-stratified antibiotic prescription rates showed disproportionately high use in male infants (509.6 prescriptions per 1000) and older males (641.9 prescriptions per 1000). General practitioners accounted for 80% of prescriptions. Broad-spectrum beta-lactams, particularly amoxicillin-clavulanate, predominated. Overall antibiotic consumption was 11.63 DDD per 1000 insured persons per day, comparable to European Surveillance of Antimicrobial Consumption Network (ESAC-Net) outpatient benchmarks. Mean treatment durations ranged 8-14 days, exceeding global stewardship recommendations. HEDIS indicators revealed overprescribing, particularly for upper respiratory tract infections. This is the first claim-based analysis of antibiotic prescribing patterns among Daman beneficiaries in Saudi Arabia. Decision support systems, artificial intelligence-driven audits and targeted education could optimise prescribing, reduce AMR and inform policy.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42580838/",
     "doi": "10.1136/bmjopen-2026-118941"
   },
@@ -1259,7 +1556,7 @@
     "authors": "Yu Q et al.",
     "publishedDate": "2026-08-11",
     "journal": "Acta Biomater",
-    "abstract": "Conventional periodontitis treatments are constrained by challenges such as antibiotic resistance and inadequate tissue regeneration. Herein, we rationally engineer a robust Fe/Mn bimetallic nanozyme (Fe/Mn-Bzyme) derived from a zeolitic imidazolate framework-8 precursor, featuring atomically asymmetric Fe-Mn dual-atom active sites with the Mn-Fe-O-Mn-Ncoordination environment meticulously embedded within a nitrogen-doped carbon matrix. This tailored structure endows the nanozyme with peroxidase-like (POD) activity, which is synergistically amplified by robust near-infrared (NIR) photothermal conversion. The NIR-driven localized heating dramatically accelerates catalytic kinetics, orchestrating a tunable burst of hydroxyl radical (&#x2022;OH) generation from endogenous HO, which confers robust antibacterial action against Porphyromonas gingivalis (99.47% &#xb1; 0.23%) and methicillin-resistant Staphylococcus aureus (99.52% &#xb1; 0.27%). Additionally, Fe/Mn-Bzyme demonstrates proactive bioactivity, promoting osteogenic differentiation of pre-osteoblasts and fostering a pro-angiogenic microenvironment. In a rat periodontitis model, a topical Fe/Mn-Bzyme ointment effectively eliminated infections, suppressed pro-inflammatory cytokine expression, mitigated systemic inflammation, and inhibited osteoclast activity, thereby creating a pro&#x2011;regenerative microenvironment conducive to subsequent periodontal tissue healing. Furthermore, its robust catalytic activity enabled superior, enamel-preserving tooth whitening compared to conventional HO. This work presents a versatile nanozyme platform that integrates synergistic antibacterial, anti-inflammatory, and pro-regenerative functions, offering a powerful strategy for managing complex oral diseases. STATEMENT OF SIGNIFICANCE: The significance of this work lies in the rational design of an atomically dispersed bimetallic nanozyme that harnesses synergistic photothermal-catalytic effects for integrated oral disease management. The Fe/Mn-Bzyme outperforms conventional single-function therapies, offering a powerful and translatable strategy that simultaneously addresses infection, inflammation, tissue destruction, and aesthetic concerns.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42580612/",
     "doi": "10.1016/j.actbio.2026.08.011"
   },
@@ -1270,7 +1567,7 @@
     "authors": "Wei Y et al.",
     "publishedDate": "2026-08-11",
     "journal": "Environ Pollut",
-    "abstract": "Hydroponic agriculture commonly relies on low-pressure UV combined with chlorination (LPUV-chlorine) disinfection for water reuse, yet its impacts on non-coliform pathogens and associated resistance risks remain insufficiently understood. Here, metagenomic analysis of a commercial sprout production system revealed that LPUV-chlorine treatment did not completely remove pathogen-associated DNA signals and was associated with an increased relative abundance of Pseudomonas aeruginosa, accompanied by increased abundance of antibiotic resistance genes (ARGs) and virulence factor genes (VFGs). The relative abundances of VFGs related to biofilm formation and exoenzyme activity increased by 16&#x223c;18-fold compared to source water (SW), while &#x3b2;-lactam resistance genes showed marked increases in relative abundance. Network analysis revealed statistical associations between several pathogen-associated taxa and ARG profiles but did not establish their genomic hosts or transfer pathways. Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis further revealed higher relative representation of genes associated with two-component systems and flagellar assembly, suggesting potential stress-adaptive functions and preferential persistence. In contrast, medium-pressure UV (MPUV) achieved &#x2265; 4-log reductions of P. aeruginosa, Escherichia coli, and Salmonella enterica within seconds, with 40.24%, 2.29%, and 26.44% lower fluence than LPUV, respectively. Transcriptomic analysis revealed decreased expression of selected virulence-associated genes and increased expression of phage-associated genes, suggesting potential effects on virulence-related functions and prophage responses. These findings highlight a potential pathogen-selection risk under LPUV-chlorine disinfection and indicate MPUV as a promising chlorine-free microbial risk control strategy in hydroponic water reuse systems.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42580547/",
     "doi": "10.1016/j.envpol.2026.128943"
   },
@@ -1281,7 +1578,7 @@
     "authors": "Kearney A et al.",
     "publishedDate": "2026-08-11",
     "journal": "EBioMedicine",
-    "abstract": "Hospital sinks are recognised polymicrobial reservoirs for multi-drug resistant organisms and have been implicated in patient transmission and outbreaks. Earlier studies on sink-associated microbes predominantly focused on specific species or resistance mechanisms (e.g. carbapenemases) using targeted microbiological methods. More recently, less selective approaches (e.g. metagenomic sequencing) have enabled broader characterisation of these microbial communities. This review summarises current evidence describing hospital sink-trap microbiomes, examining ecological determinants, surveillance strategies and interventions aiming to mitigate transmission from these reservoirs. We discuss biotic and abiotic factors that shape microbial selection/persistence, assess approaches to managing these reservoirs to reduce patient risk, and highlight priorities for future research to inform evidence-based practice in healthcare settings.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42580037/",
     "doi": "10.1016/j.ebiom.2026.106415"
   },
@@ -1292,7 +1589,7 @@
     "authors": "Weslander E et al.",
     "publishedDate": "2026-08-11",
     "journal": "Am J Health Syst Pharm",
-    "abstract": "The creation and implementation of a system-wide frontline pharmacist antimicrobial stewardship (AS) competency curriculum are explained. Pharmacists are present throughout hospital environments and frequently play a pivotal role in optimizing infection management. However, frontline clinical pharmacists working across inpatient settings vary greatly in terms of training, expertise, years of experience, and background as they relate to infectious diseases (ID) and AS. Establishing a uniform level of ID and AS competency among pharmacists across all hospital departments and shifts is essential to optimizing the effectiveness of antimicrobial stewardship programs. Across a diverse 11-hospital health system, an innovative curriculum, \"The Antimicrobial Resistance Fighter Curriculum,\" was implemented to help standardize care for patients with infections. Core modules incorporated gamified elements, case-based activities, knowledge checks, and visual learning aids. Tactics included system-wide automatic assignment, targeted onboarding for new hires, and strategic use of reminders to ensure completion. Annual feedback cycles and postimplementation surveys guided iterative improvements and module updates, focusing on engagement, efficiency, and practical application. An innovative, interactive curriculum successfully standardized AS competency across a diverse health system. Key implementation strategies including system leadership buy-in, modular design, interactive learning, and responsive updates enabled efficient dissemination, high engagement, and improvement of pharmacist competence in applying knowledge of AS topics to patient care.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42579305/",
     "doi": "10.1093/ajhp/zxag219"
   },
@@ -1303,7 +1600,7 @@
     "authors": "Steve NSF et al.",
     "publishedDate": "2026-08-11",
     "journal": "Probiotics Antimicrob Proteins",
-    "abstract": "Vaginal infections are a major public health concern in sub-Saharan Africa, where antimicrobial resistance increasingly compromises clinical management. This study aimed to determine the prevalence of vaginal infections, describe their antimicrobial resistance profiles, and evaluate the probiotic potential of lactic acid bacteria (LAB) isolated from cervicovaginal samples of women consulting in Garoua, North Cameroon. A mixed retrospective-prospective and analytical study was conducted at three hospital facilities in Garoua (January 2023-December 2024). Microbial identification used the VITEK 2 system and API 50 CHL galleries. Antibacterial and antifungal susceptibility were interpreted per EUCAST guidelines (versions 13.1-14.0) and CLSI M60 breakpoints, respectively. LAB isolates were characterized for safety, physiological tolerance, aggregation capacity, and antimicrobial activity. Statistical analyses included chi-square tests, odds ratio, Shannon diversity index, MARI, and PCA. Among 877 records analyzed, overall prevalence was 60.55% (95% CI: 57.27%-63.73%), declining significantly from 69.60% in 2023 to 53.78% in 2024 (OR&#x2009;=&#x2009;1.97; p&#x2009;<&#x2009;0.0001). Women aged 15-35 years were most affected (62.55%), with a seasonal peak in August (69.31%). Gardnerella vaginalis predominated (52.02%), followed by Candida albicans (18.60%). Clotrimazole (85.50%) showed critical antifungal resistance, while econazole retained the greatest activity (82.11% sensitivity). All five bacterial species fulfilled multidrug resistance criteria, with resistance confirmed in &#x2265;&#x2009;82% of antibiotic families tested per species. Six LAB isolates identified as Lacticaseibacillus paracasei, Lactobacillus acidophilus, Lactiplantibacillus plantarum, Lactiplantibacillus pentosus, and Lactococcus raffinolactis displayed satisfactory probiotic profiles, including absence of virulence factors, acid and bile stress tolerance, strong aggregation capacity, and antimicrobial activity against Staphylococcus aureus, Neisseria gonorrhoeae, and Escherichia coli. This study reveals a high burden of vaginal infections with alarming multidrug resistance in Garoua. The identified LAB isolates represent promising locally sourced candidates for vaginal probiotic development. Institutionalized antimicrobial surveillance, revised antifungal prescribing practices, and targeted prevention campaigns are urgently needed.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42579253/",
     "doi": "10.1007/s12602-026-11156-x"
   },
@@ -1314,7 +1611,7 @@
     "authors": "Somayaji A et al.",
     "publishedDate": "2026-08-11",
     "journal": "Antonie Van Leeuwenhoek",
-    "abstract": "Enterococcus faecalis remains a primary cause of persistent endodontic infections, persisting in root canals through robust biofilm formation and antimicrobial resistance. This study characterized clinical E. faecalis oral isolates and evaluated the comparative efficacy of conventional endodontic medicaments against the probiotic and antibiofilm potential of food derived Lactic Acid Bacteria (LAB). Clinical isolates (JUDS 01, JUDS 02, JUDS 03, JUSA 05) exhibited a high prevalence of ace, agg, cyl, and gelE virulence genes, demonstrating significant multidrug resistance. Among conventional treatments, TAP exhibited the notable antibacterial zones of inhibition (23&#x2009;&#xb1;&#x2009;1-24&#x2009;&#xb1;&#x2009;0.5&#xa0;mm) and uniform, highly significant biomass reduction (p&#x2009;<&#x2009;0.0001), whereas Ca(OH)2, NaOCl, and DAP completely failed to reduce mature biofilms (p&#x2009;>&#x2009;0.05). Among the probiotic strains, Pediococcus acidilactici JUFB demonstrated great physiological stress tolerance, maintaining robust survival under lethal acid conditions (OD&#x2009;=&#x2009;0.32 at pH 2.0) and high growth under bile stress (OD&#x2009;=&#x2009;1.15 in 0.3% Oxgall). Remarkably, organic extracts of P. acidilactici JUFB achieved a maximum of up to 70% relative reduction in mature E. faecalis biofilm biomass (p&#x2009;<&#x2009;0.0001) at 0.12&#xa0;mg/ml optimal concentration, overcoming P. acidilactici JUFF and Streptococcus thermophilus JUBM. GC-MS analysis of this active extract identified unique peaks, prioritizing core functional micro metabolites including carbamimidoyl sulfanyl acetic acid and 2-ethyl-2-methyl-1,3-propanediol as putative antibiofilm agents. These findings indicate that while TAP remains a potent conventional therapy, P. acidilactici JUFB possesses higher probiotic attributes and powerful antibiofilm activity, supporting its use as a resistance mitigating therapeutic alternative.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42579200/",
     "doi": "10.1007/s10482-026-02406-7"
   },
@@ -1325,7 +1622,7 @@
     "authors": "Owhe-Ureghe UB et al.",
     "publishedDate": "2026-08-11",
     "journal": "Mol Biol Rep",
-    "abstract": "Wall gecko (WG) (Hemidactylus frenatus), a common reptile seen around human dwellings within tropics, subtropics, as well as warm/coastal regions and countries is a genre of reptile, often seen as harmless, yet reported as potential reservoir of resistant bacteria housed on body-surface and gastrointestinal-tract (GIT). This pilot study evaluates the antibiotic-resistance-index (ARI) and gene profiles of bacterial species isolated from body-surface and GIT of WG captured from residential environments at Abraka, Ethiope East Local government area, Delta state, Nigeria. Five representative WG were captured from study area between 16th may and 30th august 2025. Triplicate collected swab samples from skin and GIT-tissue were cultured onto growth media. Using standard Microbiological procedures (Gram-staining, biochemical tests etc.), preliminary bacteria identification were conducted. Kirby-Bauer-disk-diffusion method of Antibiotic-susceptibility-testing was performed and ARI were calculated to assess environmental antibiotic-resistance implication. Molecular biology analysis of antibiotic-resistant (AR) strains using Polymerase Chain Reaction (PCR) (including DNA extraction, target-gene amplification) sequencing and phylogenetics analyses were performed to confirm isolates/gene identity. This investigation revealed strains of Staphylococcus aureus, Acinetobacter nosocomialis, Mammaliicoccus sciuri, Klebsiella pneumoniae and Escherichia coli. High ARI were recorded for Escherichia coli (0.8). The molecular analysis revealed presence of AR-genes including mecA, ermA, SHV, CTX-M, OXA, KPC, AMPC, ermC and blaTEM genes among isolates. These findings highlight the role of WGs as potential reservoir and disseminator of multidrug-resistant bacteria. The need for public health awareness and integrated pest-pathogen control strategies is highly recommended especially among household/environments were wall-gecko is prevalent.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42579185/",
     "doi": "10.1007/s11033-026-12560-w"
   },
@@ -1336,7 +1633,7 @@
     "authors": "Ali SB et al.",
     "publishedDate": "2026-08-11",
     "journal": "Mol Biol Rep",
-    "abstract": "Pseudomonas aeruginosa is a high-priority opportunistic pathogen of public health concern. Its large, complex genome, rich in transferable genetic elements, enables rapid acquisition of antibiotic resistance and contributes to its natural tolerance to antibiotics and disinfectants. Among fifty-two clinical isolates, shotgun whole-genome sequencing was conducted on four clinical isolates of P. aeruginosa from Erbil, Iraq (PA-1 to PA-4) and the laboratory strain PA-NCIMB 8626. The antibiotic susceptibilities of these strains were assessed using the Kirby-Bauer disk diffusion method. The clinical isolates selected for this study were PA-1 (multidrug-resistant, MDR), PA-2 (susceptible, S), PA-3 (extensively drug-resistant, XDR), and PA-4 (pan-drug-resistant, PDR), in addition to the standard strain NCIMB 8626. All strains underwent shotgun whole-genome sequencing and comprehensive bioinformatics analysis. Genomic DNA sequencing was performed on an MGI T7 platform using a unique DNA nanoball technology, followed by quality control, read assembly, gap closing, and annotation. Since the potential of Iraqi strains remains incompletely understood, whole-genome sequence (WGS) data from five P. aeruginosa strains were analyzed to compare genomic divergence in size, structure, and content, assess evolutionary relationships, and identify genes associated with antibiotic resistance and virulence. Virulence factor profiling identified key genes involved in adhesion, secretion, quorum sensing, iron acquisition, and biofilm formation, with isolate-specific differences. Gene analysis aligned efflux pump-related, &#x3b2;-lactam, and aminoglycoside resistance genes with phenotypic susceptibility profiles, except for one susceptible strain. Phylogenetic and evolutionary analyses indicated genomic diversity without sequence type clumping.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42579175/",
     "doi": "10.1007/s11033-026-12582-4"
   },
@@ -1347,7 +1644,7 @@
     "authors": "Patel K et al.",
     "publishedDate": "2026-08-11",
     "journal": "Arch Microbiol",
-    "abstract": "A commensal organism has transformed into the leading multidrug resistant (MDR) hospital acquired pathogen, with serious implication on global public health. The ability of Enterococcus faecium to rapidly adapt through its great genomic plasticity, horizontal gene transfer and under selective pressures created by heavy antibiotic application both clinically and non-clinically is responsible for the phenomenon. Comparative genome studies have reported the presence of different community acquired and hospital acquired clades; hospital acquired clones being particularly the clonal complex 17 have enriched antibiotic resistant genes, mobile genetic elements, virulence factors. Therapeutic choices are now restricted, while mortality and morbidity increase due to lack of adequate drug targets, resistant to penicillin, vancomycin, linezolid and daptomycin. This review critically discuss the finding about the evolutionary history, diversity of genome, resistant mechanisms and global resistant trends of E. faecium's evolution into the hospital associated strain. The clinical and public health importance of MDR E. faecium is reviewed within the context of one health including the integrated roles of human, animal, and environment as reservoirs. Lastly, the review highlights the importance of integrated genomic surveillance, novel therapy approaches and an enhanced antimicrobial stewardship program according to World Health Organization priorities in the global fight against MDR E. faecium.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42579153/",
     "doi": "10.1007/s00203-026-05077-0"
   },
@@ -1358,7 +1655,7 @@
     "authors": "Zhang X et al.",
     "publishedDate": "2026-08-11",
     "journal": "Infection",
-    "abstract": "Severe community-acquired pneumonia (sCAP) is associated with high morbidity and mortality. Current empirical antimicrobial regimens are increasingly challenged by rising antimicrobial resistance and safety concerns (e.g., fluoroquinolone-related adverse events). Omadacycline, a novel aminomethylcycline antibiotic, has demonstrated broad-spectrum activity against common respiratory pathogens (including drug-resistant strains) and a favorable safety profile. However, direct comparative evidence to support its use in combination with &#x3b2;-lactams in this setting is lacking. Therefore, the primary objective of this trial is to evaluate whether omadacycline combined with a &#x3b2;-lactam is non-inferior to the standard &#x3b2;-lactam plus moxifloxacin regimen for the treatment of sCAP in adults. This is a multicenter, prospective, randomized, open-label, active-controlled, non-inferiority trial conducted across 8 tertiary hospitals in China. Eligible participants are adult patients (&#x2265;&#x2009;18 years old) who meet the IDSA/ATS 2019 diagnostic criteria for sCAP, with no contraindications to the study drugs (omadacycline, &#x3b2;-lactams, or moxifloxacin) and able to complete follow-up. A total of 248 patients will be recruited and randomized in a 1:1 allocation ratio to either of the two arms. The experimental arm will receive omadacycline (200&#xa0;mg iv once daily for the first day, then 100&#xa0;mg iv q24h) plus &#x3b2;-lactam therapy (piperacillin-tazobactam 4.5&#xa0;g iv q8h or meropenem 1&#xa0;g iv q8h). The control arm will receive moxifloxacin (400&#xa0;mg iv q24h) plus the same &#x3b2;-lactam regimen. The treatment duration for both groups will be 7-14 days, adjusted based on clinical response. The primary endpoint is early clinical response at 72-96&#xa0;h (defined as improvement in &#x2265;&#x2009;2 major clinical symptoms/signs of pneumonia without worsening of any other major symptom/sign). Secondary endpoints include clinical cure at the end of treatment, 28-day all-cause mortality, epidemiology of pathogens of severe CAP, time to clinical stability, incidence of adverse events, and length of hospital stay. This trial has obtained ethical approval from the Ethics Committee of the leading center (Approval Number: [KY-2025-8-167-1]). The study protocol has been filed with the Ethics Committees of all other participating hospitals in accordance with relevant regulatory requirements, and all patients will provide written informed consent prior to enrollment. This trial aims to evaluate the non-inferiority of the omadacycline-plus-&#x3b2;-lactam regimen versus the standard fluoroquinolone-based combination in patients with severe CAP. If non-inferiority is demonstrated, this novel regimen could offer a safer alternative that reduces fluoroquinolone-associated adverse events, preserves the utility of existing antibiotic classes, and may provide a potential option for addressing multidrug-resistant pathogens. These findings would directly inform empirical antibiotic selection and antimicrobial stewardship strategies across both general wards and intensive care units. Chinese Clinical Trial Registry ChiCTR2500109407. Registered on 17 September 2025. (https//www.chictr.org.cn/showproj.html? proj=286992).",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42579072/",
     "doi": "10.1007/s15010-026-02897-6"
   },
@@ -1369,7 +1666,7 @@
     "authors": "Shen Z et al.",
     "publishedDate": "2026-08-11",
     "journal": "Anal Chem",
-    "abstract": "The increasing burden of antibiotic-resistant bacteria presents a major challenge for clinical management, as conventional antimicrobial susceptibility testing (AST) depends on culture-based workflows that are slow, labor-intensive, and poorly suited for rapid clinical decision-making. Moreover, standard AST primarily reports susceptibility phenotypes, while providing little insight into the potential health risks associated with resistance dissemination and pathogenicity. Here, we develop a culture-free multimodal Raman-gene-deep learning strategy for direct phenotypic antibiotic resistance profiling and resistance risk assessment in urine samples. By integrating surface-enhanced Raman spectroscopy (SERS)-derived phenotypic fingerprints with targeted genetic information on antibiotic resistance genes and virulence factors, this approach enables resistance characterization directly from clinical samples without bacterial isolation and culture. Importantly, in addition to rapid phenotypic antibiotic resistance prediction, the proposed approach enables health risk assessment of antibiotic-resistant bacteria by integrating indicators related to clinical impact, transmission risk, and pathogenicity. Applied to clinical urine samples, the method delivers accurate phenotypic resistance results within approximately 2.5 h and simultaneously provides risk-level information that is not available from routine culture-based AST. Overall, this study presents a proof-of-concept framework for rapid phenotypic resistance prediction and risk assessment, offering enhanced informational depth, reduced operational complexity, and potential utility for antimicrobial decision-making and infection control.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42578845/",
     "doi": "10.1021/acs.analchem.6c01863"
   },
@@ -1380,7 +1677,7 @@
     "authors": "Mirăuță B et al.",
     "publishedDate": "2026-08-11",
     "journal": "Microbiol Spectr",
-    "abstract": "The gut microbiome influences host health, affecting gastrointestinal, metabolic, immune, cardiovascular, and neurological functions. A balanced microbiome is associated with favorable health outcomes. However, excessive antibiotic use and dietary habits can disrupt this ecosystem, leading to dysbiosis and affecting body homeostasis. This first comprehensive metagenomic analysis of the gut microbiome in a healthy Romanian cohort, a population underrepresented in microbiome studies and characterized by high antibiotic consumption, addresses a gap in current microbiome research. We report an enrichment of Enterobacteriaceae although overall composition is more comparable to other European than non-European cohorts. Community configurations align with established enterotype patterns, and our analysis provides insight into their relationship with within-phylum diversity. The analysis of antimicrobial resistance provides insight into the prevalence of resistance genes within this reservoir. We specifically report the presence of), agene, and), a variant from the ubiquitousfamily, genes not previously reported in healthy European populations. Integration with data from the European Centre for Disease Prevention and Control links the overall prevalence of resistance genes in this reservoir to antibiotic classes with higher community consumption in this population, notably beta-lactams and quinolones, highlighting potential targets for antibiotic stewardship programs. Finally, we investigate the relationship between the microbial profile and the systemic immune responses, inferred from correlations withcytokine production. Notably, we identify potential immune-priming roles for,andspecies.IMPORTANCEThis first comprehensive study of the healthy gut microbiome in a Romanian cohort addresses a gap in current microbiome research, dominated by data sets from a limited number of regions. It sets a baseline for the microbiome and resistome composition of this population, and, while definitions of \"healthy\" microbiomes, or baseline resistomes, remain lacking, such study helps contextualize future studies and support the monitoring of dynamics. Theabundance suggests a microbiome composition potentially influenced by antimicrobial consumption, a relevant pattern in a region with a high burden of nosocomial infections. In addition, the prevalence of antimicrobial resistance genes and the concordance with commonly used antibiotics in the community reinforce the need to address antibiotic use in public health strategies. Although gut microbiome-immunity relationships remain incompletely understood, our findings support a role for microbiome composition in immune-related traits and provide a valuable resource for future studies.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42578673/",
     "doi": "10.1128/spectrum.00528-26"
   },
@@ -1391,7 +1688,7 @@
     "authors": "Kerdsin A et al.",
     "publishedDate": "2026-08-11",
     "journal": "Clin Microbiol Rev",
-    "abstract": "SUMMARYis a swine pathogen causing significant economic losses and an important zoonotic agent in humans. Southeast Asia is a high-incidence region, where infection is strongly linked to consumption of raw or undercooked pork and occupational exposure to pigs or pork products. Thailand and Vietnam report the highest case numbers, with additional cases in Indonesia (Bali), Malaysia, Singapore, Lao PDR, and Cambodia. Serotype 2 predominates in both humans and pigs, followed by serotype 14, while other serotypes (1, 4, 5, 7, 9, 16, 24, and 31) are also reported in humans. In pigs, a broader serotype range is observed, including 1 or 14, 2, 4, 5, 6, 7, 8, 9, 15, 16, 18, 21, 29, 31, and nontypeable strains. Human infections involve multiple clonal complexes (CC1, CC16, CC25, CC28, CC94, CC104, CC233, CC221/234, and CC1688), several overlapping with porcine lineages. The region is also challenged by increasing antimicrobial resistance, with rising non-susceptibility to macrolides and tetracyclines and occasional reduced susceptibility to penicillin. Diagnostic limitations due to misidentification, limited molecular tools, and reliance on conventional methods further complicate surveillance. The economic burden is substantial, driven by swine losses, treatment costs, outbreaks, and severe human disease. Vaccination remains suboptimal due to limited protection against genetically and antigenically diverse strains across serotypes and CCs. An urgent One Health approach integrating animal health, food safety, and human health is needed to monitordynamics. Control measures should target farms, slaughterhouses, and retail markets while promoting community-accepted behavioral changes to reduce transmission risk.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42578659/",
     "doi": "10.1128/cmr.00133-25"
   },
@@ -1402,7 +1699,7 @@
     "authors": "Panigrahi SD et al.",
     "publishedDate": "2026-08-11",
     "journal": "Org Biomol Chem",
-    "abstract": "The rapid emergence of antibiotic resistance has outpaced the discovery of new antibiotics, motivating alternative strategies to enhance existing therapeutics. Supramolecular macrocycles, characterized by defined cavities and host-guest complexation, provide a versatile platform for drug modulation. This review summarizes recent advances in macrocycle-based systems, including cyclodextrins, cucurbiturils, calixarenes, pillararenes, and crown ethers, with emphasis on their ability to modulate both antibacterial and non-antibacterial drugs. Unlike previous reviews focused on new antibacterial materials, this work highlights supramolecular modification and repurposing of existing drugs. Inclusion complexation improves solubility, stability, and controlled release, and can confer antibacterial activity to otherwise inactive molecules. Despite extensiveevidence supporting these effects, translation to and validationremain limited. Furthermore, physiological factors such as pH, ionic strength, and competing biomolecules can significantly influence host-guest stability and drug release behavior. Collectively, these findings highlight the promise of host-guest systems for antibiotic modulation while underscoring the need for deeper mechanistic understanding and rigorousevaluation.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42578615/",
     "doi": "10.1039/d6ob00207b"
   },
@@ -1413,7 +1710,7 @@
     "authors": "İlgar T et al.",
     "publishedDate": "2026-08-11",
     "journal": "Microb Drug Resist",
-    "abstract": "Healthcare-associated infections (HAIs) and antimicrobial resistance (AMR) are significant problems, especially in intensive care units (ICUs). We evaluated HAI rates, causative pathogens, resistance profiles, and antibiotic consumption retrospectively in a tertiary ICU across three 2-year periods-pre-pandemic period (PreP), pandemic period (PanP), and post-pandemic period (PostP)-to assess the impact of the COVID-19 pandemic. Antibiotic consumption was expressed as defined daily dose (DDD) per 1,000 patient days. The highest infection incidence rate and density were in PanP. Despite lower invasive device use, PanP had a higher rate of catheter-related bloodstream infections (BSIs). The most frequent pathogen across periods wasspp., although its rate declined in PostP. Gram-negative bacteria resistance rates to piperacillin-tazobactam, carbapenem, and aminoglycoside were highest in PanP. Resistant pathogen and resistant infection rates were lower in PostP, and resistant infections were less frequent in PostP than in PanP (OR: 0.371; 95% CI: 0.216-0.637;< 0.001). Healthcare-associated pneumonia (HAP) was associated with a higher risk of resistance compared with BSI (OR: 3.467; 95% CI: 2.139-5.621;< 0.001). Total antibiotic consumption remained comparable between PreP and PanP but increased in PostP. During the PanP, carbapenem use increased while piperacillin-tazobactam consumption decreased, whereas glycopeptide use increased and reached its highest level in PostP. Pandemic-related disruptions in the health care system may have contributed to increases in HAI and AMR rates, whereas improvements in the PostP may have supported recovery. Continuous surveillance, infection prevention measures, and antimicrobial stewardship programs are essential to mitigate the impact of future health care crises.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42578413/",
     "doi": "10.1177/10766294261475411"
   },
@@ -1440,13 +1737,24 @@
     "doi": "10.1073/pnas.2609969123"
   },
   {
+    "id": "42600385",
+    "source": "PubMed",
+    "title": "Emergence of an optrA-positive Enterococcus faecalis ST699 lineage in animal-derived foods in Beijing, China",
+    "authors": "Liang C et al.",
+    "publishedDate": "2026-08-10",
+    "journal": "Int J Food Microbiol",
+    "abstract": "Enterococci from animal-derived foods are key reservoirs for antimicrobial resistance (AMR) in the food chain. However, comparative genomic studies investigating the distribution of the oxazolidinone resistance gene optrA among food- and human-derived Enterococci remain limited. This study assessed linezolid-resistant Enterococci from retail meat and healthy humans in Beijing, China (2023-2024). Among 87 isolates, E. faecalis and E. faecium predominated. Food-derived isolates showed broader resistance profiles than human isolates. Fourteen optrA-positive strains were identified, accounting for 92.9% of food isolates. optrA frequently co-localized with erm(A), ant(9)-Ia, and fexA on Tn554-family transposons, suggesting a potentially transferable multidrug resistance module. Notably, an optrA-positive E. faecalis ST699 clone was identified for the first time in Chinese retail meat. This clone formed a distinct lineage and carried a complete Tn554-optrA island. A representative ST699 isolate exhibited enhanced fitness and virulence potential in the Galleria mellonella model. These findings highlight animal-derived foods as important reservoirs of linezolid-resistant Enterococci and provide genomic evidence consistent with their role as potential sources of optrA-mediated resistance. The emergence of a multidrug-resistant E. faecalis ST699 clone with enhanced fitness characteristics underscores the need for continued surveillance of foodborne antimicrobial resistance within the One Health framework.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42600385/",
+    "doi": "10.1016/j.ijfoodmicro.2026.112015"
+  },
+  {
     "id": "42580113",
     "source": "PubMed",
     "title": "Underappreciated role of polluted storm sewer discharge in the accumulation of antibiotic resistance genes in downstream sediments",
     "authors": "Zhang Y et al.",
     "publishedDate": "2026-08-10",
     "journal": "J Hazard Mater",
-    "abstract": "Polluted storm sewers (PSSs) are important pathways for contaminant transport to receiving waters, yet the association between PSS discharge and antimicrobial resistance in downstream sediments remains poorly understood. We investigated antibiotic resistance gene (ARG) distributions in paired upstream-downstream stream water and sediments around six PSS outfalls, together with PSS outfall samples, using metagenomic sequencing and binning. Downstream sediments exhibited transitional ARG profiles between upstream and PSS sediments, indicating a compositional linkage with PSS sediments. Acquired ARGs (sulfonamide and tetracycline resistance genes) were enriched in downstream sediments, while the intrinsic chromosomal resistance determinant mexB showed a similar pattern, consistent with their higher abundances in PSS discharges. SourceTracker indicated that sediment sources (87%) from upstream and PSSs contributed more to downstream sediment ARG profiles than water sources. The intermediate suspended solid levels in downstream water between PSS water and upstream water further supported particle-associated transport. Sulfonamide resistance genes were associated with putative plasmid contigs and co-occurred with qacEdelta1 and IS91, suggesting potential mobility. Azonexus was the dominant potential host of sulfonamide and tetracycline resistance genes, whereas Pseudomonas_E was associated with mexB enrichment. Collectively, these findings highlighted PSS discharge as an important anthropogenic pathway associated with ARGs in downstream sediments.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42580113/",
     "doi": "10.1016/j.jhazmat.2026.143253"
   },
@@ -1889,312 +2197,5 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42570323/",
     "doi": "10.1093/ismejo/wrag208"
-  },
-  {
-    "id": "42570070",
-    "source": "PubMed",
-    "title": "Antimicrobial, antibiofilm, and molecular docking evaluation of silver nanoparticles biosynthesized from Ocimum campechianum against Staphylococcus spp",
-    "authors": "Dos Santos NS et al.",
-    "publishedDate": "2026-08-08",
-    "journal": "Int Microbiol",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42570070/",
-    "doi": "10.1007/s10123-026-00882-5"
-  },
-  {
-    "id": "42568069",
-    "source": "PubMed",
-    "title": "Comparative genomics of fatal ST308/O11 Pseudomonas aeruginosa from Egypt characterizes conserved resistance architecture, integron-associated multidrug resistance modules, and blaNDM-1 resistance islands",
-    "authors": "Sanad AA et al.",
-    "publishedDate": "2026-08-08",
-    "journal": "BMC Microbiol",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42568069/",
-    "doi": "10.1186/s12866-026-05465-y"
-  },
-  {
-    "id": "2608.08182",
-    "source": "arXiv",
-    "title": "Biologically Informed Representation Learning for Robust Cross-Center Generalization of MALDI-TOF Mass Spectrometry",
-    "authors": "Alejandro L. García-Navarro et al.",
-    "publishedDate": "2026-08-08",
-    "journal": "cs.LG",
-    "abstract": "Machine learning models for MALDI-TOF mass spectrometry have shown considerable promise for clinical microbiology tasks such as microbial identification and antimicrobial resistance prediction. However, their deployment across institutions remains limited by domain shift, as acquisition-specific variability often leads models to capture technical artifacts rather than transferable biological information. Existing representation learning approaches primarily address this problem through statistical domain alignment while largely overlooking the biological supervision naturally available in microbiology datasets. We introduce DALMA, a probabilistic representation learning framework that jointly models acquisition-specific variability and biological supervision to learn biologically structured latent representations. By combining domain-specific reconstruction with biologically guided representation learning, DALMA learns transferable representations that generalize across heterogeneous clinical centers without requiring institution-specific components at inference, enabling zero-shot deployment on previously unseen sites. We evaluate DALMA on a multi-center benchmark comprising seven datasets from three countries. DALMA consistently achieves state-of-the-art zero-shot microbial identification across two held-out clinical centers, while the learned representations also transfer effectively to antimicrobial resistance prediction. Furthermore, latent-space novelty estimation enables reliable selective prediction under previously unseen domain shifts. These results demonstrate that biologically informed representation learning provides an effective strategy for robust and transferable ML in clinical microbiology.",
-    "url": "https://arxiv.org/abs/2608.08182"
-  },
-  {
-    "id": "42594422",
-    "source": "PubMed",
-    "title": "Design and synthesis of novel thiazolotriazole-sulfonamide hybrids tackling antimicrobial resistance: mechanistic insights into efflux pump inhibitor, gene downregulation, and machine-aided results",
-    "authors": "Elsayed HH et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Bioorg Chem",
-    "abstract": "The escalating global threat of antimicrobial resistance necessitates innovative therapeutic strategies. In this study, a novel series of thiazolotriazole-sulfonamide hybrids was designed using a molecular hybridization strategy. Computational potency was predicted via pharmacophore modelling, identifying biologically active scaffolds against resistant pathogens. The designed molecules(7a-j) were synthesized andevaluated for their in vitro antibacterial and antifungal efficacy. Compounds 7a, 7b, 7j emerged as potentantimicrobial agentswith favorable safety margin. 7j showed robust antibacterial activity (MIC: 15.625&#xa0;&#x3bc;g/ml) against B. cereus and S. typhimurium. 7a displayed dual-action potency, matching this MIC against B. cereus and inhibiting C. albicans (MIC: 31.25&#xa0;&#x3bc;g/ml). Also,7bshowed antifungal efficacy (31.25&#xa0;&#x3bc;g/ml). P. aeruginosa antibiofilm assays revealed dose-dependent attenuation; 7b achieved 44% inhibition (1/2 MIC) against the standard strain and clinical isolate 1, whereas 7a excelled against isolate 2. Notably, 7j displayed a dual mechanism against MDR pathogens, inhibiting the efflux pump protein and achieving exceptional downregulation of the MexA, MexC, and MexE genes, as confirmed by qRT-PCR. This multi-level approach achieved a 16-fold potentiation of Ciprofloxacin's activity.Mechanistic elucidation integrated experimental data with docking and MD simulations targeting FabI, DNA gyrase A, and dihydrofolate reductase (DHFR).Molecular dynamics simulations further predicted the stabilityof these compounds within the catalytic domain ofthe targeted enzymes.In silico ADMET analyses indicated theirfavorable pharmacokinetic profiles.In vitro assays laterconfirmed their low toxicity in normal HEK-293 and WI-38 cell lines. In conclusion,these hybridsserve as promising candidates to overcome antimicrobial resistance.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42594422/",
-    "doi": "10.1016/j.bioorg.2026.110324"
-  },
-  {
-    "id": "42585898",
-    "source": "PubMed",
-    "title": "Emergence of serotype 23F among levofloxacin-resistant invasive Streptococcus pneumoniae in the Republic of Korea: Association with the expansion of GPSC6",
-    "authors": "Lee J et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Infect Public Health",
-    "abstract": "Although serotype 23F is included in the current pneumococcal conjugate vaccines (PCVs), its recent contribution to the emergence of levofloxacin-resistant invasive Streptococcus pneumoniae in South Korea remains unclear. Despite the inclusion of serotype 23F in PCVs, recent increases in the abundance of levofloxacin-resistant isolates have been observed in South Korea. Temporal trends, antimicrobial resistance profiles, and genomic characteristics of serotype 23F isolates collected through the Infectious Diseases Surveillance System operated by the Korea Disease Control and Prevention Agency (KDCA) from 2015 to 2024 were analyzed. Whole-genome sequencing was performed to characterize lineage distribution, quinolone resistance-determining region (QRDR) mutations, antimicrobial resistance determinants, and penicillin-binding protein (PBP) allele combinations. Among the 1885 invasive pneumococcal isolates, 90 were resistant to levofloxacin. Of these, 29 were serotype 23F, and 68.9% (20/29) of the serotype 23F isolates were levofloxacin resistant. Serotype 23F was infrequently detected before 2020, but its contribution to levofloxacin-resistant invasive isolates became more apparent after 2021. WGS revealed that GPSC6 was first identified after 2020 and became the predominant lineage among levofloxacin-resistant serotype 23F isolates by 2022. GPSC6 isolates exhibited concurrent gyrA and parC mutations and carried multiple resistance genes, including erm(B), tet(M), folA, and folP, and harbored uncharacterized PBP allele combinations. These findings suggest that the recent increase in the levofloxacin-resistant serotype 23F in South Korea is associated with the expansion of GPSC6 and highlight the value of lineage-level genomic surveillance within vaccine-type serotypes.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42585898/",
-    "doi": "10.1016/j.jiph.2026.103333"
-  },
-  {
-    "id": "42570374",
-    "source": "PubMed",
-    "title": "Antibacterial activity of Senegenic acid 28-methyl ester against methicillin-resistant Staphylococcus aureus",
-    "authors": "Zhang L et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Bioorg Chem",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42570374/",
-    "doi": "10.1016/j.bioorg.2026.110355"
-  },
-  {
-    "id": "42569978",
-    "source": "PubMed",
-    "title": "Antibiotic stewardship: balancing patient care and public health: American Dental Association Council on Scientific Affairs Clinical Practice Statement",
-    "authors": "Council on Scientific Affairs",
-    "publishedDate": "2026-08-07",
-    "journal": "J Am Dent Assoc",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42569978/",
-    "doi": "10.1016/j.adaj.2026.07.013"
-  },
-  {
-    "id": "42567869",
-    "source": "PubMed",
-    "title": "Disarming Pseudomonas aeruginosa: repurposing vardenafil, valsartan, and olmesartan as anti-virulence and antibiofilm agents",
-    "authors": "Mahfouz AA et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Sci Rep",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42567869/",
-    "doi": "10.1038/s41598-026-64238-9"
-  },
-  {
-    "id": "42567699",
-    "source": "PubMed",
-    "title": "Immunogenicity and Protective Efficacy of the First Autogenous Aeromonas hydrophila Vaccine for Piaractus brachypomus",
-    "authors": "Pereira LAB et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Fish Dis",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42567699/",
-    "doi": "10.1111/jfd.70271"
-  },
-  {
-    "id": "42567508",
-    "source": "PubMed",
-    "title": "Proton motive force as a driver of persister sensitization by adenosine",
-    "authors": "Thompson NT et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Biol Chem",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42567508/",
-    "doi": "10.1016/j.jbc.2026.113417"
-  },
-  {
-    "id": "42567351",
-    "source": "PubMed",
-    "title": "Artificial intelligence of things-enhanced automated surveillance system for global antimicrobial resistance in food supply chain",
-    "authors": "Liu J et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Adv Res",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42567351/",
-    "doi": "10.1016/j.jare.2026.08.019"
-  },
-  {
-    "id": "42567295",
-    "source": "PubMed",
-    "title": "Association between tazobactam-piperacillin exposure and the subsequent emergence in gram-negative rods: Findings from a single-institution cohort study",
-    "authors": "Masayoshi E et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Int J Antimicrob Agents",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42567295/",
-    "doi": "10.1016/j.ijantimicag.2026.107953"
-  },
-  {
-    "id": "42567258",
-    "source": "PubMed",
-    "title": "Microbiome Stewardship: re-defining high-risk antibiotics",
-    "authors": "Eubank T et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Anaerobe",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42567258/",
-    "doi": "10.1016/j.anaerobe.2026.103072"
-  },
-  {
-    "id": "42567137",
-    "source": "PubMed",
-    "title": "Is longer sonication worth the energy? Trade-offs between trimethoprim removal, toxicity, and biodegradability with initial assessment of impact on resistance genes",
-    "authors": "Al-Juboori RA et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Environ Manage",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42567137/",
-    "doi": "10.1016/j.jenvman.2026.130639"
-  },
-  {
-    "id": "42566872",
-    "source": "PubMed",
-    "title": "Enrichment of bile salt hydrolase-producing bacteria mediated by tetracycline resistance genes is associated with intestinal barrier damage in Rana chensinensis tadpoles",
-    "authors": "Pei Y et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Ecotoxicol Environ Saf",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42566872/",
-    "doi": "10.1016/j.ecoenv.2026.120624"
-  },
-  {
-    "id": "42566655",
-    "source": "PubMed",
-    "title": "Hospitalization Costs Attributable to Antimicrobial Resistance in Spain: A Nationwide Cohort Study",
-    "authors": "Oterino-Moreira I et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Infect Dis",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42566655/",
-    "doi": "10.1093/infdis/jiag405"
-  },
-  {
-    "id": "42566504",
-    "source": "PubMed",
-    "title": "One-Arrow-Three Hawks: Antibiotic-Derived Nanozybiotics with Retained Antibacterial Activity and Dual Peroxidase-/Catalase-like Nanozyme for Potential ROS Modulation",
-    "authors": "Ali K et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "ACS Appl Mater Interfaces",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42566504/",
-    "doi": "10.1021/acsami.6c05802"
-  },
-  {
-    "id": "42566283",
-    "source": "PubMed",
-    "title": "Changing molecular epidemiology and resistance patterns of carbapenem-resistant Klebsiella pneumoniae in California long-term acute care hospitals",
-    "authors": "Gontjes KJ et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Infect Dis",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42566283/",
-    "doi": "10.1093/infdis/jiag406"
-  },
-  {
-    "id": "42566190",
-    "source": "PubMed",
-    "title": "An update on biofilms in acute and chronic wounds: Incidence, clinical evidence, diagnosis, prevention, and treatment",
-    "authors": "Percival SL et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Intern Med",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42566190/",
-    "doi": "10.1111/joim.70138"
-  },
-  {
-    "id": "42566097",
-    "source": "PubMed",
-    "title": "Synergistic phyto-formulated microemulsion for improved collagen deposition and healing of infected wounds",
-    "authors": "Gumathannavar R et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Discov Nano",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42566097/",
-    "doi": "10.1186/s11671-026-04845-7"
-  },
-  {
-    "id": "42565999",
-    "source": "PubMed",
-    "title": "Molecular and environmental drivers of antimicrobial resistance: global epidemiology, resistome dynamics, and one health strategies",
-    "authors": "Islam SMS et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Arch Microbiol",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42565999/",
-    "doi": "10.1007/s00203-026-05107-x"
-  },
-  {
-    "id": "42565909",
-    "source": "PubMed",
-    "title": "Phylogenetic analysis and characterization of hybrid enteroaggregative/uropathogenic Escherichia coli strains isolated from urinary tract infection",
-    "authors": "Taghipour A et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Mol Biol Rep",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42565909/",
-    "doi": "10.1007/s11033-026-12546-8"
-  },
-  {
-    "id": "42565896",
-    "source": "PubMed",
-    "title": "Emerging role of essential oil biomolecules: a sustainable therapeutic approach to combat microbial pathogens",
-    "authors": "Patel SKS",
-    "publishedDate": "2026-08-07",
-    "journal": "Arch Microbiol",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42565896/",
-    "doi": "10.1007/s00203-026-05113-z"
-  },
-  {
-    "id": "42565854",
-    "source": "PubMed",
-    "title": "Horizontal transfer of chromosomal DNA mediated by an integrative and conjugative element generates frequent localized recombination in Novosphingobium aromaticivorans",
-    "authors": "Allemann MN et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Bacteriol",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42565854/",
-    "doi": "10.1128/jb.00175-26"
-  },
-  {
-    "id": "42565608",
-    "source": "PubMed",
-    "title": "Complete genome sequence of a tetracycline-resistant bacterium, Variovorax endophyticus HR3-A, isolated from riverine water in Japan",
-    "authors": "Hayakawa M et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Microbiol Resour Announc",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42565608/",
-    "doi": "10.1128/mra.00743-26"
-  },
-  {
-    "id": "42565344",
-    "source": "PubMed",
-    "title": "A comparison of bacterial community composition in hospital and clinical infections and hospital wastewater treatment systems, and their relative antimicrobial susceptibility and resistance profiles",
-    "authors": "Canan-Rochenbach G et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "J Environ Sci Health A Tox Hazard Subst Environ Eng",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42565344/",
-    "doi": "10.1080/10934529.2026.2713892"
-  },
-  {
-    "id": "42563577",
-    "source": "PubMed",
-    "title": "Bacterial cytological profiling for mode-of-action discovery of natural product-derived antibiotics: progress, challenges, and future directions",
-    "authors": "Nonejuie P et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Nat Prod Rep",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42563577/",
-    "doi": "10.1039/d6np00017g"
-  },
-  {
-    "id": "42563214",
-    "source": "PubMed",
-    "title": "Clinical and Economic Burden of Complicated Pneumonia and Invasive Disease due to Streptococcus pneumoniae Serotype 19A in an Ecuadorian Pediatric Reference Hospital",
-    "authors": "Salgado-Villalba ED et al.",
-    "publishedDate": "2026-08-07",
-    "journal": "Pediatr Infect Dis J",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42563214/",
-    "doi": "10.1097/INF.0000000000005365"
   }
 ]
