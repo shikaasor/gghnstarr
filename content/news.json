@@ -1,5 +1,16 @@
 [
   {
+    "id": "42733785",
+    "source": "PubMed",
+    "title": "Harnessing gasotransmitters for orthopaedic infection therapy: Mechanisms and advanced delivery platforms",
+    "authors": "Zhang JY et al.",
+    "publishedDate": "2027-02-01",
+    "journal": "Bioact Mater",
+    "abstract": "Orthopaedic infections are increasingly prevalent in the aging population, posing a significant clinical and economic burden. Despite progress in antimicrobial therapies, challenges such as antibiotic resistance and superbug emergence persist. Gas therapy has emerged as a promising strategy for managing orthopaedic infections. Classical gasotransmitters-including nitric oxide (NO), carbon monoxide (CO), and hydrogen sulfide (HS)-exhibit antibacterial and immunomodulatory effects at controlled concentrations, though improper dosing may induce adverse effects. This review critically examines the dual mechanisms through which gasotransmitters combat infection while promoting orthopaedic regeneration. We also survey advanced delivery platforms-such as smart scaffolds, nano-reservoirs, and on-demand release systems-engineered for targeted gasotransmitter delivery to infected bone tissue. Finally, we discuss current limitations and future prospects, aiming to inspire novel biomaterial designs for targeted therapeutic delivery and to advance gas therapy as a viable option for orthopaedic infection treatment.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42733785/",
+    "doi": "10.1016/j.bioactmat.2026.05.047"
+  },
+  {
     "id": "42729539",
     "source": "PubMed",
     "title": "Bioprinted core-shell living material platform for spatially controlled encapsulation of Bacillus subtilis and sustained metabolite exchange",
@@ -770,6 +781,17 @@
     "doi": "10.1016/j.bioactmat.2026.06.006"
   },
   {
+    "id": "42733927",
+    "source": "PubMed",
+    "title": "Heterogeneity of azithromycin resistance markers in Neisseria gonorrhoeae and challenges in implementing molecular assays for routine surveillance",
+    "authors": "Yuan Q et al.",
+    "publishedDate": "2026-10-01",
+    "journal": "New Microbes New Infect",
+    "abstract": "is the second most prevalent bacterial sexually transmitted infection and a major contributor to the global antimicrobial resistance crisis. The World Health Organization (WHO) has designatedas a high-priority pathogen due to its resistance to nearly all empirically recommended therapies. While dual therapy with ceftriaxone and azithromycin initially demonstrated efficacy, the rapid global rise in azithromycin resistance over the past five years threatens the efficacy of this regimen. Resistance mechanisms, including mutations in the 23S rRNA gene and overexpression of the MtrCDE efflux pump, are highly heterogeneous, complicating molecular diagnostic efforts. This review examines the evolving landscape of azithromycin resistance, highlighting key mechanisms of resistance, and recent epidemiological and genomic surveillance data. We discuss challenges in implementing molecular assays for routine resistance monitoring due to molecular heterogeneity in azithromycin resistance markers and emphasize the critical need for tailored approaches based on local genetic epidemiology. Enhanced surveillance and molecular diagnostics are essential to sustaining effective treatment strategies and combating gonococcal resistance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42733927/",
+    "doi": "10.1016/j.nmni.2026.101838"
+  },
+  {
     "id": "42724938",
     "source": "PubMed",
     "title": "Shigella infections in the era of antimicrobial resistance: Insights into cephalosporin use",
@@ -1043,6 +1065,28 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42475761/",
     "doi": "10.1016/j.bioorg.2026.110249"
+  },
+  {
+    "id": "42734021",
+    "source": "PubMed",
+    "title": "Advances in light-independent copper-based nanomaterials for antibacterial applications",
+    "authors": "Hu C et al.",
+    "publishedDate": "2026-09-14",
+    "journal": "Nanoscale",
+    "abstract": "Antimicrobial resistance (AMR) poses a major global health challenge, while conventional antibiotics are increasingly limited by resistance development and poor efficacy against biofilm-associated infections. Copper-based nanomaterials provide versatile antibacterial platforms through catalytic reactive oxygen species generation, regulated copper-ion release, and copper-overload-induced metabolic disruption. Given the limitations of external light irradiation in deep or light-sensitive tissues, this review focuses on light-independent antibacterial strategies based on copper-containing nanomaterials. Structure-activity relationships of copper single atoms and nanoclusters, copper oxides and sulfides, and copper-based composites are summarized, with emphasis on coordination environment, Cu(I)/Cu(II) redox cycling, defects, interfaces, and ion-release behavior. Two major light-independent mechanisms are discussed: nanozyme catalysis, which promotes oxidative stress and antioxidant depletion, and cuproptosis-like death associated with intracellular copper overload, Fe-S cluster damage, proteotoxic stress, and metabolic dysfunction. Particular attention is given to their reciprocal catalytic-metabolic coupling. Representativeapplications, targeting and responsive-delivery strategies, together with biosafety, metabolism, clearance, and translational challenges, are further discussed to guide the rational design of safer and more effective copper-based antibacterial nanomaterials.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42734021/",
+    "doi": "10.1039/d6nr02530g"
+  },
+  {
+    "id": "42723229",
+    "source": "PubMed",
+    "title": "Metal-Based Photosensitizers as Emerging Antibacterial Agents for Infected Wound Healing",
+    "authors": "Mandal AA et al.",
+    "publishedDate": "2026-09-14",
+    "journal": "ChemMedChem",
+    "abstract": "Wound infection has become a significant public health challenge worldwide. Inappropriate wound care and excessive use of antibiotics often compromise treatment outcomes, leading to the emergence of antimicrobial resistance. Hence, development of novel, more effective treatment strategies is essential to reduce infection-associated mortality and minimize treatment-related side effects. Recently, antibacterial photodynamic therapy (aPDT) has attracted considerable attention for the management of infected wounds. Several studies have investigated the application of aPDT for wound healing using in vivo animal models. aPDT effectively eliminates pathogenic bacteria while also promoting fibroblast proliferation and accelerating tissue regeneration and wound repair. To further improve aPDT efficiency, the development of advanced photosensitizers (PSs) has become a key research focus. Recently, metal-based PSs have attracted significant attention owing to their strong light absorption, long-lived excited states, and efficient generation of reactive oxygen species (ROS), which enhance light-triggered antimicrobial activity. Despite these promising properties, their application in the healing of infected wounds remains largely underexplored, with only a few reports to date. This highlights an important opportunity to further develop metal-based PSs as effective aPDT agents for wound treatment. Therefore, this perspective critically discusses recent advances and outlines future directions for developing more effective PDT-assisted wound-healing strategies.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42723229/",
+    "doi": "10.1002/cmdc.70479"
   },
   {
     "id": "42732085",
@@ -1498,7 +1542,7 @@
   {
     "id": "42722180",
     "source": "PubMed",
-    "title": "Antibiotic Nano-delivery Systems against Multidrug-resistant Bacteria: A Resistance Mechanism-to-Platform-to-Intervention Framework",
+    "title": "Antibiotic nano-delivery systems against multidrug-resistant bacteria: a resistance mechanism-to-platform-to-intervention framework",
     "authors": "Wan L et al.",
     "publishedDate": "2026-09-10",
     "journal": "Acta Biomater",
@@ -2154,49 +2198,5 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42705031/",
     "doi": "10.1016/j.jenvman.2026.130884"
-  },
-  {
-    "id": "42704818",
-    "source": "PubMed",
-    "title": "Community antibiotic access, use, and reported impacts in sub-Saharan Africa: a systematic review",
-    "authors": "Jalloh MS et al.",
-    "publishedDate": "2026-09-07",
-    "journal": "Int J Pharm Pract",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42704818/",
-    "doi": "10.1093/ijpp/riag123"
-  },
-  {
-    "id": "42704645",
-    "source": "PubMed",
-    "title": "Phylogrouping and genotyping of mcr-1 postives avian pathogenic Escherichia coli isolates in Algerian poultry farms",
-    "authors": "Djouzi A et al.",
-    "publishedDate": "2026-09-07",
-    "journal": "Vet Ital",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42704645/",
-    "doi": "10.12834/VetIt.3929.40804.3"
-  },
-  {
-    "id": "42704604",
-    "source": "PubMed",
-    "title": "In silico analysis of metal resistance genes in Pseudomonas extremaustralis 2E-UNGS: Genomic insights and safety assessment for wastewater biotreatment",
-    "authors": "Daniel MA et al.",
-    "publishedDate": "2026-09-07",
-    "journal": "Environ Sci Pollut Res Int",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42704604/",
-    "doi": "10.1007/s11356-026-38196-8"
-  },
-  {
-    "id": "42704411",
-    "source": "PubMed",
-    "title": "Current and emerging biomaterials for targeted drug delivery in osteomyelitis management",
-    "authors": "Rajendran P et al.",
-    "publishedDate": "2026-09-07",
-    "journal": "Discov Nano",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42704411/",
-    "doi": "10.1186/s11671-026-04878-y"
   }
 ]
