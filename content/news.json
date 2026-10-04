@@ -44,6 +44,17 @@
     "doi": "10.1016/j.fm.2026.105279"
   },
   {
+    "id": "42828729",
+    "source": "PubMed",
+    "title": "Discovery of dietary polyphenols targeting the autoinducer-2 quorum sensing system of pathogenic bacteria",
+    "authors": "Wu S et al.",
+    "publishedDate": "2026-12-31",
+    "journal": "Gut Microbes",
+    "abstract": "Targeting autoinducer-2 (AI-2) quorum sensing (QS) systems with dietary compounds represents a promising strategy to combat pathogens, yet mechanisms remain elusive. Here, we develop a machine learning-driven framework combining computational screening with multi-level experimental analysis to identify AI-2 quorum sensing interference molecules (QSIMs). A graph neural network (GNN)-based classifier (AI2IMpred) screens over 7000 phytochemicals and identifies dietary polyphenols as potent QSIMs. UsingLT2 as a model, we demonstrate that 17 polyphenols, including pterostilbene, 4-methylcatechol, pyrogallol, and 3-methylcatechol, directly target LuxS and LsrB, as confirmed by SPR assays, while molecular docking predicts potential interactions with TqsA and LsrR. Structural analysis revealed that para-substituted hydrocarbyl groups enhance LsrB binding. Furthermore, polyphenol-mediated regulatory effects have been validated via gene expression modulation, bacterial phenotypes, NCM460 cell adhesion/invasion, and cross-pathogen analysis (,, and). This work provides insights for the potential development of diet-based interventions using polyphenol compounds against drug-resistant pathogenic infections.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42828729/",
+    "doi": "10.1080/19490976.2026.2726629"
+  },
+  {
     "id": "42825545",
     "source": "PubMed",
     "title": "Antimicrobial resistance and social inequity: Why the one health approach must centre poverty",
@@ -231,13 +242,24 @@
     "doi": "10.1016/j.ijfoodmicro.2026.112020"
   },
   {
+    "id": "42827724",
+    "source": "PubMed",
+    "title": "Combating antimicrobial resistance through multimodal data via artificial intelligence",
+    "authors": "Xia Q et al.",
+    "publishedDate": "2026-12-01",
+    "journal": "One Health",
+    "abstract": "Antimicrobial resistance (AMR) poses a critical global health challenge, leading to substantial mortality and economic losses without science-based interventions. Conventional approaches to combating AMR have important limitations in addressing this escalating threat. Recent advances in AI, including deep learning, large language models, and protein language models, provide new opportunities to integrate multimodal data for AMR research. However, evidence remains uneven, with many approaches limited to computational benchmarking rather than real-world validation. Here, we critically review AI applications in AMR, focusing on rapid diagnosis, therapeutic discovery, and clinical decision support. AI-based diagnostic models can identify resistant pathogens and predict resistance profiles, but most lack prospective clinical evaluation. AI-assisted drug discovery and alternative therapies have generated promising candidates, although most remain at computational, in vitro, or early preclinical stages. Large language models may support decision-making, but their clinical use remains preliminary. Successful translation of AI into clinical and One Health practice will require representative datasets, independent validation, prospective evaluation, and robust governance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42827724/",
+    "doi": "10.1016/j.onehlt.2026.101573"
+  },
+  {
     "id": "42813675",
     "source": "PubMed",
     "title": "Development and evaluation of a culturally tailored animated educational video to improve antibiotic knowledge, attitudes, and practices among Jordanian adolescents: a quasi-experimental study",
     "authors": "Masadeh MM et al.",
     "publishedDate": "2026-12-01",
     "journal": "Future Sci OA",
-    "abstract": "antimicrobial resistance (AMR) has emerged as a major global health concern, with antibiotic misuse and overuse being major contributing factors, particularly among adolescents. It has become essential to address this problem through educational interventions to foster responsible behavior during early life. The primary objective of this study was to develop and assess the effectiveness of an educational video on antimicrobial resistance in enhancing knowledge, attitude, and practice (KAP) among secondary school students. A quasi-experimental pretest-posttest study design was employed for this study. A sample of 133 secondary school students was selected from Jordan. A structured questionnaire was administered to assess knowledge, attitude, practice, preference for alternative medicine, and awareness/educational exposure. An educational video on antimicrobial resistance was developed and implemented as an intervention. To assess pre-post differences, a paired t-test was performed, and to control for confounding variables, a General Linear Model (GLM) analysis was conducted. To assess the associations among knowledge, attitude, and practice, correlation analysis was performed. Following implementation of the educational video, there were significant improvements in all knowledge, attitude, and practice domains. Knowledge improved significantly from a pretest mean of 3.56 (SD = 1.91) to a posttest mean of 6.59 (SD = 2.06) on a 9-point scale. The improvement was significant at p&#x2009;<&#x2009;0.001, with a large effect size of 1.17. Attitude and practice also improved significantly, with large effect sizes. GLM analysis revealed that this improvement was significant even after adjustment for baseline confounders. Furthermore, correlation analysis revealed a positive correlation among knowledge, attitude, and practice, indicating a positive internal consistency for knowledge, attitude, and practice. The observed improvements suggest that culturally tailored animated educational interventions may be a useful approach for supporting adolescents' understanding, attitudes, and reported practices related to antibiotic use and antimicrobial resistance. Exposure to the culturally tailored video-based educational intervention with planned reinforcement was associated with significant improvements in antibiotic-related knowledge, attitudes, self-reported practices, and awareness among secondary school students. Given the single-group pretest-post-test design, these findings should be interpreted as improvements observed following the intervention rather than definitive evidence of causality.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42813675/",
     "doi": "10.1080/20565623.2026.2737234"
   },
@@ -946,6 +968,61 @@
     "doi": "10.1016/j.vaccine.2026.129134"
   },
   {
+    "id": "42827905",
+    "source": "PubMed",
+    "title": "Network-based characterization of latent co-testing patterns in antimicrobial susceptibility testing",
+    "authors": "Awotoro E et al.",
+    "publishedDate": "2026-10-16",
+    "journal": "iScience",
+    "abstract": "Antimicrobial resistance (AMR) surveillance depends on antimicrobial susceptibility testing, yet antibiotic panels vary by pathogen cohort, specimen, year, ward, and care setting. We term these empirically reconstructed testing architectures shadow antibiograms: structures that shape which susceptibility results enter surveillance datasets and which resistance relationships can be observed. We analyzed approximately 13 million bacterial isolates from Germany's National Antibiotic Resistance Surveillance system (2019-2023) across six WHO BPPL-aligned operational cohorts. Co-testing networks were constructed using Jaccard, Dice, cosine, and phi-coefficient similarity, evaluated with Fisher's exact tests and Benjamini-Hochberg correction, and partitioned with multi-resolution Louvain community detection. Networks contained three to four dominant co-testing communities; false discovery rate (FDR) retention ranged from 89 to 100% across cohorts and specimen types. Jaccard provided the best balance of coherence, stability, antimicrobial-class alignment, interpretability, and edge retention. This work provides one of the first national-scale empirical characterizations of shadow antibiogram structure, supporting diagnostic stewardship and bias-aware AMR surveillance interpretation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42827905/",
+    "doi": "10.1016/j.isci.2026.117421"
+  },
+  {
+    "id": "42829120",
+    "source": "PubMed",
+    "title": "Biomedical Applications of Antimicrobial Peptides: Multifunctional Mechanisms, Engineering Strategies, and Therapeutic Development",
+    "authors": "Zhang X et al.",
+    "publishedDate": "2026-10-03",
+    "journal": "Int J Antimicrob Agents",
+    "abstract": "Antimicrobial peptides (AMPs) are small, multifunctional molecules generated by the innate immune systems of various organisms. AMPs possess broad-spectrum antimicrobial activity and operate through mechanisms that target microbial membranes, cell walls, and intracellular processes. These peptides are viewed as promising solutions to the growing problem of antibiotic resistance. This review provides a comprehensive overview of the various sources, structural characteristics, and primary antimicrobial mechanisms, which include disrupting microbial membranes and cell walls, interfering with intracellular metabolic processes, and modulating the immune response. It also explores possible mechanisms by which bacteria might develop resistance to these peptides. Building on this knowledge, the review highlights recent approaches to enhance AMP design, including the creation of self-assembling nanostructures, the use of combination therapies, and targeted modifications to improve stability and specificity. AMPs have wide-ranging potential applications in biomedical fields like drug delivery systems, wound dressings, and smart materials. Nonetheless, their clinical application faces obstacles such as limited stability, potential toxicity, and high manufacturing costs. With progress in Artificial Intelligence (AI)-driven design, nanotechnology, and synthetic biology, AMPs are expected to overcome these challenges and become vital components of future anti-infective treatments.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829120/",
+    "doi": "10.1016/j.ijantimicag.2026.108027"
+  },
+  {
+    "id": "42828735",
+    "source": "PubMed",
+    "title": "Epidemiology of Pediatric Bacterial Meningitis in Japan: A Multicenter Survey, 2022-2024",
+    "authors": "Tomita K et al.",
+    "publishedDate": "2026-10-03",
+    "journal": "J Pediatric Infect Dis Soc",
+    "abstract": "Bacterial meningitis remains a life-threatening condition among infants and young children worldwide, even in the era of advanced antimicrobial therapy and widespread vaccination. As part of ongoing multicenter surveillance in Japan, we investigated the recent epidemiology of pediatric bacterial meningitis during 2022-2024. We conducted a multicenter retrospective study of children aged 0-14 years diagnosed with bacterial meningitis in Japan between January 2022 and December 2024. Data were collected using a standardized survey to characterize current epidemiology, age-specific pathogen and pneumococcal serotype patterns, and predictors of poor outcome. Multivariable logistic regression analysis was performed to identify independent predictors of poor outcome. Of 206 bacterial meningitis cases, 124 (60.2%) were community-acquired and the remaining 82 (39.8%) were healthcare-associated. Eight patients (3.9%) died-four in each group. Streptococcus agalactiae, Escherichia coli, and Streptococcus pneumoniae collectively accounted for 81.5% of community-acquired cases. S. agalactiae predominantly affected neonates and infants up to age 4 months, whereas E. coli was detected from the neonatal period through age 6 months. Among E. coli isolates, 15% (3/20) were extended-spectrum &#x3b2;-lactamase producers. S. pneumoniae was more common after age 4 months; 45.5% (10/22) of isolates were penicillin resistant, and all serotyped isolates were non-PCV13 serotypes. Multivariable analysis identified cerebrospinal fluid glucose level <20 mg/dL as an independent predictor of poor outcome. This multicenter survey highlights the continued predominance of S. agalactiae, E. coli, and S. pneumoniae as the major causative pathogens of pediatric bacterial meningitis in Japan. Ongoing challenges-including antimicrobial resistance, serotype replacement, and healthcare-associated meningitis-underscore the need for continued surveillance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42828735/",
+    "doi": "10.1093/jpids/piag106"
+  },
+  {
+    "id": "42829435",
+    "source": "PubMed",
+    "title": "Interdisciplinary modelling approaches for One Health in agri-food systems: a scoping review and conceptual analysis",
+    "authors": "Burke TA et al.",
+    "publishedDate": "2026-10-03",
+    "journal": "BMC Public Health",
+    "abstract": "Increasingly, the One Health approach must be applied to a changing food system to simultaneously support nutritional, infectious disease, and environmental outcomes. Successful interventions by public health authorities will require quantitative modelling for evaluating trade-offs and prioritization. Herein, we reviewed methodologies for One Health modelling relevant to the food system and proposed a framework for supporting international and national One Health initiatives within governmental institutions. This study first identified an operational scope of One Health by reviewing the One Health Joint Plan of Action (OH-JPA) for proposed activities related to the food system. Then we cross-referenced their implementation within the Group of 20 countries through a review of their publicly available One Health resources. We next conducted a PRIMSA scoping review on One Health quantitative modelling with relevance to the food system from 2021 to 2026 to determine interdisciplinary collaboration, data types, and modelling methodologies. Lastly, we developed a conceptual framework for modelling within One Health initiatives involving the food system. We found a narrow scope of institutional initiatives at the intersection of One Health and the food system. The activities proposed in the OH-JPA and executed in G20 governments focused on coordination, interoperability, and data sharing to support programs on antimicrobial resistance, zoonoses, and vector-borne diseases. The scoping review produced 129 relevant One Health research articles. In addition to epidemiologic data, One Health modelling used agricultural, geospatial, and ecological data for supporting food system topics. Quantitative modelling approaches either used heterogenous data, incorporated mixed effects, or integrated multiple models for scenario analysis. We proposed a modular framework for the operationalization of modelling in institutions to support interdisciplinary collaboration between food systems and One Health research. One Health is a holistic approach, but in practice is narrowly implemented. Quantitative modelling in One Health reflects the complex dynamics in the animal-human-environment interface. Infrastructure for genomic, geospatial, and agricultural data would facilitate interdisciplinary modelling approaches beneficial for One Health in the food system.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829435/",
+    "doi": "10.1186/s12889-026-29666-2"
+  },
+  {
+    "id": "42802550",
+    "source": "PubMed",
+    "title": "Contemporary first-line pharmacological management of Helicobacter pylori infection",
+    "authors": "Rizos E et al.",
+    "publishedDate": "2026-10-03",
+    "journal": "Expert Opin Pharmacother",
+    "abstract": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42802550/",
+    "doi": "10.1080/14656566.2026.2741491"
+  },
+  {
     "id": "42827202",
     "source": "PubMed",
     "title": "A dual-action bacteriophage protein Ped1 degrades DNA and blocks replication in Pseudomonas aeruginosa",
@@ -1065,6 +1142,17 @@
     "abstract": "Proviruses are widespread components of prokaryotic genomes, yet their characterization is impeded by border identification errors. We developed ProBord (Provirus Border Delimiter), a tool achieving single-base-precision border mapping via cross-genomesite alignment. Using ProBord, we built a database of 430,134 border-delimited proviruses (BDPs). Our analysis revealed that BDPs carry diverse functional genes, including virulence and antibiotic resistance determinants, as well as defense and antidefense systems, with position-specific distributions. Furthermore, comparing BDPs with border-undelimited proviruses (BUPs), whose boundaries could not be precisely delimited by ProBord, revealed a universal pattern of proviral domestication: BUPs selectively lose viral core genes but retain host-beneficial functions through rapid deletion or progressive mutation. Critically, integrating the tool ProAct (Provirus Activity Detector) with ProBord enabled reverse mining of 101 \"dark\" proviruses (DPs), which are overlooked by mainstream prediction tools. Most of these DPs were associated with pathogenic bacterial hosts. This integrated framework combines tools, theory, and resources-including more than 430,000 BDPs, 4910 active proviruses, and 101 DPs-to decipher the composition, function, and evolution of proviruses in prokaryotes.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42814812/",
     "doi": "10.1126/sciadv.aec5299"
+  },
+  {
+    "id": "42828512",
+    "source": "PubMed",
+    "title": "Women's Experiences of Recurrent UTIs: A Qualitative Study of Preventive Management and Decision Support Needs",
+    "authors": "Hayes CV et al.",
+    "publishedDate": "2026-10-01",
+    "journal": "Health Expect",
+    "abstract": "Recurrent urinary tract infections (rUTIs) are common in women and significantly impact their daily lives. Prophylactic antibiotics are the primary preventive option for rUTIs when other options have been unsuccessful, but their use can increase the risk of antimicrobial resistance. This study aimed to explore women's experiences of rUTIs and the support needed to make decisions about prevention and management. Qualitative focus groups were conducted with 25 women with self-reported rUTIs, discussing hypothetical vignettes related to rUTI management. Topic guides were co-produced with women with lived experience and informed by the Theoretical Domains Framework (TDF). Data were analysed thematically. Themes included: (1) Recurrent UTIs are a debilitating condition, (2) Current healthcare does not support women with rUTIs, (3) 'Why is this happening?' (4) Preventive options are frequently tried with varying success and (5) Greater support is needed for women with rUTIs. Overall, women experienced rUTIs as a chronic condition and believed it should be managed with greater continuity. Women experienced stigma attached to rUTI, exacerbated by repeated discussions about hygiene from healthcare professionals (HCPs). Women had concerns around antibiotic use but were reluctant to stop prophylaxis if it was effectively preventing rUTIs; a contingency plan to address potential recurrences could help. Women reported mixed success with non-antibiotic strategies but were interested in trialling these with greater guidance from HCPs. Improved management of rUTI requires greater continuity and proactive discussions on prevention, including better support for discussions on risks and benefits to enhance shared decision-making. Four female public contributors with experience of rUTI were involved from study planning to completion. They helped co-develop the topic guide vignettes, suggested potential recruitment routes and commented on the interpretation of themes in the context of their lived experience.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42828512/",
+    "doi": "10.1111/hex.70890"
   },
   {
     "id": "42827351",
@@ -1513,7 +1601,7 @@
     "authors": "Rahman L et al.",
     "publishedDate": "2026-10-01",
     "journal": "Health Sci Rep",
-    "abstract": "Antimicrobial resistance (AMR) poses a significant threat to global health, particularly in pediatric dentistry, where inappropriate antibiotic prescribing can exacerbate the issue. This study aimed to assess the antibiotic prescribing practices, knowledge, and attitudes of dentists in Bangladesh toward the management of childhood dental infections and to identify factors influencing these practices. A cross-sectional study was conducted among 400 Bangladesh Medical & Dental Council (BMDC) licensed dentists with experience treating paediatric dental patients, recruited from public and private dental institutions across all eight administrative divisions of Bangladesh between December 2024 and April 2025. Dentists were identified purposively through interviewers' institutional access, supplemented by referral. Data were collected through face-to-face, interviewer-administered questionnaires covering demographics, prescribing behaviours, and knowledge and attitudes related to AMR. Descriptive and inferential statistics were performed using STATA 18, with-values&#x2009;<&#x2009;0.05 considered statistically significant. A total of 92.75% of dentists reported prescribing antibiotics to paediatric patients, with oral formulations predominant (99.75%). Amoxicillin, azithromycin, and clindamycin were the antibiotics most commonly prescribed. Antibiotics were prescribed primarily to prevent infection spread (87.75%) and to improve treatment outcomes (70.25%). Most dentists (88.25%) recognised AMR as a critical concern, and most answered individual knowledge items correctly, including correctly disagreeing that all antibiotics are active against all bacteria (67.25%). Dentists with less than 5 years of experience showed more favourable attitudes toward prescribing than more experienced dentists (&#x2009;<&#x2009;0.001), though this association did not remain significant after adjustment. Dentists at private institutions showed significantly higher knowledge scores than those at public institutions (&#x2009;=&#x2009;0.002). Dentists in Bangladesh report frequent antibiotic use for paediatric dental infections, often without confirmed alignment to clinical guidelines. Awareness of AMR is high, but this awareness does not consistently translate into cautious prescribing. Structured antibiotic stewardship guidance for paediatric dental practice is needed.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42812825/",
     "doi": "10.1002/hsr2.73304"
   },
@@ -2074,7 +2162,7 @@
     "authors": "Peng J et al.",
     "publishedDate": "2026-09-30",
     "journal": "ACS Sens",
-    "abstract": "Simultaneously recognizing multiple targets and independently decoding their signals in food is critically demanded for safeguarding public health against antimicrobial resistance. Photoelectrochemical (PEC) sensors, promising for on-site detection, face a fundamental constraint: all targets generate unidimensional current signals at the electrode, rendering multiple target signals prone to overlap and difficult to distinguish. To address this issue, we developed a magnetic-bead-assisted dual-target distinguishable Y-shaped probe (MDDYP) based on orthogonal stimuli-responsive triggers, enabling independent detection of tobramycin (TOB) and tetracycline (TET) on a PEC sensor. Three DNA strands are assembled into a Y-shaped nanostructure bearing hydroquinone (HQ)-encapsulated liposomes, in which the PC-linker and C-rich sequence function as orthogonal stimulus-responsive modules, which are selectively activated after TOB or TET recognition events, respectively. Either UV-induced photocleavage at the PC-linker or acidification-induced i-motif formation at the C-rich sequence drives target-concentration-dependent liposome release into the supernatant, achieving solution-phase signal separation without electrode surface modification. HQ liberated from the lysed liposomes is oxidized at the ITO/ZIF-67/Fe3O4/Fe-COFBTC photoanode, altering the electron transfer pathway and reversing the photocurrent polarity as the quantitative readout. The platform demonstrates a wide linear range of 1 fM-100 nM for TOB and 10 fM-100 nM for TET, with detection limits of 0.62 and 2.27 fM, respectively. Featuring simple operation, rapid response, and dual-target detection, this work offers a promising strategy with potential for future integration into on-site platforms for multiplexed detection of antibiotic residues.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42814637/",
     "doi": "10.1021/acssensors.6c02504"
   },
@@ -2085,7 +2173,7 @@
     "authors": "Zhu H et al.",
     "publishedDate": "2026-09-30",
     "journal": "FEMS Microbiol Lett",
-    "abstract": "Burkholderia semiarida, a plant-pathogenic species within the Burkholderia cepacia complex (Bcc), has emerged as a worrying opportunistic pathogen causing serious respiratory infections in patients with cystic fibrosis (CF). In this study, strain SYBS718 was isolated from the blood and sputum of an immunocompromised patient. Conventional MALDI-TOF mass spectrometry and 16S rRNA sequencing misidentified this isolate as Burkholderia cenocepacia, whereas whole-genome sequencing enabled accurate species confirmation. Genomic analysis predicted a total of 569 virulence factors, 11 antibiotic resistance genes, and 1112 type III secretion system effector proteins related genes through the core databases of VFDB, CARD, and TS33. The virulence factors mainly include type VI secretion system (T6SS), type III secretion system (T3SS), iron uptake system, flagella, and type IV pili (TFP), which are associated with bacterial colonization, invasion, and pathogenicity. And the antibiotic resistance genes are primarily associated with fluoroquinolone, tetracycline, and aminoglycoside antibiotics. This study is the first to perform comprehensive genomic characterization of a clinical B. semiarida isolate. Our findings reveal the limitations of routine Bcc identification, and provide fundamental genomic data for further clinical and mechanistic research on this emerging opportunistic pathogen.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42813844/",
     "doi": "10.1093/femsle/fnag117"
   },
@@ -2096,7 +2184,7 @@
     "authors": "Karmakar N et al.",
     "publishedDate": "2026-09-30",
     "journal": "FEMS Microbiol Lett",
-    "abstract": "The emergence of novel plasmid-encoded resistance variants complicates antimicrobial resistance detection by conventional PCR-based methods. Therefore, endogenous secondary resistance genes expressed under antibiotic stresses to produce adaptive resistance mechanisms in bacteria may serve as reporters for AMR detection. This study investigated the transcriptional expression of D,D-carboxypeptidase genes and the transcriptional regulator bolA under oxyimino cephalosporin stress. Thirty clinical Escherichia coli isolates were tested for antibiotic susceptibility and extended-spectrum &#x3b2;-lactamase genes. Network analysis was performed using Cytoscape. D,D-carboxypeptidase genes were transformed into E. coli HST08 and B. subtilis RIK 1285 using pBE-S DNA; while blaCTX-M-harbouring plasmid was transformed into E. coli DH5&#x3b1; and subsequently eliminated from the parent isolate. MIC determination, growth assessment, and qRT-PCR were performed under ampicillin and oxyimino cephalosporins stress. Network analysis linked peptidoglycan synthesis, &#x3b2;-lactam resistance, and metabolic pathways with penicillin binding protein (PBP)-forming gene sets. Among 27 resistant isolates, 20 harboured blaCTX-M and 15 blaTEM. B. subtilis dacD and E. coli dacA clones showed elevated MICs. The study revealed consistent upregulation of dacB and dacD with host-specific effects on MICs, highlighting their potential as reporters for cephalosporin resistance in future diagnostics. Differential transcriptional responses observed among recombinant strains further suggested host-specific adaptive mechanisms during antibiotic exposure.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42813842/",
     "doi": "10.1093/femsle/fnag115"
   },
@@ -2107,96 +2195,8 @@
     "authors": "Park DW et al.",
     "publishedDate": "2026-09-30",
     "journal": "Lett Appl Microbiol",
-    "abstract": "Limosilactobacillus fermentum is a promising probiotic species with reported benefits for gastrointestinal health and host metabolism. In this study, a novel L. fermentum strain, DX2034, isolated from the feces of a healthy Korean infant, was characterized through phenotypic and genomic analyses, and its anti-adipogenic activity was evaluated in differentiated 3T3-L1 adipocytes. DX2034 exhibited high tolerance to simulated gastric and bile conditions and showed stronger adhesion to Caco-2 cells than the reference strain L. fermentum CECT5716. The strain showed no hemolytic activity and was susceptible to most tested antibiotics. Whole-genome sequencing revealed a single circular chromosome of 2&#x2009;160&#x2009;171&#xa0;bp with no acquired antibiotic resistance genes, virulence-associated factors, or concerning secondary metabolite biosynthetic gene clusters. Comparative genomic analysis identified genomic regions showing low similarity to reference strains, including a putative glycosyltransferase-associated locus, and genes associated with stress adaptation, gastrointestinal persistence, surface modification, and quorum sensing. Heat-killed DX2034 significantly reduced lipid accumulation, intracellular triglyceride content, and expression of adipogenesis-related genes, including C/EBP&#x3b1;, PPAR&#x3b3;, FABP4, LPL, and FASN. These effects were attenuated by the TLR2 inhibitor C29, suggesting involvement of TLR2-associated signaling. Collectively, DX2034 exhibits favorable probiotic-associated characteristics, genomic safety, and TLR2-associated anti-adipogenic activity, supporting its potential as a functional probiotic or postbiotic candidate.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42813828/",
     "doi": "10.1093/lambio/ovag080"
-  },
-  {
-    "id": "42813801",
-    "source": "PubMed",
-    "title": "Comparative gut microbiome in diarrheal and non-diarrheal children: an individually matched case-control study",
-    "authors": "Xu J et al.",
-    "publishedDate": "2026-09-30",
-    "journal": "mSystems",
-    "abstract": "Diarrhea, a leading cause of under-five mortality in developing countries, drives therapeutic challenges amid global antibiotic resistance. This study aimed to compare gut microbiota, antibiotic resistance genes (ARGs), mobile genetic elements (MGEs), and virulence factors (VFs) in diarrheal and non-diarrheal children, explore reasons for asymptomatic pathogen carriage, and develop a microbiome-based model to predict the potential etiology of diarrhea. This individually matched case-control study analyzed 42 paired fecal samples (selected from 716 diarrhea/non-diarrhea cases) to compare gut microbiome profiles, ARGs, MGEs, and VFs using metagenomic sequencing and pathogen-specific PCR. Diarrheal children showed reduced alpha diversity, increased Proteobacteria, and elevated VFs and MGEs. Surprisingly, ARGs were more abundant in non-diarrheal children, suggesting ARG colonization in healthy hosts.was enriched in non-diarrheal pathogen carriers and may be associated with asymptomatic bacterial pathogen carriage. A random forest (RF) model incorporating non-pathogenic bacteria achieved high accuracy in predicting diarrheal status and pathogen carriage. This study reveals distinct microbial ecologies between diarrheal and healthy children. The enrichment of specific bacterial taxa in asymptomatic carriers may be associated with pathogen tolerance. The unexpected ARG abundance in healthy children highlights a hidden antimicrobial resistance reservoir. These findings inform microbiome-based diagnostics and antibiotic stewardship in pediatric diarrhea.IMPORTANCEThis study is significant because it provides robust, individually matched case-control evidence linking childhood diarrhea to gut microbiome dysbiosis and the distribution of pathogenic and resistance-related genetic elements. By integrating metagenomic sequencing with pathogen-specific polymerase chain reaction (PCR), it offers a comprehensive comparison of microbial composition, virulence factors (VFs), mobile genetic elements (MHEs), and antibiotic resistance genes (ARGs) between diarrheal and non-diarrheal children. The findings demonstrate reduced microbial diversity and enrichment of Proteobacteria, virulence factors, and mobile genetic elements in diarrheal cases, highlighting microbiome instability during infection. Importantly, the unexpectedly higher abundance of antibiotic resistance genes in non-diarrheal children underscores the underestimated role of healthy populations as reservoirs of resistance. Furthermore, the establishment of predictive models for diarrhea status and pathogen carriage enhances the translational value of the study. Overall, this work advances the understanding of pediatric diarrheal disease and informs prevention, surveillance, and treatment strategies in the context of global antimicrobial resistance.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42813801/",
-    "doi": "10.1128/msystems.00198-26"
-  },
-  {
-    "id": "42813796",
-    "source": "PubMed",
-    "title": "Double-edged sword of FeS oxidation in estuarine and coastal sediments: accelerating elemental cycling yet enhancing antibiotic resistance enrichment",
-    "authors": "Qiu W et al.",
-    "publishedDate": "2026-09-30",
-    "journal": "Appl Environ Microbiol",
-    "abstract": "Biogeochemical cycles exert significant influences on the fate and behavior of antibiotics in estuarine and coastal environments; however, ferrous sulfide (FeS)-mediated enrichment and dissemination of antibiotic resistance genes (ARGs) remain poorly understood. Here, we conducted microcosm experiments and field investigations to examine the relationships of FeS amendment, microbial communities, functional potentials in relation to elemental cycling, and ARG abundance. The positive effects of FeS on ARG abundance were aerobic dependent, which were accompanied by a significant enrichment of Proteobacteria, as the crucial hosts of ARGs. Proteobacteria were associated with systematic metabolic pathways for carbon fixation (Calvin-Benson-Bassham [CBB] cycle), Nfixation, and FeS oxidation. In addition, field samples from China estuarine and coastal wetlands further showed that CBB cycle, Nfixation, and sulfur oxidation pathways were significantly correlated with the relative abundance of ARGs. These findings collectively indicate that FeS oxidation facilitates enrichment and dissemination of ARGs through selective enrichment of Proteobacteria and consequent enhancement of metabolic synergies between sulfur, iron, carbon, and nitrogen cycles. However, FeS-mediated oxidation may also degrade microbial DNA and suppress ARG proliferation, indicating that the net outcome of ARG enrichment depends on oxygen conditions and microbial community filtering. The cascade processes of environmental regulation-community restructuring-metabolic synergy are of great significance to enhance ARG enrichment and dissemination. Therefore, redox fluctuations can enhance elemental cycling and further promote significant enrichment and dissemination of ARGs. These findings highlight the importance of redox dynamics in ARG monitoring and risk assessment in estuarine and coastal wetlands.IMPORTANCEEstuarine and coastal wetlands are important ecosystems for antibiotic resistance gene (ARG) enrichments. This study investigated FeS oxidation-mediated biogeochemical cycling and ARG dissemination. FeS oxidation increased enrichment and dissemination of the ARGs in estuarine and coastal sediments. The FeS oxidation reshaped microbial community structure and selectively enriched the critical Proteobacteria, which played the crucial hosts of the ARGs. The enrichment and dissemination of ARGs in the presence of FeS oxidation were due mainly to the enhanced metabolic coupling of sulfur oxidation, nitrogen fixation, and carbon fixation. CBB cycle, Nfixation, and sulfur oxidation pathways were also significantly correlated with ARG abundance along the latitudinal gradient. Therefore, enhanced elemental metabolic pathways under FeS oxidation exacerbated enrichment and dissemination of ARGs, highlighting the coupling mechanisms of biogeochemical cycle and ARGs in estuarine and coastal wetlands.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42813796/",
-    "doi": "10.1128/aem.01525-26"
-  },
-  {
-    "id": "42813778",
-    "source": "PubMed",
-    "title": "Multidrug resistance and lipopolysaccharide remodeling associated with mcr-1 acquisition in Shiga toxin-producing Escherichia coli",
-    "authors": "Ahn E et al.",
-    "publishedDate": "2026-09-30",
-    "journal": "Microbiol Spectr",
-    "abstract": "The emergence of plasmid-mediated colistin resistance in Shiga toxin-producing(STEC) is an important public health concern because these strains can combine antimicrobial resistance with intestinal pathogenic potential. However, although-harboring STEC has been reported from food-related sources, the phenotypic consequences ofacquisition in STEC remain poorly understood. In this study, we investigated the prevalence ofvariants and associated antimicrobial resistance determinants among 144-harboring STEC isolates and examined the phenotypic impact ofinO157:H7 ATCC 43894. Among the-harboring STEC isolates,was the predominantvariant (63.9%), and 88.9% of-positive isolates were multidrug-resistant. Notably, genomically predicted fosfomycin resistance determinants were detected in 84.8% of-positive isolates. Acquisition of the-harboring plasmid inO157:H7 ATCC 43894 increased adhesion to HEp-2 epithelial cells but reduced swimming motility, biofilm formation, andmortality. The reducedmortality may reflect altered innate immune stimulation. These changes were accompanied by remodeling of the lipopolysaccharide profile, with reduced banding in both the O-antigen and core-lipid A regions, reduced endotoxin levels, increased cell surface hydrophobicity, a less negative zeta potential, and reduced autoagglutination, all of which were-dependent in knockout and complementation experiments. Collectively, these findings indicate thatcontributes beyond colistin resistance, converging on a coordinated reshaping of cell surface architecture and host interaction together with co-selection of resistance to other clinically relevant antibiotics, including fosfomycin.IMPORTANCEShiga toxin-producingis a major foodborne pathogen, but treatment options are limited because some antibiotics increase the risk of severe disease. Mobile colistin resistance genes in this pathogen are therefore concerning, especially alongside resistance to other clinically relevant antibiotics. This study shows thatis the predominant colistin resistance gene among-harboring Shiga toxin-producingand that these isolates frequently carry multidrug resistance determinants, including fosfomycin resistance. We further show thatacquisition reshapes the bacterial cell surface and alters host-associated phenotypes inO157. Despite reduced mortality in, increased epithelial cell adhesion suggests that the reduced mortality may reflect altered innate immune stimulation rather than an overall attenuation of host-colonization potential. These findings suggest thatis not only a colistin resistance determinant but also a factor associated with broader changes in resistance, surface architecture, and host interaction in foodborne.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42813778/",
-    "doi": "10.1128/spectrum.02034-26"
-  },
-  {
-    "id": "42826662",
-    "source": "PubMed",
-    "title": "Synthesis of novel quinazolinone-based heterocyclic acetamides as P. aeruginosa PqsR inhibitors",
-    "authors": "Khan RA et al.",
-    "publishedDate": "2026-09-29",
-    "journal": "Bioorg Chem",
-    "abstract": "Antimicrobial resistance (AMR) has become a major global concern for public health and economics and there is an urgent need to develop novel classes of antimicrobial drugs. Quorum Sensing (QS) has emerged as a promising target to counter AMR in P. aeruginosa as it controls the virulence factors and biofilm formation, causing infections in host and resistance against antibiotics. Pseudomonas quinolone signal (PQS) is one of the major signalling systems that includes PQS and HHQ as autoinducers which binds to transcription regulator PqsR (MvfR). Targeting PqsR to inhibit QS signalling could be a promising way of combating antimicrobial resistance in addition to conventional antimicrobial treatments. In this study, we have designed and synthesized a series of novel quinazolinone-based heterocyclic acetamides as PqsR modulators. The most potent compound 10k exhibited promising PqsR modulation with 87% reduction of pqs signalling at 200&#xa0;&#x3bc;M concentration. It also showed significant reduction of biofilm formation in P. aeruginosa PAO1 strain. Additionally, it showed reduction in pyocyanin production in PAO1 strain at 200&#xa0;&#x3bc;M with low haemolytic toxicity. Finally, the molecular docking studies showed that it occupies the same binding pocket in the PqsR receptor ligand binding domain with binding poses closely resembling the binding poses of native ligand PQS. This study has highlighted the potential of these molecules to be used to develop potent PqsR inhibitors which will serve as a novel way to treat antimicrobial resistance and microbial virulence in P. aeruginosa.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42826662/",
-    "doi": "10.1016/j.bioorg.2026.110588"
-  },
-  {
-    "id": "42825148",
-    "source": "PubMed",
-    "title": "Reactive Oxygen Species Formation in Paddy Soils under Alternating Redox Conditions: An Iron-Microbe Synergy Driving Mechanism and Environmental Impacts",
-    "authors": "Sun Z et al.",
-    "publishedDate": "2026-09-29",
-    "journal": "ACS Omega",
-    "abstract": "Alternating wetting and drying cycles in paddy soils drive active biogeochemical processes and profoundly influence pollutant migration and transformation. This study systematically investigates the formation and mechanisms of reactive oxygen species (ROS) under anaerobic-aerobic alternation in five typical paddy soils, as well as their implications for the attenuation of tetracycline (TC) and associated antibiotic resistance genes. The results demonstrate that ROS generation primarily arises from microbially mediated Fe-(II) accumulation during flooding, followed by Fenton-like oxidation upon reoxygenation. The cumulative hydroxyl radical (OH) yields during the 12 h aerobic phase following 30 days of flooding followed the order: MaAnShan (1175.7 &#x3bc;mol/kg) > QiongHai (794.8 &#x3bc;mol/kg) > SuiHua (711.8 &#x3bc;mol/kg) > ChenZhou (391.6 &#x3bc;mol/kg) > GuiLin (297.0 &#x3bc;mol/kg). Iron-reducing bacteria, including,, and, were identified as the primary drivers of Fe-(III) reduction. The variation in ROS production potential among soils was primarily governed by poorly crystalline iron content and indigenous iron-reducing bacteria, with alkaline pH and high organic matter content serving as key inhibitory factors. The ROS generated under fluctuating redox conditions contributed substantially to TC degradation (24.8-66.9%) andgene attenuation (60.4-79.2%). Collectively, this study elucidates the biogeochemical mechanisms underlying ROS formation in paddy soils during drying-wetting cycles and their role in pollutant attenuation, offering a theoretical framework for advancing our understanding of contaminant dynamics in agricultural wetlands and for guiding the development of targeted pollution control strategies.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42825148/",
-    "doi": "10.1021/acsomega.6c08072"
-  },
-  {
-    "id": "42822283",
-    "source": "PubMed",
-    "title": "Zinc differentially modulates resistome responses to ciprofloxacin and sulfamethazine in activated sludge",
-    "authors": "Li Y et al.",
-    "publishedDate": "2026-09-29",
-    "journal": "J Hazard Mater",
-    "abstract": "Antibiotics and metals frequently coexist in wastewater, but whether metals uniformly intensify antibiotic-driven resistome selection remains unclear. Here, activated sludge reactors were exposed to zinc (Zn), ciprofloxacin (CIP), sulfamethazine (SMZ), and their combinations across four stepwise exposure stages. Read-based, assembly-based, and genome-resolved metagenomics were integrated to characterize antibiotic resistance gene (ARG) abundance, composition, mobility-associated genetic contexts, and putative hosts. Antibiotics primarily drove resistome restructuring, whereas Zn alone had limited effects. CIP strongly enriched ARGs, while Zn co-exposure attenuated this response and caused late-stage declines in total ARG abundance and the relative abundance of ARG-hosting metagenome-assembled genomes (MAGs). In contrast, ARG abundance remained comparatively stable under SMZ but increased progressively under Zn+SMZ. Because antibiotic concentrations increased sequentially over time, these patterns represent stage-dependent responses rather than independent concentration effects. Antibiotic-related treatments showed higher contributions of ARGs on predicted plasmid-like contigs and more frequent ARG-mobile genetic element co-localization. Pseudomonadota dominated putative ARG hosts, and CIP showed broader ARG-host profiles. Approximately 67% of ARG-hosting MAGs carried virulence factor genes, indicating co-occurring resistance and virulence-associated genomic potential. These findings demonstrate that Zn altered activated sludge resistome in an antibiotic-dependent manner, highlighting that mixture effects cannot be inferred from single-contaminant responses alone.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42822283/",
-    "doi": "10.1016/j.jhazmat.2026.143785"
-  },
-  {
-    "id": "42817128",
-    "source": "PubMed",
-    "title": "Advances in Antimicrobial Peptides: Design, Mechanism, and Clinical Application-A Critical Review",
-    "authors": "Kumari S et al.",
-    "publishedDate": "2026-09-29",
-    "journal": "Curr Protein Pept Sci",
-    "abstract": "The global antimicrobial resistance (AMR) crisis, projected to cause 10 million deaths annually by 2050, necessitates innovative therapeutic strategies beyond traditional antibiotics. Antimicrobial peptides (AMPs), fundamental components of innate immunity, have emerged as compelling candidates owing to their broad-spectrum activity and mechanism of action, which challenges conventional resistance development. This review critically synthesizes the latest advances in the field, where the transition from natural discovery to rational engineering is of paramount importance. This review explores how computational design, artificial intelligence, and peptidomimetics can generate next-generation AMPs with enhanced stability and reduced toxicity. Furthermore, we dissected their multifaceted mechanisms, which extend beyond membrane disruption to include immunomodulation and intracellular targeting. However, the clinical pipeline reveals significant hurdles, with recent late-stage failures of candidates such as murepavadin and surotomycin, underscoring persistent challenges in systemic toxicity and pharmacokinetics. Looking ahead, we assess promising strategies to overcome these barriers, including AMP-antibiotic synergies and targeted delivery systems. This review aims to provide a realistic and forward-looking analysis of the design principles, mechanistic complexity, and translational potential of AMPs, framing their role in future antimicrobial strategies.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42817128/",
-    "doi": "10.2174/0113892037467494260912090514"
-  },
-  {
-    "id": "42817086",
-    "source": "PubMed",
-    "title": "Current and Emerging Drug Therapy for Acne Vulgaris: A Comprehensive Review",
-    "authors": "Ankur et al.",
-    "publishedDate": "2026-09-29",
-    "journal": "Recent Adv Antiinfect Drug Discov",
-    "abstract": "Acne vulgaris is a highly prevalent chronic inflammatory disorder of the pilosebaceous unit that affects the majority of adolescents and young adults. Its pathogenesis is multifactorial and is driven largely by hormonal dysregulation, which promotes excess sebum production and follicular hyperkeratinisation, resulting in pore occlusion and the characteristic inflammatory lesions accompanied by swelling and erythema. Acne is caused by Cutibacterium acnes, which colonizes and activates acquired and innate immune responses. Acne is also produced owing to stimulation of the IGF-1 factor, disturbance of the omega-3 and omega-6 cycles, suppression of FoxO1, and activation of mTORC1, which assists in boosting sebum production. Proven treatments target these mechanisms by utilizing systemic and topical drug-delivery systems. Topical retinoids, which have antiinflammatory and anti-acne properties, such as azelaic acid, benzoyl peroxide, salicylic acid, dapsone, and topical or oral antibiotics, are used to treat acne. However, these formulations have limitations, including the need for prolonged treatment, persistent skin irritation, and the development of antibiotic resistance. To overcome these limitations, novel approaches have been utilized, including AI, nano-based formulations, nanoemulsions, semi-synthetic formulations, and herbal formulations. Recent improvements in acne therapy have focused on enhancing effectiveness and safety. The goal of recent developments in acne therapy is to improve treatment efficacy and safety. New drug delivery systems incorporating nanotechnology improve targeting of damaged areas and reduce side effects.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42817086/",
-    "doi": "10.2174/0127724344483799260920072308"
   }
 ]
