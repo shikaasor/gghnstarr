@@ -242,15 +242,15 @@
     "doi": "10.1016/j.ijfoodmicro.2026.112020"
   },
   {
-    "id": "42827724",
+    "id": "42831184",
     "source": "PubMed",
-    "title": "Combating antimicrobial resistance through multimodal data via artificial intelligence",
-    "authors": "Xia Q et al.",
+    "title": "N-acetylcysteine as an adjunct to antibiotics against bacterial biofilms: A systematic review of in vitro evidence",
+    "authors": "Seksenbayev B et al.",
     "publishedDate": "2026-12-01",
-    "journal": "One Health",
-    "abstract": "Antimicrobial resistance (AMR) poses a critical global health challenge, leading to substantial mortality and economic losses without science-based interventions. Conventional approaches to combating AMR have important limitations in addressing this escalating threat. Recent advances in AI, including deep learning, large language models, and protein language models, provide new opportunities to integrate multimodal data for AMR research. However, evidence remains uneven, with many approaches limited to computational benchmarking rather than real-world validation. Here, we critically review AI applications in AMR, focusing on rapid diagnosis, therapeutic discovery, and clinical decision support. AI-based diagnostic models can identify resistant pathogens and predict resistance profiles, but most lack prospective clinical evaluation. AI-assisted drug discovery and alternative therapies have generated promising candidates, although most remain at computational, in vitro, or early preclinical stages. Large language models may support decision-making, but their clinical use remains preliminary. Successful translation of AI into clinical and One Health practice will require representative datasets, independent validation, prospective evaluation, and robust governance.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42827724/",
-    "doi": "10.1016/j.onehlt.2026.101573"
+    "journal": "Biofilm",
+    "abstract": "N-acetylcysteine (NAC) is investigated as an antibiotic adjunct, but acidity, formulation and experimental context complicate interpretation. We evaluated comparative in-vitro evidence while distinguishing biofilm prevention, established-biofilm treatment and resistance evolution. MEDLINE/PubMed, Embase, Scopus and Web of Science were searched through August 2026, with supplementary searching. Extraction distinguished NAC preparation and exposure pH, medium, hydrodynamics, NAC-alone controls, treatment intent and interaction methodology. Results were synthesized by experimental context, regimen, phase and endpoint without pooling or whole-study efficacy voting. Fifty-five studies were included: 7 evaluated combination exposure during formation only, 37 after establishment only, 9 both, and 2 resistance evolution. NAC-alone arms were documented in 39 studies, partial or formulation-specific in 9, and not identified in 7. Only two studies included a continuous-flow model. Selected combinations improved biofilm-associated outcomes, but intrinsic-acidic and neutralized preparations, biomass and viability endpoints, and planktonic versus biofilm interaction tests were not interchangeable. Liposomal and catheter-lock findings differed by dose matching, isolate and control set. Polymyxin findings varied with organism, resistance background, medium and exposure; rifampicin-alone and rifampicin-containing multidrug comparators addressed different questions. NAC is a context-dependent experimental adjunct, not an established class-wide antibiotic potentiator. The evidence does not support clinical antibiotic dose reduction or routine NAC combination therapy. Translation requires controlled final exposure pH, matched monotherapy and formulation controls, clinically relevant background regimens, viable-burden and regrowth outcomes, and resistance monitoring.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42831184/",
+    "doi": "10.1016/j.bioflm.2026.100402"
   },
   {
     "id": "42813675",
@@ -273,6 +273,17 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42798691/",
     "doi": "10.1007/s40201-026-01004-z"
+  },
+  {
+    "id": "42827724",
+    "source": "PubMed",
+    "title": "Combating antimicrobial resistance through multimodal data via artificial intelligence",
+    "authors": "Xia Q et al.",
+    "publishedDate": "2026-12-01",
+    "journal": "One Health",
+    "abstract": "Antimicrobial resistance (AMR) poses a critical global health challenge, leading to substantial mortality and economic losses without science-based interventions. Conventional approaches to combating AMR have important limitations in addressing this escalating threat. Recent advances in AI, including deep learning, large language models, and protein language models, provide new opportunities to integrate multimodal data for AMR research. However, evidence remains uneven, with many approaches limited to computational benchmarking rather than real-world validation. Here, we critically review AI applications in AMR, focusing on rapid diagnosis, therapeutic discovery, and clinical decision support. AI-based diagnostic models can identify resistant pathogens and predict resistance profiles, but most lack prospective clinical evaluation. AI-assisted drug discovery and alternative therapies have generated promising candidates, although most remain at computational, in vitro, or early preclinical stages. Large language models may support decision-making, but their clinical use remains preliminary. Successful translation of AI into clinical and One Health practice will require representative datasets, independent validation, prospective evaluation, and robust governance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42827724/",
+    "doi": "10.1016/j.onehlt.2026.101573"
   },
   {
     "id": "42785982",
@@ -979,6 +990,28 @@
     "doi": "10.1016/j.isci.2026.117421"
   },
   {
+    "id": "42828765",
+    "source": "PubMed",
+    "title": "Ebselen Inactivates Essential Mycoplasmopsis bovis Proteins",
+    "authors": "Dhindwal P et al.",
+    "publishedDate": "2026-10-05",
+    "journal": "ACS Chem Biol",
+    "abstract": "Mycoplasmopsis bovis contributes to a variety of infectious diseases in cattle that limit meat and milk production, motivating significant antimicrobial use to prevent animal and economic loss. Currently approved antimicrobial treatments for M. bovis are ineffective or becoming so due to adaptive antimicrobial resistance (AMR). Thus, to discover alternatives to these therapies, we screened a drug repurposing library of &#x223c;2800 compounds as antibiotics, resulting in the prioritization of ebselen (Eb) for study. The ability of Eb to prevent M. bovis growth could be ascribed to the covalent modification and inhibition of key metabolic targets, including lactate dehydrogenase (Ldh), enolase (Eno) and elongation factor G. The identification, validation, and consequences of covalent modifications by Eb at specific sites in Ldh and Eno were determined using mass spectrometry and steady-state kinetic experiments. Specifically, non-catalytic cysteine residues that are modified by Eb - Ldh Cys124 and Eno Cys216 - result in enzyme inactivation with low micromolar IC50 values. The poorly conserved Eb modification sites in M. bovis offer an opportunity for future narrow-spectrum therapeutic development for this major agricultural pathogen.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42828765/",
+    "doi": "10.1021/acschembio.6c00562"
+  },
+  {
+    "id": "42829435",
+    "source": "PubMed",
+    "title": "Interdisciplinary modelling approaches for One Health in agri-food systems: a scoping review and conceptual analysis",
+    "authors": "Burke TA et al.",
+    "publishedDate": "2026-10-03",
+    "journal": "BMC Public Health",
+    "abstract": "Increasingly, the One Health approach must be applied to a changing food system to simultaneously support nutritional, infectious disease, and environmental outcomes. Successful interventions by public health authorities will require quantitative modelling for evaluating trade-offs and prioritization. Herein, we reviewed methodologies for One Health modelling relevant to the food system and proposed a framework for supporting international and national One Health initiatives within governmental institutions. This study first identified an operational scope of One Health by reviewing the One Health Joint Plan of Action (OH-JPA) for proposed activities related to the food system. Then we cross-referenced their implementation within the Group of 20 countries through a review of their publicly available One Health resources. We next conducted a PRIMSA scoping review on One Health quantitative modelling with relevance to the food system from 2021 to 2026 to determine interdisciplinary collaboration, data types, and modelling methodologies. Lastly, we developed a conceptual framework for modelling within One Health initiatives involving the food system. We found a narrow scope of institutional initiatives at the intersection of One Health and the food system. The activities proposed in the OH-JPA and executed in G20 governments focused on coordination, interoperability, and data sharing to support programs on antimicrobial resistance, zoonoses, and vector-borne diseases. The scoping review produced 129 relevant One Health research articles. In addition to epidemiologic data, One Health modelling used agricultural, geospatial, and ecological data for supporting food system topics. Quantitative modelling approaches either used heterogenous data, incorporated mixed effects, or integrated multiple models for scenario analysis. We proposed a modular framework for the operationalization of modelling in institutions to support interdisciplinary collaboration between food systems and One Health research. One Health is a holistic approach, but in practice is narrowly implemented. Quantitative modelling in One Health reflects the complex dynamics in the animal-human-environment interface. Infrastructure for genomic, geospatial, and agricultural data would facilitate interdisciplinary modelling approaches beneficial for One Health in the food system.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829435/",
+    "doi": "10.1186/s12889-026-29666-2"
+  },
+  {
     "id": "42829120",
     "source": "PubMed",
     "title": "Biomedical Applications of Antimicrobial Peptides: Multifunctional Mechanisms, Engineering Strategies, and Therapeutic Development",
@@ -1001,17 +1034,6 @@
     "doi": "10.1093/jpids/piag106"
   },
   {
-    "id": "42829435",
-    "source": "PubMed",
-    "title": "Interdisciplinary modelling approaches for One Health in agri-food systems: a scoping review and conceptual analysis",
-    "authors": "Burke TA et al.",
-    "publishedDate": "2026-10-03",
-    "journal": "BMC Public Health",
-    "abstract": "Increasingly, the One Health approach must be applied to a changing food system to simultaneously support nutritional, infectious disease, and environmental outcomes. Successful interventions by public health authorities will require quantitative modelling for evaluating trade-offs and prioritization. Herein, we reviewed methodologies for One Health modelling relevant to the food system and proposed a framework for supporting international and national One Health initiatives within governmental institutions. This study first identified an operational scope of One Health by reviewing the One Health Joint Plan of Action (OH-JPA) for proposed activities related to the food system. Then we cross-referenced their implementation within the Group of 20 countries through a review of their publicly available One Health resources. We next conducted a PRIMSA scoping review on One Health quantitative modelling with relevance to the food system from 2021 to 2026 to determine interdisciplinary collaboration, data types, and modelling methodologies. Lastly, we developed a conceptual framework for modelling within One Health initiatives involving the food system. We found a narrow scope of institutional initiatives at the intersection of One Health and the food system. The activities proposed in the OH-JPA and executed in G20 governments focused on coordination, interoperability, and data sharing to support programs on antimicrobial resistance, zoonoses, and vector-borne diseases. The scoping review produced 129 relevant One Health research articles. In addition to epidemiologic data, One Health modelling used agricultural, geospatial, and ecological data for supporting food system topics. Quantitative modelling approaches either used heterogenous data, incorporated mixed effects, or integrated multiple models for scenario analysis. We proposed a modular framework for the operationalization of modelling in institutions to support interdisciplinary collaboration between food systems and One Health research. One Health is a holistic approach, but in practice is narrowly implemented. Quantitative modelling in One Health reflects the complex dynamics in the animal-human-environment interface. Infrastructure for genomic, geospatial, and agricultural data would facilitate interdisciplinary modelling approaches beneficial for One Health in the food system.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42829435/",
-    "doi": "10.1186/s12889-026-29666-2"
-  },
-  {
     "id": "42802550",
     "source": "PubMed",
     "title": "Contemporary first-line pharmacological management of Helicobacter pylori infection",
@@ -1021,6 +1043,17 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42802550/",
     "doi": "10.1080/14656566.2026.2741491"
+  },
+  {
+    "id": "42830503",
+    "source": "PubMed",
+    "title": "Extended-spectrum beta-lactamase-producing Escherichia coli and methicillin-resistant staphylococci originating from dog and cat urine in Japan, 2017-2024: annual proportions and prefecture-level distributions of submitted isolates",
+    "authors": "Tsuyuki Y et al.",
+    "publishedDate": "2026-10-02",
+    "journal": "J Vet Med Sci",
+    "abstract": "We extracted extended-spectrum beta-lactamase (ESBL)-producing Escherichia coli and methicillin-resistant staphylococci (MRS) from dog and cat urine isolates submitted to a commercial veterinary laboratory in Japan from 2017 to 2024 and described their annual proportions and prefecture-level counts of submitted resistant isolates. The main trends were to significantly decrease the proportions of ESBL-production E. coli in both dogs and cats and MRS in dogs alone. The prefectures (Tokyo, Chiba, Saitama, Kanagawa, Kyoto, Aichi, Fukuoka, and Ibaraki) represented the larger numbers of resistant isolates submitted to the Sanritsu Zelkova Veterinary Laboratory database. Although this study was a single commercial laboratory-based surveillance, our observations may provide descriptive reference data for laboratory-based antimicrobial resistance surveillance and antimicrobial stewardship in companion animal practice.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42830503/",
+    "doi": "10.1292/jvms.25-0357"
   },
   {
     "id": "42827202",
@@ -1139,9 +1172,31 @@
     "authors": "Zhang M et al.",
     "publishedDate": "2026-10-02",
     "journal": "Sci Adv",
-    "abstract": "Proviruses are widespread components of prokaryotic genomes, yet their characterization is impeded by border identification errors. We developed ProBord (Provirus Border Delimiter), a tool achieving single-base-precision border mapping via cross-genomesite alignment. Using ProBord, we built a database of 430,134 border-delimited proviruses (BDPs). Our analysis revealed that BDPs carry diverse functional genes, including virulence and antibiotic resistance determinants, as well as defense and antidefense systems, with position-specific distributions. Furthermore, comparing BDPs with border-undelimited proviruses (BUPs), whose boundaries could not be precisely delimited by ProBord, revealed a universal pattern of proviral domestication: BUPs selectively lose viral core genes but retain host-beneficial functions through rapid deletion or progressive mutation. Critically, integrating the tool ProAct (Provirus Activity Detector) with ProBord enabled reverse mining of 101 \"dark\" proviruses (DPs), which are overlooked by mainstream prediction tools. Most of these DPs were associated with pathogenic bacterial hosts. This integrated framework combines tools, theory, and resources-including more than 430,000 BDPs, 4910 active proviruses, and 101 DPs-to decipher the composition, function, and evolution of proviruses in prokaryotes.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42814812/",
     "doi": "10.1126/sciadv.aec5299"
+  },
+  {
+    "id": "42831152",
+    "source": "PubMed",
+    "title": "Microbacterium resistens Peritoneal Dialysis-Associated Peritonitis: A Case Report",
+    "authors": "Tsukamoto S et al.",
+    "publishedDate": "2026-10-01",
+    "journal": "Kidney Med",
+    "abstract": "Peritoneal dialysis (PD)-associated peritonitis is most commonly caused by Gram-positive organisms; however, infections due to unusual pathogens can present important diagnostic and management challenges.is an environmental Gram-positive bacillus rarely implicated in human infections, and PD-associated peritonitis due to this organism has been reported only once previously, to our knowledge. We report a case of persistent PD-associated peritonitis caused byin a 65-year-old man receiving automated PD combined with once-weekly hemodialysis. The initial episode was treated by prioritizing the already identified; an initially unidentified Gram-positive bacillus was subsequently identified as. The patient experienced multiple subsequent episodes despite sequential systemic and intraperitoneal antimicrobial therapies. Although effluent leukocyte counts repeatedly normalized with treatment,was repeatedly isolated with unchanged antimicrobial susceptibility profiles, suggesting persistent catheter colonization rather than acquired antimicrobial resistance. A definitive cure was achieved only after PD catheter removal. This case highlights that apparent clinical response with effluent leukocyte normalization does not necessarily indicate microbiological eradication in rare device-associated infections and that early catheter removal should be considered when the same unusual organism is repeatedly isolated despite appropriate antimicrobial therapy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42831152/",
+    "doi": "10.1016/j.xkme.2026.101491"
+  },
+  {
+    "id": "42830652",
+    "source": "PubMed",
+    "title": "Iran's Escherichia coli AMR Landscape (2010-2025): A One Health Systematic Review and Meta-Analysis",
+    "authors": "Dehghan A et al.",
+    "publishedDate": "2026-10-01",
+    "journal": "Microbiologyopen",
+    "abstract": "Escherichia coli (E. coli) has developed resistance to multiple antibiotic classes, complicating treatment in both human and veterinary medicine. This study assesses the prevalence of antimicrobial resistance and antimicrobial resistance genes in E. coli in Iran, within a One Health framework encompassing humans, animals, foods, and the environment. We systematically searched Scopus, Google Scholar, Magiran, PubMed, Scientific Information Database Library (SID), and Web of Science, using keywords related to AMR and Escherichia coli, restricting to English and Persian publications from 2010 to January 2025. The risk of bias was evaluated using the JBI checklist for prevalence studies. Pooled prevalence and 95% confidence intervals (CIs) were calculated for each antibiotic using random-effects models. A total of 368 studies were included in the meta-analysis. The highest resistance was observed in the Classes of Penicillins (71.7, 95% CI: 65.6-76.6) and the lowest for Fosfomycins (6.8, 95% CI: 5.2-8.5). Resistance to Ceftizoxime, Ertapenem, Streptomycin, Piperacillin-Tazobactam, and Colistin increased over time. Phenotypically, 47.2%, 20.2%, and 14.1% of E. coli isolates were identified as extended-spectrum &#x3b2;-lactamase-producing (ESBL), AmpC, and metallo-beta-lactamase (MBL) producing, respectively. Among ESBL-producing isolates, the prevalence of bla, bla, and blagenes was 68.2%, 58.5%, and 24.4%, respectively. The high prevalence of AMR highlights the critical need for robust antimicrobial stewardship within a One Health framework to preserve antibiotic efficacy. Our study provides essential baseline data across human, animal, and environmental sectors in Iran, forming a basis for future One Health strategies and policy-making.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42830652/",
+    "doi": "10.1002/mbo3.70420"
   },
   {
     "id": "42828512",
@@ -1333,11 +1388,11 @@
   {
     "id": "42822620",
     "source": "PubMed",
-    "title": "Advances in molecular techniques for detecting Mycobacterium leprae: A narrative review of Progress, challenges, and future directions",
+    "title": "Advances in molecular techniques for detecting Mycobacterium leprae: A narrative review of progress, challenges, and future directions",
     "authors": "Memariani H et al.",
     "publishedDate": "2026-10-01",
     "journal": "Clin Chim Acta",
-    "abstract": "Leprosy remains a neglected infectious disease where delayed diagnosis leads to disability and ongoing transmission, particularly in paucibacillary and pure neural forms. This narrative review summarizes molecular diagnostic approaches for Mycobacterium leprae, including polymerase chain reaction (PCR), isothermal nucleic acid amplification tests, clustered regularly interspaced short palindromic repeats (CRISPR)-Cas-based diagnostic systems, next-generation sequencing (NGS), microarrays, and biosensors. PCR remains the most established method, now expanded to multiplex, quantitative, and droplet digital formats for improved detection and antimicrobial resistance surveillance. Isothermal methods such as loop-mediated isothermal amplification (LAMP), recombinase polymerase amplification (RPA), and multiple cross displacement amplification (MCDA) offer rapid, field-deployable options but require further validation. Emerging platforms, including CRISPR-Cas diagnostics, targeted sequencing, and biosensors, show promise but remain limited by cost and infrastructure needs. Overall, molecular approaches have substantially expanded the diagnostic and surveillance capacity for leprosy, particularly in paucibacillary, pure neural, and clinically ambiguous presentations where conventional methods lack sensitivity. Future advances should integrate optimized biomarkers, improved sample processing, and simplified platforms to further enable early diagnosis, treatment monitoring, and antimicrobial resistance surveillance, thereby supporting global leprosy control and elimination.",
+    "abstract": "Leprosy is a neglected infectious disease where delayed diagnosis leads to disability and ongoing transmission, particularly in paucibacillary and pure neural forms. This narrative review summarizes molecular diagnostic approaches for Mycobacterium leprae, including polymerase chain reaction (PCR), isothermal nucleic acid amplification tests, clustered regularly interspaced short palindromic repeats (CRISPR)-Cas-based diagnostic systems, next-generation sequencing (NGS), microarrays, and biosensors. PCR remains the most established method, now expanded to multiplex, quantitative, and droplet digital formats for improved detection and antimicrobial resistance surveillance. Isothermal methods such as loop-mediated isothermal amplification (LAMP), recombinase polymerase amplification (RPA), and multiple cross displacement amplification (MCDA) offer rapid, field-deployable options but require further validation. Emerging platforms, including CRISPR-Cas diagnostics, targeted sequencing, and biosensors, show promise but are limited by cost and infrastructure needs. Overall, molecular approaches have substantially expanded the diagnostic and surveillance capacity for leprosy, particularly in paucibacillary, pure neural, and clinically ambiguous presentations where conventional methods lack sensitivity. Future advances should integrate optimized biomarkers, improved sample processing, and simplified platforms to further enable early diagnosis, treatment monitoring, and antimicrobial resistance surveillance, thereby supporting global leprosy control and elimination.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42822620/",
     "doi": "10.1016/j.cca.2026.122857"
   },
@@ -2140,63 +2195,8 @@
     "authors": "Emdin F et al.",
     "publishedDate": "2026-09-30",
     "journal": "J Am Vet Med Assoc",
-    "abstract": "Canine Lyme borreliosis is commonly treated with a 28-day course of doxycycline, a regimen based on historical precedent rather than evidence. Most dogs exposed to Borrelia burgdorferi remain clinically normal despite seroconversion; of those that do develop clinical Lyme disease, the most common presentation is acute or recurrent shifting-leg lameness consistent with Lyme arthropathy. This Viewpoint proposes there is clinical equipoise to evaluate shorter durations of 10 days of doxycycline in dogs with uncomplicated Lyme arthropathy and outlines a prospective parallel-group randomized controlled trial to reassess treatment duration. Determining whether a shorter treatment course is clinically effective also has important implications for antimicrobial stewardship by minimizing unnecessary antimicrobial exposure and selection pressures for antimicrobial resistance.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42815526/",
     "doi": "10.2460/javma.26.07.0602"
-  },
-  {
-    "id": "42815466",
-    "source": "PubMed",
-    "title": "Rational design of protease-resistant lipopeptides for combating antibiotic-resistant bacteria",
-    "authors": "Wang J et al.",
-    "publishedDate": "2026-09-30",
-    "journal": "Cell Chem Biol",
-    "abstract": "Given the surge in antibiotic resistance, antimicrobial peptides have emerged as promising alternatives to conventional antibiotics; however, their therapeutic potential remains hindered by proteolytic instability and insufficient potency. Herein, we integrated an anti-proteolytic Arg-Pro scaffold with N-terminal fatty acid modification to improve peptide stability and membrane-binding affinity. A series of lipopeptides was synthesized and systematically evaluated for antimicrobial efficacy, stability, and cytotoxicity, yielding CRP7 as the lead candidate. CRP7 exhibited potent broad-spectrum activity against 20 tested strains, including multi-drug resistant pathogens, with a high therapeutic index (TI = 64.20) and low toxicity. It also retained functional stability in the presence of physiological salts, serum, and proteases. In murine models of peritonitis and enteritis, CRP7 treatment significantly reduced bacterial burden, attenuated systemic inflammation, restored intestinal barrier integrity, and modulated the gut microbiota. These findings support CRP7 as a protease-resistant, potent, and biocompatible lipopeptide with potential for treating bacterial infections.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42815466/",
-    "doi": "10.1016/j.chembiol.2026.09.001"
-  },
-  {
-    "id": "42814637",
-    "source": "PubMed",
-    "title": "Orthogonal Stimuli-Responsive Y-Shaped DNA Probe for Dual-Antibiotic Photoelectrochemical Detection",
-    "authors": "Peng J et al.",
-    "publishedDate": "2026-09-30",
-    "journal": "ACS Sens",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42814637/",
-    "doi": "10.1021/acssensors.6c02504"
-  },
-  {
-    "id": "42813844",
-    "source": "PubMed",
-    "title": "Genomic characterization of clinical Burkholderia semiarida SYBS718, a Burkholderia cepacia complex strain isolated from an immunocompromised patient",
-    "authors": "Zhu H et al.",
-    "publishedDate": "2026-09-30",
-    "journal": "FEMS Microbiol Lett",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42813844/",
-    "doi": "10.1093/femsle/fnag117"
-  },
-  {
-    "id": "42813842",
-    "source": "PubMed",
-    "title": "Transcriptional analysis of D, D-carboxypeptidase genes as secondary cephalosporin resistance reporters in Escherichia coli harbouring blaCTX-M",
-    "authors": "Karmakar N et al.",
-    "publishedDate": "2026-09-30",
-    "journal": "FEMS Microbiol Lett",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42813842/",
-    "doi": "10.1093/femsle/fnag115"
-  },
-  {
-    "id": "42813828",
-    "source": "PubMed",
-    "title": "Genomic and functional characterization of Limosilactobacillus fermentum DX2034 identifies a probiotic candidate with TLR2-associated anti-adipogenic activity",
-    "authors": "Park DW et al.",
-    "publishedDate": "2026-09-30",
-    "journal": "Lett Appl Microbiol",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42813828/",
-    "doi": "10.1093/lambio/ovag080"
   }
 ]
