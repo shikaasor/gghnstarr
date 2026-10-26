@@ -275,6 +275,17 @@
     "doi": "10.1016/j.ijfoodmicro.2026.112020"
   },
   {
+    "id": "42927278",
+    "source": "PubMed",
+    "title": "Bacterial competence and genetic diversity: Implications for the design of diagnostics and vaccines",
+    "authors": "Eba WW",
+    "publishedDate": "2026-12-01",
+    "journal": "Biochem Biophys Rep",
+    "abstract": "Bacterial competence and genetic diversity are key determinants of microbial evolution, directly influencing pathogen adaptability, diagnostic reliability, and vaccine effectiveness. Natural transformation, together with horizontal gene transfer and homologous recombination, enables rapid genomic remodeling, facilitating the acquisition of antimicrobial resistance, modification of diagnostic targets, and generation of antigenic variants. These processes are particularly prominent in naturally competent and highly recombining pathogens, where population structures range from clonal to panmictic, shaping responses to selective pressures such as antibiotic use and immunization. This review synthesizes current understanding of the mechanisms governing bacterial competence and their role in generating genomic diversity, with emphasis on implications for diagnostics and vaccine design. Case studies-including,, and-illustrate how recombination-driven diversification contributes to serotype replacement, diagnostic escape, and variable vaccine performance. Emerging approaches, including pan-genomic target selection, high-throughput sequencing, CRISPR-based diagnostics, and next-generation vaccine platforms, offer strategies to address these challenges but remain constrained by genomic variability and limited global surveillance. We argue that integrating evolutionary dynamics into diagnostic and vaccine development is essential for sustaining effectiveness. Continuous genomic monitoring and adaptive design frameworks will be critical to anticipate and mitigate competence-driven bacterial evolution in clinical and public health settings.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42927278/",
+    "doi": "10.1016/j.bbrep.2026.102838"
+  },
+  {
     "id": "42923648",
     "source": "PubMed",
     "title": "Health Diplomacy in Limited-Resource Settings in Africa: What It Takes Towards a Realistic, Resilient and Equitable Agenda?",
@@ -1232,6 +1243,17 @@
     "doi": "10.1016/j.bioactmat.2026.06.006"
   },
   {
+    "id": "42927915",
+    "source": "PubMed",
+    "title": "Educational impact of a bacteriological training program and field assessment of antimicrobial susceptibility testing among bovine veterinarians in Japan",
+    "authors": "Akiyoshi M et al.",
+    "publishedDate": "2026-10-26",
+    "journal": "J Vet Med Sci",
+    "abstract": "Antimicrobial resistance is a global public health concern, and appropriate antimicrobial use in food-producing animal medicine requires accurate bacteriological diagnosis. However, the effectiveness of bacteriological training and the reliability of in-house antimicrobial susceptibility testing (AST) in food-animal practice remain unclear. We assessed preliminary organism identification accuracy and the impact of a bacteriological training program among bovine veterinarians affiliated with NOSAI Hokkaido, Japan, and evaluated disk diffusion AST variability using the same Escherichia coli isolate. Preliminary identification accuracy increased from 37% (35/94) before training to 91% (86/94) immediately afterward. Pre-training accuracy was significantly higher among frequent testers than among participants who performed no routine bacteriological testing, whereas post-training accuracy was high across all three testing-frequency groups. In the AST assessment, inhibition zone diameters varied substantially across all six antimicrobial disks, and discordant susceptible/resistant (S/R) interpretations occurred in more than 50% of participants for two agents. Multivariable generalized estimating equation analyses showed that smear technique was significantly associated with discordant S/R interpretations, whereas agar medium was not significantly associated with discordance after adjustment. The association between inoculum quantity and discordance could not be reliably established because only two participants were classified in the appropriate-inoculum category. These findings demonstrate the immediate benefit of structured practical training for improving preliminary organism identification and highlight the need to standardize field-based AST, particularly smear technique. Wider adoption of the simplified disk diffusion procedures described in the national mastitis guidebook may improve AST consistency in clinical practice.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42927915/",
+    "doi": "10.1292/jvms.26-0328"
+  },
+  {
     "id": "42926236",
     "source": "PubMed",
     "title": "Understanding diagnostic challenges and identifying priorities to tackle antimicrobial resistance in conflict zones",
@@ -1395,6 +1417,17 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42771939/",
     "doi": "10.1016/j.vaccine.2026.129134"
+  },
+  {
+    "id": "42927674",
+    "source": "PubMed",
+    "title": "Development of cinnamyl derivatives as antibiotic-potentiating agents",
+    "authors": "Hympanova M et al.",
+    "publishedDate": "2026-10-23",
+    "journal": "Bioorg Chem",
+    "abstract": "Here, we report the discovery and optimization of 1-cinnamylpiperazine derivatives as antibiotic-potentiating agents inspired by the known RND efflux pump inhibitor 1-(1-naphthylmethyl)piperazine (NMP). A structurally diverse series of analogues was synthesized and evaluated for intrinsic antibacterial activity, cytotoxicity, and ability to potentiate antibiotic activity against Escherichia coli. Most derivatives showed low intrinsic antibacterial activity, consistent with an adjuvant mode of action. In combination assays, several compounds enhanced the antibiotic activity of erythromycin and linezolid, with halogenated derivatives showing the strongest potentiating effects. Compound 27 displayed the broadest potentiation profile, showing synergistic interactions with five of the seven tested antibiotics, namely linezolid, novobiocin, fusidic acid, pyridomycin, and clindamycin. Notably, it showed a superior potency to the structurally related reference inhibitor NMP. Experiments with AcrAB-TolC-deficient E. coli mutants, together with dye accumulation (Hoechst 33342) and membrane-permeabilization assays, suggested that 1-cinnamylpiperazine derivatives modulate efflux-associated resistance in a manner distinct from NMP, with increased membrane permeability likely contributing to their overall potentiating effect. Beyond planktonic cultures, compound 27 also potentiated erythromycin and linezolid against mature E. coli biofilms. These findings identify 1-cinnamylpiperazines as promising antibiotic adjuvant scaffolds for further optimization against drug-resistant Gram-negative infections.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42927674/",
+    "doi": "10.1016/j.bioorg.2026.110682"
   },
   {
     "id": "42925065",
@@ -1718,11 +1751,11 @@
   {
     "id": "42913775",
     "source": "PubMed",
-    "title": "Exposure to the Broad-Spectrum Disinfectant Glutaraldehyde Facilitates Antibiotic Resistance Genes Dissemination via Plasmid-Mediated Conjugation",
+    "title": "Exposure to the broad-spectrum disinfectant glutaraldehyde facilitates antibiotic resistance genes dissemination via plasmid-mediated conjugation",
     "authors": "Liu H et al.",
     "publishedDate": "2026-10-22",
     "journal": "Environ Pollut",
-    "abstract": "Plasmid-mediated conjugative transfer is a major driver of antibiotic resistance genes (ARGs) dissemination, posing serious risks to ecosystems and human health. Glutaraldehyde (GA), a widely used disinfectant, is increasingly detected in environmental matrices, raising emerging concerns regarding its potential to promote ARGs spread. However, whether GA influences plasmid transfer remains largely unknown. Here, we showed that environmentally relevant concentrations of GA (0.01-1 mg/L) significantly enhanced the conjugative transfer of the multidrug resistance plasmid pKJK5 across both intra- and inter-genus bacterial systems. GA increased transfer frequencies by up to 4.29-fold in pure cultures and 4.16-fold in wastewater microbial communities, facilitating ARGs dissemination to diverse taxa, including several opportunistic pathogens. Mechanistically, GA damaged the integrity of the cell membrane , induced ROS production and the SOS response, promoted cell motility and biofilm formation, and upregulated genes involved in ROS detoxification, SOS regulation, membrane permeability, and conjugation. Nontargeted metabolomics profiling and molecular docking further supported these observations. Our findings reveal a previously overlooked role of GA in accelerating ARGs dissemination and underscore the environmental risks posed by commonly used disinfectants in driving the spread of clinically relevant multidrug-resistant pathogens.",
+    "abstract": "Plasmid-mediated conjugative transfer is a major driver of antibiotic resistance genes (ARGs) dissemination, posing serious risks to ecosystems and human health. Glutaraldehyde (GA), a widely used disinfectant, is increasingly detected in environmental matrices, raising emerging concerns regarding its potential to promote ARGs spread. However, whether GA influences plasmid transfer remains largely unknown. Here, we showed that environmentally relevant concentrations of GA (0.01-1&#xa0;mg/L) significantly enhanced the conjugative transfer of the multidrug resistance plasmid pKJK5 across both intra- and inter-genus bacterial systems. GA increased transfer frequencies by up to 4.29-fold in pure cultures and 4.16-fold in wastewater microbial communities, facilitating ARGs dissemination to diverse taxa, including several opportunistic pathogens. Mechanistically, GA damaged the integrity of the cell membrane, induced ROS production and the SOS response, promoted cell motility and biofilm formation, and upregulated genes involved in ROS detoxification, SOS regulation, membrane permeability, and conjugation. Nontargeted metabolomics profiling and molecular docking further supported these observations. Our findings reveal a previously overlooked role of GA in accelerating ARGs dissemination and underscore the environmental risks posed by commonly used disinfectants in driving the spread of clinically relevant multidrug-resistant pathogens.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42913775/",
     "doi": "10.1016/j.envpol.2026.129379"
   },
@@ -1964,7 +1997,7 @@
     "authors": "Kim MS et al.",
     "publishedDate": "2026-10-21",
     "journal": "J Vet Med Sci",
-    "abstract": "Staphylococci, particularly Staphylococcus pseudintermedius, are the major pathogens of canine pyoderma. Meanwhile, the emergence of antimicrobial resistance has become a global concern. Chlorhexidine digluconate is widely used antiseptic in veterinary medicine; however, recent studies on chlorhexidine susceptibility in veterinary staphylococci remain limited. This study evaluated the antimicrobial resistance, chlorhexidine digluconate susceptibility, and presence of antiseptic resistance-associated genes (qacA/B, qacG, and smr) in staphylococcal isolates from dogs with pyoderma and clinically healthy dogs in Korea. In total, 145 staphylococcal isolates were obtained, including S. pseudintermedius and S. schleiferi. Antimicrobial susceptibility was evaluated using the disk diffusion. Chlorhexidine digluconate susceptibility was determined using the microdilution, qacA/B and smr were detected using real-time PCR, and qacG was detected using conventional PCR. Of the 145 isolates, 93 (64.1%) were classified as multidrug-resistant (MDR). Chlorhexidine digluconate minimum inhibitory concentrations (MICs) ranged from 0.25 to 2 &#x3bc;g/mL, with no significant difference between MDR and non-MDR isolates. qacA/B, qacG, and smr were detected in 4, 13, and 10 isolates, respectively. Isolates carrying both qacA/B and smr showed relatively higher MICs; however, the number of positive isolates was small, and single-gene carriage was not clearly associated with increased MICs. Overall, the chlorhexidine digluconate MICs were substantially lower than the clinical concentrations, and antiseptic resistance-associated genes were detected at low frequencies. Despite the high frequency of MDR isolates, chlorhexidine digluconate remains a useful antiseptic option, although continuous monitoring of reduced susceptibility and antiseptic resistance-associated genes is warranted.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42907364/",
     "doi": "10.1292/jvms.26-0373"
   },
@@ -1975,7 +2008,7 @@
     "authors": "Warsi OM et al.",
     "publishedDate": "2026-10-21",
     "journal": "Trends Microbiol",
-    "abstract": "Adaptation to abiotic stress is typically studied in single-species cultures, yet bacteria inhabit and evolve in multispecies communities where neighboring organisms reshape, for example, nutrient availability, redox state, and cellular physiology. We recently demonstrated that interspecies interactions can alter the fitness effects of antibiotic resistance mutations, and we suggest that this reflects a broader principle. Stress-response networks are extensively cross-regulated and draw upon a shared, finite pool of proteomic and energetic resources. Consequently, activation of one pathway constrains others, creating physiological trade-offs. Because microbial interactions routinely perturb the physiological inputs to these networks, they can systematically redirect evolutionary trajectories under abiotic stress. We discuss the evidence, limitations, and implications of this framework for predicting evolution and understanding microbiome stability.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42907312/",
     "doi": "10.1016/j.tim.2026.09.008"
   },
@@ -1986,7 +2019,7 @@
     "authors": "Clasen F et al.",
     "publishedDate": "2026-10-21",
     "journal": "Trends Microbiol",
-    "abstract": "Antimicrobial resistance (AMR) poses an escalating global threat, yet surveillance and mechanistic understanding remain anchored in individual resistance genes, an approach that is inadequate for capturing the ecological, genomic, and metabolic complexity through which resistance emerges and spreads. In this opinion article, we argue that genome-scale metabolic models (GEMs) offer a principled framework for advancing AMR research beyond this gene-centric paradigm. Strain-resolved GEMs embed resistance determinants within metabolic networks, with the potential to generate quantitative, context-dependent phenotypic predictions, including minimum inhibitory concentrations and environment-conditional resistance, that sequence-based tools do not provide. Expanded GEM frameworks incorporating mobile genetic elements, horizontal gene transfer, and community-level interactions support ecology-aware resistance profiling. At the therapeutic level, whole-network modelling can identify metabolic vulnerabilities, synthetic lethal interactions, and microbiome-targeted strategies. Integrating GEMs with multiomics and data-driven approaches represents a critical step toward a mechanism-aware AMR platform connecting surveillance, diagnosis, and drug discovery.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42907311/",
     "doi": "10.1016/j.tim.2026.09.009"
   },
@@ -1997,7 +2030,7 @@
     "authors": "Rahman A et al.",
     "publishedDate": "2026-10-21",
     "journal": "Nitric Oxide",
-    "abstract": "The global spread of antimicrobial-resistant bacteria has emerged as one of the most pressing public health challenges worldwide. Because the development of novel antibiotics remains slow and increasingly difficult, innovative therapeutic strategies are urgently needed. Supersulfides, including persulfides and polysulfides, are ubiquitous sulfur species found in both prokaryotes and eukaryotes. Owing to their exceptional nucleophilicity and antioxidant capacity, they play central roles in cellular redox signaling and stress adaptation. Recent studies have further revealed that bacterial supersulfides contribute to antibiotic resistance through multiple mechanisms, including the direct chemical inactivation of &#x3b2;-lactam antibiotics, activation of multidrug efflux pumps, and detoxification of reactive oxygen species generated during antibiotic treatment. These findings identify bacterial supersulfide biosynthetic pathways as promising targets for the development of next-generation antimicrobial therapies. In this Review, we summarize current knowledge of supersulfide biosynthesis, with particular emphasis on recently identified pathways unique to bacteria. We also discuss the diverse mechanisms by which bacterial supersulfides promote antibiotic resistance and highlight recent advances in pharmacological strategies targeting supersulfide biosynthesis. Finally, we discuss the translational potential of targeting bacterial supersulfide metabolism and the key challenges that must be overcome for clinical application.",
+    "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42906738/",
     "doi": "10.1016/j.niox.2026.10.006"
   },
@@ -2165,38 +2198,5 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42904640/",
     "doi": "10.1128/msystems.00868-26"
-  },
-  {
-    "id": "42904631",
-    "source": "PubMed",
-    "title": "Genomic insights into non-tuberculous mycobacteria isolated from patients in a Chinese hospital",
-    "authors": "Liu T et al.",
-    "publishedDate": "2026-10-21",
-    "journal": "Microbiol Spectr",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42904631/",
-    "doi": "10.1128/spectrum.00544-26"
-  },
-  {
-    "id": "42904452",
-    "source": "PubMed",
-    "title": "Antimicrobial Resistance Trends in COVID-19 Patients with Hospital Infection in Intensive Care: A Retrospective Study in Central Italy, 2020-2022",
-    "authors": "Ripabelli G et al.",
-    "publishedDate": "2026-10-21",
-    "journal": "Microb Drug Resist",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42904452/",
-    "doi": "10.1177/10766294261500546"
-  },
-  {
-    "id": "42904367",
-    "source": "PubMed",
-    "title": "Hybrid membrane vesicle-enabled sonodynamic therapy using ciprofloxacin for treating biofilm-associated infections",
-    "authors": "Xiao X et al.",
-    "publishedDate": "2026-10-21",
-    "journal": "J Mater Chem B",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42904367/",
-    "doi": "10.1039/d6tb01238h"
   }
 ]
