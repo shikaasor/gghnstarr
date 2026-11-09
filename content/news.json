@@ -1298,6 +1298,17 @@
     "doi": "10.1016/j.isci.2026.117433"
   },
   {
+    "id": "43000105",
+    "source": "PubMed",
+    "title": "\"Nano-in-Gel Platforms for the Topical Treatment of Staphylococcus aureus Skin Infections\"",
+    "authors": "Rouco H et al.",
+    "publishedDate": "2026-11-08",
+    "journal": "Eur J Pharm Sci",
+    "abstract": "Staphylococcus aureus (S. aureus) is the leading cause of skin infections worldwide. Rising antimicrobial resistance limits the effectiveness of current treatments, highlighting the need for new therapeutic strategies. In this context, Rifabutin (RFB), could be repurposed for skin infections based on its strong anti-staphylococcal activity. However, its low oral bioavailability, and the rapid capacity of bacteria to develop drug tolerance, makes necessary to find novel platforms to ensure antimicrobial efficacy. This work proposes the development of Nano-in-Gel drug delivery systems, integrating RFB-loaded nanostructured lipid carriers (NLCs) into gelatin hydrogels for topical administration. These composite materials combine the controlled release capacity of hydrogels with NLCs&#xb4; ability to maximize RFB clinical potential. RFB-loaded NLCs were prepared and characterized in terms of physicochemical properties and cytocompatibility in human dermal fibroblasts (HDF). Moreover, their antibacterial activity against two different S. aureus strains-including mutants generated after RFB exposure was evaluated using a combination of conventional quantification methods and droplet digital PCR (ddPCR). Following the incorporation of NLCs into the gels, the mechanical properties of the Nano-in-Gel systems, and their ability to modulate nanoparticle release were assessed. Results demonstrated that the RFB-loaded NLCs possessed optimal physicochemical characteristics and high biocompatibility. Furthermore, the nanocarriers exhibited enhanced anti-staphylococcal activity compared to the free drug and successfully overcame RFB-resistance in mutant strains. The Nano-in-Gel platforms showed excellent mechanical performance for topical application and achieved a controlled NLCs release profile. These findings suggest that the Nano-in-Gel systems constitute a promising strategy for the advanced management of S. aureus skin infections.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43000105/",
+    "doi": "10.1016/j.ejps.2026.107712"
+  },
+  {
     "id": "42998799",
     "source": "PubMed",
     "title": "HGSAF: Heterogeneous graph structural alignment and distillation model with attentive fusion for microbe-drug association prediction",
@@ -2187,16 +2198,5 @@
     "abstract": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42975244/",
     "doi": "10.1111/zph.70102"
-  },
-  {
-    "id": "42975149",
-    "source": "PubMed",
-    "title": "Genomic rearrangement of the capsule operon in a phylogenetically distinct cluster of the multi-drug-resistant Escherichia coli lineage ST131",
-    "authors": "Potterill I et al.",
-    "publishedDate": "2026-11-03",
-    "journal": "mSphere",
-    "abstract": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42975149/",
-    "doi": "10.1128/msphere.00673-26"
   }
 ]
